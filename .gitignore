@@ -1,0 +1,11 @@
+node_modules/
+data/app.db
+data/app.db-*
+data/sessions.db
+data/sessions.db-*
+.env
+*.log
+.DS_Store
+
+# Claude Code yerel ayarları
+.claude/

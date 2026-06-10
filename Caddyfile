@@ -1,0 +1,4 @@
+ogrenme.alanadin.com {
+    reverse_proxy localhost:3000
+    encode zstd gzip
+}
