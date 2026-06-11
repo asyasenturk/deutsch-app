@@ -31,8 +31,14 @@ const VALID_LEVELS = new Set(['a1', 'a2', 'b1']);
 
 const app = express();
 app.set('trust proxy', 1);
+app.disable('etag');
 
 app.use(express.json({ limit: '5mb' }));
+
+app.use('/api', (_req, res, next) => {
+  res.set('Cache-Control', 'no-store');
+  next();
+});
 
 app.use(
   session({

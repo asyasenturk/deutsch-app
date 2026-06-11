@@ -16,12 +16,14 @@
   async function api(path, opts = {}) {
     const res = await fetch(path, {
       credentials: 'same-origin',
+      cache: 'no-store',
       headers: { 'Content-Type': 'application/json', ...(opts.headers || {}) },
       ...opts,
     });
     let body = null;
     try { body = await res.json(); } catch { /* no-op */ }
-    if (!res.ok) {
+    const ok = res.ok || res.status === 304;
+    if (!ok) {
       const err = new Error(body?.error || `HTTP ${res.status}`);
       err.status = res.status;
       throw err;
@@ -105,17 +107,29 @@
 
   authForm.addEventListener('submit', async (e) => {
     e.preventDefault();
+    console.log('[auth] submit başladı, mode =', authMode);
     authError.hidden = true;
     authSubmit.disabled = true;
     const username = $('#username').value.trim();
     const password = $('#password').value;
     try {
       const path = authMode === 'login' ? '/api/login' : '/api/register';
+      console.log('[auth] istek:', path, 'user:', username);
       const out = await api(path, { method: 'POST', body: JSON.stringify({ username, password }) });
+      console.log('[auth] sunucu cevabı OK, username:', out?.username);
       app.username = out.username;
-      await loadMe(true);
-      enterApp();
+      const meOk = await loadMe(true);
+      console.log('[auth] loadMe sonuç:', meOk, 'state:', app.state);
+      try {
+        await enterApp();
+        console.log('[auth] enterApp tamamlandı, app ekranı açık olmalı');
+      } catch (err) {
+        console.error('[auth] enterApp hatası:', err);
+        authError.textContent = 'Giriş başarılı ama uygulama açılamadı: ' + (err?.message || err);
+        authError.hidden = false;
+      }
     } catch (err) {
+      console.error('[auth] istek hatası:', err);
       authError.textContent = err.message || 'Bir hata oluştu.';
       authError.hidden = false;
     } finally {
