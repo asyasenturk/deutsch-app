@@ -30,12 +30,23 @@ html, body {
 
 h1, h2, h3, .brand { font-family: 'Fraunces', Georgia, serif; letter-spacing: -0.01em; }
 
-#root { max-width: 960px; margin: 0 auto; padding: 24px 18px 64px; }
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 18px calc(64px + env(safe-area-inset-bottom));
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+}
 .screen { display: block; }
 .screen[hidden], [hidden] { display: none !important; }
 
+/* Mobil: iOS Safari'nin input zoom'unu önle (font ≥ 16px), tüm öğeler kapsayıcıdan geniş olmasın */
+img, video, iframe { max-width: 100%; height: auto; }
+input, select, textarea, button { font-size: 16px; max-width: 100%; }
+button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+
 /* ---------------- AUTH ---------------- */
-#auth-screen { min-height: 100vh; display: grid; place-items: center; }
+#auth-screen { min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; padding: 16px; }
 .auth-card {
   width: 100%;
   max-width: 420px;
@@ -172,7 +183,17 @@ button.danger { background: var(--danger); color: #fff; border: none; padding: 1
 .card-meta { text-align: center; margin-top: 10px; color: var(--ink-soft); font-size: 13px; }
 
 @media (max-width: 520px) {
+  #root { padding: 14px 12px calc(48px + env(safe-area-inset-bottom)); }
+  .topbar { gap: 8px; padding-bottom: 8px; }
+  .topbar-left { gap: 10px; }
+  .level-switch { padding: 2px; }
+  .level-btn { padding: 6px 9px; font-size: 14px; }
+  .mode-btn { padding: 7px 12px; font-size: 14px; }
+  .auth-card { padding: 22px 18px; }
+  .card { min-height: 220px; }
   .card-controls { grid-template-columns: 1fr 1fr; }
+  .card-controls button { padding: 13px 8px; font-size: 15px; }
+  .progress-wrap { gap: 10px; }
 }
 
 /* ---------------- QUIZ ---------------- */
