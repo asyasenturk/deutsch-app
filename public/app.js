@@ -150,11 +150,28 @@
     }
   }
 
+  function showAuth() {
+    const auth = $('#auth-screen');
+    const appS = $('#app-screen');
+    auth.hidden = false;
+    auth.style.display = '';
+    appS.hidden = true;
+    appS.style.display = 'none';
+  }
+
+  function showApp() {
+    const auth = $('#auth-screen');
+    const appS = $('#app-screen');
+    auth.hidden = true;
+    auth.style.display = 'none';
+    appS.hidden = false;
+    appS.style.display = '';
+  }
+
   function logoutLocal() {
     app.username = null;
     app.state = defaultState();
-    $('#auth-screen').hidden = false;
-    $('#app-screen').hidden = true;
+    showAuth();
   }
 
   $('#logout-btn').addEventListener('click', async () => {
@@ -165,8 +182,7 @@
 
   // --------------------------------------------------------------- app boot
   async function enterApp() {
-    $('#auth-screen').hidden = true;
-    $('#app-screen').hidden = false;
+    showApp();
     $('#hello').textContent = `Merhaba, ${app.username}`;
     app.mode = app.state.lastMode === 'quiz' ? 'quiz' : 'cards';
     setMode(app.mode, /*persist*/ false);
@@ -485,11 +501,16 @@
 
   // --------------------------------------------------------------- bootstrap
   (async function init() {
+    showAuth();
     let cached = null;
     try { cached = JSON.parse(localStorage.getItem(app.localCacheKey) || 'null'); } catch {}
     if (cached) app.state = { ...defaultState(), ...cached, known: cached.known || {} };
 
     const ok = await loadMe(true);
-    if (ok) enterApp();
+    if (ok) {
+      await enterApp();
+    } else {
+      showAuth();
+    }
   })();
 })();
