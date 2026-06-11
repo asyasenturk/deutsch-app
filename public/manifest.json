@@ -1,0 +1,26 @@
+{
+  "name": "Deutsch Lernen",
+  "short_name": "Deutsch",
+  "description": "A1 · A2 · B1 Almanca kelime öğrenme platformu",
+  "theme_color": "#f3ede2",
+  "background_color": "#f3ede2",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

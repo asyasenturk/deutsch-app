@@ -1,4 +1,4 @@
-ogrenme.alanadin.com {
-    reverse_proxy localhost:3000
+deutsch-app.site, www.deutsch-app.site {
     encode zstd gzip
+    reverse_proxy localhost:2203
 }

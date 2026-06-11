@@ -1,890 +1,148 @@
-[
-{
-"group": "İnsanlar",
-"de": "der Mann",
-"tr": "adam, erkek",
-"ex": "Der Mann ist groß."
-},
-{
-"group": "İnsanlar",
-"de": "die Frau",
-"tr": "kadın",
-"ex": "Die Frau liest ein Buch."
-},
-{
-"group": "İnsanlar",
-"de": "das Kind",
-"tr": "çocuk",
-"ex": "Das Kind spielt im Park."
-},
-{
-"group": "İnsanlar",
-"de": "der Vater",
-"tr": "baba",
-"ex": "Mein Vater arbeitet viel."
-},
-{
-"group": "İnsanlar",
-"de": "die Mutter",
-"tr": "anne",
-"ex": "Meine Mutter kocht das Essen."
-},
-{
-"group": "İnsanlar",
-"de": "der Bruder",
-"tr": "erkek kardeş",
-"ex": "Mein Bruder ist zehn Jahre alt."
-},
-{
-"group": "İnsanlar",
-"de": "die Schwester",
-"tr": "kız kardeş",
-"ex": "Meine Schwester wohnt in Berlin."
-},
-{
-"group": "İnsanlar",
-"de": "der Freund",
-"tr": "(erkek) arkadaş / sevgili",
-"ex": "Mein Freund kommt heute."
-},
-{
-"group": "İnsanlar",
-"de": "die Freundin",
-"tr": "(kız) arkadaş / sevgili",
-"ex": "Meine Freundin lernt Deutsch."
-},
-{
-"group": "İnsanlar",
-"de": "die Familie",
-"tr": "aile",
-"ex": "Meine Familie ist groß."
-},
-{
-"group": "İnsanlar",
-"de": "der Großvater",
-"tr": "büyükbaba",
-"ex": "Mein Großvater trinkt Kaffee."
-},
-{
-"group": "İnsanlar",
-"de": "die Großmutter",
-"tr": "büyükanne",
-"ex": "Meine Großmutter macht einen Kuchen."
-},
-{
-"group": "İnsanlar",
-"de": "der Sohn",
-"tr": "oğul",
-"ex": "Ihr Sohn geht zur Schule."
-},
-{
-"group": "İnsanlar",
-"de": "die Tochter",
-"tr": "kız evlat",
-"ex": "Seine Tochter ist sehr klein."
-},
-{
-"group": "İnsanlar",
-"de": "der Onkel",
-"tr": "amca / dayı / enişte",
-"ex": "Mein Onkel hat ein Auto."
-},
-{
-"group": "İnsanlar",
-"de": "die Tante",
-"tr": "hala / teyze",
-"ex": "Meine Tante wohnt in der Stadt."
-},
-{
-"group": "Ev",
-"de": "das Haus",
-"tr": "ev",
-"ex": "Das Haus ist alt."
-},
-{
-"group": "Ev",
-"de": "die Wohnung",
-"tr": "daire",
-"ex": "Die Wohnung ist klein."
-},
-{
-"group": "Ev",
-"de": "das Zimmer",
-"tr": "oda",
-"ex": "Mein Zimmer ist groß."
-},
-{
-"group": "Ev",
-"de": "die Küche",
-"tr": "mutfak",
-"ex": "Die Küche ist sehr schön."
-},
-{
-"group": "Ev",
-"de": "das Badezimmer",
-"tr": "banyo",
-"ex": "Das Badezimmer ist dort."
-},
-{
-"group": "Ev",
-"de": "das Bett",
-"tr": "yatak",
-"ex": "Ich gehe ins Bett."
-},
-{
-"group": "Ev",
-"de": "der Tisch",
-"tr": "masa",
-"ex": "Das Buch liegt auf dem Tisch."
-},
-{
-"group": "Ev",
-"de": "der Stuhl",
-"tr": "sandalye",
-"ex": "Ich sitze auf dem Stuhl."
-},
-{
-"group": "Ev",
-"de": "die Tür",
-"tr": "kapı",
-"ex": "Die Tür ist offen."
-},
-{
-"group": "Ev",
-"de": "das Fenster",
-"tr": "pencere",
-"ex": "Das Fenster ist groß."
-},
-{
-"group": "Ev",
-"de": "die Lampe",
-"tr": "lamba",
-"ex": "Die Lampe ist an."
-},
-{
-"group": "Ev",
-"de": "der Schrank",
-"tr": "dolap",
-"ex": "Der Schrank ist voll."
-},
-{
-"group": "Ev",
-"de": "das Sofa",
-"tr": "kanepe",
-"ex": "Ich sitze auf dem Sofa."
-},
-{
-"group": "Ev",
-"de": "der Kühlschrank",
-"tr": "buzdolabı",
-"ex": "Die Milch ist im Kühlschrank."
-},
-{
-"group": "Ev",
-"de": "der Schlüssel",
-"tr": "anahtar",
-"ex": "Wo ist mein Schlüssel?"
-},
-{
-"group": "Yiyecek",
-"de": "das Brot",
-"tr": "ekmek",
-"ex": "Ich esse Brot zum Frühstück."
-},
-{
-"group": "Yiyecek",
-"de": "die Butter",
-"tr": "tereyağı",
-"ex": "Die Butter ist im Kühlschrank."
-},
-{
-"group": "Yiyecek",
-"de": "das Ei",
-"tr": "yumurta",
-"ex": "Ich esse ein Ei."
-},
-{
-"group": "Yiyecek",
-"de": "der Käse",
-"tr": "peynir",
-"ex": "Der Käse schmeckt gut."
-},
-{
-"group": "Yiyecek",
-"de": "die Milch",
-"tr": "süt",
-"ex": "Ich trinke Milch."
-},
-{
-"group": "Yiyecek",
-"de": "das Wasser",
-"tr": "su",
-"ex": "Ich trinke viel Wasser."
-},
-{
-"group": "Yiyecek",
-"de": "der Saft",
-"tr": "meyve suyu",
-"ex": "Der Saft ist kalt."
-},
-{
-"group": "Yiyecek",
-"de": "der Kaffee",
-"tr": "kahve",
-"ex": "Ich trinke Kaffee am Morgen."
-},
-{
-"group": "Yiyecek",
-"de": "der Tee",
-"tr": "çay",
-"ex": "Möchtest du Tee?"
-},
-{
-"group": "Yiyecek",
-"de": "das Fleisch",
-"tr": "et",
-"ex": "Ich esse kein Fleisch."
-},
-{
-"group": "Yiyecek",
-"de": "der Fisch",
-"tr": "balık",
-"ex": "Der Fisch ist frisch."
-},
-{
-"group": "Yiyecek",
-"de": "das Gemüse",
-"tr": "sebze",
-"ex": "Gemüse ist gesund."
-},
-{
-"group": "Yiyecek",
-"de": "das Obst",
-"tr": "meyve",
-"ex": "Obst ist gesund."
-},
-{
-"group": "Yiyecek",
-"de": "der Apfel",
-"tr": "elma",
-"ex": "Der Apfel ist rot."
-},
-{
-"group": "Yiyecek",
-"de": "die Banane",
-"tr": "muz",
-"ex": "Die Banane ist gelb."
-},
-{
-"group": "Yiyecek",
-"de": "die Tomate",
-"tr": "domates",
-"ex": "Die Tomate ist rot."
-},
-{
-"group": "Yiyecek",
-"de": "der Reis",
-"tr": "pirinç",
-"ex": "Ich esse Reis mit Gemüse."
-},
-{
-"group": "Yiyecek",
-"de": "die Suppe",
-"tr": "çorba",
-"ex": "Die Suppe ist heiß."
-},
-{
-"group": "Yiyecek",
-"de": "der Kuchen",
-"tr": "pasta / kek",
-"ex": "Der Kuchen ist süß."
-},
-{
-"group": "Yiyecek",
-"de": "das Salz",
-"tr": "tuz",
-"ex": "Das Salz ist auf dem Tisch."
-},
-{
-"group": "Ulaşım",
-"de": "das Auto",
-"tr": "araba",
-"ex": "Das Auto ist neu."
-},
-{
-"group": "Ulaşım",
-"de": "der Bus",
-"tr": "otobüs",
-"ex": "Ich fahre mit dem Bus."
-},
-{
-"group": "Ulaşım",
-"de": "der Zug",
-"tr": "tren",
-"ex": "Der Zug kommt um acht Uhr."
-},
-{
-"group": "Ulaşım",
-"de": "das Fahrrad",
-"tr": "bisiklet",
-"ex": "Ich fahre Fahrrad."
-},
-{
-"group": "Ulaşım",
-"de": "die Straße",
-"tr": "sokak / cadde",
-"ex": "Die Straße ist lang."
-},
-{
-"group": "Ulaşım",
-"de": "der Bahnhof",
-"tr": "tren istasyonu",
-"ex": "Der Bahnhof ist groß."
-},
-{
-"group": "Ulaşım",
-"de": "der Flughafen",
-"tr": "havalimanı",
-"ex": "Wir fahren zum Flughafen."
-},
-{
-"group": "Ulaşım",
-"de": "das Flugzeug",
-"tr": "uçak",
-"ex": "Das Flugzeug fliegt nach Berlin."
-},
-{
-"group": "Ulaşım",
-"de": "die Stadt",
-"tr": "şehir",
-"ex": "Die Stadt ist schön."
-},
-{
-"group": "Ulaşım",
-"de": "das Dorf",
-"tr": "köy",
-"ex": "Das Dorf ist klein."
-},
-{
-"group": "Ulaşım",
-"de": "der Supermarkt",
-"tr": "süpermarket",
-"ex": "Ich kaufe Brot im Supermarkt."
-},
-{
-"group": "Ulaşım",
-"de": "die Bank",
-"tr": "banka",
-"ex": "Ich gehe zur Bank."
-},
-{
-"group": "Ulaşım",
-"de": "das Krankenhaus",
-"tr": "hastane",
-"ex": "Das Krankenhaus ist groß."
-},
-{
-"group": "Ulaşım",
-"de": "die Schule",
-"tr": "okul",
-"ex": "Die Kinder gehen zur Schule."
-},
-{
-"group": "Ulaşım",
-"de": "die Universität",
-"tr": "üniversite",
-"ex": "Ich studiere an der Universität."
-},
-{
-"group": "Ulaşım",
-"de": "das Café",
-"tr": "kafe",
-"ex": "Wir trinken Kaffee im Café."
-},
-{
-"group": "Ulaşım",
-"de": "das Restaurant",
-"tr": "restoran",
-"ex": "Das Restaurant ist gut."
-},
-{
-"group": "Ulaşım",
-"de": "der Park",
-"tr": "park",
-"ex": "Wir gehen in den Park."
-},
-{
-"group": "Meslekler",
-"de": "der Arzt / die Ärztin",
-"tr": "doktor (erkek/kadın)",
-"ex": "Der Arzt arbeitet im Krankenhaus."
-},
-{
-"group": "Meslekler",
-"de": "der Lehrer / die Lehrerin",
-"tr": "öğretmen (erkek/kadın)",
-"ex": "Der Lehrer ist sehr nett."
-},
-{
-"group": "Meslekler",
-"de": "der Student / die Studentin",
-"tr": "öğrenci (erkek/kadın)",
-"ex": "Der Student lernt viel."
-},
-{
-"group": "Meslekler",
-"de": "der Kellner / die Kellnerin",
-"tr": "garson (erkek/kadın)",
-"ex": "Der Kellner bringt das Essen."
-},
-{
-"group": "Meslekler",
-"de": "der Chef / die Chefin",
-"tr": "patron / müdür (erkek/kadın)",
-"ex": "Mein Chef ist freundlich."
-},
-{
-"group": "Meslekler",
-"de": "die Arbeit",
-"tr": "iş",
-"ex": "Ich gehe zur Arbeit."
-},
-{
-"group": "Meslekler",
-"de": "das Büro",
-"tr": "ofis",
-"ex": "Ich arbeite im Büro."
-},
-{
-"group": "Meslekler",
-"de": "der Beruf",
-"tr": "meslek",
-"ex": "Was ist dein Beruf?"
-},
-{
-"group": "Zaman",
-"de": "der Tag",
-"tr": "gün",
-"ex": "Der Tag ist schön."
-},
-{
-"group": "Zaman",
-"de": "die Nacht",
-"tr": "gece",
-"ex": "Die Nacht ist lang."
-},
-{
-"group": "Zaman",
-"de": "der Morgen",
-"tr": "sabah",
-"ex": "Am Morgen trinke ich Kaffee."
-},
-{
-"group": "Zaman",
-"de": "der Abend",
-"tr": "akşam",
-"ex": "Am Abend sehe ich fern."
-},
-{
-"group": "Zaman",
-"de": "die Woche",
-"tr": "hafta",
-"ex": "Die Woche hat sieben Tage."
-},
-{
-"group": "Zaman",
-"de": "der Monat",
-"tr": "ay",
-"ex": "Ein Monat hat vier Wochen."
-},
-{
-"group": "Zaman",
-"de": "das Jahr",
-"tr": "yıl",
-"ex": "Das Jahr hat zwölf Monate."
-},
-{
-"group": "Zaman",
-"de": "die Stunde",
-"tr": "saat (süre)",
-"ex": "Eine Stunde hat sechzig Minuten."
-},
-{
-"group": "Zaman",
-"de": "die Minute",
-"tr": "dakika",
-"ex": "Warte eine Minute!"
-},
-{
-"group": "Zaman",
-"de": "heute",
-"tr": "bugün",
-"ex": "Heute ist Montag."
-},
-{
-"group": "Zaman",
-"de": "morgen",
-"tr": "yarın",
-"ex": "Morgen gehe ich zur Arbeit."
-},
-{
-"group": "Zaman",
-"de": "gestern",
-"tr": "dün",
-"ex": "Gestern war ich zu Hause."
-},
-{
-"group": "Zaman",
-"de": "jetzt",
-"tr": "şimdi",
-"ex": "Ich gehe jetzt nach Hause."
-},
-{
-"group": "Renkler",
-"de": "rot",
-"tr": "kırmızı",
-"ex": "Der Apfel ist rot."
-},
-{
-"group": "Renkler",
-"de": "blau",
-"tr": "mavi",
-"ex": "Der Himmel ist blau."
-},
-{
-"group": "Renkler",
-"de": "grün",
-"tr": "yeşil",
-"ex": "Der Baum ist grün."
-},
-{
-"group": "Renkler",
-"de": "gelb",
-"tr": "sarı",
-"ex": "Die Banane ist gelb."
-},
-{
-"group": "Renkler",
-"de": "schwarz",
-"tr": "siyah",
-"ex": "Die Katze ist schwarz."
-},
-{
-"group": "Renkler",
-"de": "weiß",
-"tr": "beyaz",
-"ex": "Der Schnee ist weiß."
-},
-{
-"group": "Renkler",
-"de": "grau",
-"tr": "gri",
-"ex": "Der Himmel ist heute grau."
-},
-{
-"group": "Renkler",
-"de": "braun",
-"tr": "kahverengi",
-"ex": "Der Tisch ist braun."
-},
-{
-"group": "Renkler",
-"de": "orange",
-"tr": "turuncu",
-"ex": "Meine Jacke ist orange."
-},
-{
-"group": "Renkler",
-"de": "rosa",
-"tr": "pembe",
-"ex": "Die Blume ist rosa."
-},
-{
-"group": "İfadeler",
-"de": "ich",
-"tr": "ben",
-"ex": "Ich bin müde."
-},
-{
-"group": "İfadeler",
-"de": "du",
-"tr": "sen",
-"ex": "Wie heißt du?"
-},
-{
-"group": "İfadeler",
-"de": "er / sie / es",
-"tr": "o (erkek / kadın / nötr)",
-"ex": "Er ist mein Bruder."
-},
-{
-"group": "İfadeler",
-"de": "wir",
-"tr": "biz",
-"ex": "Wir gehen nach Hause."
-},
-{
-"group": "İfadeler",
-"de": "ihr",
-"tr": "siz",
-"ex": "Wo seid ihr?"
-},
-{
-"group": "İfadeler",
-"de": "sie / Sie",
-"tr": "onlar / Siz (resmi)",
-"ex": "Woher kommen Sie?"
-},
-{
-"group": "İfadeler",
-"de": "ja",
-"tr": "evet",
-"ex": "Ja, das ist richtig."
-},
-{
-"group": "İfadeler",
-"de": "nein",
-"tr": "hayır",
-"ex": "Nein, danke."
-},
-{
-"group": "İfadeler",
-"de": "bitte",
-"tr": "lütfen / rica ederim",
-"ex": "Einen Kaffee, bitte."
-},
-{
-"group": "İfadeler",
-"de": "danke",
-"tr": "teşekkürler",
-"ex": "Danke für deine Hilfe."
-},
-{
-"group": "İfadeler",
-"de": "Entschuldigung",
-"tr": "özür dilerim / pardon",
-"ex": "Entschuldigung, wo ist der Bahnhof?"
-},
-{
-"group": "İfadeler",
-"de": "Hallo",
-"tr": "merhaba",
-"ex": "Hallo, wie geht es dir?"
-},
-{
-"group": "İfadeler",
-"de": "Tschüss",
-"tr": "hoşça kal",
-"ex": "Tschüss, bis morgen!"
-},
-{
-"group": "İfadeler",
-"de": "Guten Morgen",
-"tr": "günaydın",
-"ex": "Guten Morgen! Hast du gut geschlafen?"
-},
-{
-"group": "İfadeler",
-"de": "Guten Abend",
-"tr": "iyi akşamlar",
-"ex": "Guten Abend! Wie geht es Ihnen?"
-},
-{
-"group": "İfadeler",
-"de": "Gute Nacht",
-"tr": "iyi geceler",
-"ex": "Gute Nacht, schlaf gut!"
-},
-{
-"group": "Fiiller",
-"de": "sein",
-"tr": "olmak",
-"ex": "Ich bin Student."
-},
-{
-"group": "Fiiller",
-"de": "haben",
-"tr": "sahip olmak",
-"ex": "Ich habe einen Hund."
-},
-{
-"group": "Fiiller",
-"de": "machen",
-"tr": "yapmak",
-"ex": "Was machst du?"
-},
-{
-"group": "Fiiller",
-"de": "gehen",
-"tr": "gitmek",
-"ex": "Ich gehe nach Hause."
-},
-{
-"group": "Fiiller",
-"de": "kommen",
-"tr": "gelmek",
-"ex": "Woher kommst du?"
-},
-{
-"group": "Fiiller",
-"de": "sehen",
-"tr": "görmek",
-"ex": "Ich sehe einen Film."
-},
-{
-"group": "Fiiller",
-"de": "essen",
-"tr": "yemek yemek",
-"ex": "Ich esse einen Apfel."
-},
-{
-"group": "Fiiller",
-"de": "trinken",
-"tr": "içmek",
-"ex": "Ich trinke Wasser."
-},
-{
-"group": "Fiiller",
-"de": "sprechen",
-"tr": "konuşmak",
-"ex": "Ich spreche Deutsch."
-},
-{
-"group": "Fiiller",
-"de": "hören",
-"tr": "duymak",
-"ex": "Ich höre Musik."
-},
-{
-"group": "Fiiller",
-"de": "lesen",
-"tr": "okumak",
-"ex": "Ich lese ein Buch."
-},
-{
-"group": "Fiiller",
-"de": "schreiben",
-"tr": "yazmak",
-"ex": "Ich schreibe einen Brief."
-},
-{
-"group": "Fiiller",
-"de": "kaufen",
-"tr": "satın almak",
-"ex": "Ich kaufe Brot."
-},
-{
-"group": "Fiiller",
-"de": "wohnen",
-"tr": "oturmak / yaşamak",
-"ex": "Ich wohne in Ankara."
-},
-{
-"group": "Fiiller",
-"de": "arbeiten",
-"tr": "çalışmak",
-"ex": "Ich arbeite im Büro."
-},
-{
-"group": "Fiiller",
-"de": "lernen",
-"tr": "öğrenmek",
-"ex": "Ich lerne Deutsch."
-},
-{
-"group": "Fiiller",
-"de": "schlafen",
-"tr": "uyumak",
-"ex": "Ich schlafe acht Stunden."
-},
-{
-"group": "Fiiller",
-"de": "spielen",
-"tr": "oynamak",
-"ex": "Die Kinder spielen Fußball."
-},
-{
-"group": "Sıfatlar",
-"de": "groß",
-"tr": "büyük",
-"ex": "Das Haus ist groß."
-},
-{
-"group": "Sıfatlar",
-"de": "klein",
-"tr": "küçük",
-"ex": "Die Wohnung ist klein."
-},
-{
-"group": "Sıfatlar",
-"de": "gut",
-"tr": "iyi",
-"ex": "Das Essen ist gut."
-},
-{
-"group": "Sıfatlar",
-"de": "schlecht",
-"tr": "kötü",
-"ex": "Das Wetter ist schlecht."
-},
-{
-"group": "Sıfatlar",
-"de": "neu",
-"tr": "yeni",
-"ex": "Mein Auto ist neu."
-},
-{
-"group": "Sıfatlar",
-"de": "alt",
-"tr": "eski / yaşlı",
-"ex": "Mein Haus ist alt."
-},
-{
-"group": "Sıfatlar",
-"de": "schnell",
-"tr": "hızlı",
-"ex": "Der Zug ist schnell."
-},
-{
-"group": "Sıfatlar",
-"de": "langsam",
-"tr": "yavaş",
-"ex": "Der Bus ist langsam."
-},
-{
-"group": "Sıfatlar",
-"de": "teuer",
-"tr": "pahalı",
-"ex": "Das Auto ist teuer."
-},
-{
-"group": "Sıfatlar",
-"de": "billig",
-"tr": "ucuz",
-"ex": "Das Brot ist billig."
-},
-{
-"group": "Sıfatlar",
-"de": "kalt",
-"tr": "soğuk",
-"ex": "Das Wasser ist kalt."
-},
-{
-"group": "Sıfatlar",
-"de": "warm / heiß",
-"tr": "ılık / sıcak",
-"ex": "Die Suppe ist heiß."
-},
-{
-"group": "Sıfatlar",
-"de": "müde",
-"tr": "yorgun",
-"ex": "Ich bin müde."
-},
-{
-"group": "Sıfatlar",
-"de": "glücklich",
-"tr": "mutlu",
-"ex": "Ich bin glücklich."
-}
-]
+[{"group":"İnsanlar","de":"der Mann","tr":"adam, erkek","ex":"Der Mann ist groß.","ex_tr":"Adam uzun boylu."},
+{"group":"İnsanlar","de":"die Frau","tr":"kadın","ex":"Die Frau liest ein Buch.","ex_tr":"Kadın bir kitap okuyor."},
+{"group":"İnsanlar","de":"das Kind","tr":"çocuk","ex":"Das Kind spielt im Park.","ex_tr":"Çocuk parkta oynuyor."},
+{"group":"İnsanlar","de":"der Vater","tr":"baba","ex":"Mein Vater arbeitet viel.","ex_tr":"Babam çok çalışıyor."},
+{"group":"İnsanlar","de":"die Mutter","tr":"anne","ex":"Meine Mutter kocht das Essen.","ex_tr":"Annem yemeği pişiriyor."},
+{"group":"İnsanlar","de":"der Bruder","tr":"erkek kardeş","ex":"Mein Bruder ist zehn Jahre alt.","ex_tr":"Kardeşim on yaşında."},
+{"group":"İnsanlar","de":"die Schwester","tr":"kız kardeş","ex":"Meine Schwester wohnt in Berlin.","ex_tr":"Kız kardeşim Berlin'de oturuyor."},
+{"group":"İnsanlar","de":"der Freund","tr":"(erkek) arkadaş / sevgili","ex":"Mein Freund kommt heute.","ex_tr":"Arkadaşım bugün geliyor."},
+{"group":"İnsanlar","de":"die Freundin","tr":"(kız) arkadaş / sevgili","ex":"Meine Freundin lernt Deutsch.","ex_tr":"Kız arkadaşım Almanca öğreniyor."},
+{"group":"İnsanlar","de":"die Familie","tr":"aile","ex":"Meine Familie ist groß.","ex_tr":"Ailem büyük."},
+{"group":"İnsanlar","de":"der Großvater","tr":"büyükbaba","ex":"Mein Großvater trinkt Kaffee.","ex_tr":"Büyükbabam kahve içiyor."},
+{"group":"İnsanlar","de":"die Großmutter","tr":"büyükanne","ex":"Meine Großmutter macht einen Kuchen.","ex_tr":"Büyükannem bir kek yapıyor."},
+{"group":"İnsanlar","de":"der Sohn","tr":"oğul","ex":"Ihr Sohn geht zur Schule.","ex_tr":"Onun oğlu okula gidiyor."},
+{"group":"İnsanlar","de":"die Tochter","tr":"kız evlat","ex":"Seine Tochter ist sehr klein.","ex_tr":"Onun kızı çok küçük."},
+{"group":"İnsanlar","de":"der Onkel","tr":"amca / dayı / enişte","ex":"Mein Onkel hat ein Auto.","ex_tr":"Amcamın bir arabası var."},
+{"group":"İnsanlar","de":"die Tante","tr":"hala / teyze","ex":"Meine Tante wohnt in der Stadt.","ex_tr":"Teyzem şehirde oturuyor."},
+{"group":"Ev","de":"das Haus","tr":"ev","ex":"Das Haus ist alt.","ex_tr":"Ev eski."},
+{"group":"Ev","de":"die Wohnung","tr":"daire","ex":"Die Wohnung ist klein.","ex_tr":"Daire küçük."},
+{"group":"Ev","de":"das Zimmer","tr":"oda","ex":"Mein Zimmer ist groß.","ex_tr":"Odam büyük."},
+{"group":"Ev","de":"die Küche","tr":"mutfak","ex":"Die Küche ist sehr schön.","ex_tr":"Mutfak çok güzel."},
+{"group":"Ev","de":"das Badezimmer","tr":"banyo","ex":"Das Badezimmer ist dort.","ex_tr":"Banyo orada."},
+{"group":"Ev","de":"das Bett","tr":"yatak","ex":"Ich gehe ins Bett.","ex_tr":"Yatağa gidiyorum."},
+{"group":"Ev","de":"der Tisch","tr":"masa","ex":"Das Buch liegt auf dem Tisch.","ex_tr":"Kitap masanın üzerinde duruyor."},
+{"group":"Ev","de":"der Stuhl","tr":"sandalye","ex":"Ich sitze auf dem Stuhl.","ex_tr":"Sandalyede oturuyorum."},
+{"group":"Ev","de":"die Tür","tr":"kapı","ex":"Die Tür ist offen.","ex_tr":"Kapı açık."},
+{"group":"Ev","de":"das Fenster","tr":"pencere","ex":"Das Fenster ist groß.","ex_tr":"Pencere büyük."},
+{"group":"Ev","de":"die Lampe","tr":"lamba","ex":"Die Lampe ist an.","ex_tr":"Lamba açık."},
+{"group":"Ev","de":"der Schrank","tr":"dolap","ex":"Der Schrank ist voll.","ex_tr":"Dolap dolu."},
+{"group":"Ev","de":"das Sofa","tr":"kanepe","ex":"Ich sitze auf dem Sofa.","ex_tr":"Kanepede oturuyorum."},
+{"group":"Ev","de":"der Kühlschrank","tr":"buzdolabı","ex":"Die Milch ist im Kühlschrank.","ex_tr":"Süt buzdolabında."},
+{"group":"Ev","de":"der Schlüssel","tr":"anahtar","ex":"Wo ist mein Schlüssel?","ex_tr":"Anahtarım nerede?"},
+{"group":"Yiyecek","de":"das Brot","tr":"ekmek","ex":"Ich esse Brot zum Frühstück.","ex_tr":"Kahvaltıda ekmek yiyorum."},
+{"group":"Yiyecek","de":"die Butter","tr":"tereyağı","ex":"Die Butter ist im Kühlschrank.","ex_tr":"Tereyağı buzdolabında."},
+{"group":"Yiyecek","de":"das Ei","tr":"yumurta","ex":"Ich esse ein Ei.","ex_tr":"Bir yumurta yiyorum."},
+{"group":"Yiyecek","de":"der Käse","tr":"peynir","ex":"Der Käse schmeckt gut.","ex_tr":"Peynir lezzetli."},
+{"group":"Yiyecek","de":"die Milch","tr":"süt","ex":"Ich trinke Milch.","ex_tr":"Süt içiyorum."},
+{"group":"Yiyecek","de":"das Wasser","tr":"su","ex":"Ich trinke viel Wasser.","ex_tr":"Çok su içiyorum."},
+{"group":"Yiyecek","de":"der Saft","tr":"meyve suyu","ex":"Der Saft ist kalt.","ex_tr":"Meyve suyu soğuk."},
+{"group":"Yiyecek","de":"der Kaffee","tr":"kahve","ex":"Ich trinke Kaffee am Morgen.","ex_tr":"Sabahları kahve içerim."},
+{"group":"Yiyecek","de":"der Tee","tr":"çay","ex":"Möchtest du Tee?","ex_tr":"Çay ister misin?"},
+{"group":"Yiyecek","de":"das Fleisch","tr":"et","ex":"Ich esse kein Fleisch.","ex_tr":"Et yemiyorum."},
+{"group":"Yiyecek","de":"der Fisch","tr":"balık","ex":"Der Fisch ist frisch.","ex_tr":"Balık taze."},
+{"group":"Yiyecek","de":"das Gemüse","tr":"sebze","ex":"Gemüse ist gesund.","ex_tr":"Sebze sağlıklıdır."},
+{"group":"Yiyecek","de":"das Obst","tr":"meyve","ex":"Obst ist gesund.","ex_tr":"Meyve sağlıklıdır."},
+{"group":"Yiyecek","de":"der Apfel","tr":"elma","ex":"Der Apfel ist rot.","ex_tr":"Elma kırmızı."},
+{"group":"Yiyecek","de":"die Banane","tr":"muz","ex":"Die Banane ist gelb.","ex_tr":"Muz sarı."},
+{"group":"Yiyecek","de":"die Tomate","tr":"domates","ex":"Die Tomate ist rot.","ex_tr":"Domates kırmızı."},
+{"group":"Yiyecek","de":"der Reis","tr":"pirinç","ex":"Ich esse Reis mit Gemüse.","ex_tr":"Sebzeli pirinç yiyorum."},
+{"group":"Yiyecek","de":"die Suppe","tr":"çorba","ex":"Die Suppe ist heiß.","ex_tr":"Çorba sıcak."},
+{"group":"Yiyecek","de":"der Kuchen","tr":"pasta / kek","ex":"Der Kuchen ist süß.","ex_tr":"Kek tatlı."},
+{"group":"Yiyecek","de":"das Salz","tr":"tuz","ex":"Das Salz ist auf dem Tisch.","ex_tr":"Tuz masada."},
+{"group":"Ulaşım","de":"das Auto","tr":"araba","ex":"Das Auto ist neu.","ex_tr":"Araba yeni."},
+{"group":"Ulaşım","de":"der Bus","tr":"otobüs","ex":"Ich fahre mit dem Bus.","ex_tr":"Otobüsle gidiyorum."},
+{"group":"Ulaşım","de":"der Zug","tr":"tren","ex":"Der Zug kommt um acht Uhr.","ex_tr":"Tren saat sekizde geliyor."},
+{"group":"Ulaşım","de":"das Fahrrad","tr":"bisiklet","ex":"Ich fahre Fahrrad.","ex_tr":"Bisiklete biniyorum."},
+{"group":"Ulaşım","de":"die Straße","tr":"sokak / cadde","ex":"Die Straße ist lang.","ex_tr":"Cadde uzun."},
+{"group":"Ulaşım","de":"der Bahnhof","tr":"tren istasyonu","ex":"Der Bahnhof ist groß.","ex_tr":"Tren istasyonu büyük."},
+{"group":"Ulaşım","de":"der Flughafen","tr":"havalimanı","ex":"Wir fahren zum Flughafen.","ex_tr":"Havalimanına gidiyoruz."},
+{"group":"Ulaşım","de":"das Flugzeug","tr":"uçak","ex":"Das Flugzeug fliegt nach Berlin.","ex_tr":"Uçak Berlin'e uçuyor."},
+{"group":"Ulaşım","de":"die Stadt","tr":"şehir","ex":"Die Stadt ist schön.","ex_tr":"Şehir güzel."},
+{"group":"Ulaşım","de":"das Dorf","tr":"köy","ex":"Das Dorf ist klein.","ex_tr":"Köy küçük."},
+{"group":"Ulaşım","de":"der Supermarkt","tr":"süpermarket","ex":"Ich kaufe Brot im Supermarkt.","ex_tr":"Süpermarketten ekmek alıyorum."},
+{"group":"Ulaşım","de":"die Bank","tr":"banka","ex":"Ich gehe zur Bank.","ex_tr":"Bankaya gidiyorum."},
+{"group":"Ulaşım","de":"das Krankenhaus","tr":"hastane","ex":"Das Krankenhaus ist groß.","ex_tr":"Hastane büyük."},
+{"group":"Ulaşım","de":"die Schule","tr":"okul","ex":"Die Kinder gehen zur Schule.","ex_tr":"Çocuklar okula gidiyor."},
+{"group":"Ulaşım","de":"die Universität","tr":"üniversite","ex":"Ich studiere an der Universität.","ex_tr":"Üniversitede okuyorum."},
+{"group":"Ulaşım","de":"das Café","tr":"kafe","ex":"Wir trinken Kaffee im Café.","ex_tr":"Kafede kahve içiyoruz."},
+{"group":"Ulaşım","de":"das Restaurant","tr":"restoran","ex":"Das Restaurant ist gut.","ex_tr":"Restoran iyi."},
+{"group":"Ulaşım","de":"der Park","tr":"park","ex":"Wir gehen in den Park.","ex_tr":"Parka gidiyoruz."},
+{"group":"Meslekler","de":"der Arzt / die Ärztin","tr":"doktor (erkek/kadın)","ex":"Der Arzt arbeitet im Krankenhaus.","ex_tr":"Doktor hastanede çalışıyor."},
+{"group":"Meslekler","de":"der Lehrer / die Lehrerin","tr":"öğretmen (erkek/kadın)","ex":"Der Lehrer ist sehr nett.","ex_tr":"Öğretmen çok nazik."},
+{"group":"Meslekler","de":"der Student / die Studentin","tr":"öğrenci (erkek/kadın)","ex":"Der Student lernt viel.","ex_tr":"Öğrenci çok çalışıyor."},
+{"group":"Meslekler","de":"der Kellner / die Kellnerin","tr":"garson (erkek/kadın)","ex":"Der Kellner bringt das Essen.","ex_tr":"Garson yemeği getiriyor."},
+{"group":"Meslekler","de":"der Chef / die Chefin","tr":"patron / müdür (erkek/kadın)","ex":"Mein Chef ist freundlich.","ex_tr":"Patronum dostane."},
+{"group":"Meslekler","de":"die Arbeit","tr":"iş","ex":"Ich gehe zur Arbeit.","ex_tr":"İşe gidiyorum."},
+{"group":"Meslekler","de":"das Büro","tr":"ofis","ex":"Ich arbeite im Büro.","ex_tr":"Ofiste çalışıyorum."},
+{"group":"Meslekler","de":"der Beruf","tr":"meslek","ex":"Was ist dein Beruf?","ex_tr":"Mesleğin ne?"},
+{"group":"Zaman","de":"der Tag","tr":"gün","ex":"Der Tag ist schön.","ex_tr":"Gün güzel."},
+{"group":"Zaman","de":"die Nacht","tr":"gece","ex":"Die Nacht ist lang.","ex_tr":"Gece uzun."},
+{"group":"Zaman","de":"der Morgen","tr":"sabah","ex":"Am Morgen trinke ich Kaffee.","ex_tr":"Sabahleyin kahve içerim."},
+{"group":"Zaman","de":"der Abend","tr":"akşam","ex":"Am Abend sehe ich fern.","ex_tr":"Akşamları televizyon izlerim."},
+{"group":"Zaman","de":"die Woche","tr":"hafta","ex":"Die Woche hat sieben Tage.","ex_tr":"Bir haftada yedi gün vardır."},
+{"group":"Zaman","de":"der Monat","tr":"ay","ex":"Ein Monat hat vier Wochen.","ex_tr":"Bir ayda dört hafta vardır."},
+{"group":"Zaman","de":"das Jahr","tr":"yıl","ex":"Das Jahr hat zwölf Monate.","ex_tr":"Bir yılda on iki ay vardır."},
+{"group":"Zaman","de":"die Stunde","tr":"saat (süre)","ex":"Eine Stunde hat sechzig Minuten.","ex_tr":"Bir saatte altmış dakika vardır."},
+{"group":"Zaman","de":"die Minute","tr":"dakika","ex":"Warte eine Minute!","ex_tr":"Bir dakika bekle!"},
+{"group":"Zaman","de":"heute","tr":"bugün","ex":"Heute ist Montag.","ex_tr":"Bugün Pazartesi."},
+{"group":"Zaman","de":"morgen","tr":"yarın","ex":"Morgen gehe ich zur Arbeit.","ex_tr":"Yarın işe gideceğim."},
+{"group":"Zaman","de":"gestern","tr":"dün","ex":"Gestern war ich zu Hause.","ex_tr":"Dün evdeydim."},
+{"group":"Zaman","de":"jetzt","tr":"şimdi","ex":"Ich gehe jetzt nach Hause.","ex_tr":"Şimdi eve gidiyorum."},
+{"group":"Renkler","de":"rot","tr":"kırmızı","ex":"Der Apfel ist rot.","ex_tr":"Elma kırmızı."},
+{"group":"Renkler","de":"blau","tr":"mavi","ex":"Der Himmel ist blau.","ex_tr":"Gökyüzü mavi."},
+{"group":"Renkler","de":"grün","tr":"yeşil","ex":"Der Baum ist grün.","ex_tr":"Ağaç yeşil."},
+{"group":"Renkler","de":"gelb","tr":"sarı","ex":"Die Banane ist gelb.","ex_tr":"Muz sarı."},
+{"group":"Renkler","de":"schwarz","tr":"siyah","ex":"Die Katze ist schwarz.","ex_tr":"Kedi siyah."},
+{"group":"Renkler","de":"weiß","tr":"beyaz","ex":"Der Schnee ist weiß.","ex_tr":"Kar beyaz."},
+{"group":"Renkler","de":"grau","tr":"gri","ex":"Der Himmel ist heute grau.","ex_tr":"Gökyüzü bugün gri."},
+{"group":"Renkler","de":"braun","tr":"kahverengi","ex":"Der Tisch ist braun.","ex_tr":"Masa kahverengi."},
+{"group":"Renkler","de":"orange","tr":"turuncu","ex":"Meine Jacke ist orange.","ex_tr":"Ceketim turuncu."},
+{"group":"Renkler","de":"rosa","tr":"pembe","ex":"Die Blume ist rosa.","ex_tr":"Çiçek pembe."},
+{"group":"İfadeler","de":"ich","tr":"ben","ex":"Ich bin müde.","ex_tr":"Yorgunum."},
+{"group":"İfadeler","de":"du","tr":"sen","ex":"Wie heißt du?","ex_tr":"Adın ne?"},
+{"group":"İfadeler","de":"er / sie / es","tr":"o (erkek / kadın / nötr)","ex":"Er ist mein Bruder.","ex_tr":"O benim kardeşim."},
+{"group":"İfadeler","de":"wir","tr":"biz","ex":"Wir gehen nach Hause.","ex_tr":"Eve gidiyoruz."},
+{"group":"İfadeler","de":"ihr","tr":"siz","ex":"Wo seid ihr?","ex_tr":"Neredesiniz?"},
+{"group":"İfadeler","de":"sie / Sie","tr":"onlar / Siz (resmi)","ex":"Woher kommen Sie?","ex_tr":"Nereden geliyorsunuz?"},
+{"group":"İfadeler","de":"ja","tr":"evet","ex":"Ja, das ist richtig.","ex_tr":"Evet, doğru."},
+{"group":"İfadeler","de":"nein","tr":"hayır","ex":"Nein, danke.","ex_tr":"Hayır, teşekkürler."},
+{"group":"İfadeler","de":"bitte","tr":"lütfen / rica ederim","ex":"Einen Kaffee, bitte.","ex_tr":"Bir kahve, lütfen."},
+{"group":"İfadeler","de":"danke","tr":"teşekkürler","ex":"Danke für deine Hilfe.","ex_tr":"Yardımın için teşekkürler."},
+{"group":"İfadeler","de":"Entschuldigung","tr":"özür dilerim / pardon","ex":"Entschuldigung, wo ist der Bahnhof?","ex_tr":"Affedersiniz, tren istasyonu nerede?"},
+{"group":"İfadeler","de":"Hallo","tr":"merhaba","ex":"Hallo, wie geht es dir?","ex_tr":"Merhaba, nasılsın?"},
+{"group":"İfadeler","de":"Tschüss","tr":"hoşça kal","ex":"Tschüss, bis morgen!","ex_tr":"Görüşürüz, yarın görüşmek üzere!"},
+{"group":"İfadeler","de":"Guten Morgen","tr":"günaydın","ex":"Guten Morgen! Hast du gut geschlafen?","ex_tr":"Günaydın! İyi uyudun mu?"},
+{"group":"İfadeler","de":"Guten Abend","tr":"iyi akşamlar","ex":"Guten Abend! Wie geht es Ihnen?","ex_tr":"İyi akşamlar! Nasılsınız?"},
+{"group":"İfadeler","de":"Gute Nacht","tr":"iyi geceler","ex":"Gute Nacht, schlaf gut!","ex_tr":"İyi geceler, iyi uyu!"},
+{"group":"Fiiller","de":"sein","tr":"olmak","ex":"Ich bin Student.","ex_tr":"Ben öğrenciyim."},
+{"group":"Fiiller","de":"haben","tr":"sahip olmak","ex":"Ich habe einen Hund.","ex_tr":"Bir köpeğim var."},
+{"group":"Fiiller","de":"machen","tr":"yapmak","ex":"Was machst du?","ex_tr":"Ne yapıyorsun?"},
+{"group":"Fiiller","de":"gehen","tr":"gitmek","ex":"Ich gehe nach Hause.","ex_tr":"Eve gidiyorum."},
+{"group":"Fiiller","de":"kommen","tr":"gelmek","ex":"Woher kommst du?","ex_tr":"Nereden geliyorsun?"},
+{"group":"Fiiller","de":"sehen","tr":"görmek","ex":"Ich sehe einen Film.","ex_tr":"Bir film izliyorum."},
+{"group":"Fiiller","de":"essen","tr":"yemek yemek","ex":"Ich esse einen Apfel.","ex_tr":"Bir elma yiyorum."},
+{"group":"Fiiller","de":"trinken","tr":"içmek","ex":"Ich trinke Wasser.","ex_tr":"Su içiyorum."},
+{"group":"Fiiller","de":"sprechen","tr":"konuşmak","ex":"Ich spreche Deutsch.","ex_tr":"Almanca konuşuyorum."},
+{"group":"Fiiller","de":"hören","tr":"duymak","ex":"Ich höre Musik.","ex_tr":"Müzik dinliyorum."},
+{"group":"Fiiller","de":"lesen","tr":"okumak","ex":"Ich lese ein Buch.","ex_tr":"Bir kitap okuyorum."},
+{"group":"Fiiller","de":"schreiben","tr":"yazmak","ex":"Ich schreibe einen Brief.","ex_tr":"Bir mektup yazıyorum."},
+{"group":"Fiiller","de":"kaufen","tr":"satın almak","ex":"Ich kaufe Brot.","ex_tr":"Ekmek alıyorum."},
+{"group":"Fiiller","de":"wohnen","tr":"oturmak / yaşamak","ex":"Ich wohne in Ankara.","ex_tr":"Ankara'da oturuyorum."},
+{"group":"Fiiller","de":"arbeiten","tr":"çalışmak","ex":"Ich arbeite im Büro.","ex_tr":"Ofiste çalışıyorum."},
+{"group":"Fiiller","de":"lernen","tr":"öğrenmek","ex":"Ich lerne Deutsch.","ex_tr":"Almanca öğreniyorum."},
+{"group":"Fiiller","de":"schlafen","tr":"uyumak","ex":"Ich schlafe acht Stunden.","ex_tr":"Sekiz saat uyurum."},
+{"group":"Fiiller","de":"spielen","tr":"oynamak","ex":"Die Kinder spielen Fußball.","ex_tr":"Çocuklar futbol oynuyor."},
+{"group":"Sıfatlar","de":"groß","tr":"büyük","ex":"Das Haus ist groß.","ex_tr":"Ev büyük."},
+{"group":"Sıfatlar","de":"klein","tr":"küçük","ex":"Die Wohnung ist klein.","ex_tr":"Daire küçük."},
+{"group":"Sıfatlar","de":"gut","tr":"iyi","ex":"Das Essen ist gut.","ex_tr":"Yemek güzel."},
+{"group":"Sıfatlar","de":"schlecht","tr":"kötü","ex":"Das Wetter ist schlecht.","ex_tr":"Hava kötü."},
+{"group":"Sıfatlar","de":"neu","tr":"yeni","ex":"Mein Auto ist neu.","ex_tr":"Arabam yeni."},
+{"group":"Sıfatlar","de":"alt","tr":"eski / yaşlı","ex":"Mein Haus ist alt.","ex_tr":"Evim eski."},
+{"group":"Sıfatlar","de":"schnell","tr":"hızlı","ex":"Der Zug ist schnell.","ex_tr":"Tren hızlı."},
+{"group":"Sıfatlar","de":"langsam","tr":"yavaş","ex":"Der Bus ist langsam.","ex_tr":"Otobüs yavaş."},
+{"group":"Sıfatlar","de":"teuer","tr":"pahalı","ex":"Das Auto ist teuer.","ex_tr":"Araba pahalı."},
+{"group":"Sıfatlar","de":"billig","tr":"ucuz","ex":"Das Brot ist billig.","ex_tr":"Ekmek ucuz."},
+{"group":"Sıfatlar","de":"kalt","tr":"soğuk","ex":"Das Wasser ist kalt.","ex_tr":"Su soğuk."},
+{"group":"Sıfatlar","de":"warm / heiß","tr":"ılık / sıcak","ex":"Die Suppe ist heiß.","ex_tr":"Çorba sıcak."},
+{"group":"Sıfatlar","de":"müde","tr":"yorgun","ex":"Ich bin müde.","ex_tr":"Yorgunum."},
+{"group":"Sıfatlar","de":"glücklich","tr":"mutlu","ex":"Ich bin glücklich.","ex_tr":"Mutluyum."}]

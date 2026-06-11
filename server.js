@@ -19,6 +19,7 @@ const {
 const PORT = parseInt(process.env.PORT, 10) || 3000;
 const SESSION_SECRET = process.env.SESSION_SECRET;
 const IS_PROD = process.env.NODE_ENV === 'production';
+const REGISTRATION_OPEN = String(process.env.REGISTRATION_OPEN || 'true').toLowerCase() === 'true';
 
 if (!SESSION_SECRET) {
   console.error('HATA: SESSION_SECRET tanımlı değil. .env dosyasına ekleyin.');
@@ -87,6 +88,9 @@ function validateCredentials(body) {
 }
 
 app.post('/api/register', authLimiter, async (req, res) => {
+  if (!REGISTRATION_OPEN) {
+    return res.status(403).json({ error: 'Kayıt şu an kapalı.' });
+  }
   const v = validateCredentials(req.body);
   if (!v.ok) return res.status(400).json({ error: v.error });
 
@@ -175,6 +179,10 @@ function loadVocab(level) {
     return null;
   }
 }
+
+app.get('/api/config', (_req, res) => {
+  res.json({ registrationOpen: REGISTRATION_OPEN });
+});
 
 app.get('/api/vocab/:level', (req, res) => {
   const level = String(req.params.level || '').toLowerCase();

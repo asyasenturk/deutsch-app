@@ -3,8 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#f4ecd8" />
-  <title>Deutsch · Almanca Öğrenme Platformu</title>
+  <meta name="theme-color" content="#f3ede2" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Deutsch" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icon-192.svg" />
+  <link rel="icon" type="image/svg+xml" href="/icon-192.svg" />
+  <title>Deutsch · Almanca Öğrenme</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -58,9 +65,23 @@
       <nav class="mode-switch" aria-label="Mod">
         <button class="mode-btn active" data-mode="cards">Kelime Kartları</button>
         <button class="mode-btn" data-mode="quiz">Quiz</button>
+        <button class="mode-btn" data-mode="artikel">Artikel Quiz</button>
+        <button class="mode-btn" data-mode="stats">İstatistik</button>
       </nav>
 
-      <section class="filters">
+      <section id="daily-bar" class="daily-bar">
+        <div class="daily-progress">
+          <span class="daily-label">Bugün</span>
+          <div class="daily-track"><div id="daily-fill"></div></div>
+          <span id="daily-count" class="daily-count">0/10</span>
+        </div>
+        <div id="streak-pill" class="streak-pill" title="Üst üste çalışılan gün">
+          <span class="streak-flame">🔥</span>
+          <span id="streak-days">0</span>
+        </div>
+      </section>
+
+      <section id="filters" class="filters">
         <div id="group-chips" class="chips" aria-label="Gruplar"></div>
         <div class="toolbar">
           <label class="check">
@@ -71,7 +92,7 @@
         </div>
       </section>
 
-      <div class="progress-wrap">
+      <div id="progress-wrap" class="progress-wrap">
         <div class="progress"><div id="progress-bar"></div></div>
         <span id="progress-text" class="progress-text">0 / 0</span>
       </div>
@@ -118,6 +139,57 @@
         <div class="quiz-options" id="quiz-options"></div>
         <div class="quiz-feedback" id="quiz-feedback"></div>
         <button id="quiz-next" class="primary" hidden>Sıradaki</button>
+      </section>
+
+      <!-- Artikel Quiz modu -->
+      <section id="artikel-mode" class="mode-panel" hidden>
+        <div class="quiz-head">
+          <div class="quiz-stats">
+            <span>Skor: <b id="art-score">0</b></span>
+            <span>Üst üste: <b id="art-streak">0</b></span>
+          </div>
+        </div>
+        <div class="art-question" id="art-question">Yükleniyor…</div>
+        <div class="art-options">
+          <button class="art-opt art-btn-der" data-art="der">DER</button>
+          <button class="art-opt art-btn-die" data-art="die">DIE</button>
+          <button class="art-opt art-btn-das" data-art="das">DAS</button>
+        </div>
+        <div class="quiz-feedback" id="art-feedback"></div>
+      </section>
+
+      <!-- İstatistik modu -->
+      <section id="stats-mode" class="mode-panel" hidden>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-label">Toplam Öğrenilen</div>
+            <div class="stat-value" id="stat-total">0</div>
+            <div class="stat-sub" id="stat-total-sub">tüm seviyeler</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Üst Üste Seri</div>
+            <div class="stat-value"><span id="stat-streak">0</span> 🔥</div>
+            <div class="stat-sub">En iyi: <b id="stat-best-streak">0</b> gün</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Bugün</div>
+            <div class="stat-value"><span id="stat-today">0</span> / <span id="stat-goal">10</span></div>
+            <div class="stat-sub">Günlük hedef</div>
+          </div>
+        </div>
+
+        <h3 class="stats-h">Seviyeye göre ilerleme</h3>
+        <div id="stat-levels" class="stat-levels"></div>
+
+        <h3 class="stats-h">Kategoriye göre ilerleme — <span id="stat-cat-level">A1</span></h3>
+        <div id="stat-cats" class="stat-cats"></div>
+
+        <div class="stats-foot">
+          <label class="check">
+            <span style="margin-right:8px">Günlük hedef</span>
+            <input type="number" id="goal-input" min="1" max="200" value="10" style="width:80px" />
+          </label>
+        </div>
       </section>
     </section>
 
