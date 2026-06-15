@@ -3,9 +3,28 @@ data/app.db
 data/app.db-*
 data/sessions.db
 data/sessions.db-*
+data/*.bak
+data/*.bak[0-9]*
 .env
 *.log
 .DS_Store
+
+# Sözlük temizlik ara dosyaları (worker .js'leri commit'lenir, json/txt çıktıları değil)
+scripts/a2_bad*.json
+scripts/a2_bad*.txt
+scripts/a2_batch*.txt
+scripts/a2_remaining*.json
+scripts/a2_review*.txt
+scripts/a2_review*.json
+scripts/a2_safe*.json
+scripts/a2_still*.txt
+scripts/a2_to_fix.json
+scripts/a2_typeB*.json
+scripts/a2_pure_en.json
+scripts/a2_de_en_leak.json
+scripts/a2_index_map.json
+scripts/a2_changes.log
+scripts/a2_round*_changes.log
 
 # Claude Code yerel ayarları
 .claude/
