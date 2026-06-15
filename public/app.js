@@ -57,6 +57,7 @@
     lastMode: 'cards',        // cards | quiz | artikel | stats
     hideKnown: false,
     quizDir: 'de-tr',
+    quizInputMode: 'choice',  // 'choice' | 'type'
     dailyGoal: 10,
     lastStudyDate: null,      // 'YYYY-MM-DD'
     streakDays: 0,
@@ -113,7 +114,7 @@
     activeGroup: null,
     mode: 'cards',
     cardFlipped: false,
-    quiz: { question: null, options: [], correctIdx: -1, score: 0, streak: 0, awaiting: false },
+    quiz: { question: null, options: [], correctIdx: -1, score: 0, streak: 0, awaiting: false, currentCorrect: null },
     localCacheKey: 'deutsch.state.cache',
   };
 
@@ -546,6 +547,8 @@
     app.quiz.score = 0;
     app.quiz.streak = 0;
     $$('.qdir-btn').forEach(b => b.classList.toggle('active', b.dataset.dir === app.state.quizDir));
+    $$('.qmode-btn').forEach(b => b.classList.toggle('active', b.dataset.qmode === app.state.quizInputMode));
+    applyQuizInputModeUI();
     updateQuizStats();
     nextQuizQuestion();
   }
@@ -559,7 +562,25 @@
     });
   });
 
+  $$('.qmode-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      app.state.quizInputMode = btn.dataset.qmode;
+      $$('.qmode-btn').forEach(b => b.classList.toggle('active', b === btn));
+      applyQuizInputModeUI();
+      persistState();
+      nextQuizQuestion();
+    });
+  });
+
   $('#quiz-next').addEventListener('click', nextQuizQuestion);
+
+  function applyQuizInputModeUI() {
+    const isType = app.state.quizInputMode === 'type';
+    $('#quiz-options').hidden = isType;
+    $('#quiz-write').hidden = !isType;
+    // Yazma modunda yön her zaman TR→DE; dir-switch'i gizle
+    $('#quiz-dir-switch').hidden = isType;
+  }
 
   function updateQuizStats() {
     $('#quiz-score').textContent = app.quiz.score;
@@ -568,16 +589,36 @@
 
   function nextQuizQuestion() {
     const pool = (app.vocabCache[app.activeLevel] || []).filter(Boolean);
-    if (pool.length < 4) {
-      $('#quiz-question').textContent = 'Quiz için en az 4 kelime gerekli.';
+    const isType = app.state.quizInputMode === 'type';
+
+    if (pool.length < (isType ? 1 : 4)) {
+      $('#quiz-question').textContent = isType
+        ? 'Quiz için en az 1 kelime gerekli.'
+        : 'Quiz için en az 4 kelime gerekli.';
       $('#quiz-options').innerHTML = '';
       $('#quiz-feedback').textContent = '';
       $('#quiz-next').hidden = true;
       return;
     }
+
     const idx = Math.floor(Math.random() * pool.length);
     const correct = pool[idx];
-    const distractorSet = new Set([idx]);
+    app.quiz.currentCorrect = correct;
+
+    if (isType) {
+      renderTypeQuestion(correct);
+    } else {
+      renderChoiceQuestion(correct, pool);
+    }
+
+    $('#quiz-feedback').textContent = '';
+    $('#quiz-feedback').className = 'quiz-feedback';
+    $('#quiz-next').hidden = true;
+    app.quiz.awaiting = true;
+  }
+
+  function renderChoiceQuestion(correct, pool) {
+    const distractorSet = new Set([pool.indexOf(correct)]);
     const distractors = [];
     while (distractors.length < 3) {
       const j = Math.floor(Math.random() * pool.length);
@@ -590,7 +631,6 @@
     const qText = dir === 'de-tr' ? correct.de : correct.tr;
     const labelOf = (w) => dir === 'de-tr' ? w.tr : w.de;
 
-    // Soru: DE→TR ise Almanca'yı artikel renkli göster; TR→DE ise düz yaz
     if (dir === 'de-tr') $('#quiz-question').innerHTML = renderWord(qText);
     else $('#quiz-question').textContent = qText;
 
@@ -600,16 +640,26 @@
       const b = document.createElement('button');
       b.className = 'quiz-opt';
       const lbl = labelOf(w);
-      // TR→DE seçenekleri Almanca, onları renkli yap
       if (dir === 'tr-de') b.innerHTML = renderWord(lbl);
       else b.textContent = lbl;
       b.dataset.value = lbl;
       b.addEventListener('click', () => onQuizAnswer(b, w === correct, correct));
       wrap.appendChild(b);
     });
-    $('#quiz-feedback').textContent = '';
-    $('#quiz-next').hidden = true;
-    app.quiz.awaiting = true;
+  }
+
+  function renderTypeQuestion(correct) {
+    // Yazma modunda yön TR → DE
+    $('#quiz-question').textContent = correct.tr;
+    const input = $('#qw-input');
+    input.value = '';
+    input.disabled = false;
+    input.classList.remove('correct', 'wrong');
+    $('#qw-check').disabled = false;
+    $('#qw-check').textContent = 'Kontrol';
+    $('#qw-reveal').hidden = false;
+    // focus, ama mobilde klavye açılmasın diye küçük gecikme
+    setTimeout(() => { try { input.focus(); } catch {} }, 30);
   }
 
   function onQuizAnswer(btn, isCorrect, correct) {
@@ -633,6 +683,121 @@
     }
     updateQuizStats();
     $('#quiz-next').hidden = false;
+  }
+
+  // -------- Yazma modu: normalize + cevap kontrolü
+  function asciizeUmlaut(s) {
+    return s
+      .replace(/Ä/g, 'Ae').replace(/Ö/g, 'Oe').replace(/Ü/g, 'Ue')
+      .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
+      .replace(/ß/g, 'ss');
+  }
+
+  function normalizeAnswer(s) {
+    if (!s) return '';
+    let v = String(s).trim();
+    // Parantez içini at: "Organisation (Singular)" -> "Organisation"
+    v = v.replace(/\s*\([^)]*\)/g, '');
+    // İlk virgülden sonrasını at: "die Ruine, -n" -> "die Ruine"
+    v = v.replace(/,.*$/, '');
+    v = v.trim().toLowerCase();
+    // Umlaut'ları ASCII'leştir (her iki tarafa da uygulanırsa idempotent)
+    v = asciizeUmlaut(v);
+    v = v.replace(/\s+/g, ' ');
+    return v;
+  }
+
+  function isWriteAnswerCorrect(userInput, correctDe) {
+    const u = normalizeAnswer(userInput);
+    if (!u) return false;
+    const c = normalizeAnswer(correctDe);
+    if (u === c) return true;
+    const cNoArt = c.replace(/^(der|die|das)\s+/, '');
+    const uNoArt = u.replace(/^(der|die|das)\s+/, '');
+    if (uNoArt === cNoArt) return true;
+    if (u === cNoArt) return true;
+    if (uNoArt === c) return true;
+    return false;
+  }
+
+  // -------- Yazma modu: input & butonlar
+  const qwInput = $('#qw-input');
+
+  $$('.qw-um').forEach(b => {
+    // mousedown ile çalıştırıp default'u engelle: input focus kaybetmesin
+    b.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      insertAtCursor(qwInput, b.dataset.ch);
+    });
+    b.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      insertAtCursor(qwInput, b.dataset.ch);
+    }, { passive: false });
+  });
+
+  function insertAtCursor(input, ch) {
+    if (input.disabled) return;
+    const start = input.selectionStart ?? input.value.length;
+    const end = input.selectionEnd ?? input.value.length;
+    const before = input.value.slice(0, start);
+    const after = input.value.slice(end);
+    input.value = before + ch + after;
+    const pos = start + ch.length;
+    input.setSelectionRange(pos, pos);
+    input.focus();
+  }
+
+  $('#qw-check').addEventListener('click', onWriteCheck);
+  $('#qw-reveal').addEventListener('click', onWriteReveal);
+
+  qwInput.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    if (app.quiz.awaiting) onWriteCheck();
+    else nextQuizQuestion();
+  });
+
+  function onWriteCheck() {
+    if (!app.quiz.awaiting) return;
+    const correct = app.quiz.currentCorrect;
+    if (!correct) return;
+    const userVal = qwInput.value;
+    if (!userVal.trim()) { qwInput.focus(); return; }
+    const ok = isWriteAnswerCorrect(userVal, correct.de);
+    finalizeWriteAnswer(ok, correct);
+  }
+
+  function onWriteReveal() {
+    if (!app.quiz.awaiting) return;
+    const correct = app.quiz.currentCorrect;
+    if (!correct) return;
+    finalizeWriteAnswer(false, correct, /*revealed*/ true);
+  }
+
+  function finalizeWriteAnswer(isCorrect, correct, revealed = false) {
+    app.quiz.awaiting = false;
+    qwInput.disabled = true;
+    $('#qw-check').disabled = true;
+    $('#qw-reveal').hidden = true;
+    const fb = $('#quiz-feedback');
+
+    if (isCorrect) {
+      qwInput.classList.add('correct');
+      app.quiz.score += 1;
+      app.quiz.streak += 1;
+      fb.className = 'quiz-feedback ok';
+      fb.innerHTML = `Richtig! ✓ <span class="qw-fb-ex">${escapeHtml(correct.ex || '')}</span>`;
+    } else {
+      qwInput.classList.add('wrong');
+      app.quiz.streak = 0;
+      fb.className = 'quiz-feedback bad';
+      const prefix = revealed ? 'Cevap' : 'Doğrusu';
+      fb.innerHTML = `${prefix}: <b>${renderWord(correct.de)}</b>`;
+    }
+    updateQuizStats();
+    $('#quiz-next').hidden = false;
+    // Sonraki için Enter dinleyebilelim: focus input
+    setTimeout(() => { try { qwInput.focus(); } catch {} }, 30);
   }
 
   // ---------------------------------------------------------------- ARTIKEL QUIZ

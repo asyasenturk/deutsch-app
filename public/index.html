@@ -128,8 +128,12 @@
 
       <!-- Quiz modu -->
       <section id="quiz-mode" class="mode-panel" hidden>
+        <div class="quiz-mode-switch" role="tablist" aria-label="Quiz cevap modu">
+          <button class="qmode-btn active" data-qmode="choice" type="button">Şıklı</button>
+          <button class="qmode-btn" data-qmode="type" type="button">⌨️ Yazma</button>
+        </div>
         <div class="quiz-head">
-          <div class="quiz-dir-switch">
+          <div class="quiz-dir-switch" id="quiz-dir-switch">
             <button class="qdir-btn active" data-dir="de-tr">DE → TR</button>
             <button class="qdir-btn" data-dir="tr-de">TR → DE</button>
           </div>
@@ -140,6 +144,28 @@
         </div>
         <div class="quiz-question" id="quiz-question">Yükleniyor…</div>
         <div class="quiz-options" id="quiz-options"></div>
+
+        <!-- Yazma modu paneli -->
+        <div class="quiz-write" id="quiz-write" hidden>
+          <div class="qw-input-row">
+            <input id="qw-input" class="qw-input" type="text"
+                   autocapitalize="off" autocorrect="off" autocomplete="off"
+                   spellcheck="false" inputmode="text"
+                   placeholder="Almanca yazın…" aria-label="Almanca cevap" />
+            <button id="qw-check" class="primary" type="button">Kontrol</button>
+          </div>
+          <div class="qw-umlauts" aria-label="Umlaut yardımı">
+            <button class="qw-um" data-ch="ä" type="button">ä</button>
+            <button class="qw-um" data-ch="ö" type="button">ö</button>
+            <button class="qw-um" data-ch="ü" type="button">ü</button>
+            <button class="qw-um" data-ch="ß" type="button">ß</button>
+            <button class="qw-um" data-ch="Ä" type="button">Ä</button>
+            <button class="qw-um" data-ch="Ö" type="button">Ö</button>
+            <button class="qw-um" data-ch="Ü" type="button">Ü</button>
+          </div>
+          <button id="qw-reveal" class="qw-reveal-link" type="button">Cevabı göster</button>
+        </div>
+
         <div class="quiz-feedback" id="quiz-feedback"></div>
         <button id="quiz-next" class="primary" hidden>Sıradaki</button>
       </section>

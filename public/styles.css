@@ -343,10 +343,79 @@ button.danger { background: var(--danger); color: #fff; border: none; padding: 1
 .quiz-opt.wrong   { background: var(--danger-soft); border-color: var(--danger); }
 .quiz-opt:disabled { cursor: default; }
 .quiz-feedback { margin: 12px 0; min-height: 22px; text-align: center; color: var(--ink-soft); }
+.quiz-feedback.ok  { color: var(--success); font-weight: 600; }
+.quiz-feedback.bad { color: var(--danger);  font-weight: 600; }
+.qw-fb-ex { display: block; margin-top: 4px; color: var(--ink-soft); font-weight: 400; font-size: 14px; }
 #quiz-next { max-width: 280px; margin: 0 auto; display: block; }
+
+/* ---------------- QUIZ MOD TOGGLE (Şıklı / Yazma) ---------------- */
+.quiz-mode-switch {
+  display: inline-flex; gap: 6px;
+  margin: 0 0 12px;
+  background: rgba(255,255,255,0.4);
+  padding: 4px; border-radius: 999px;
+  border: 1px solid rgba(139,94,52,0.18);
+}
+.qmode-btn {
+  background: transparent; border: 0;
+  padding: 7px 14px; border-radius: 999px;
+  color: var(--ink-soft); font: inherit; font-weight: 600; font-size: 14px;
+  cursor: pointer;
+}
+.qmode-btn.active { background: var(--ink); color: var(--parchment); }
+
+/* ---------------- QUIZ YAZMA MODU ---------------- */
+.quiz-write { margin-top: 4px; }
+.qw-input-row {
+  display: flex; gap: 8px; align-items: stretch;
+  margin-bottom: 10px;
+}
+.qw-input {
+  flex: 1;
+  background: #fffaf0;
+  border: 2px solid rgba(139,94,52,0.22);
+  border-radius: 12px;
+  padding: 14px 14px;
+  font: inherit; font-family: 'Fraunces', Georgia, serif;
+  font-size: 20px; color: var(--ink);
+  outline: none;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+.qw-input:focus { border-color: var(--accent); }
+.qw-input.correct { border-color: var(--success); background: var(--success-soft); }
+.qw-input.wrong   { border-color: var(--danger);  background: var(--danger-soft);  }
+
+#qw-check { flex: 0 0 auto; padding: 10px 18px; }
+
+.qw-umlauts {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin-bottom: 10px;
+}
+.qw-um {
+  background: rgba(255,255,255,0.7);
+  border: 1px solid rgba(139,94,52,0.22);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font: inherit; font-family: 'Fraunces', Georgia, serif;
+  font-size: 18px; color: var(--ink);
+  cursor: pointer; min-width: 42px;
+  touch-action: manipulation;
+}
+.qw-um:hover { background: rgba(255,255,255,0.95); }
+.qw-um:active { background: var(--parchment-2); }
+
+.qw-reveal-link {
+  background: transparent; border: 0; padding: 4px 0;
+  color: var(--ink-soft); font: inherit; font-size: 14px;
+  text-decoration: underline; cursor: pointer;
+}
+.qw-reveal-link:hover { color: var(--accent); }
 
 @media (max-width: 520px) {
   .quiz-options { grid-template-columns: 1fr; }
+  .qw-input-row { flex-direction: column; }
+  #qw-check { width: 100%; }
+  .qw-um { padding: 10px 14px; font-size: 20px; min-width: 48px; flex: 1; }
 }
 
 /* ---------------- TOAST ---------------- */
