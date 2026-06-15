@@ -320,18 +320,44 @@
       const b = document.createElement('button');
       b.className = 'chip' + ((value === app.activeGroup) ? ' active' : '');
       b.textContent = label;
-      b.addEventListener('click', () => {
-        app.activeGroup = value;
-        app.state.lastGroup = value;
-        rebuildActiveVocab(true);
-        persistState();
-        render();
-      });
+      b.addEventListener('click', () => selectGroup(value));
       return b;
     };
     wrap.appendChild(mkChip('Tümü', null));
     groups.forEach(g => wrap.appendChild(mkChip(g, g)));
+
+    // Açılır liste
+    const sel = $('#group-select');
+    sel.innerHTML = '';
+    const allOpt = document.createElement('option');
+    allOpt.value = '__all__';
+    allOpt.textContent = `Tümü (${app.vocabCache[app.activeLevel]?.length || 0} kelime)`;
+    sel.appendChild(allOpt);
+    groups.forEach(g => {
+      const opt = document.createElement('option');
+      opt.value = g;
+      const count = (app.vocabCache[app.activeLevel] || []).filter(w => w.group === g).length;
+      opt.textContent = `${g} (${count})`;
+      sel.appendChild(opt);
+    });
+    sel.value = app.activeGroup || '__all__';
+
+    // 6'dan fazla grup varsa çipleri gizle (sadece select kalsın)
+    $('#filters').classList.toggle('many-groups', groups.length > 6);
   }
+
+  function selectGroup(value) {
+    app.activeGroup = value;
+    app.state.lastGroup = value;
+    rebuildActiveVocab(true);
+    persistState();
+    render();
+  }
+
+  $('#group-select').addEventListener('change', (e) => {
+    const v = e.target.value;
+    selectGroup(v === '__all__' ? null : v);
+  });
 
   $('#hide-known').addEventListener('change', (e) => {
     app.state.hideKnown = e.target.checked;
