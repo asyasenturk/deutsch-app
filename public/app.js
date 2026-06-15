@@ -587,9 +587,29 @@
     $('#quiz-streak').textContent = app.quiz.streak;
   }
 
+  // Yazma modu için: tr alanı gerçekten Türkçe çeviri mi?
+  // (Tip B kalıntılarını eler — tr içinde Almanca cümle parçası vs.)
+  function looksLikeValidTurkishTr(tr) {
+    if (!tr) return false;
+    const s = String(tr).trim();
+    if (!s || s.length > 80) return false;
+    // Türkçe'ye özgü karakter varsa kesin kabul
+    if (/[çğıİöşüÇĞÖŞÜ]/.test(s)) return true;
+    // Almanca'ya özgü karakter varsa kesin red
+    if (/[äöüÄÖÜß]/.test(s)) return false;
+    // Tanınan Almanca kelimeler tr'de olmamalı
+    if (/\b(ist|sind|war|haben|hat|nicht|kein|eine|ein|der|die|das|den|dem|des|von|für|mit|sich|auf|aus|nach|über|wenn|dass|aber|oder|hier|dort|sein|werden|wollen|können|müssen)\b/i.test(s)) return false;
+    // İngilizce sızıntı
+    if (/^(to |the |a |of |here:|note:)/i.test(s)) return false;
+    if (/\b(ing|tion|sion|ment|ness|ity|ous|ly|able|ible)\b/i.test(s)) return false;
+    return true;
+  }
+
   function nextQuizQuestion() {
-    const pool = (app.vocabCache[app.activeLevel] || []).filter(Boolean);
     const isType = app.state.quizInputMode === 'type';
+    let pool = (app.vocabCache[app.activeLevel] || []).filter(Boolean);
+    // Yazma modunda sadece geçerli Türkçe çevirisi olanları kullan
+    if (isType) pool = pool.filter(w => looksLikeValidTurkishTr(w.tr));
 
     if (pool.length < (isType ? 1 : 4)) {
       $('#quiz-question').textContent = isType
