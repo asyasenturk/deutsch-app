@@ -66,6 +66,7 @@
         <button class="mode-btn active" data-mode="cards">Kelime Kartları</button>
         <button class="mode-btn" data-mode="quiz">Quiz</button>
         <button class="mode-btn" data-mode="artikel">Artikel Quiz</button>
+        <button class="mode-btn" data-mode="known">⭐ Bildiklerim</button>
         <button class="mode-btn" data-mode="stats">İstatistik</button>
       </nav>
 
@@ -110,6 +111,11 @@
               <div class="card-hint">Çevirmek için karta dokun</div>
             </div>
             <div class="card-face back">
+              <button type="button" class="card-speak" id="card-speak" aria-label="Almanca telaffuzu dinle" title="Almanca telaffuz">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <path fill="currentColor" d="M3 10v4a1 1 0 0 0 1 1h3l4 3.5a1 1 0 0 0 1.65-.78V6.28A1 1 0 0 0 11 5.5L7 9H4a1 1 0 0 0-1 1Zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-8v2.07a6.5 6.5 0 0 1 0 11.86V20a8.5 8.5 0 0 0 0-16Z"/>
+                </svg>
+              </button>
               <div class="card-tr" id="card-tr"></div>
               <div class="card-ex" id="card-ex"></div>
             </div>
@@ -187,6 +193,26 @@
         <div class="quiz-feedback" id="art-feedback"></div>
       </section>
 
+      <!-- Bildiklerim modu -->
+      <section id="known-mode" class="mode-panel" hidden>
+        <div class="known-head">
+          <div class="known-search-wrap">
+            <input id="known-search" class="known-search" type="search"
+                   placeholder="Almanca veya Türkçe ara…"
+                   autocapitalize="off" autocorrect="off" spellcheck="false" />
+            <button id="known-clear" class="known-clear" type="button" hidden aria-label="Temizle">×</button>
+          </div>
+          <div class="known-meta">
+            <span id="known-count" class="known-count">0 kelime</span>
+          </div>
+        </div>
+        <div id="known-list" class="known-list" aria-live="polite"></div>
+        <div id="known-empty" class="known-empty" hidden>
+          Henüz "Biliyorum" işaretlediğin kelime yok.<br/>
+          Kartlarda <b>sağa kaydır</b> veya <b>Biliyorum</b> butonuyla ekleyebilirsin.
+        </div>
+      </section>
+
       <!-- İstatistik modu -->
       <section id="stats-mode" class="mode-panel" hidden>
         <div class="stats-grid">
@@ -223,6 +249,33 @@
     </section>
 
     <div id="toast" class="toast" hidden></div>
+
+    <!-- Kelime detay modalı -->
+    <div id="word-modal" class="word-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="wm-de">
+      <div class="word-modal-backdrop" data-wm-close></div>
+      <div class="word-modal-card" role="document">
+        <button class="word-modal-close" type="button" data-wm-close aria-label="Kapat">×</button>
+        <div class="wm-group" id="wm-group"></div>
+        <div class="wm-de-row">
+          <h3 class="wm-de" id="wm-de"></h3>
+          <button class="wm-speak" id="wm-speak" type="button" aria-label="Almanca telaffuzu dinle" title="Almanca telaffuz">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path fill="currentColor" d="M3 10v4a1 1 0 0 0 1 1h3l4 3.5a1 1 0 0 0 1.65-.78V6.28A1 1 0 0 0 11 5.5L7 9H4a1 1 0 0 0-1 1Zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-8v2.07a6.5 6.5 0 0 1 0 11.86V20a8.5 8.5 0 0 0 0-16Z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="wm-plural" id="wm-plural"></div>
+        <div class="wm-tr" id="wm-tr"></div>
+        <div class="wm-ex" id="wm-ex" hidden>
+          <div class="wm-ex-label">Örnek</div>
+          <div class="wm-ex-de" id="wm-ex-de"></div>
+          <div class="wm-ex-tr" id="wm-ex-tr"></div>
+        </div>
+        <div class="wm-actions">
+          <button class="wm-known-btn" id="wm-known-btn" type="button"></button>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="app.js"></script>
 </body>

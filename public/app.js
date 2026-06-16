@@ -230,7 +230,7 @@
   async function enterApp() {
     showApp();
     $('#hello').textContent = `Merhaba, ${app.username}`;
-    const allowedModes = new Set(['cards', 'quiz', 'artikel', 'stats']);
+    const allowedModes = new Set(['cards', 'quiz', 'artikel', 'known', 'stats']);
     app.mode = allowedModes.has(app.state.lastMode) ? app.state.lastMode : 'cards';
     setMode(app.mode, /*persist*/ false);
     $('#hide-known').checked = !!app.state.hideKnown;
@@ -284,12 +284,13 @@
     $('#cards-mode').hidden = mode !== 'cards';
     $('#quiz-mode').hidden = mode !== 'quiz';
     $('#artikel-mode').hidden = mode !== 'artikel';
+    $('#known-mode').hidden = mode !== 'known';
     $('#stats-mode').hidden = mode !== 'stats';
 
     // Bazı modlarda filtre/progress/daily bar'ı gizle
     const showFilters = mode === 'cards';
     $('#filters').hidden = !showFilters;
-    $('#progress-wrap').hidden = mode === 'stats' || mode === 'artikel';
+    $('#progress-wrap').hidden = mode === 'stats' || mode === 'artikel' || mode === 'known';
     $('#daily-bar').hidden = mode === 'stats';
 
     app.state.lastMode = mode;
@@ -297,6 +298,7 @@
     if (mode === 'quiz') startQuiz();
     if (mode === 'artikel') startArtikelQuiz();
     if (mode === 'stats') renderStats();
+    if (mode === 'known') startKnownView();
   }
 
   // -------------------------------------------------------- group filtering
@@ -975,6 +977,252 @@
   }
 
   // --------------------------------------------------------------- bootstrap
+  // ============================================================ TTS (Web Speech)
+  const tts = {
+    supported: typeof window.speechSynthesis !== 'undefined' && typeof window.SpeechSynthesisUtterance !== 'undefined',
+    voice: null,
+    voicesReady: false,
+  };
+
+  function pickGermanVoice() {
+    if (!tts.supported) return null;
+    const voices = window.speechSynthesis.getVoices() || [];
+    if (!voices.length) return null;
+    // Önce yerel/native bir Almanca ses bul
+    let v = voices.find(x => /^de(-DE)?$/i.test(x.lang) && x.localService);
+    if (!v) v = voices.find(x => /^de(-|_|$)/i.test(x.lang) && x.localService);
+    if (!v) v = voices.find(x => /^de(-|_|$)/i.test(x.lang));
+    return v || null;
+  }
+
+  if (tts.supported) {
+    // İlk seferde voices boş gelebilir, event ile beklenir
+    const refresh = () => { tts.voice = pickGermanVoice(); tts.voicesReady = true; };
+    refresh();
+    window.speechSynthesis.addEventListener?.('voiceschanged', refresh);
+  }
+
+  // Konuşmak için ses metnini hazırla: "der Mann, Männer" -> "der Mann"
+  function ttsPrepare(de) {
+    if (!de) return '';
+    let s = String(de).trim();
+    s = s.replace(/\s*\([^)]*\)/g, ''); // (Singular) gibi notlar
+    s = s.replace(/,.*$/, '');           // ", -n" gibi plural
+    return s.trim();
+  }
+
+  // text: konuşulacak metin; btn: vurgulanacak buton (opsiyonel)
+  function speak(text, btn) {
+    if (!tts.supported) { showToast('Bu tarayıcı sesi desteklemiyor.'); return; }
+    const phrase = ttsPrepare(text);
+    if (!phrase) return;
+    try { window.speechSynthesis.cancel(); } catch {}
+    const u = new SpeechSynthesisUtterance(phrase);
+    u.lang = 'de-DE';
+    u.rate = 0.85;
+    u.pitch = 1;
+    if (tts.voice) u.voice = tts.voice;
+    const setSpeakingClass = (on) => {
+      document.querySelectorAll('.card-speak, .wm-speak, .known-item-speak').forEach(b => b.classList.remove('speaking'));
+      if (on && btn) btn.classList.add('speaking');
+    };
+    u.onstart = () => setSpeakingClass(true);
+    u.onend   = () => setSpeakingClass(false);
+    u.onerror = () => setSpeakingClass(false);
+    try { window.speechSynthesis.speak(u); } catch {}
+  }
+
+  // Flashcard speak butonu — kart döndürmesin diye stopPropagation
+  $('#card-speak').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const w = currentWord();
+    if (w) speak(w.de, e.currentTarget);
+  });
+
+  // ============================================================ WORD MODAL
+  const wmEl = $('#word-modal');
+  let wmCurrent = null; // { word, level }
+
+  function openWordModal(word, level) {
+    if (!word) return;
+    wmCurrent = { word, level: level || app.activeLevel };
+    $('#wm-group').textContent = word.group || '';
+    $('#wm-de').innerHTML = renderWord(word.de);
+    // Çoğul: "der Mann, Männer" gibi ifadelerde virgül sonrasını çoğul olarak göster
+    const m = String(word.de || '').match(/,\s*(.+)$/);
+    $('#wm-plural').textContent = m ? `Çoğul: ${m[1].trim()}` : '';
+    $('#wm-tr').textContent = word.tr || '';
+    if (word.ex) {
+      $('#wm-ex').hidden = false;
+      $('#wm-ex-de').textContent = word.ex;
+      $('#wm-ex-tr').textContent = word.ex_tr || '';
+    } else {
+      $('#wm-ex').hidden = true;
+    }
+    refreshWmKnownBtn();
+    wmEl.hidden = false;
+    wmEl.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeWordModal() {
+    wmEl.hidden = true;
+    wmEl.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    wmCurrent = null;
+    try { window.speechSynthesis?.cancel(); } catch {}
+  }
+
+  function refreshWmKnownBtn() {
+    if (!wmCurrent) return;
+    const k = keyOf(wmCurrent.level, wmCurrent.word.de);
+    const isKnown = !!app.state.known[k];
+    const btn = $('#wm-known-btn');
+    btn.textContent = isKnown ? '✓ Biliyorum işaretini kaldır' : '★ Biliyorum';
+    btn.classList.toggle('unmark', isKnown);
+  }
+
+  // Modal kapatma: backdrop ve × butonu
+  wmEl.addEventListener('click', (e) => {
+    if (e.target.dataset.wmClose !== undefined ||
+        e.target.closest('[data-wm-close]')) {
+      closeWordModal();
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !wmEl.hidden) closeWordModal();
+  });
+
+  $('#wm-speak').addEventListener('click', (e) => {
+    if (!wmCurrent) return;
+    speak(wmCurrent.word.de, e.currentTarget);
+  });
+
+  $('#wm-known-btn').addEventListener('click', () => {
+    if (!wmCurrent) return;
+    const k = keyOf(wmCurrent.level, wmCurrent.word.de);
+    const isKnown = !!app.state.known[k];
+    if (isKnown) {
+      delete app.state.known[k];
+    } else {
+      app.state.known[k] = true;
+      registerStudyAction();
+      updateDailyBar();
+    }
+    persistState();
+    refreshWmKnownBtn();
+    // Bildiklerim ekranındaysak listeyi tazele
+    if (app.mode === 'known') renderKnownList();
+    // Kart ekranındaysak progress bar'ı tazele
+    if (app.mode === 'cards') renderProgress();
+  });
+
+  // ============================================================ BİLDİKLERİM
+  let knownSearchTerm = '';
+
+  function startKnownView() {
+    // Tüm seviyelerin vocab'ını ön yükle (aramada hepsi görünsün diye)
+    ensureAllVocab().then(() => {
+      $('#known-search').value = knownSearchTerm;
+      renderKnownList();
+      // mobil klavye otomatik açılmasın — focus ETMİYORUZ
+    });
+  }
+
+  async function ensureAllVocab() {
+    const levels = ['a1', 'a2', 'b1'];
+    await Promise.all(levels.map(l => ensureVocab(l)));
+  }
+
+  function collectKnownWords() {
+    const out = [];
+    for (const lvl of ['a1', 'a2', 'b1']) {
+      const list = app.vocabCache[lvl] || [];
+      for (const w of list) {
+        if (app.state.known[keyOf(lvl, w.de)]) {
+          out.push({ word: w, level: lvl });
+        }
+      }
+    }
+    return out;
+  }
+
+  function knownMatches(item, q) {
+    if (!q) return true;
+    const needle = q.toLowerCase();
+    const de = (item.word.de || '').toLowerCase();
+    const tr = (item.word.tr || '').toLowerCase();
+    return de.includes(needle) || tr.includes(needle);
+  }
+
+  function renderKnownList() {
+    const all = collectKnownWords();
+    const filtered = all.filter(it => knownMatches(it, knownSearchTerm));
+    const listEl = $('#known-list');
+    const emptyEl = $('#known-empty');
+    listEl.innerHTML = '';
+    $('#known-count').textContent =
+      knownSearchTerm
+        ? `${filtered.length} / ${all.length} kelime`
+        : `${all.length} kelime`;
+
+    if (!all.length) {
+      emptyEl.hidden = false;
+      emptyEl.innerHTML =
+        'Henüz <b>Biliyorum</b> işaretlediğin kelime yok.<br/>' +
+        'Kartlarda sağa kaydır veya <b>Biliyorum</b> butonuyla ekleyebilirsin.';
+      return;
+    }
+    if (!filtered.length) {
+      emptyEl.hidden = false;
+      emptyEl.textContent = `"${knownSearchTerm}" araması için sonuç yok.`;
+      return;
+    }
+    emptyEl.hidden = true;
+
+    const frag = document.createDocumentFragment();
+    filtered.forEach(({ word, level }) => {
+      const row = document.createElement('div');
+      row.className = 'known-item';
+      row.innerHTML = `
+        <div class="known-item-text">
+          <div class="known-item-de">${renderWord(word.de)}</div>
+          <div class="known-item-tr">${escapeHtml(word.tr || '')}</div>
+          <div class="known-item-group">${escapeHtml(level.toUpperCase())} · ${escapeHtml(word.group || '')}</div>
+        </div>
+        <button class="known-item-speak" type="button" aria-label="Telaffuzu dinle">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path fill="currentColor" d="M3 10v4a1 1 0 0 0 1 1h3l4 3.5a1 1 0 0 0 1.65-.78V6.28A1 1 0 0 0 11 5.5L7 9H4a1 1 0 0 0-1 1Zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-8v2.07a6.5 6.5 0 0 1 0 11.86V20a8.5 8.5 0 0 0 0-16Z"/>
+          </svg>
+        </button>
+      `;
+      row.addEventListener('click', (e) => {
+        // Speak butonu tıklandıysa modal açma
+        if (e.target.closest('.known-item-speak')) return;
+        openWordModal(word, level);
+      });
+      row.querySelector('.known-item-speak').addEventListener('click', (e) => {
+        e.stopPropagation();
+        speak(word.de, e.currentTarget);
+      });
+      frag.appendChild(row);
+    });
+    listEl.appendChild(frag);
+  }
+
+  $('#known-search').addEventListener('input', (e) => {
+    knownSearchTerm = e.target.value.trim();
+    $('#known-clear').hidden = !knownSearchTerm;
+    renderKnownList();
+  });
+  $('#known-clear').addEventListener('click', () => {
+    knownSearchTerm = '';
+    $('#known-search').value = '';
+    $('#known-clear').hidden = true;
+    renderKnownList();
+    $('#known-search').focus();
+  });
+
   (async function init() {
     showAuth();
     applyConfig();

@@ -421,6 +421,203 @@ button#qw-check.primary { width: auto; flex: 0 0 auto; padding: 12px 22px; }
   .qw-um { padding: 10px 14px; font-size: 20px; min-width: 48px; flex: 1; }
 }
 
+/* ---------------- SPEAK BUTTONS ---------------- */
+.card-speak {
+  position: absolute; top: 12px; right: 12px;
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.85);
+  border: 1px solid rgba(139,94,52,0.22);
+  color: var(--accent);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease;
+}
+.card-speak:hover  { background: #fff; }
+.card-speak:active { transform: scale(0.92); }
+.card-speak.speaking { background: var(--accent); color: var(--parchment); }
+
+/* ---------------- BİLDİKLERİM ---------------- */
+.known-head {
+  display: flex; align-items: center; gap: 12px;
+  flex-wrap: wrap;
+  margin: 4px 0 14px;
+}
+.known-search-wrap {
+  position: relative; flex: 1; min-width: 200px;
+}
+.known-search {
+  width: 100%;
+  background: #fffaf0;
+  border: 2px solid rgba(139,94,52,0.22);
+  border-radius: 12px;
+  padding: 12px 38px 12px 14px;
+  font: inherit; font-size: 15px; color: var(--ink);
+  outline: none;
+}
+.known-search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(139,94,52,0.15); }
+.known-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  background: rgba(139,94,52,0.12); border: 0; color: var(--ink);
+  width: 24px; height: 24px; border-radius: 50%; cursor: pointer;
+  font-size: 18px; line-height: 1; display: inline-flex; align-items: center; justify-content: center;
+}
+.known-clear:hover { background: rgba(139,94,52,0.22); }
+.known-count {
+  color: var(--ink-soft); font-size: 13px; font-variant-numeric: tabular-nums;
+}
+
+.known-list {
+  display: grid; gap: 8px;
+  /* Listenin yüksek sayıda madde için kaydırılabilir olmasına gerek yok — sayfa kaydırması yeterli */
+}
+.known-item {
+  display: flex; align-items: center; gap: 10px;
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(139,94,52,0.18);
+  border-radius: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease;
+}
+.known-item:hover { background: rgba(255,255,255,0.9); }
+.known-item:active { transform: scale(0.99); }
+.known-item-text {
+  flex: 1; min-width: 0;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.known-item-de {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 17px; color: var(--ink);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.known-item-tr {
+  color: var(--ink-soft); font-size: 13px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.known-item-group {
+  font-size: 11px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.06em;
+  margin-top: 1px;
+}
+.known-item-speak {
+  flex: 0 0 auto;
+  width: 36px; height: 36px;
+  border-radius: 50%; cursor: pointer;
+  background: rgba(255,255,255,0.7);
+  border: 1px solid rgba(139,94,52,0.22);
+  color: var(--accent);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.known-item-speak:hover  { background: #fff; }
+.known-item-speak.speaking { background: var(--accent); color: var(--parchment); }
+
+.known-empty {
+  text-align: center; color: var(--ink-soft);
+  background: rgba(255,255,255,0.4);
+  border: 1px dashed rgba(139,94,52,0.25);
+  border-radius: var(--radius);
+  padding: 28px 18px; line-height: 1.6;
+  margin-top: 12px;
+}
+
+/* ---------------- KELİME DETAY MODAL ---------------- */
+.word-modal {
+  position: fixed; inset: 0; z-index: 80;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;
+  animation: wm-in 160ms ease;
+}
+@keyframes wm-in { from { opacity: 0 } to { opacity: 1 } }
+.word-modal-backdrop {
+  position: absolute; inset: 0;
+  background: rgba(43, 35, 26, 0.45);
+  backdrop-filter: blur(2px);
+}
+.word-modal-card {
+  position: relative;
+  width: 100%; max-width: 460px;
+  background:
+    radial-gradient(800px 400px at -10% -10%, #fff8e8 0%, transparent 60%),
+    var(--parchment);
+  border-radius: var(--radius);
+  padding: 22px 22px 18px;
+  box-shadow: var(--shadow);
+  max-height: 90vh; overflow-y: auto;
+}
+.word-modal-close {
+  position: absolute; top: 10px; right: 10px;
+  width: 34px; height: 34px;
+  background: rgba(139,94,52,0.10); border: 0;
+  border-radius: 50%; cursor: pointer;
+  font-size: 22px; line-height: 1; color: var(--ink);
+}
+.word-modal-close:hover { background: rgba(139,94,52,0.22); }
+.wm-group {
+  font-size: 12px; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+.wm-de-row {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 4px;
+}
+.wm-de {
+  margin: 0; flex: 1; min-width: 0;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(22px, 5vw, 28px); font-weight: 600;
+  color: var(--ink); line-height: 1.25;
+  word-break: break-word;
+}
+.wm-speak {
+  flex: 0 0 auto;
+  width: 40px; height: 40px;
+  border-radius: 50%; cursor: pointer;
+  background: rgba(255,255,255,0.85);
+  border: 1px solid rgba(139,94,52,0.22);
+  color: var(--accent);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.wm-speak:hover  { background: #fff; }
+.wm-speak.speaking { background: var(--accent); color: var(--parchment); }
+
+.wm-plural {
+  color: var(--ink-soft); font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.wm-plural:empty { display: none; }
+.wm-tr {
+  color: var(--ink); font-size: 17px;
+  font-family: 'Fraunces', Georgia, serif;
+  margin-bottom: 14px;
+}
+.wm-ex {
+  background: rgba(255,255,255,0.55);
+  border: 1px solid rgba(139,94,52,0.18);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+.wm-ex-label {
+  font-size: 11px; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+.wm-ex-de { color: var(--ink); margin-bottom: 4px; line-height: 1.45; }
+.wm-ex-tr { color: var(--ink-soft); font-size: 14px; line-height: 1.45; }
+.wm-actions { display: flex; justify-content: flex-end; }
+.wm-known-btn {
+  padding: 9px 16px; border-radius: 10px;
+  font: inherit; font-weight: 600; cursor: pointer;
+  background: var(--success-soft); border: 1px solid var(--success);
+  color: var(--success);
+}
+.wm-known-btn.unmark { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }
+
+@media (max-width: 520px) {
+  .known-search-wrap { min-width: 100%; }
+}
+
 /* ---------------- TOAST ---------------- */
 .toast {
   position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
