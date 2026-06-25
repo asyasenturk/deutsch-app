@@ -1655,8 +1655,15 @@
       localStorage.removeItem('lastSession');
     } catch {}
 
-    const timerEl = $('#session-timer');
-    if (timerEl) timerEl.hidden = false;
+    const toggleBtn = $('#timer-toggle');
+    if (toggleBtn) {
+      toggleBtn.hidden = false;
+      toggleBtn.addEventListener('click', () => {
+        studyTimer.paused = !studyTimer.paused;
+        if (!studyTimer.paused) studyTimer.startTime = Date.now() - studyTimer.sessionSeconds * 1000;
+        renderTimerDisplay();
+      });
+    }
 
     studyTimer.tickInterval = setInterval(() => {
       if (!studyTimer.paused) {
@@ -1720,6 +1727,10 @@
     const sec = s % 60;
     const pad = (n) => String(n).padStart(2, '0');
     el.textContent = h > 0 ? `⏱ ${pad(h)}:${pad(m)}:${pad(sec)}` : `⏱ ${pad(m)}:${pad(sec)}`;
+    const icon = $('#timer-pause-icon');
+    if (icon) icon.textContent = studyTimer.paused ? '▶' : '⏸';
+    const btn = $('#timer-toggle');
+    if (btn) btn.classList.toggle('timer-paused', studyTimer.paused);
   }
 
   // ================================================================ STUDY STATS PANEL

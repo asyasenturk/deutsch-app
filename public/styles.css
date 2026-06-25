@@ -822,3 +822,22 @@ button#verb-search-btn.primary { width: auto; flex: 0 0 auto; }
 @media (max-width: 520px) {
   .ss-cards { grid-template-columns: 1fr; }
 }
+
+/* ──────────── TIMER TOGGLE BUTTON ──────────── */
+.timer-toggle {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(255,255,255,0.45);
+  border: 1px solid rgba(139,94,52,0.18);
+  border-radius: 8px; padding: 4px 9px;
+  cursor: pointer; color: var(--ink-soft);
+  font: inherit; font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  transition: background 0.15s, border-color 0.15s;
+}
+.timer-toggle:hover { background: rgba(255,255,255,0.75); }
+.timer-toggle.timer-paused {
+  background: rgba(255,220,100,0.25);
+  border-color: rgba(180,130,0,0.35);
+  color: #8a6000;
+}
+.timer-pause-icon { font-size: 11px; opacity: 0.7; }
