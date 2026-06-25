@@ -386,6 +386,8 @@ button.danger { background: var(--danger); color: #fff; border: none; padding: 1
 .qw-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(139,94,52,0.15); }
 .qw-input.correct { border-color: var(--success); background: var(--success-soft); box-shadow: none; }
 .qw-input.wrong   { border-color: var(--danger);  background: var(--danger-soft);  box-shadow: none; }
+.qw-input.warn    { border-color: #c87c00; background: #fff8e0; box-shadow: none; }
+.quiz-feedback.warn { color: #a86000; font-weight: 600; }
 
 /* .primary'nin global width:100% kuralını ez — input ile yan yana dursun */
 button#qw-check.primary { width: auto; flex: 0 0 auto; padding: 12px 22px; }

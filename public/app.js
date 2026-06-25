@@ -784,17 +784,37 @@
     return v;
   }
 
-  function isWriteAnswerCorrect(userInput, correctDe) {
-    const u = normalizeAnswer(userInput);
-    if (!u) return false;
-    const c = normalizeAnswer(correctDe);
-    if (u === c) return true;
-    const cNoArt = c.replace(/^(der|die|das)\s+/, '');
-    const uNoArt = u.replace(/^(der|die|das)\s+/, '');
-    if (uNoArt === cNoArt) return true;
-    if (u === cNoArt) return true;
-    if (uNoArt === c) return true;
-    return false;
+  // Returns: 'correct' | 'art_missing' | 'art_wrong' | 'wrong'
+  function checkWriteAnswer(userInput, correctDe) {
+    const ART_RE = /^(der|die|das)\s+/i;
+    const norm = (s) => {
+      let v = String(s || '').trim().replace(/\s*\([^)]*\)/g, '').replace(/,.*$/, '').trim().toLowerCase();
+      return asciizeUmlaut(v).replace(/\s+/g, ' ');
+    };
+    const u = norm(userInput);
+    if (!u) return 'wrong';
+    const c = norm(correctDe);
+    const correctHasArt = ART_RE.test(c);
+
+    if (!correctHasArt) {
+      // Artikelsiz kelime — eski fuzzy mantığı
+      if (u === c) return 'correct';
+      const cBase = c.replace(ART_RE, '');
+      const uBase = u.replace(ART_RE, '');
+      return (uBase === cBase || u === cBase || uBase === c) ? 'correct' : 'wrong';
+    }
+
+    // Artikelli isim
+    const correctArt  = c.match(ART_RE)[1].toLowerCase();
+    const correctWord = c.replace(ART_RE, '');
+    const userHasArt  = ART_RE.test(u);
+    const userArt     = userHasArt ? u.match(ART_RE)[1].toLowerCase() : null;
+    const userWord    = userHasArt ? u.replace(ART_RE, '') : u;
+
+    if (u === c) return 'correct';                                 // tam doğru
+    if (!userHasArt && userWord === correctWord) return 'art_missing'; // kelime doğru, artikel yok
+    if (userHasArt && userArt !== correctArt && userWord === correctWord) return 'art_wrong'; // yanlış artikel
+    return 'wrong';
   }
 
   // -------- Yazma modu: input & butonlar
@@ -840,30 +860,40 @@
     if (!correct) return;
     const userVal = qwInput.value;
     if (!userVal.trim()) { qwInput.focus(); return; }
-    const ok = isWriteAnswerCorrect(userVal, correct.de);
-    finalizeWriteAnswer(ok, correct);
+    finalizeWriteAnswer(checkWriteAnswer(userVal, correct.de), correct);
   }
 
   function onWriteReveal() {
     if (!app.quiz.awaiting) return;
     const correct = app.quiz.currentCorrect;
     if (!correct) return;
-    finalizeWriteAnswer(false, correct, /*revealed*/ true);
+    finalizeWriteAnswer('wrong', correct, /*revealed*/ true);
   }
 
-  function finalizeWriteAnswer(isCorrect, correct, revealed = false) {
+  function finalizeWriteAnswer(result, correct, revealed = false) {
     app.quiz.awaiting = false;
     qwInput.disabled = true;
     $('#qw-check').disabled = true;
     $('#qw-reveal').hidden = true;
     const fb = $('#quiz-feedback');
+    const cleanDe = correct.de.replace(/,.*$/, '').trim();
 
-    if (isCorrect) {
+    if (result === 'correct') {
       qwInput.classList.add('correct');
       app.quiz.score += 1;
       app.quiz.streak += 1;
       fb.className = 'quiz-feedback ok';
       fb.innerHTML = `Richtig! ✓ <span class="qw-fb-ex">${escapeHtml(correct.ex || '')}</span>`;
+    } else if (result === 'art_missing') {
+      qwInput.classList.add('warn');
+      app.quiz.streak = 0;
+      fb.className = 'quiz-feedback warn';
+      fb.innerHTML = `Artikel eksik! Doğrusu: <b>${renderWord(cleanDe)}</b>`;
+    } else if (result === 'art_wrong') {
+      qwInput.classList.add('wrong');
+      app.quiz.streak = 0;
+      fb.className = 'quiz-feedback bad';
+      fb.innerHTML = `Artikel yanlış! Doğrusu: <b>${renderWord(cleanDe)}</b>`;
     } else {
       qwInput.classList.add('wrong');
       app.quiz.streak = 0;
