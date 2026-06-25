@@ -16,6 +16,9 @@ const {
   saveState,
   getEgProgress,
   setEgProgress,
+  upsertStudySession,
+  getStudyToday,
+  getStudyWeekly,
 } = require('./db');
 
 const PORT = parseInt(process.env.PORT, 10) || 3000;
@@ -323,6 +326,39 @@ app.post('/api/eg/progress', requireAuth, (req, res) => {
   } catch (err) {
     console.error('eg progress save error:', err);
     res.status(500).json({ error: 'Progress kaydedilemedi.' });
+  }
+});
+
+// ─── STUDY SESSION ENDPOINTS ─────────────────────────────────────────────────
+
+function todayISO() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+app.post('/api/session/ping', requireAuth, (req, res) => {
+  const dur   = Math.max(0, Math.min(300, parseInt(req.body?.duration_seconds, 10) || 0));
+  const words = Math.max(0, Math.min(500, parseInt(req.body?.words_learned,    10) || 0));
+  if (dur === 0 && words === 0) return res.json({ ok: true });
+  try {
+    upsertStudySession(req.session.userId, todayISO(), dur, words);
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('session ping error:', err);
+    res.status(500).json({ error: 'Kayıt hatası.' });
+  }
+});
+
+app.get('/api/session/stats', requireAuth, (req, res) => {
+  const today = todayISO();
+  const d = new Date(); d.setDate(d.getDate() - 6);
+  const weekStart = d.toISOString().slice(0, 10);
+  try {
+    const todayRow = getStudyToday(req.session.userId, today) || { duration_seconds: 0, words_learned: 0 };
+    const weekly   = getStudyWeekly(req.session.userId, weekStart);
+    res.json({ today_seconds: todayRow.duration_seconds, today_words: todayRow.words_learned, weekly });
+  } catch (err) {
+    console.error('session stats error:', err);
+    res.status(500).json({ error: 'İstatistik alınamadı.' });
   }
 });
 

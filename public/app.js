@@ -121,7 +121,7 @@
   // ─── source / EG / verb state ──────────────────────────────────────────────
   let activeSource = (() => {
     const v = localStorage.getItem('activeTab');
-    return (v === 'einfach' || v === 'verb') ? v : 'goethe';
+    return (v === 'einfach' || v === 'verb' || v === 'studystats') ? v : 'goethe';
   })();
   const egState = {
     meta: null,
@@ -247,6 +247,7 @@
     showApp();
     $('#hello').textContent = `Merhaba, ${app.username}`;
     initSourceTabs();
+    initStudyTimer();
     const allowedModes = new Set(['cards', 'quiz', 'artikel', 'known', 'stats']);
     app.mode = allowedModes.has(app.state.lastMode) ? app.state.lastMode : 'cards';
     setMode(app.mode, /*persist*/ false);
@@ -482,6 +483,7 @@
       if (isKnown) {
         egState.known.add(wk);
         registerStudyAction();
+        studyTimer.sessionWords++;
         animateSwipe('right');
       } else {
         egState.known.delete(wk);
@@ -509,7 +511,7 @@
     const wasKnown = !!app.state.known[k];
     if (isKnown) {
       app.state.known[k] = true;
-      if (!wasKnown) registerStudyAction();
+      if (!wasKnown) { registerStudyAction(); studyTimer.sessionWords++; }
       animateSwipe('right');
     } else {
       delete app.state.known[k];
@@ -1310,28 +1312,31 @@
 
   // ================================================================ VISIBILITY
   function applyVisibility() {
-    const mode = app.mode;
-    const isGoethe  = activeSource === 'goethe';
-    const isEinfach = activeSource === 'einfach';
-    const isVerb    = activeSource === 'verb';
-    const inLkt     = egState.inLektion;
+    const mode        = app.mode;
+    const isGoethe    = activeSource === 'goethe';
+    const isEinfach   = activeSource === 'einfach';
+    const isVerb      = activeSource === 'verb';
+    const isStudyStat = activeSource === 'studystats';
+    const inLkt       = egState.inLektion;
 
-    $('.level-switch').hidden = !isGoethe;
-    $('.mode-switch').hidden  = isVerb;
-    $('#daily-bar').hidden    = isVerb || mode === 'stats';
-    $('#filters').hidden      = !(isGoethe && mode === 'cards');
-    $('#progress-wrap').hidden = isVerb || mode === 'stats' || mode === 'artikel' || mode === 'known';
+    const hideAll = isVerb || isStudyStat;
+    $('.level-switch').hidden  = !isGoethe;
+    $('.mode-switch').hidden   = hideAll;
+    $('#daily-bar').hidden     = hideAll || mode === 'stats';
+    $('#filters').hidden       = !(isGoethe && mode === 'cards');
+    $('#progress-wrap').hidden = hideAll || mode === 'stats' || mode === 'artikel' || mode === 'known';
 
-    $('#eg-panel').hidden    = !(isEinfach && !inLkt);
-    $('#eg-back-btn').hidden = !(isEinfach && inLkt);
-    $('#verb-panel').hidden  = !isVerb;
+    $('#eg-panel').hidden         = !(isEinfach && !inLkt);
+    $('#eg-back-btn').hidden      = !(isEinfach && inLkt);
+    $('#verb-panel').hidden        = !isVerb;
+    $('#study-stats-panel').hidden = !isStudyStat;
 
     const showContent = isGoethe || (isEinfach && inLkt);
-    $('#cards-mode').hidden  = !showContent || mode !== 'cards';
-    $('#quiz-mode').hidden   = !showContent || mode !== 'quiz';
-    $('#artikel-mode').hidden= !showContent || mode !== 'artikel';
-    $('#known-mode').hidden  = !showContent || mode !== 'known';
-    $('#stats-mode').hidden  = !showContent || mode !== 'stats';
+    $('#cards-mode').hidden   = !showContent || mode !== 'cards';
+    $('#quiz-mode').hidden    = !showContent || mode !== 'quiz';
+    $('#artikel-mode').hidden = !showContent || mode !== 'artikel';
+    $('#known-mode').hidden   = !showContent || mode !== 'known';
+    $('#stats-mode').hidden   = !showContent || mode !== 'stats';
   }
 
   function isWordKnown(w) {
@@ -1362,6 +1367,8 @@
       if (!egState.inLektion) loadEgMeta();
     } else if (src === 'verb') {
       renderRecentVerbs();
+    } else if (src === 'studystats') {
+      renderStudyStatsPanel();
     }
   }
 
@@ -1617,4 +1624,164 @@
       showAuth();
     }
   })();
+
+  // ================================================================ STUDY TIMER
+  const studyTimer = {
+    startTime: 0,
+    sessionSeconds: 0,
+    sessionWords: 0,
+    lastPingWords: 0,
+    pingInterval: null,
+    tickInterval: null,
+    paused: false,
+  };
+
+  function initStudyTimer() {
+    studyTimer.startTime    = Date.now();
+    studyTimer.sessionSeconds = 0;
+    studyTimer.sessionWords = 0;
+    studyTimer.lastPingWords = 0;
+    studyTimer.paused = false;
+
+    // Son oturum toast'u
+    try {
+      const ls = JSON.parse(localStorage.getItem('lastSession') || 'null');
+      if (ls && ls.ts && (Date.now() - ls.ts) < 10 * 60 * 1000 && ls.duration_seconds > 10) {
+        const m = Math.floor(ls.duration_seconds / 60);
+        const s = ls.duration_seconds % 60;
+        const timeStr = m > 0 ? `${m} dk ${s} sn` : `${s} sn`;
+        showToast(`Son oturum: ${timeStr} — ${ls.words_learned} kelime 🎉`, 4000);
+      }
+      localStorage.removeItem('lastSession');
+    } catch {}
+
+    const timerEl = $('#session-timer');
+    if (timerEl) timerEl.hidden = false;
+
+    studyTimer.tickInterval = setInterval(() => {
+      if (!studyTimer.paused) {
+        studyTimer.sessionSeconds++;
+        renderTimerDisplay();
+      }
+    }, 1000);
+
+    studyTimer.pingInterval = setInterval(() => {
+      if (studyTimer.paused) return;
+      const pendingWords = studyTimer.sessionWords - studyTimer.lastPingWords;
+      studyTimer.lastPingWords = studyTimer.sessionWords;
+      sendStudyPing(30, pendingWords);
+    }, 30000);
+
+    document.addEventListener('visibilitychange', onStudyVisibilityChange);
+    window.addEventListener('beforeunload', saveLastSession);
+  }
+
+  function sendStudyPing(secs, words) {
+    if (secs <= 0 && words <= 0) return;
+    api('/api/session/ping', {
+      method: 'POST',
+      body: JSON.stringify({ duration_seconds: secs, words_learned: words }),
+    }).catch(() => {});
+  }
+
+  function saveLastSession() {
+    try {
+      localStorage.setItem('lastSession', JSON.stringify({
+        duration_seconds: studyTimer.sessionSeconds,
+        words_learned: studyTimer.sessionWords,
+        date: new Date().toISOString().slice(0, 10),
+        ts: Date.now(),
+      }));
+    } catch {}
+  }
+
+  function onStudyVisibilityChange() {
+    if (document.hidden) {
+      studyTimer.paused = true;
+      // Kalan süreyi gönder
+      const elapsed = Math.floor((Date.now() - studyTimer.startTime) / 1000);
+      const remainder = elapsed % 30;
+      const pendingWords = studyTimer.sessionWords - studyTimer.lastPingWords;
+      studyTimer.lastPingWords = studyTimer.sessionWords;
+      if (remainder > 0 || pendingWords > 0) sendStudyPing(remainder, pendingWords);
+      saveLastSession();
+    } else {
+      studyTimer.paused = false;
+      studyTimer.startTime = Date.now() - studyTimer.sessionSeconds * 1000;
+    }
+  }
+
+  function renderTimerDisplay() {
+    const el = $('#session-timer');
+    if (!el) return;
+    const s = studyTimer.sessionSeconds;
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = s % 60;
+    const pad = (n) => String(n).padStart(2, '0');
+    el.textContent = h > 0 ? `⏱ ${pad(h)}:${pad(m)}:${pad(sec)}` : `⏱ ${pad(m)}:${pad(sec)}`;
+  }
+
+  // ================================================================ STUDY STATS PANEL
+  async function renderStudyStatsPanel() {
+    const wrap = $('#study-stats-content');
+    if (!wrap) return;
+    wrap.innerHTML = '<div class="ss-loading">Yükleniyor…</div>';
+    let data;
+    try {
+      data = await api('/api/session/stats');
+    } catch {
+      wrap.innerHTML = '<div class="ss-error">İstatistikler yüklenemedi.</div>';
+      return;
+    }
+
+    const todayM   = Math.floor(data.today_seconds / 60);
+    const todaySec = data.today_seconds % 60;
+    const sesM     = Math.floor(studyTimer.sessionSeconds / 60);
+    const sesSec   = studyTimer.sessionSeconds % 60;
+
+    // Son 7 günü doldur (eksik günleri 0 ile tamamla)
+    const TR_DAYS = ['Paz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt'];
+    const weekMap = {};
+    (data.weekly || []).forEach(r => { weekMap[r.date] = r; });
+    const days = [];
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(); d.setDate(d.getDate() - i);
+      const iso  = d.toISOString().slice(0, 10);
+      const name = TR_DAYS[d.getDay()];
+      const row  = weekMap[iso] || { duration_seconds: 0, words_learned: 0 };
+      days.push({ iso, name, secs: row.duration_seconds, words: row.words_learned });
+    }
+    const maxSecs = Math.max(...days.map(d => d.secs), 1);
+
+    const bars = days.map(d => {
+      const pct  = Math.round((d.secs / maxSecs) * 100);
+      const mins = Math.floor(d.secs / 60);
+      return `
+        <div class="ss-bar-row">
+          <span class="ss-day">${escapeHtml(d.name)}</span>
+          <div class="ss-bar-wrap">
+            <div class="ss-bar" style="width:${pct}%"></div>
+          </div>
+          <span class="ss-bar-label">${mins > 0 ? mins + ' dk' : '—'}</span>
+        </div>`;
+    }).join('');
+
+    wrap.innerHTML = `
+      <h2 class="ss-title">📊 Çalışma İstatistikleri</h2>
+      <div class="ss-cards">
+        <div class="ss-card">
+          <div class="ss-card-label">Bugün</div>
+          <div class="ss-card-val">⏱ ${todayM > 0 ? todayM + ' dk ' + todaySec + ' sn' : todaySec + ' sn'}</div>
+          <div class="ss-card-sub">📝 ${data.today_words} kelime öğrenildi</div>
+        </div>
+        <div class="ss-card">
+          <div class="ss-card-label">Bu Oturum</div>
+          <div class="ss-card-val">⏱ ${sesM > 0 ? sesM + ' dk ' + sesSec + ' sn' : sesSec + ' sn'}</div>
+          <div class="ss-card-sub">📝 ${studyTimer.sessionWords} kelime öğrenildi</div>
+        </div>
+      </div>
+      <h3 class="ss-week-title">Son 7 Gün</h3>
+      <div class="ss-bars">${bars}</div>`;
+  }
 })();

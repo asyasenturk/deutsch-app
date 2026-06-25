@@ -32,6 +32,15 @@ db.exec(`
     last_seen INTEGER,
     PRIMARY KEY (user_id, word_key)
   );
+
+  CREATE TABLE IF NOT EXISTS study_sessions (
+    id               INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id          INTEGER NOT NULL,
+    date             TEXT    NOT NULL,
+    duration_seconds INTEGER DEFAULT 0,
+    words_learned    INTEGER DEFAULT 0,
+    UNIQUE(user_id, date)
+  );
 `);
 
 const stmts = {
@@ -67,6 +76,19 @@ const stmts = {
       known = excluded.known,
       last_seen = excluded.last_seen
   `),
+  upsertStudySession: db.prepare(`
+    INSERT INTO study_sessions (user_id, date, duration_seconds, words_learned)
+    VALUES (?, ?, ?, ?)
+    ON CONFLICT(user_id, date) DO UPDATE SET
+      duration_seconds = duration_seconds + excluded.duration_seconds,
+      words_learned    = words_learned    + excluded.words_learned
+  `),
+  getStudyToday: db.prepare(
+    'SELECT duration_seconds, words_learned FROM study_sessions WHERE user_id = ? AND date = ?'
+  ),
+  getStudyWeekly: db.prepare(
+    'SELECT date, duration_seconds, words_learned FROM study_sessions WHERE user_id = ? AND date >= ? ORDER BY date ASC'
+  ),
 };
 
 function createUser(username, passwordHash) {
@@ -108,6 +130,18 @@ function setEgProgress(userId, wordKey, known) {
   stmts.setEgProgress.run(userId, wordKey, known ? 1 : 0);
 }
 
+function upsertStudySession(userId, date, durSec, words) {
+  stmts.upsertStudySession.run(userId, date, durSec, words);
+}
+
+function getStudyToday(userId, date) {
+  return stmts.getStudyToday.get(userId, date);
+}
+
+function getStudyWeekly(userId, fromDate) {
+  return stmts.getStudyWeekly.all(userId, fromDate);
+}
+
 module.exports = {
   db,
   DB_PATH,
@@ -118,4 +152,7 @@ module.exports = {
   saveState,
   getEgProgress,
   setEgProgress,
+  upsertStudySession,
+  getStudyToday,
+  getStudyWeekly,
 };

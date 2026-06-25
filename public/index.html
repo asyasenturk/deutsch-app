@@ -58,6 +58,7 @@
         </div>
         <div class="topbar-right">
           <span class="hello" id="hello"></span>
+          <span class="session-timer" id="session-timer" hidden></span>
           <button id="logout-btn" class="ghost">Çıkış</button>
         </div>
       </header>
@@ -66,6 +67,7 @@
         <button class="src-tab active" data-src="goethe" role="tab">📚 Goethe</button>
         <button class="src-tab" data-src="einfach" role="tab">📖 Telc</button>
         <button class="src-tab" data-src="verb" role="tab">🔤 Fiil Çekimi</button>
+        <button class="src-tab" data-src="studystats" role="tab">📊 İstatistik</button>
       </nav>
 
       <nav class="mode-switch" aria-label="Mod">
@@ -266,6 +268,11 @@
             <input type="number" id="goal-input" min="1" max="200" value="10" style="width:80px" />
           </label>
         </div>
+      </section>
+
+      <!-- Çalışma İstatistikleri -->
+      <section id="study-stats-panel" hidden>
+        <div id="study-stats-content"></div>
       </section>
 
       <!-- Fiil Çekimi -->
