@@ -1,0 +1,4181 @@
+[
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Abend",
+    "plural": "Abende",
+    "tr": "akşam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "alles",
+    "plural": null,
+    "tr": "tümü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "antworten (Sie antworten)",
+    "plural": null,
+    "tr": "cevap vermek (cevap veriyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "auch",
+    "plural": null,
+    "tr": "dahi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "auf",
+    "plural": null,
+    "tr": "üzerinde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "aus",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Aussage",
+    "plural": "Aussagen",
+    "tr": "beyan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "bisschen",
+    "plural": null,
+    "tr": "biraz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "bitte",
+    "plural": null,
+    "tr": "lütfen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "danke",
+    "plural": null,
+    "tr": "teşekkürler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "dann",
+    "plural": null,
+    "tr": "o zaman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "das",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "Deutsch",
+    "plural": null,
+    "tr": "almanca",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Dialog",
+    "plural": "Dialoge",
+    "tr": "diyalog",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "dir",
+    "plural": null,
+    "tr": "sana",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "du",
+    "plural": null,
+    "tr": "sen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "ein, eine",
+    "plural": null,
+    "tr": "bir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Entschuldigung",
+    "plural": null,
+    "tr": "özür",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "er",
+    "plural": null,
+    "tr": "o",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "es",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Form",
+    "plural": "Formen",
+    "tr": "form",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Frage",
+    "plural": "Fragen",
+    "tr": "soru",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "fragen (Sie fragen)",
+    "plural": null,
+    "tr": "sormak (soruyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Frau",
+    "plural": "Frauen",
+    "tr": "kadın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "ganz",
+    "plural": null,
+    "tr": "tam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "gehen (es geht)",
+    "plural": null,
+    "tr": "gitmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Grammatik",
+    "plural": null,
+    "tr": "gramer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "gut",
+    "plural": null,
+    "tr": "iyi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "hallo",
+    "plural": null,
+    "tr": "merhaba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "heißen",
+    "plural": null,
+    "tr": "adı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "(ich heiße - du heißt - er heißt)",
+    "plural": null,
+    "tr": "(adım - adın - adı)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Herr",
+    "plural": "Herren",
+    "tr": "bay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "hören (Sie hören)",
+    "plural": null,
+    "tr": "işitmek (işitiyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "ich",
+    "plural": null,
+    "tr": "ben",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "Ihnen",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "ihr",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "im",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "ja",
+    "plural": null,
+    "tr": "evet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "klar",
+    "plural": null,
+    "tr": "açık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "kommen",
+    "plural": null,
+    "tr": "gelmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "(ich komme - du kommst - er kommt)",
+    "plural": null,
+    "tr": "(geliyorum - geliyorsun - geliyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Kurs",
+    "plural": "Kurse",
+    "tr": "kurs",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Kursteilnehmer",
+    "plural": "Kursteilnehmer",
+    "tr": "kursiyer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Kursteilnehmerin",
+    "plural": "Kursteilnehmerinnen",
+    "tr": "kursiyer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "das Land",
+    "plural": "Länder",
+    "tr": "ülke",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "lesen (Sie lesen)",
+    "plural": null,
+    "tr": "okumak (okuyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Mann",
+    "plural": "Männer",
+    "tr": "erkek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "mein, meine",
+    "plural": null,
+    "tr": "benim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "mit",
+    "plural": null,
+    "tr": "ile",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "morgen",
+    "plural": null,
+    "tr": "yarın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Nacht",
+    "plural": "Nächte",
+    "tr": "gece",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Name",
+    "plural": "Namen",
+    "tr": "İsim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "nein",
+    "plural": null,
+    "tr": "hayır",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "neu",
+    "plural": null,
+    "tr": "yeni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "nicht",
+    "plural": null,
+    "tr": "değil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "oder",
+    "plural": null,
+    "tr": "veya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Person",
+    "plural": "Personen",
+    "tr": "kişi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "richtig",
+    "plural": null,
+    "tr": "doğru",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Satz",
+    "plural": "Sätze",
+    "tr": "cümle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "schreiben (Sie schreiben)",
+    "plural": null,
+    "tr": "yazmak (yazıyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "sehr",
+    "plural": null,
+    "tr": "çok",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "sein",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "",
+    "plural": null,
+    "tr": "olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "(ich bin - du bist - er ist - sie/Sie",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "sind)",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "sie",
+    "plural": null,
+    "tr": "o",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "Sie",
+    "plural": null,
+    "tr": "Siz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "so",
+    "plural": null,
+    "tr": "böyle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "die Sprache",
+    "plural": "Sprachen",
+    "tr": "dil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "sprechen",
+    "plural": null,
+    "tr": "konuşmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "(ich spreche - du sprichst - er spricht)",
+    "plural": null,
+    "tr": "(konuşuyorum - konuşuyorsun - konuşuyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "supergut",
+    "plural": null,
+    "tr": "süper iyi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "der Tag",
+    "plural": "Tage",
+    "tr": "gün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "Tschüss",
+    "plural": null,
+    "tr": "güle güle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "und",
+    "plural": null,
+    "tr": "ve",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "was",
+    "plural": null,
+    "tr": "ne",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "welche",
+    "plural": null,
+    "tr": "hangi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "wer",
+    "plural": null,
+    "tr": "kim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "das Wiedersehen",
+    "plural": null,
+    "tr": "hoşça kal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "wie",
+    "plural": null,
+    "tr": "nasıl",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "wissen (ich weiß - du weißt - er weiß)",
+    "plural": null,
+    "tr": "bilmek (biliyorum - biliyorsun - biliyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "wo",
+    "plural": null,
+    "tr": "nerede",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "woher",
+    "plural": null,
+    "tr": "nereden",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Hallo! Wie geht‘s?",
+    "de": "das Wort",
+    "plural": "Wörter",
+    "tr": "kelime",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "aber",
+    "plural": null,
+    "tr": "ama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Adresse",
+    "plural": "Adressen",
+    "tr": "adres",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "alt",
+    "plural": null,
+    "tr": "eski",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "anmelden",
+    "plural": null,
+    "tr": "bildirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Anmeldung",
+    "plural": null,
+    "tr": "bildiri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "arbeiten (Sie arbeiten)",
+    "plural": null,
+    "tr": "çalışmak (çalışıyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "das Bild",
+    "plural": "Bilder",
+    "tr": "resim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Bruder",
+    "plural": "Brüder",
+    "tr": "erkek kardeş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "buchstabieren",
+    "plural": null,
+    "tr": "hecelemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "dein, deine",
+    "plural": null,
+    "tr": "senin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "einmal",
+    "plural": null,
+    "tr": "bir kez",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Eltern (Pl.)",
+    "plural": null,
+    "tr": "ebeveynler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "falsch",
+    "plural": null,
+    "tr": "yanlış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Familie",
+    "plural": "Familien",
+    "tr": "aile",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Familienname",
+    "plural": "Familiennamen",
+    "tr": "soyadı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Familienstand",
+    "plural": null,
+    "tr": "medeni hal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "das Formular",
+    "plural": "Formulare",
+    "tr": "form",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "geschieden",
+    "plural": null,
+    "tr": "boşanmış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Geschwister (Pl.)",
+    "plural": null,
+    "tr": "kardeşler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "haben (ich habe - du hast - er hat)",
+    "plural": null,
+    "tr": "sahip olmak (sahibim - sahipsin - sahip)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Handynummer",
+    "plural": "Handynummern",
+    "tr": "cep telefonu numarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Hausnummer",
+    "plural": "Hausnummern",
+    "tr": "bina numarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "das Heimatland",
+    "plural": "Heimatländer",
+    "tr": "anavatan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "hier",
+    "plural": null,
+    "tr": "burada",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "Ihr, Ihre",
+    "plural": null,
+    "tr": "sizin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "in",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Information",
+    "plural": "Informationen",
+    "tr": "danışma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "das Jahr",
+    "plural": "Jahre",
+    "tr": "yıl",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "jetzt",
+    "plural": null,
+    "tr": "şimdi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "kein, keine",
+    "plural": null,
+    "tr": "hiçbiri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "das Kind",
+    "plural": "Kinder",
+    "tr": "çocuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Kindergarten",
+    "plural": "Kindergärten",
+    "tr": "kreş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Kontakt",
+    "plural": "Kontakte",
+    "tr": "İlişki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "leben (ich lebe - du lebst - er lebt)",
+    "plural": null,
+    "tr": "yaşamak (yaşıyorum - yaşıyorsun - yaşıyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "ledig",
+    "plural": null,
+    "tr": "bekar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die E-Mail",
+    "plural": "E-Mails",
+    "tr": "E-posta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "möchten (Sie möchten)",
+    "plural": null,
+    "tr": "istemek (istiyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Mutter",
+    "plural": "Mütter",
+    "tr": "anne",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "nach",
+    "plural": null,
+    "tr": "sonra",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Nachname",
+    "plural": "Nachnamen",
+    "tr": "soyadı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "noch",
+    "plural": null,
+    "tr": "daha",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Postleitzahl",
+    "plural": "Postleitzahlen",
+    "tr": "posta kodu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Schwester",
+    "plural": "Schwestern",
+    "tr": "kız kardeş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Schwägerin",
+    "plural": null,
+    "tr": "baldız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Schwiegertochter",
+    "plural": null,
+    "tr": "gelin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Schwiegervater",
+    "plural": null,
+    "tr": "kayınpeder",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Sohn",
+    "plural": "Söhne",
+    "tr": "erkek çocuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Straße",
+    "plural": "Straßen",
+    "tr": "sokak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Telefonnummer",
+    "plural": "Telefonnummern",
+    "tr": "telefon numarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Tochter",
+    "plural": "Töchter",
+    "tr": "kız çocuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "über",
+    "plural": null,
+    "tr": "üzerinde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Vater",
+    "plural": "Väter",
+    "tr": "baba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "vergleichen (Sie vergleichen)",
+    "plural": null,
+    "tr": "karşılaştırmak (karşılaştırıyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "verheiratet",
+    "plural": null,
+    "tr": "evli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "verwitwet",
+    "plural": null,
+    "tr": "dul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "viel, viele",
+    "plural": null,
+    "tr": "çok",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Vorname",
+    "plural": "Vornamen",
+    "tr": "ön adı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "vorstellen",
+    "plural": null,
+    "tr": "takdim etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "welcher, welche, welches",
+    "plural": null,
+    "tr": "hangi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "willkommen",
+    "plural": null,
+    "tr": "hoş geldiniz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "wir",
+    "plural": null,
+    "tr": "biz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "wohnen",
+    "plural": null,
+    "tr": "oturmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "(ich wohne - du wohnst - er wohnt)",
+    "plural": null,
+    "tr": "(oturuyorum - oturuyorsun - oturuyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "der Wohnort",
+    "plural": null,
+    "tr": "İkamet yeri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "die Zahl",
+    "plural": "Zahlen",
+    "tr": "sayı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Meine Familie und ich",
+    "de": "zu",
+    "plural": null,
+    "tr": "kapalı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "also",
+    "plural": null,
+    "tr": "yani",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "an",
+    "plural": null,
+    "tr": "tarihinde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "andere",
+    "plural": null,
+    "tr": "diğer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "benutzen (Sie benutzen)",
+    "plural": null,
+    "tr": "kullanmak (kullanıyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Blatt",
+    "plural": "Blätter",
+    "tr": "sayfa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Bleistift",
+    "plural": "Bleistifte",
+    "tr": "kurşun kalem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Buch",
+    "plural": "Bücher",
+    "tr": "kitap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "da",
+    "plural": null,
+    "tr": "orada",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Deutschkurs",
+    "plural": null,
+    "tr": "almanca kursu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Dienstag",
+    "plural": null,
+    "tr": "salı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "doch",
+    "plural": null,
+    "tr": "yine de",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Donnerstag",
+    "plural": null,
+    "tr": "perşembe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "endlich",
+    "plural": null,
+    "tr": "nihayet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "erklären",
+    "plural": null,
+    "tr": "açıklamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "(ich erkläre - du erklärst - er erklärt)",
+    "plural": null,
+    "tr": "(açıklıyorum - açıklıyorsun - açıklıyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "erzählen (Sie erzählen)",
+    "plural": null,
+    "tr": "anlatmak (anlatıyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Familienfoto",
+    "plural": null,
+    "tr": "aile fotoğrafı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Feiertag",
+    "plural": "Feiertage",
+    "tr": "tatil günü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Fenster",
+    "plural": null,
+    "tr": "pencere",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Foto",
+    "plural": null,
+    "tr": "fotoğraf",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "fragen (ich frage - du fragst - er fragt)",
+    "plural": null,
+    "tr": "sormak (soruyorum - soruyorsun - soruyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Freitag",
+    "plural": null,
+    "tr": "cuma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Freund",
+    "plural": "Freunde",
+    "tr": "arkadaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "für",
+    "plural": null,
+    "tr": "için",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "genau",
+    "plural": null,
+    "tr": "tam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "gestern",
+    "plural": null,
+    "tr": "dün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "groß",
+    "plural": null,
+    "tr": "büyük",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Gruß",
+    "plural": "Grüße",
+    "tr": "selam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Hausaufgabe",
+    "plural": "Hausaufgaben",
+    "tr": "ev ödevi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Heft",
+    "plural": "Hefte",
+    "tr": "defter",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "heute",
+    "plural": null,
+    "tr": "bugün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "ihr",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "immer",
+    "plural": null,
+    "tr": "hep",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Karte",
+    "plural": "Karten",
+    "tr": "harita",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "klein",
+    "plural": null,
+    "tr": "küçük",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "knifflig",
+    "plural": null,
+    "tr": "aldatıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Kugelschreiber (Kuli)",
+    "plural": "Kugelschreiber",
+    "tr": "tükenmez kalem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Kursbuch",
+    "plural": null,
+    "tr": "kurs defteri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Kursraum",
+    "plural": null,
+    "tr": "kurs odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Lampe",
+    "plural": "Lampen",
+    "tr": "lamba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Landkarte",
+    "plural": "Landkarten",
+    "tr": "harita",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "langsam",
+    "plural": null,
+    "tr": "yavaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Lehrer",
+    "plural": "Lehrer",
+    "tr": "öğretmen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Lehrerin",
+    "plural": "Lehrerinnen",
+    "tr": "öğretmen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "lernen (ich lerne - du lernst - er",
+    "plural": "lernt)",
+    "tr": "öğrenmek (öğreniyorum - öğreniyorsun - öğreniyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "lesen (ich lese- du liest - er liest",
+    "plural": "- ihr",
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "",
+    "plural": null,
+    "tr": "okumak (okuyorum - okuyorsun - okuyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "lest)",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "liebe, lieber",
+    "plural": null,
+    "tr": "sevgili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Liste",
+    "plural": "Listen",
+    "tr": "liste",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "machen",
+    "plural": null,
+    "tr": "yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "(ich mache - du machst - er macht)",
+    "plural": null,
+    "tr": "(yapıyorum - yapıyorsun - yapıyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "mir",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Mittwoch",
+    "plural": null,
+    "tr": "çarşamba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Montag",
+    "plural": null,
+    "tr": "pazartesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "natürlich",
+    "plural": null,
+    "tr": "tabii",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "nett",
+    "plural": null,
+    "tr": "net",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Papier",
+    "plural": null,
+    "tr": "Kağıt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Papierkorb",
+    "plural": null,
+    "tr": "çöp sepeti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Pause",
+    "plural": "Pausen",
+    "tr": "mola",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Problem",
+    "plural": "Probleme",
+    "tr": "problem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Projektor",
+    "plural": null,
+    "tr": "projektör",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Radiergummi",
+    "plural": null,
+    "tr": "silgi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Raum",
+    "plural": null,
+    "tr": "oda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Rucksack",
+    "plural": null,
+    "tr": "sırt çantası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Sache",
+    "plural": "Sachen",
+    "tr": "konu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "sagen (ich sage - du sagst - er sagt)",
+    "plural": null,
+    "tr": "söylemek (söylüyorum - söylüyorsun - söylüyor)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Samstag",
+    "plural": null,
+    "tr": "cumartesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "sehen (Sie sehen)",
+    "plural": null,
+    "tr": "görmek (görüyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Seite",
+    "plural": null,
+    "tr": "sayfa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Schlüssel",
+    "plural": "Schlüssel",
+    "tr": "anahtar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "schnell",
+    "plural": null,
+    "tr": "çabuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Sonntag",
+    "plural": null,
+    "tr": "pazar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Spaß",
+    "plural": null,
+    "tr": "şaka",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "spielen (Sie spielen)",
+    "plural": null,
+    "tr": "oynamak (oynuyorsunuz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Spitzer",
+    "plural": null,
+    "tr": "kalemtıraş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Stuhl",
+    "plural": "Stühle",
+    "tr": "sandalye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Tabelle",
+    "plural": null,
+    "tr": "tablo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Tafel",
+    "plural": null,
+    "tr": "karatahta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Tasche",
+    "plural": null,
+    "tr": "çanta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Text",
+    "plural": null,
+    "tr": "metin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Tisch",
+    "plural": "Tische",
+    "tr": "masa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Tür",
+    "plural": null,
+    "tr": "kapı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "übermorgen",
+    "plural": null,
+    "tr": "öbür gün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Übung",
+    "plural": "Übungen",
+    "tr": "alıştırma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Übungsbuch",
+    "plural": null,
+    "tr": "alıştırma kitabı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "verstehen",
+    "plural": null,
+    "tr": "anlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "vorgestern",
+    "plural": null,
+    "tr": "evvelsi gün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Wand",
+    "plural": null,
+    "tr": "duvar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "die Woche",
+    "plural": null,
+    "tr": "hafta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Wochenende",
+    "plural": null,
+    "tr": "hafta sonu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "das Wörterbuch",
+    "plural": "Wörterbücher",
+    "tr": "sözlük",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "zeigen (wir zeigen)",
+    "plural": null,
+    "tr": "göstermek (gösteriyoruz)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "der Zettel",
+    "plural": "Zettel",
+    "tr": "pusula",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Im Deutschkurs",
+    "de": "zusammen",
+    "plural": null,
+    "tr": "birlikte",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Angebot",
+    "plural": "Angebote",
+    "tr": "teklif",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Antwort",
+    "plural": "Antworten",
+    "tr": "cevap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Apfel",
+    "plural": "Äpfel",
+    "tr": "elma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Apfelsaft",
+    "plural": null,
+    "tr": "elma suyu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Aufgabe",
+    "plural": "Aufgaben",
+    "tr": "ödev",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Babynahrung",
+    "plural": null,
+    "tr": "bebek maması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Banane",
+    "plural": "Bananen",
+    "tr": "muz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Becher",
+    "plural": "Becher",
+    "tr": "kupa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Beispiel",
+    "plural": "Beispiele",
+    "tr": "örnek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Bier",
+    "plural": null,
+    "tr": "bira",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Birne",
+    "plural": "Birnen",
+    "tr": "armut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Bistro",
+    "plural": null,
+    "tr": "bistro",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Blaubeere",
+    "plural": "Blaubeeren",
+    "tr": "yaban mersini",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Bohne",
+    "plural": "Bohnen",
+    "tr": "fasulye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "brauchen",
+    "plural": null,
+    "tr": "ihtiyaç durmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Brot",
+    "plural": "Brote",
+    "tr": "ekmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Brötchen",
+    "plural": "Brötchen",
+    "tr": "poğaça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Cent",
+    "plural": "Cent",
+    "tr": "cent",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Cola",
+    "plural": "Cola, Colas",
+    "tr": "kola",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Couscous",
+    "plural": null,
+    "tr": "kuskus",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "denn",
+    "plural": null,
+    "tr": "zira",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "diese, dieser, dieses",
+    "plural": null,
+    "tr": "bu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Dose",
+    "plural": "Dosen",
+    "tr": "teneke kutu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "durch",
+    "plural": null,
+    "tr": "vasıtasıyla",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Ei",
+    "plural": "Eier",
+    "tr": "yumurta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Einkaufszettel",
+    "plural": null,
+    "tr": "alışveriş listesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "einige",
+    "plural": null,
+    "tr": "birkaç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Erbse",
+    "plural": "Erbsen",
+    "tr": "bezelye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Erdbeere",
+    "plural": "Erdbeeren",
+    "tr": "çilek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "essen",
+    "plural": null,
+    "tr": "yemek yemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "etwas",
+    "plural": null,
+    "tr": "biraz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "fertig",
+    "plural": null,
+    "tr": "tamamlanmış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Fisch",
+    "plural": "Fische",
+    "tr": "balık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Flasche",
+    "plural": "Flaschen",
+    "tr": "şişe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Fleisch",
+    "plural": null,
+    "tr": "et",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "frisch",
+    "plural": null,
+    "tr": "taze",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Frühstück",
+    "plural": null,
+    "tr": "kahvaltı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "frühstücken",
+    "plural": null,
+    "tr": "kahvaltı yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "gemeinsam",
+    "plural": null,
+    "tr": "birlikte",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Gemüse",
+    "plural": null,
+    "tr": "sebze",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "gern",
+    "plural": null,
+    "tr": "mutlulukla",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Getränk",
+    "plural": "Getränke",
+    "tr": "içecek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Glas",
+    "plural": "Gläser",
+    "tr": "cam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "gleich",
+    "plural": null,
+    "tr": "hemen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Gramm",
+    "plural": "Gramm",
+    "tr": "gram",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Himbeere",
+    "plural": "Himbeeren",
+    "tr": "ahududu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Honig",
+    "plural": null,
+    "tr": "bal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Joghurt",
+    "plural": "Joghurts",
+    "tr": "yoğurt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Kaffee",
+    "plural": null,
+    "tr": "kahve",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Kartoffel",
+    "plural": "Kartoffeln",
+    "tr": "patates",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Käse",
+    "plural": null,
+    "tr": "peynir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "kaufen",
+    "plural": null,
+    "tr": "satın almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Keks",
+    "plural": "Kekse",
+    "tr": "kek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Kichererbse",
+    "plural": "Kichererbsen",
+    "tr": "nohut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Kilo",
+    "plural": "Kilos",
+    "tr": "kilo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Kirsche",
+    "plural": "Kirschen",
+    "tr": "kiraz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Kiwi",
+    "plural": "Kiwis",
+    "tr": "kivi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Kontrolle",
+    "plural": "Kontrollen",
+    "tr": "denetim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "kosten",
+    "plural": null,
+    "tr": "mal olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Kuchen",
+    "plural": null,
+    "tr": "pasta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Kunde",
+    "plural": "Kunden",
+    "tr": "müşteri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Kundin",
+    "plural": "Kundinnen",
+    "tr": "müşteri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "kurz",
+    "plural": null,
+    "tr": "kısa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Lammfleisch",
+    "plural": null,
+    "tr": "koyun eti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Lebensmittel",
+    "plural": "Lebensmittel",
+    "tr": "yiyecek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Limonade (Limo)",
+    "plural": "Limonaden (Limos)",
+    "tr": "limonata",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Liter",
+    "plural": "Liter",
+    "tr": "litre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "man",
+    "plural": null,
+    "tr": "insan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Mandarine",
+    "plural": "Mandarinen",
+    "tr": "mandalina",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Mango",
+    "plural": "Mangos",
+    "tr": "mango",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Markt",
+    "plural": "Märkte",
+    "tr": "pazar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Marmelade",
+    "plural": "Marmeladen",
+    "tr": "marmelat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Mehl",
+    "plural": null,
+    "tr": "un",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "meistens",
+    "plural": null,
+    "tr": "çoğu zaman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Mengenangabe",
+    "plural": null,
+    "tr": "miktar beyanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Melone",
+    "plural": "Melonen",
+    "tr": "kavun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Milch",
+    "plural": null,
+    "tr": "süt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Milchprodukt",
+    "plural": "Milchprodukte",
+    "tr": "süt ürünü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "mögen",
+    "plural": null,
+    "tr": "hoşlanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Möhre",
+    "plural": "Möhren",
+    "tr": "havuç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "müssen",
+    "plural": null,
+    "tr": "mecbur olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "nehmen",
+    "plural": null,
+    "tr": "almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Nudel",
+    "plural": "Nudeln",
+    "tr": "makarna",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "nur",
+    "plural": null,
+    "tr": "sadece",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Obst",
+    "plural": null,
+    "tr": "meyve",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Obstsalat",
+    "plural": null,
+    "tr": "meyve salatası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Olivenöl",
+    "plural": null,
+    "tr": "zeytinyağı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Orange",
+    "plural": "Orangen",
+    "tr": "portakal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "ordnen",
+    "plural": null,
+    "tr": "düzenlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Packung",
+    "plural": "Packungen",
+    "tr": "ambalaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Paprika",
+    "plural": "Paprikas",
+    "tr": "biber",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Partner",
+    "plural": "Partner",
+    "tr": "partner",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Partnerin",
+    "plural": "Partnerinnen",
+    "tr": "partner",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Pfund",
+    "plural": null,
+    "tr": "libre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Pilz",
+    "plural": "Pilze",
+    "tr": "mantar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "planen",
+    "plural": null,
+    "tr": "planlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Preis",
+    "plural": "Preise",
+    "tr": "fiyat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "pro",
+    "plural": null,
+    "tr": "başına",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Pudding",
+    "plural": null,
+    "tr": "puding",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Reis",
+    "plural": null,
+    "tr": "pirinç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Rindfleisch",
+    "plural": null,
+    "tr": "sığır eti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Saft",
+    "plural": "Säfte",
+    "tr": "meyve suyu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Sahne",
+    "plural": null,
+    "tr": "krema",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Salat",
+    "plural": "Salate",
+    "tr": "salata",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Salz",
+    "plural": null,
+    "tr": "tuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "sich",
+    "plural": null,
+    "tr": "–",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "schmecken",
+    "plural": null,
+    "tr": "tat vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Schokolade",
+    "plural": null,
+    "tr": "çikolata",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "schön",
+    "plural": null,
+    "tr": "güzel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Schweinefleisch",
+    "plural": null,
+    "tr": "domuz eti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "sonst",
+    "plural": null,
+    "tr": "yoksa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "stehen",
+    "plural": null,
+    "tr": "ayakta durmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "streichen",
+    "plural": null,
+    "tr": "çizmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Stück",
+    "plural": "Stücke",
+    "tr": "parça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Tasse",
+    "plural": "Tassen",
+    "tr": "fincan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Tee",
+    "plural": null,
+    "tr": "çay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "teuer",
+    "plural": null,
+    "tr": "pahalı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Tipp",
+    "plural": "Tipps",
+    "tr": "bahşiş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Tomate",
+    "plural": "Tomaten",
+    "tr": "domates",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Traube",
+    "plural": "Trauben",
+    "tr": "üzüm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "trinken",
+    "plural": null,
+    "tr": "içmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "unterstreichen",
+    "plural": null,
+    "tr": "altını çizmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "verbinden",
+    "plural": null,
+    "tr": "bağlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Verkäufer",
+    "plural": "Verkäufer",
+    "tr": "satıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Verkäuferin",
+    "plural": "Verkäuferinnen",
+    "tr": "satıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "von",
+    "plural": null,
+    "tr": "–",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "das Wasser",
+    "plural": null,
+    "tr": "su",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Wein",
+    "plural": null,
+    "tr": "şarap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Zitrone",
+    "plural": "Zitronen",
+    "tr": "limon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "der Zucker",
+    "plural": null,
+    "tr": "seker",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Im Supermarkt",
+    "de": "die Zwiebel",
+    "plural": "Zwiebeln",
+    "tr": "soğan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "abends",
+    "plural": null,
+    "tr": "akşamları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Alltag",
+    "plural": null,
+    "tr": "gündelik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "anrufen",
+    "plural": null,
+    "tr": "telefon etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Arbeit",
+    "plural": null,
+    "tr": "İş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "aufstehen",
+    "plural": null,
+    "tr": "kalkmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "beginnen",
+    "plural": null,
+    "tr": "başlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "beide",
+    "plural": null,
+    "tr": "her ikisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "das Bett",
+    "plural": "Betten",
+    "tr": "yatak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "bis",
+    "plural": null,
+    "tr": "... kadar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "das Büro",
+    "plural": "Büros",
+    "tr": "büro",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Computer",
+    "plural": "Computer",
+    "tr": "bilgisayar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "das Computerspiel",
+    "plural": "Computerspiele",
+    "tr": "bilgisayar oyunu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "erst",
+    "plural": null,
+    "tr": "ilk önce",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "fernsehen",
+    "plural": null,
+    "tr": "televizyon izlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Film",
+    "plural": "Filme",
+    "tr": "film",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Freundin",
+    "plural": "Freundinnen",
+    "tr": "arkadaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "früh",
+    "plural": null,
+    "tr": "erken",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Fußball",
+    "plural": null,
+    "tr": "futbol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "gehen",
+    "plural": null,
+    "tr": "gitmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "geöffnet",
+    "plural": null,
+    "tr": "açık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "grillen",
+    "plural": null,
+    "tr": "ızgara yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "halb",
+    "plural": null,
+    "tr": "yarım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Hunger",
+    "plural": null,
+    "tr": "açlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Idee",
+    "plural": "Ideen",
+    "tr": "fikir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "das Interview",
+    "plural": "Interviews",
+    "tr": "mülakat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "kochen",
+    "plural": null,
+    "tr": "pişirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "können",
+    "plural": null,
+    "tr": "bilmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "lecker",
+    "plural": null,
+    "tr": "leziz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "leider",
+    "plural": null,
+    "tr": "maalesef",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "manchmal",
+    "plural": null,
+    "tr": "bazen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "mehr",
+    "plural": null,
+    "tr": "daha",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Mittag",
+    "plural": null,
+    "tr": "öğlen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "mittags",
+    "plural": null,
+    "tr": "öğlenleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Mittagspause",
+    "plural": null,
+    "tr": "öğle tatili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Morgen",
+    "plural": null,
+    "tr": "sabah",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "morgens",
+    "plural": null,
+    "tr": "sabahları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "müde",
+    "plural": null,
+    "tr": "yorgun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Musik",
+    "plural": null,
+    "tr": "müzik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Nachmittag",
+    "plural": null,
+    "tr": "öğleden sonra",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "nachmittags",
+    "plural": null,
+    "tr": "öğleden sonraları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "nachts",
+    "plural": null,
+    "tr": "geceleyin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "nie",
+    "plural": null,
+    "tr": "asla",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Notizzettel",
+    "plural": null,
+    "tr": "not pusulası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "oft",
+    "plural": null,
+    "tr": "sık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Pizza",
+    "plural": null,
+    "tr": "pizza",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "putzen",
+    "plural": null,
+    "tr": "temizlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "schade",
+    "plural": null,
+    "tr": "yazık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "schlafen",
+    "plural": null,
+    "tr": "uyumak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Schluss",
+    "plural": null,
+    "tr": "sonlanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Schule",
+    "plural": "Schulen",
+    "tr": "okul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "spät",
+    "plural": null,
+    "tr": "geç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "spazieren",
+    "plural": null,
+    "tr": "gezmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "das Spiel",
+    "plural": "Spiele",
+    "tr": "oyun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Sport",
+    "plural": null,
+    "tr": "spor",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Stunde",
+    "plural": "Stunden",
+    "tr": "saat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Stundenplan",
+    "plural": null,
+    "tr": "zaman çizelgesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Supermarkt",
+    "plural": null,
+    "tr": "süpermarket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "telefonieren",
+    "plural": null,
+    "tr": "telefon etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "tun",
+    "plural": null,
+    "tr": "yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Uhr",
+    "plural": null,
+    "tr": "saat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Uhrzeit",
+    "plural": null,
+    "tr": "zaman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "um",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Unterricht",
+    "plural": null,
+    "tr": "ders",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "das Viertel",
+    "plural": null,
+    "tr": "çeyrek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "vor",
+    "plural": null,
+    "tr": "önce",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "der Vormittag",
+    "plural": null,
+    "tr": "öğleden önce",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "vormittags",
+    "plural": null,
+    "tr": "öğleden önceleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "wann",
+    "plural": null,
+    "tr": "ne zaman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Wohnung",
+    "plural": "Wohnungen",
+    "tr": "apartman dairesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "zeichnen",
+    "plural": null,
+    "tr": "çizmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "die Zeit",
+    "plural": null,
+    "tr": "zaman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Von morgens bis abends",
+    "de": "zu Hause",
+    "plural": null,
+    "tr": "evde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "ab",
+    "plural": null,
+    "tr": "itibaren",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Altbau",
+    "plural": null,
+    "tr": "eski bina",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Angabe",
+    "plural": "Angaben",
+    "tr": "veri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Anzeige",
+    "plural": "Anzeigen",
+    "tr": "ilan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Arbeitszimmer",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "",
+    "plural": null,
+    "tr": "çalışma odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Bad",
+    "plural": "Bäder",
+    "tr": "banyo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "baden",
+    "plural": null,
+    "tr": "yıkanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Badewanne",
+    "plural": null,
+    "tr": "küvet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Badezimmer",
+    "plural": null,
+    "tr": "banyo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Balkon",
+    "plural": "Balkone",
+    "tr": "balkon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Bauernhof",
+    "plural": "Bauernhöfe",
+    "tr": "çiftlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "bei",
+    "plural": null,
+    "tr": "yanında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "bekommen",
+    "plural": null,
+    "tr": "almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Besichtigungstermin",
+    "plural": null,
+    "tr": "denetim randevusu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "besser",
+    "plural": null,
+    "tr": "daha iyi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "billig",
+    "plural": null,
+    "tr": "ucuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "breit",
+    "plural": null,
+    "tr": "geniş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "circa",
+    "plural": null,
+    "tr": "yaklaşık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Diele",
+    "plural": null,
+    "tr": "hol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "direkt",
+    "plural": null,
+    "tr": "doğrudan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "dort",
+    "plural": null,
+    "tr": "orada",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "draußen",
+    "plural": null,
+    "tr": "dışarıda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "dringend",
+    "plural": null,
+    "tr": "acil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "dunkel",
+    "plural": null,
+    "tr": "karanlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Dusche",
+    "plural": null,
+    "tr": "duş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Einfamilienhaus",
+    "plural": null,
+    "tr": "müstakil ev",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "einkaufen",
+    "plural": null,
+    "tr": "satın almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Elektrogerät",
+    "plural": "Elektrogeräte",
+    "tr": "elektrikli alet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Erdgeschoss",
+    "plural": null,
+    "tr": "zemin katı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "ersetzen",
+    "plural": null,
+    "tr": "yenisiyle değiştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Euro",
+    "plural": "Euros",
+    "tr": "avro",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Fernseher",
+    "plural": "Fernseher",
+    "tr": "televizyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "finden",
+    "plural": null,
+    "tr": "bulmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Firma",
+    "plural": "Firmen",
+    "tr": "şirket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Flur",
+    "plural": "Flure",
+    "tr": "zemin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "frei",
+    "plural": null,
+    "tr": "serbest",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Garage",
+    "plural": "Garagen",
+    "tr": "garaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Garten",
+    "plural": "Gärten",
+    "tr": "bahçe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Gast",
+    "plural": "Gäste",
+    "tr": "konuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Geld",
+    "plural": "Gelder",
+    "tr": "para",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "gemütlich",
+    "plural": null,
+    "tr": "sakin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "gepflegt",
+    "plural": null,
+    "tr": "bakımlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Gerät",
+    "plural": "Geräte",
+    "tr": "cihaz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Geschäft",
+    "plural": "Geschäfte",
+    "tr": "dükkan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Gespräch",
+    "plural": "Gespräche",
+    "tr": "konuşma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Größe",
+    "plural": null,
+    "tr": "boyut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "grün",
+    "plural": null,
+    "tr": "yeşil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "hängen",
+    "plural": null,
+    "tr": "asmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "hässlich",
+    "plural": null,
+    "tr": "çirkin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Hauptsache",
+    "plural": null,
+    "tr": "ana konu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Haus",
+    "plural": "Häuser",
+    "tr": "ev",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Haustier",
+    "plural": "Haustiere",
+    "tr": "ev hayvanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Heizung",
+    "plural": null,
+    "tr": "isıtma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "helfen",
+    "plural": null,
+    "tr": "yardım etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "hell",
+    "plural": null,
+    "tr": "aydınlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Herd",
+    "plural": null,
+    "tr": "ocak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Hilfe",
+    "plural": null,
+    "tr": "yardım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "hinten",
+    "plural": null,
+    "tr": "arkasında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Hochhaus",
+    "plural": null,
+    "tr": "apartman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "ihr, ihre",
+    "plural": null,
+    "tr": "sizin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Immobilie",
+    "plural": "Immobilien",
+    "tr": "gayrimenkul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "insgesamt",
+    "plural": null,
+    "tr": "toplam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "interessant",
+    "plural": null,
+    "tr": "ilginç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "jeder, jede, jedes",
+    "plural": null,
+    "tr": "her biri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Juni",
+    "plural": null,
+    "tr": "haziran",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Kaffeemaschine",
+    "plural": null,
+    "tr": "kahve makinesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "kalt",
+    "plural": null,
+    "tr": "soğuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Kaution",
+    "plural": null,
+    "tr": "depozito",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Keller",
+    "plural": "Keller",
+    "tr": "mahzen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Kinderzimmer",
+    "plural": null,
+    "tr": "cocuk odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Kleiderschrank",
+    "plural": null,
+    "tr": "elbise dolabı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Küche",
+    "plural": "Küchen",
+    "tr": "mutfak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Kühlschrank",
+    "plural": "Kühlschränke",
+    "tr": "buzdolabı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "lang",
+    "plural": null,
+    "tr": "uzun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "lassen",
+    "plural": null,
+    "tr": "bırakmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "laut",
+    "plural": null,
+    "tr": "yüksek sesle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "liebsten (am liebsten)",
+    "plural": null,
+    "tr": "en iyisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "liegen",
+    "plural": null,
+    "tr": "yatmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "maximal",
+    "plural": null,
+    "tr": "azami",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Mehrfamilienhaus",
+    "plural": null,
+    "tr": "çok katlı ev",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Miete",
+    "plural": null,
+    "tr": "kira",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "mindestens",
+    "plural": null,
+    "tr": "en az",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Möbel (Pl.)",
+    "plural": null,
+    "tr": "mobilyalar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "möbliert",
+    "plural": null,
+    "tr": "döşeli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "modern",
+    "plural": null,
+    "tr": "modern",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Monat",
+    "plural": "Monate",
+    "tr": "ay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Monatsmiete",
+    "plural": "Monatsmieten",
+    "tr": "aylık kira",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Müll",
+    "plural": null,
+    "tr": "çöp",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "neben",
+    "plural": null,
+    "tr": "yanında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Nebenkosten",
+    "plural": "Nebenkosten",
+    "tr": "yan giderler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "ohne",
+    "plural": null,
+    "tr": "dışında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Obergeschoss",
+    "plural": null,
+    "tr": "üst kat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Ort",
+    "plural": "Orte",
+    "tr": "yer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Pflanze",
+    "plural": "Pflanzen",
+    "tr": "bitki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Plan",
+    "plural": "Pläne",
+    "tr": "plan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Platz",
+    "plural": "Plätze",
+    "tr": "yer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Quadratmeter",
+    "plural": "Quadratmeter",
+    "tr": "metrekare",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Regal",
+    "plural": "Regale",
+    "tr": "raf",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Reihenhaus",
+    "plural": null,
+    "tr": "sıra evler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "ruhig",
+    "plural": null,
+    "tr": "sakin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "schauen",
+    "plural": null,
+    "tr": "izlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Schlafzimmer",
+    "plural": null,
+    "tr": "yatak odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "schmal",
+    "plural": null,
+    "tr": "dar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Schrank",
+    "plural": "Schränke",
+    "tr": "dolap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Sessel",
+    "plural": "Sessel",
+    "tr": "İskemle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "singen",
+    "plural": null,
+    "tr": "şarkı söylemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "sitzen",
+    "plural": null,
+    "tr": "oturmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Sofa",
+    "plural": "Sofas",
+    "tr": "sofa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "sofort",
+    "plural": null,
+    "tr": "hemen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "sollen",
+    "plural": null,
+    "tr": "olmalı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Sonderangebot",
+    "plural": "Sonderangebote",
+    "tr": "özel indirim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Sonne",
+    "plural": null,
+    "tr": "güneş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "sonstiges",
+    "plural": null,
+    "tr": "diğer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Sprachschule",
+    "plural": null,
+    "tr": "dil okulu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "spülen",
+    "plural": null,
+    "tr": "durulamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Spülmaschine",
+    "plural": "Spülmaschinen",
+    "tr": "bulaşık makinesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Stadt",
+    "plural": "Städte",
+    "tr": "kent",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "suchen",
+    "plural": null,
+    "tr": "aramak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "super",
+    "plural": null,
+    "tr": "süper",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "der Teppich",
+    "plural": null,
+    "tr": "halı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Terrasse",
+    "plural": "Terrassen",
+    "tr": "teras",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Toilette",
+    "plural": "Toiletten",
+    "tr": "tuvalet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "toll",
+    "plural": null,
+    "tr": "harika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Traumwohnung",
+    "plural": null,
+    "tr": "rüya daire",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "unbedingt",
+    "plural": null,
+    "tr": "mutlaka",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "ungemütlich",
+    "plural": null,
+    "tr": "rahatsız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "unser, unsere",
+    "plural": null,
+    "tr": "bizim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "warum",
+    "plural": null,
+    "tr": "neden",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "waschen",
+    "plural": null,
+    "tr": "yıkamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Waschmaschine",
+    "plural": null,
+    "tr": "çamaşır makinesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das WC",
+    "plural": null,
+    "tr": "tuvalet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "wegziehen",
+    "plural": null,
+    "tr": "uzaklaştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "weiter",
+    "plural": null,
+    "tr": "ileri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "wenn",
+    "plural": null,
+    "tr": "eğer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "wichtig",
+    "plural": null,
+    "tr": "önemli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "wohnen",
+    "plural": null,
+    "tr": "ikamet etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Wohnungsanzeige",
+    "plural": null,
+    "tr": "ev ilanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Wohnungssuche",
+    "plural": null,
+    "tr": "ev arama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Wohnzimmer",
+    "plural": null,
+    "tr": "oturma odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "wunderschön",
+    "plural": null,
+    "tr": "harika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "wünschen",
+    "plural": null,
+    "tr": "dilemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "zahlen",
+    "plural": null,
+    "tr": "ödemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Zeitung",
+    "plural": "Zeitungen",
+    "tr": "gazete",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "das Zentrum",
+    "plural": null,
+    "tr": "merkez",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "die Zimmer",
+    "plural": "Zimmer",
+    "tr": "oda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Wohnungssuche",
+    "de": "zu Fuß",
+    "plural": null,
+    "tr": "yayan",
+    "ex": ""
+  }
+]

@@ -1,0 +1,3726 @@
+[
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Ampel",
+    "plural": "Ampeln",
+    "tr": "ampul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Ankunftszeit",
+    "plural": null,
+    "tr": "varış saati",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Ansage",
+    "plural": "Ansagen",
+    "tr": "duyuru",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Apotheke",
+    "plural": "Apotheken",
+    "tr": "eczane",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Arzt",
+    "plural": "Ärzte",
+    "tr": "hekim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Ärztin",
+    "plural": "Ärztinnen",
+    "tr": "hekim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Auskunft",
+    "plural": null,
+    "tr": "bilgi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "außerdem",
+    "plural": null,
+    "tr": "bunun dışında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "außerplanmäßig",
+    "plural": null,
+    "tr": "program dışı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Auto",
+    "plural": "Autos",
+    "tr": "otomobil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Bahn",
+    "plural": null,
+    "tr": "tren",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Bahnhof",
+    "plural": "Bahnhöfe",
+    "tr": "gar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Ball",
+    "plural": "Bälle",
+    "tr": "top",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Bank",
+    "plural": null,
+    "tr": "banka",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "bezahlen",
+    "plural": null,
+    "tr": "ödemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Bibliothek",
+    "plural": null,
+    "tr": "kütüphane",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Bürgerbüro",
+    "plural": null,
+    "tr": "hemşeri Bürosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Bus",
+    "plural": "Busse",
+    "tr": "otobüs",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Bushaltestelle",
+    "plural": "Bushaltestellen",
+    "tr": "otobüs durağı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Café",
+    "plural": "Cafés",
+    "tr": "kahvehane",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "dafür",
+    "plural": null,
+    "tr": "onun için",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "dritte",
+    "plural": null,
+    "tr": "üçüncü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Durchsage",
+    "plural": null,
+    "tr": "mesaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "einfach",
+    "plural": null,
+    "tr": "kolay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Einzelfahrkarte",
+    "plural": null,
+    "tr": "gidiş bileti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "erste",
+    "plural": null,
+    "tr": "ilki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Erwachsene",
+    "plural": "Erwachsenen",
+    "tr": "yetişkinler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "fahren",
+    "plural": null,
+    "tr": "araç sürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Fahrgast",
+    "plural": "Fahrgäste",
+    "tr": "yolcu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Fahrkarte",
+    "plural": null,
+    "tr": "bilet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Fahrrad",
+    "plural": "Fahrräder",
+    "tr": "bisiklet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "fallen",
+    "plural": null,
+    "tr": "düşmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "fast",
+    "plural": null,
+    "tr": "neredeyse",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Flughafen",
+    "plural": "Flughäfen",
+    "tr": "havaalanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Gebäude",
+    "plural": "Gebäude",
+    "tr": "bina",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "geben",
+    "plural": null,
+    "tr": "vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "gegenüber",
+    "plural": null,
+    "tr": "karşısında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "geradeaus",
+    "plural": null,
+    "tr": "dümdüz ileri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Gleis",
+    "plural": "Gleise",
+    "tr": "peron",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "gültig",
+    "plural": null,
+    "tr": "geçerli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "halten",
+    "plural": null,
+    "tr": "durdurmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Haltestelle",
+    "plural": "Haltestellen",
+    "tr": "durak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Hauptbahnhof",
+    "plural": null,
+    "tr": "merkez gar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "hinter",
+    "plural": null,
+    "tr": "arkasında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Hotel",
+    "plural": "Hotels",
+    "tr": "otel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Informationsschalter",
+    "plural": null,
+    "tr": "danışma bankosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Intercity (IC)",
+    "plural": null,
+    "tr": "şehirlerarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Jobcenter",
+    "plural": null,
+    "tr": "İş merkezi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Kino",
+    "plural": "Kinos",
+    "tr": "sinema",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Kirche",
+    "plural": null,
+    "tr": "kilise",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Krankenhaus",
+    "plural": "Krankenhäuser",
+    "tr": "hastane",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Krankenkasse",
+    "plural": null,
+    "tr": "sağlık sigortası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Kreuzung",
+    "plural": null,
+    "tr": "kavşak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Kurzstrecke",
+    "plural": null,
+    "tr": "kısa mesafe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Linie",
+    "plural": null,
+    "tr": "hat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "links",
+    "plural": null,
+    "tr": "sol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Lösung",
+    "plural": "Lösungen",
+    "tr": "çözüm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Meter",
+    "plural": "Meter",
+    "tr": "metre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Metzger",
+    "plural": null,
+    "tr": "kasap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Minute",
+    "plural": "Minuten",
+    "tr": "dakika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Mobilität",
+    "plural": null,
+    "tr": "hareketlilik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Motorrad",
+    "plural": "Motorräder",
+    "tr": "motosiklet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "nachfragen",
+    "plural": null,
+    "tr": "soruşturmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "nächster, nächste, nächstes",
+    "plural": null,
+    "tr": "sonraki, bir sonraki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "nichts",
+    "plural": null,
+    "tr": "değil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "öffentlich",
+    "plural": null,
+    "tr": "resmi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Orientierung",
+    "plural": null,
+    "tr": "yönelim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Park",
+    "plural": "Parks",
+    "tr": "park",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Parkgebühr",
+    "plural": "Parkgebühren",
+    "tr": "park ücreti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Parkplatz",
+    "plural": "Parkplätze",
+    "tr": "otopark",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Polizei",
+    "plural": null,
+    "tr": "polis",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Position",
+    "plural": null,
+    "tr": "konum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Post",
+    "plural": null,
+    "tr": "posta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "praktisch",
+    "plural": null,
+    "tr": "pratik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "rechts",
+    "plural": null,
+    "tr": "sağ",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Rathaus",
+    "plural": null,
+    "tr": "belediye binası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Regionalbahn",
+    "plural": null,
+    "tr": "banliyö treni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Restaurant",
+    "plural": "Restaurants",
+    "tr": "restoran",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Ruhe",
+    "plural": null,
+    "tr": "sükunet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Schienenersatzverkehr",
+    "plural": null,
+    "tr": "yedek demiryolu nakliyesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Schwimmbad",
+    "plural": "Schwimmbäder",
+    "tr": "yüzme havuzu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "selten",
+    "plural": null,
+    "tr": "seyrek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "sowieso",
+    "plural": null,
+    "tr": "her halde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "später",
+    "plural": null,
+    "tr": "daha sonra",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Stadtplan",
+    "plural": "Stadtpläne",
+    "tr": "kent planı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Stadtwald",
+    "plural": null,
+    "tr": "kent ormanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "steigen",
+    "plural": null,
+    "tr": "binmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Straßenbahn",
+    "plural": "Straßenbahnen",
+    "tr": "tramvay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Tageskarte",
+    "plural": null,
+    "tr": "günlük bilet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Taxi",
+    "plural": "Taxis",
+    "tr": "taksi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "überall",
+    "plural": null,
+    "tr": "her yerde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "umsteigen",
+    "plural": null,
+    "tr": "aktarma yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "ungefähr",
+    "plural": null,
+    "tr": "yaklaşık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "unter",
+    "plural": null,
+    "tr": "altında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Verfügung",
+    "plural": null,
+    "tr": "kullanım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "das Verkehrsmittel",
+    "plural": "Verkehrsmittel",
+    "tr": "ulaşım araçları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "verstanden",
+    "plural": null,
+    "tr": "anlaşıldı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "verzögern",
+    "plural": null,
+    "tr": "gecikmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "die Volkshochschule (VHS)",
+    "plural": null,
+    "tr": "halk eğitim okulu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "voll",
+    "plural": null,
+    "tr": "dolu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "vorbei",
+    "plural": null,
+    "tr": "geçmiş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "vorne",
+    "plural": null,
+    "tr": "önde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "warten",
+    "plural": null,
+    "tr": "beklemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Weg",
+    "plural": null,
+    "tr": "yol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Winter",
+    "plural": "Winter",
+    "tr": "kış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Wochenmarkt",
+    "plural": null,
+    "tr": "pazar günü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "wohin",
+    "plural": null,
+    "tr": "nereye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "wollen",
+    "plural": null,
+    "tr": "istemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "der Zug",
+    "plural": "Züge",
+    "tr": "tren",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "zweimal",
+    "plural": null,
+    "tr": "iki kez",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "zweite",
+    "plural": null,
+    "tr": "ikinci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 7: In der Stadt unterwegs",
+    "de": "zwischen",
+    "plural": null,
+    "tr": "arasında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "anfangen",
+    "plural": null,
+    "tr": "başlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Arbeitstag",
+    "plural": "Arbeitstage",
+    "tr": "İş günü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Ausbildung",
+    "plural": "Ausbildungen",
+    "tr": "eğitim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "ausfüllen",
+    "plural": null,
+    "tr": "doldurmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Aushilfe",
+    "plural": "Aushilfen",
+    "tr": "geçici yardım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Automechaniker",
+    "plural": null,
+    "tr": "otomobil tamircisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Automechanikerin",
+    "plural": null,
+    "tr": "otomobil tamircisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "backen",
+    "plural": null,
+    "tr": "fırında pişirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Bäcker",
+    "plural": null,
+    "tr": "fırıncı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Bäckerin",
+    "plural": null,
+    "tr": "fırıncı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "bald",
+    "plural": null,
+    "tr": "yakında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "berichten",
+    "plural": null,
+    "tr": "rapor vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Beruf",
+    "plural": "Berufe",
+    "tr": "meslek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "beruflich",
+    "plural": null,
+    "tr": "mesleki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Bürokauffrau",
+    "plural": null,
+    "tr": "büro memuresi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Bürokaufmann",
+    "plural": null,
+    "tr": "büro memuru",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Chef",
+    "plural": "Chefs",
+    "tr": "şef",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Chefin",
+    "plural": "Chefinnen",
+    "tr": "şef",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Computerprogramm",
+    "plural": "Computerprogramme",
+    "tr": "bilgisayar programı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Computersystem",
+    "plural": "Computersysteme",
+    "tr": "bilgisayar sistemi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "dauern",
+    "plural": null,
+    "tr": "sürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "dreimal",
+    "plural": null,
+    "tr": "üç kez",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Fahrer",
+    "plural": "Fahrer",
+    "tr": "sürücü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Feierabend",
+    "plural": null,
+    "tr": "İş günü sonu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "flexibel",
+    "plural": null,
+    "tr": "esnek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "fotografieren",
+    "plural": null,
+    "tr": "fotoğraf çekmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "freundlich",
+    "plural": null,
+    "tr": "dostça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Führerschein",
+    "plural": null,
+    "tr": "sürücü ehliyeti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Fußballspieler",
+    "plural": null,
+    "tr": "futbolcu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Gitarre",
+    "plural": "Gitarren",
+    "tr": "gitar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "halbtags",
+    "plural": null,
+    "tr": "yarı zamanlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Hausfrau",
+    "plural": "Hausfrauen",
+    "tr": "ev kadını",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Hausmann",
+    "plural": "Hausmänner",
+    "tr": "ev erkeği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Hund",
+    "plural": "Hunde",
+    "tr": "köpek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "installieren",
+    "plural": null,
+    "tr": "yerleştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Kantine",
+    "plural": "Kantinen",
+    "tr": "kantin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "kaputt",
+    "plural": null,
+    "tr": "bozuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Kasse",
+    "plural": "Kassen",
+    "tr": "kasa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Kassierer",
+    "plural": null,
+    "tr": "kasiyer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Kassiererin",
+    "plural": "Kassiererinnen",
+    "tr": "kasiyer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Kauffrau",
+    "plural": null,
+    "tr": "satıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Kellner",
+    "plural": "Kellner",
+    "tr": "garson",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Kellnerin",
+    "plural": "Kellnerinnen",
+    "tr": "garson",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "klingeln",
+    "plural": null,
+    "tr": "çınlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Koch",
+    "plural": "Köche",
+    "tr": "aşçı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Köchin",
+    "plural": "Köchinnen",
+    "tr": "aşçı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Kollege",
+    "plural": "Kollegen",
+    "tr": "meslektaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Kollegin",
+    "plural": "Kolleginnen",
+    "tr": "meslektaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Konzert",
+    "plural": "Konzerte",
+    "tr": "konser",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "korrigieren",
+    "plural": null,
+    "tr": "düzeltmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Kraftfahrzeug (KFZ)",
+    "plural": null,
+    "tr": "motorlu taşıt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Krankenpfleger",
+    "plural": "Krankenpfleger",
+    "tr": "hastabakıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Krankenschwester",
+    "plural": "Krankenschwestern",
+    "tr": "hemşire",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "kreativ",
+    "plural": null,
+    "tr": "yaratıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "langweilig",
+    "plural": null,
+    "tr": "sıkıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Leute (Pl.)",
+    "plural": null,
+    "tr": "İnsanlar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Mathematik",
+    "plural": null,
+    "tr": "matematik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Mechaniker",
+    "plural": "Mechaniker",
+    "tr": "mekanikçi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Mensch",
+    "plural": "Menschen",
+    "tr": "İnsan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Mittagessen",
+    "plural": null,
+    "tr": "öğle yemeği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Moment",
+    "plural": "Momente",
+    "tr": "an",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Musiklehrer",
+    "plural": null,
+    "tr": "müzik öğretmeni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Musiklehrerin",
+    "plural": null,
+    "tr": "müzik öğretmeni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Nachtdienst",
+    "plural": null,
+    "tr": "gece nöbeti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "organisieren",
+    "plural": null,
+    "tr": "düzenlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Pizzafahrer",
+    "plural": null,
+    "tr": "pizza sürücüsü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Pizzeria",
+    "plural": null,
+    "tr": "pizzacı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Pflege",
+    "plural": null,
+    "tr": "bakım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "prüfen",
+    "plural": null,
+    "tr": "sınamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "pünktlich",
+    "plural": null,
+    "tr": "dakik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Radio",
+    "plural": "Radios",
+    "tr": "radyo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "rechnen",
+    "plural": null,
+    "tr": "hesaplamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Rentner",
+    "plural": "Rentner",
+    "tr": "kiracı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Reparatur",
+    "plural": null,
+    "tr": "onarım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "reparieren",
+    "plural": null,
+    "tr": "onarmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Reporter",
+    "plural": null,
+    "tr": "muhabir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Roman",
+    "plural": "Romane",
+    "tr": "roman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "schlimm",
+    "plural": null,
+    "tr": "kötü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Schüler",
+    "plural": "Schüler",
+    "tr": "öğrenci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Schülerin",
+    "plural": "Schülerinnen",
+    "tr": "öğrenci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "servieren",
+    "plural": null,
+    "tr": "hizmet etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Stress",
+    "plural": null,
+    "tr": "Stress",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Student",
+    "plural": "Studenten",
+    "tr": "öğrenci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Studentin",
+    "plural": "Studentinnen",
+    "tr": "öğrenci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "studieren",
+    "plural": null,
+    "tr": "öğrenim görmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Taxifahrer",
+    "plural": null,
+    "tr": "taksi şoförü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Taxifahrerin",
+    "plural": null,
+    "tr": "taksi şoförü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Techniker",
+    "plural": null,
+    "tr": "teknisyen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Telefon",
+    "plural": "Telefone",
+    "tr": "telefon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "der Traumberuf",
+    "plural": null,
+    "tr": "düş mesleği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "treffen",
+    "plural": null,
+    "tr": "karşılaşmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Universität",
+    "plural": "Universitäten",
+    "tr": "üniversite",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "unterrichten",
+    "plural": null,
+    "tr": "ders vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "vielleicht",
+    "plural": null,
+    "tr": "belki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "wählen",
+    "plural": null,
+    "tr": "seçmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "die Werkstatt",
+    "plural": null,
+    "tr": "atölye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "das Wiederhören",
+    "plural": null,
+    "tr": "aoşça kal (telefonda)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 8: Mein Beruf",
+    "de": "zuerst",
+    "plural": null,
+    "tr": "en başta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Altenpflegeheim",
+    "plural": null,
+    "tr": "huzurevi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "anbei",
+    "plural": null,
+    "tr": "ilişikte",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Anrede",
+    "plural": null,
+    "tr": "hitap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Arm",
+    "plural": "Arme",
+    "tr": "kol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "atmen",
+    "plural": null,
+    "tr": "solumak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Auge",
+    "plural": "Augen",
+    "tr": "göz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Bauch",
+    "plural": null,
+    "tr": "karın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Bein",
+    "plural": "Beine",
+    "tr": "bacak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Bauchschmerzen (Pl.)",
+    "plural": null,
+    "tr": "karın ağrıları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Bescheid",
+    "plural": null,
+    "tr": "bilgi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Besserung",
+    "plural": null,
+    "tr": "İyileşme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Betreff",
+    "plural": null,
+    "tr": "konu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "bevor",
+    "plural": null,
+    "tr": "önce",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "bleiben",
+    "plural": null,
+    "tr": "kalmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Brief",
+    "plural": "Briefe",
+    "tr": "mektup",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Briefteil",
+    "plural": "Briefteile",
+    "tr": "mektup bölümü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Brust",
+    "plural": null,
+    "tr": "göğüs",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "danach",
+    "plural": null,
+    "tr": "ardından",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Datum",
+    "plural": null,
+    "tr": "tarih",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "dürfen",
+    "plural": null,
+    "tr": "izni olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Ellbogen/Ellenbogen",
+    "plural": null,
+    "tr": "dirsek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Empfänger",
+    "plural": "Empfänger",
+    "tr": "alıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Entschuldigungsschreiben",
+    "plural": null,
+    "tr": "özür mektubu yazmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "erkälten",
+    "plural": null,
+    "tr": "soğuk almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Erkältung",
+    "plural": null,
+    "tr": "soğuk algınlığı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "euer, eure",
+    "plural": null,
+    "tr": "sizin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Fieber",
+    "plural": null,
+    "tr": "ateş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Finger",
+    "plural": "Finger",
+    "tr": "parmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "freundlich",
+    "plural": null,
+    "tr": "dostça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "geehrter, geehrte",
+    "plural": null,
+    "tr": "sayın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Gesicht",
+    "plural": null,
+    "tr": "yüz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Gesundheit",
+    "plural": null,
+    "tr": "sağlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Gesundheitskarte",
+    "plural": null,
+    "tr": "sağlık kartı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Grippe",
+    "plural": null,
+    "tr": "grip",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Gruppe",
+    "plural": "Gruppen",
+    "tr": "grup",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Haar",
+    "plural": "Haare",
+    "tr": "saç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Hals",
+    "plural": null,
+    "tr": "boğaz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Hals-Nasen-Ohren-Arzt (HNO)",
+    "plural": null,
+    "tr": "kulak-burun-boğaz doktoru (KBB)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Halsweh",
+    "plural": null,
+    "tr": "boğaz ağrısı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Hand",
+    "plural": "Hände",
+    "tr": "el",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Hausarzt",
+    "plural": "Hausärzte",
+    "tr": "aile hekimi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "heiß",
+    "plural": null,
+    "tr": "sıcak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Husten",
+    "plural": null,
+    "tr": "öksürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "Hustensaft",
+    "plural": null,
+    "tr": "öksürük şurubu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Knie",
+    "plural": "Knie",
+    "tr": "diz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Kopf",
+    "plural": "Köpfe",
+    "tr": "baş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Kopfschmerzen (Pl.)",
+    "plural": null,
+    "tr": "baş ağrıları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Körper",
+    "plural": "Körper",
+    "tr": "vücut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Körperteil",
+    "plural": "Körperteile",
+    "tr": "vücut azası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "krank",
+    "plural": null,
+    "tr": "hasta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Krankheit",
+    "plural": null,
+    "tr": "hastalık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Krankmeldung",
+    "plural": null,
+    "tr": "hastalık raporu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der März",
+    "plural": null,
+    "tr": "mart",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Medikament",
+    "plural": "Medikamente",
+    "tr": "İlaç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Mund",
+    "plural": null,
+    "tr": "ağız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Nacken",
+    "plural": null,
+    "tr": "ense",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Nase",
+    "plural": null,
+    "tr": "burun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Notfallsprechstunde",
+    "plural": null,
+    "tr": "konsültasyon zamanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Ohr",
+    "plural": "Ohren",
+    "tr": "kulak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Orthopäde",
+    "plural": null,
+    "tr": "ortopedist",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Patient",
+    "plural": "Patienten",
+    "tr": "hasta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Patientin",
+    "plural": "Patientinnen",
+    "tr": "hasta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "per",
+    "plural": null,
+    "tr": "beher",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Pflaster",
+    "plural": "Pflaster",
+    "tr": "plaster",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Praktikum",
+    "plural": "Praktika",
+    "tr": "staj yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Praktikumsbetreuerin",
+    "plural": null,
+    "tr": "staj rehberi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Praxis",
+    "plural": "Praxen",
+    "tr": "uygulama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Praxisgemeinschaft",
+    "plural": null,
+    "tr": "uygulama birliği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "rauchen",
+    "plural": null,
+    "tr": "sigara içmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "regelmäßig",
+    "plural": null,
+    "tr": "düzenli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Rezept",
+    "plural": "Rezepte",
+    "tr": "reçete",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "rot",
+    "plural": null,
+    "tr": "kırmızı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Rücken",
+    "plural": null,
+    "tr": "sırt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "rund",
+    "plural": null,
+    "tr": "yuvarlak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Salbe",
+    "plural": "Salben",
+    "tr": "merhem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "schicken",
+    "plural": null,
+    "tr": "göndermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Schmerz",
+    "plural": "Schmerzen",
+    "tr": "ağrı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Schnupfen",
+    "plural": null,
+    "tr": "soğuk algınlığı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Schulter",
+    "plural": "Schultern",
+    "tr": "omuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "schwanger",
+    "plural": null,
+    "tr": "hamile",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "sein, seine",
+    "plural": null,
+    "tr": "onun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Sprechstunde",
+    "plural": null,
+    "tr": "konsültasyon zamanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Sprechstundenhilfe",
+    "plural": null,
+    "tr": "konsültasyon yardımı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Sprechzimmer",
+    "plural": null,
+    "tr": "konsültasyon odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "stark",
+    "plural": null,
+    "tr": "güçlü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Stirn",
+    "plural": null,
+    "tr": "alın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Tablette",
+    "plural": "Tabletten",
+    "tr": "tablet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Termin",
+    "plural": "Termine",
+    "tr": "randevu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Tropfen",
+    "plural": "Tropfen",
+    "tr": "damla",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Unterschrift",
+    "plural": null,
+    "tr": "İmza",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Untersuchung",
+    "plural": null,
+    "tr": "muayene",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Verband",
+    "plural": null,
+    "tr": "birlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "verschieden",
+    "plural": null,
+    "tr": "farklı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "die Vorsorge",
+    "plural": null,
+    "tr": "Önleyici bakım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "das Wartezimmer",
+    "plural": null,
+    "tr": "bekleme odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Wechsel",
+    "plural": null,
+    "tr": "değişim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "wechseln",
+    "plural": null,
+    "tr": "değiştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "wehtun",
+    "plural": null,
+    "tr": "acı vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "wieder",
+    "plural": null,
+    "tr": "yine",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "wiederkommen",
+    "plural": null,
+    "tr": "yine gelin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Zahn",
+    "plural": "Zähne",
+    "tr": "diş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "der Zeh",
+    "plural": "Zehen",
+    "tr": "ayak parmağı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 9: Beim Arzt",
+    "de": "zurzeit",
+    "plural": null,
+    "tr": "halen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "aufwachsen",
+    "plural": null,
+    "tr": "büyümek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "beantworten",
+    "plural": null,
+    "tr": "cevaplamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Besuch",
+    "plural": null,
+    "tr": "ziyaret",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Bewegung",
+    "plural": "Bewegungen",
+    "tr": "hareket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "bilden",
+    "plural": null,
+    "tr": "oluşturmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Blume",
+    "plural": "Blumen",
+    "tr": "çiçek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Dienst",
+    "plural": null,
+    "tr": "hizmet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "extra",
+    "plural": null,
+    "tr": "ekstra",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Ferienhaus",
+    "plural": "Ferienhäuser",
+    "tr": "tatil evi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "früher",
+    "plural": null,
+    "tr": "daha erken",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "geboren sein",
+    "plural": null,
+    "tr": "doğmuş olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "gerade",
+    "plural": null,
+    "tr": "doğrudan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "gucken",
+    "plural": null,
+    "tr": "bakmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Hausflur",
+    "plural": null,
+    "tr": "koridor",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "heiraten",
+    "plural": null,
+    "tr": "evlenmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Hobby",
+    "plural": "Hobbys",
+    "tr": "hobi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Ingenieur",
+    "plural": null,
+    "tr": "mühendis",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Insel",
+    "plural": "Inseln",
+    "tr": "ada",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Inselrundfahrt",
+    "plural": null,
+    "tr": "ada gezisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "kennen",
+    "plural": null,
+    "tr": "bilmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Koffer",
+    "plural": "Koffer",
+    "tr": "bavul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "letzte",
+    "plural": null,
+    "tr": "sonuncu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Meer",
+    "plural": null,
+    "tr": "deniz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Mond",
+    "plural": null,
+    "tr": "ay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Nachbar",
+    "plural": "Nachbarn",
+    "tr": "komşu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Nachbarin",
+    "plural": "Nachbarinnen",
+    "tr": "komşu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Natur",
+    "plural": null,
+    "tr": "doğa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "packen",
+    "plural": null,
+    "tr": "paketlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Postkarte",
+    "plural": "Postkarten",
+    "tr": "kartpostal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Reise",
+    "plural": "Reisen",
+    "tr": "yolculuk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Schiff",
+    "plural": "Schiffe",
+    "tr": "gemi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Seehund",
+    "plural": "Seehunde",
+    "tr": "bayağı fok",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Ski",
+    "plural": null,
+    "tr": "ski",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Strand",
+    "plural": "Strände",
+    "tr": "sahil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "stressig",
+    "plural": null,
+    "tr": "gerici",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Studium",
+    "plural": null,
+    "tr": "eğitim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "stundenlang",
+    "plural": null,
+    "tr": "saatlerce",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "die Suppe",
+    "plural": "Suppen",
+    "tr": "çorba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "süß",
+    "plural": null,
+    "tr": "tatlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Tennis",
+    "plural": null,
+    "tr": "tenis",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Tourist",
+    "plural": "Touristen",
+    "tr": "turist",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "unregelmäßig",
+    "plural": null,
+    "tr": "düzensiz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "der Urlaub",
+    "plural": null,
+    "tr": "tatil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "verdienen",
+    "plural": null,
+    "tr": "(para) kazanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "warten",
+    "plural": null,
+    "tr": "beklemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 10: Gestern und heute",
+    "de": "das Wetter",
+    "plural": null,
+    "tr": "hava",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "anziehen",
+    "plural": null,
+    "tr": "giymek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Anzug",
+    "plural": "Anzüge",
+    "tr": "takım elbise",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "beige",
+    "plural": null,
+    "tr": "bej",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "bequem",
+    "plural": null,
+    "tr": "rahat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "besser",
+    "plural": null,
+    "tr": "daha iyi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "besten (am besten)",
+    "plural": null,
+    "tr": "en iyisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "bestimmt",
+    "plural": null,
+    "tr": "kesin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "blau",
+    "plural": null,
+    "tr": "mavi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "blöd",
+    "plural": null,
+    "tr": "aptal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Bluse",
+    "plural": "Blusen",
+    "tr": "bluz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "braun",
+    "plural": null,
+    "tr": "kahverengi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "bringen",
+    "plural": null,
+    "tr": "getirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "denken",
+    "plural": null,
+    "tr": "düşünmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Einkaufsbummel",
+    "plural": null,
+    "tr": "alışveriş gezisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "eng",
+    "plural": null,
+    "tr": "dar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "euch",
+    "plural": null,
+    "tr": "size, sizi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Farbe",
+    "plural": "Farben",
+    "tr": "renk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "furchtbar",
+    "plural": null,
+    "tr": "korkunç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "gefallen",
+    "plural": null,
+    "tr": "iyilik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "gegenseitig",
+    "plural": null,
+    "tr": "karşılıklı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "gelb",
+    "plural": null,
+    "tr": "sarı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "genauso",
+    "plural": null,
+    "tr": "tam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "glauben",
+    "plural": null,
+    "tr": "inanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "grau",
+    "plural": null,
+    "tr": "gri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "günstig",
+    "plural": null,
+    "tr": "hesaplı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das Hemd",
+    "plural": "Hemden",
+    "tr": "gömlek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Hose",
+    "plural": "Hosen",
+    "tr": "pantolon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "ihm",
+    "plural": null,
+    "tr": "onun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Jacke",
+    "plural": "Jacken",
+    "tr": "ceket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Jeans",
+    "plural": "Jeans",
+    "tr": "blucin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Jogginganzug",
+    "plural": null,
+    "tr": "eşofman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Kassenbon",
+    "plural": null,
+    "tr": "kasa fişi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das Kaufhaus",
+    "plural": "Kaufhäuser",
+    "tr": "lışveriş merkezi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Klamotten (Pl.)",
+    "plural": null,
+    "tr": "kıyafetler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "klasse",
+    "plural": null,
+    "tr": "sınıf",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das Kleid",
+    "plural": "Kleider",
+    "tr": "elbise",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Kleidung",
+    "plural": "Kleidung",
+    "tr": "giyim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das Kleidungsstück",
+    "plural": "Kleidungsstücke",
+    "tr": "giysi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "lila",
+    "plural": null,
+    "tr": "mor",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Mantel",
+    "plural": "Mäntel",
+    "tr": "manto",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "meisten (am meisten)",
+    "plural": null,
+    "tr": "çoğunlukla (çoğu zaman)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Mode",
+    "plural": null,
+    "tr": "moda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das Modell",
+    "plural": null,
+    "tr": "model",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Mütze",
+    "plural": null,
+    "tr": "başlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "online",
+    "plural": null,
+    "tr": "çevrimiçi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Ordnung",
+    "plural": null,
+    "tr": "düzen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das Paar",
+    "plural": "Paare",
+    "tr": "çift",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "passen",
+    "plural": null,
+    "tr": "geçmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "positiv",
+    "plural": null,
+    "tr": "olumlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "probieren",
+    "plural": null,
+    "tr": "denemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Prospekt",
+    "plural": "Prospekte",
+    "tr": "broşür",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Pullover",
+    "plural": null,
+    "tr": "kazak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "raten",
+    "plural": null,
+    "tr": "tahmin etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Rock",
+    "plural": null,
+    "tr": "eteklik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Schal",
+    "plural": null,
+    "tr": "şal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Schuh",
+    "plural": "Schuhe",
+    "tr": "ayakkabı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "schwarz",
+    "plural": null,
+    "tr": "siyah",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "sicher",
+    "plural": null,
+    "tr": "güvenli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Socke",
+    "plural": "Socken",
+    "tr": "çorap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Sportschuh",
+    "plural": null,
+    "tr": "spor ayakkabısı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "die Strickjacke",
+    "plural": null,
+    "tr": "yün ceket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Strumpf",
+    "plural": "Strümpfe",
+    "tr": "çorap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "tragen",
+    "plural": null,
+    "tr": "taşımak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "das T-Shirt",
+    "plural": "T-Shirts",
+    "tr": "tişört",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "typisch",
+    "plural": null,
+    "tr": "tipik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "überhaupt",
+    "plural": null,
+    "tr": "her halükarda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "umtauschen",
+    "plural": null,
+    "tr": "değiş tokuş etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "uns",
+    "plural": null,
+    "tr": "biz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "vergessen",
+    "plural": null,
+    "tr": "unutmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "der Wintermantel",
+    "plural": null,
+    "tr": "palto",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 11: Wir gehen shoppen!",
+    "de": "zurück",
+    "plural": null,
+    "tr": "geri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Achtung",
+    "plural": null,
+    "tr": "dikkat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der April",
+    "plural": null,
+    "tr": "nisan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "aufräumen",
+    "plural": null,
+    "tr": "toplamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "aufregen",
+    "plural": null,
+    "tr": "heyecanlandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der August",
+    "plural": null,
+    "tr": "ağustos",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "bauen",
+    "plural": null,
+    "tr": "inşa etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Baum",
+    "plural": "Bäume",
+    "tr": "ağaç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "besuchen",
+    "plural": null,
+    "tr": "ziyaret etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "bewölkt",
+    "plural": null,
+    "tr": "bulutlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Braut",
+    "plural": "Bräute",
+    "tr": "gelin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Dank",
+    "plural": null,
+    "tr": "teşekkür",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "darüber",
+    "plural": null,
+    "tr": "üzerine",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Deutschlandkarte",
+    "plural": null,
+    "tr": "almanya haritası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Dezember",
+    "plural": null,
+    "tr": "aralık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "eben",
+    "plural": null,
+    "tr": "düz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "einladen",
+    "plural": null,
+    "tr": "davet etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Einladung",
+    "plural": null,
+    "tr": "davetiye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "einverstanden",
+    "plural": null,
+    "tr": "anlaşıldı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Eis",
+    "plural": null,
+    "tr": "buz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Februar",
+    "plural": null,
+    "tr": "şubat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Feier",
+    "plural": "Feiern",
+    "tr": "kutlama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "feiern",
+    "plural": null,
+    "tr": "kutlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Fest",
+    "plural": "Feste",
+    "tr": "ziyafet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "freuen",
+    "plural": null,
+    "tr": "sevinmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "froh",
+    "plural": null,
+    "tr": "mutlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Frühling",
+    "plural": null,
+    "tr": "İlkbahar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "fühlen",
+    "plural": null,
+    "tr": "hissetmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Gartenparty",
+    "plural": "Gartenpartys",
+    "tr": "bahçe partisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Geburtstag",
+    "plural": null,
+    "tr": "doğum günü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Geburtstagstorte",
+    "plural": null,
+    "tr": "doğum günü pastası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Geschenk",
+    "plural": "Geschenke",
+    "tr": "armağan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "glücklich",
+    "plural": null,
+    "tr": "mutlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Glückstag",
+    "plural": null,
+    "tr": "mutlu gün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Grad",
+    "plural": null,
+    "tr": "derece",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "hageln",
+    "plural": null,
+    "tr": "dolu yağmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Handschuh",
+    "plural": "Handschuhe",
+    "tr": "eldiven",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Hase",
+    "plural": null,
+    "tr": "tavşan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Herbst",
+    "plural": null,
+    "tr": "sonbahar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Himmelsrichtung",
+    "plural": "Himmelsrichtungen",
+    "tr": "ana yön",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Hochzeit",
+    "plural": "Hochzeiten",
+    "tr": "düğün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Hochzeitsfeier",
+    "plural": null,
+    "tr": "düğün merasimi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Jahreszahl",
+    "plural": null,
+    "tr": "tarih",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Jahreszeit",
+    "plural": "Jahreszeiten",
+    "tr": "mevsim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Januar",
+    "plural": null,
+    "tr": "ocak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Juli",
+    "plural": null,
+    "tr": "temmuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Kalender",
+    "plural": "Kalender",
+    "tr": "takvim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "lieben",
+    "plural": null,
+    "tr": "sevmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Luftballon",
+    "plural": "Luftballons",
+    "tr": "balon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "lustig",
+    "plural": null,
+    "tr": "komik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Mai",
+    "plural": null,
+    "tr": "mayıs",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Mama",
+    "plural": null,
+    "tr": "anne",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "minus",
+    "plural": null,
+    "tr": "eksi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "mitbringen",
+    "plural": null,
+    "tr": "getirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "nass",
+    "plural": null,
+    "tr": "ıslak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "nebelig",
+    "plural": null,
+    "tr": "sisli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Norden",
+    "plural": null,
+    "tr": "kuzey",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der November",
+    "plural": null,
+    "tr": "kasım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "nun",
+    "plural": null,
+    "tr": "şimdi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Oktober",
+    "plural": null,
+    "tr": "ekim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Oktoberfest",
+    "plural": null,
+    "tr": "ekim festivali",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Oma",
+    "plural": null,
+    "tr": "büyükanne",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Osten",
+    "plural": null,
+    "tr": "doğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Osterei",
+    "plural": "Ostereier",
+    "tr": "paskalya yumurtası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Osterfest",
+    "plural": null,
+    "tr": "paskalya tatili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Osterhase",
+    "plural": null,
+    "tr": "paskalya tavşanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Ostern",
+    "plural": null,
+    "tr": "paskalya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Papa",
+    "plural": null,
+    "tr": "baba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "reden",
+    "plural": null,
+    "tr": "konuşmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "regnen",
+    "plural": null,
+    "tr": "yağmur yağmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "samstags",
+    "plural": null,
+    "tr": "cumartesileri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Schatz",
+    "plural": null,
+    "tr": "sevgilim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "scheinen",
+    "plural": null,
+    "tr": "görünmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "schenken",
+    "plural": null,
+    "tr": "hediye etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "schlecht",
+    "plural": null,
+    "tr": "kötü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Schnee",
+    "plural": null,
+    "tr": "kar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Schneemann",
+    "plural": null,
+    "tr": "kardan adam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "schneien",
+    "plural": null,
+    "tr": "kar yağmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Schokoladenkuchen",
+    "plural": null,
+    "tr": "çikolatalı pasta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Sekt",
+    "plural": null,
+    "tr": "köpüklü şarap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der September",
+    "plural": null,
+    "tr": "eylül",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Sommer",
+    "plural": null,
+    "tr": "yaz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "sonnig",
+    "plural": null,
+    "tr": "güneşli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Spezialität",
+    "plural": "Spezialitäten",
+    "tr": "spesiyalite",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Standesamt",
+    "plural": null,
+    "tr": "nüfus dairesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "stellen",
+    "plural": null,
+    "tr": "koymak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Süden",
+    "plural": null,
+    "tr": "güney",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "tanzen",
+    "plural": null,
+    "tr": "dans etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Teller",
+    "plural": "Teller",
+    "tr": "tabak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Torte",
+    "plural": "Torten",
+    "tr": "turta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "trocken",
+    "plural": null,
+    "tr": "kuru",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "unglücklich",
+    "plural": null,
+    "tr": "mutsuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Unglückstag",
+    "plural": null,
+    "tr": "felaket günü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "warm",
+    "plural": null,
+    "tr": "ılık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Weihnachten",
+    "plural": null,
+    "tr": "noel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Weihnachtsbaum",
+    "plural": "Weihnachtsbäume",
+    "tr": "noel ağacı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "die Weihnachtsfeier",
+    "plural": null,
+    "tr": "noel tatili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Weihnachtsgeschenk",
+    "plural": null,
+    "tr": "noel armağanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Weihnachtsmann",
+    "plural": null,
+    "tr": "noel Baba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "das Westdeutschland",
+    "plural": null,
+    "tr": "batı Almanya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Westen",
+    "plural": null,
+    "tr": "batı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "der Wetterbericht",
+    "plural": null,
+    "tr": "hava raporu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 12: Endlich Frühling!",
+    "de": "wieso",
+    "plural": null,
+    "tr": "neden",
+    "ex": ""
+  }
+]

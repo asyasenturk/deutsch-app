@@ -118,6 +118,22 @@
     localCacheKey: 'deutsch.state.cache',
   };
 
+  // ─── source / EG / verb state ──────────────────────────────────────────────
+  let activeSource = (() => {
+    const v = localStorage.getItem('activeTab');
+    return (v === 'einfach' || v === 'verb') ? v : 'goethe';
+  })();
+  const egState = {
+    meta: null,
+    sublevel: localStorage.getItem('egSublevel') || 'b1_1',
+    known: new Set(),
+    inLektion: false,
+  };
+  const vbState = {
+    recent: (() => { try { return JSON.parse(localStorage.getItem('recentVerbs') || '[]'); } catch { return []; } })(),
+  };
+  let lastVerbQuery = '';
+
   function keyOf(level, de) { return `${level}|${de}`; }
 
   // ----------------------------------------------------- persistence (server)
@@ -230,6 +246,7 @@
   async function enterApp() {
     showApp();
     $('#hello').textContent = `Merhaba, ${app.username}`;
+    initSourceTabs();
     const allowedModes = new Set(['cards', 'quiz', 'artikel', 'known', 'stats']);
     app.mode = allowedModes.has(app.state.lastMode) ? app.state.lastMode : 'cards';
     setMode(app.mode, /*persist*/ false);
@@ -281,18 +298,7 @@
   function setMode(mode, persist = true) {
     app.mode = mode;
     $$('.mode-btn').forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
-    $('#cards-mode').hidden = mode !== 'cards';
-    $('#quiz-mode').hidden = mode !== 'quiz';
-    $('#artikel-mode').hidden = mode !== 'artikel';
-    $('#known-mode').hidden = mode !== 'known';
-    $('#stats-mode').hidden = mode !== 'stats';
-
-    // Bazı modlarda filtre/progress/daily bar'ı gizle
-    const showFilters = mode === 'cards';
-    $('#filters').hidden = !showFilters;
-    $('#progress-wrap').hidden = mode === 'stats' || mode === 'artikel' || mode === 'known';
-    $('#daily-bar').hidden = mode === 'stats';
-
+    applyVisibility();
     app.state.lastMode = mode;
     if (persist) persistState();
     if (mode === 'quiz') startQuiz();
@@ -309,7 +315,7 @@
 
     let filtered = all;
     if (app.activeGroup) filtered = filtered.filter(w => w.group === app.activeGroup);
-    if (app.state.hideKnown) filtered = filtered.filter(w => !app.state.known[keyOf(app.activeLevel, w.de)]);
+    if (app.state.hideKnown) filtered = filtered.filter(w => !isWordKnown(w));
 
     app.activeVocab = filtered;
     if (resetIdx || app.state.lastIdx >= app.activeVocab.length) app.state.lastIdx = 0;
@@ -406,24 +412,45 @@
 
   function renderCard() {
     const w = currentWord();
+    const pluralEl = $('#card-plural');
     if (!w) {
       cardGroup.textContent = '';
       cardWord.textContent = 'Bu filtreyle gösterilecek kelime kalmadı 🎉';
       cardTr.textContent = '';
       cardEx.innerHTML = '';
+      if (pluralEl) pluralEl.textContent = '';
       $('#card-counter').textContent = '0 / 0';
       return;
     }
     cardGroup.textContent = w.group || '';
-    cardWord.innerHTML = renderWord(w.de);
-    cardTr.textContent = w.tr;
-    const exTr = w.ex_tr ? `<div class="card-ex-tr">${escapeHtml(w.ex_tr)}</div>` : '';
-    cardEx.innerHTML = (w.ex ? escapeHtml(w.ex) : '') + exTr;
+    if (activeSource === 'einfach') {
+      cardWord.textContent = w.tr;
+      const plPart = w.plural ? ` (Çoğul: ${w.plural})` : '';
+      if (pluralEl) pluralEl.innerHTML = `<b>${escapeHtml(w.de)}${escapeHtml(plPart)}</b>`;
+      cardTr.textContent = '';
+      cardEx.innerHTML = '';
+    } else {
+      if (pluralEl) pluralEl.textContent = '';
+      cardWord.innerHTML = renderWord(w.de);
+      cardTr.textContent = w.tr;
+      const exTr = w.ex_tr ? `<div class="card-ex-tr">${escapeHtml(w.ex_tr)}</div>` : '';
+      cardEx.innerHTML = (w.ex ? escapeHtml(w.ex) : '') + exTr;
+    }
     card.classList.toggle('flipped', app.cardFlipped);
     $('#card-counter').textContent = `${app.state.lastIdx + 1} / ${app.activeVocab.length}`;
   }
 
   function renderProgress() {
+    if (activeSource === 'einfach') {
+      const all = app.vocabCache['eg'] || [];
+      const sl = egState.sublevel;
+      const knownCount = all.filter(w => egState.known.has(`${sl}|${w.group}|${w.de}`)).length;
+      const total = all.length || 1;
+      const pct = Math.round((knownCount / total) * 100);
+      $('#progress-bar').style.width = pct + '%';
+      $('#progress-text').textContent = `${knownCount} / ${all.length}`;
+      return;
+    }
     const all = app.vocabCache[app.activeLevel] || [];
     const knownCount = all.filter(w => app.state.known[keyOf(app.activeLevel, w.de)]).length;
     const total = all.length || 1;
@@ -450,6 +477,34 @@
   function markKnown(isKnown) {
     const w = currentWord();
     if (!w) return;
+    if (activeSource === 'einfach') {
+      const wk = `${egState.sublevel}|${w.group}|${w.de}`;
+      if (isKnown) {
+        egState.known.add(wk);
+        registerStudyAction();
+        animateSwipe('right');
+      } else {
+        egState.known.delete(wk);
+        animateSwipe('left');
+      }
+      api('/api/eg/progress', {
+        method: 'POST',
+        body: JSON.stringify({ sublevel: egState.sublevel, word_key: wk, known: isKnown }),
+      }).catch(() => {});
+      setTimeout(() => {
+        if (app.state.hideKnown) {
+          rebuildActiveVocab(false);
+          if (app.state.lastIdx >= app.activeVocab.length) app.state.lastIdx = 0;
+        } else {
+          if (app.activeVocab.length) app.state.lastIdx = (app.state.lastIdx + 1) % app.activeVocab.length;
+        }
+        app.cardFlipped = false;
+        card.classList.remove('swipe-left', 'swipe-right');
+        updateDailyBar();
+        render();
+      }, 220);
+      return;
+    }
     const k = keyOf(app.activeLevel, w.de);
     const wasKnown = !!app.state.known[k];
     if (isKnown) {
@@ -1023,7 +1078,7 @@
     u.pitch = 1;
     if (tts.voice) u.voice = tts.voice;
     const setSpeakingClass = (on) => {
-      document.querySelectorAll('.card-speak, .wm-speak, .known-item-speak').forEach(b => b.classList.remove('speaking'));
+      document.querySelectorAll('.card-speak, .wm-speak, .known-item-speak, .verb-speak-btn').forEach(b => b.classList.remove('speaking'));
       if (on && btn) btn.classList.add('speaking');
     };
     u.onstart = () => setSpeakingClass(true);
@@ -1222,6 +1277,301 @@
     renderKnownList();
     $('#known-search').focus();
   });
+
+  // ================================================================ VISIBILITY
+  function applyVisibility() {
+    const mode = app.mode;
+    const isGoethe  = activeSource === 'goethe';
+    const isEinfach = activeSource === 'einfach';
+    const isVerb    = activeSource === 'verb';
+    const inLkt     = egState.inLektion;
+
+    $('.level-switch').hidden = !isGoethe;
+    $('.mode-switch').hidden  = isVerb;
+    $('#daily-bar').hidden    = isVerb || mode === 'stats';
+    $('#filters').hidden      = !(isGoethe && mode === 'cards');
+    $('#progress-wrap').hidden = isVerb || mode === 'stats' || mode === 'artikel' || mode === 'known';
+
+    $('#eg-panel').hidden    = !(isEinfach && !inLkt);
+    $('#eg-back-btn').hidden = !(isEinfach && inLkt);
+    $('#verb-panel').hidden  = !isVerb;
+
+    const showContent = isGoethe || (isEinfach && inLkt);
+    $('#cards-mode').hidden  = !showContent || mode !== 'cards';
+    $('#quiz-mode').hidden   = !showContent || mode !== 'quiz';
+    $('#artikel-mode').hidden= !showContent || mode !== 'artikel';
+    $('#known-mode').hidden  = !showContent || mode !== 'known';
+    $('#stats-mode').hidden  = !showContent || mode !== 'stats';
+  }
+
+  function isWordKnown(w) {
+    if (activeSource === 'einfach') {
+      return egState.known.has(`${egState.sublevel}|${w.group}|${w.de}`);
+    }
+    return !!app.state.known[keyOf(app.activeLevel, w.de)];
+  }
+
+  // ================================================================ SOURCE TABS
+  function initSourceTabs() {
+    $$('.src-tab').forEach(b => b.addEventListener('click', () => setSource(b.dataset.src)));
+    applySourceTabUI();
+    if (activeSource === 'einfach') loadEgMeta();
+    else if (activeSource === 'verb') renderRecentVerbs();
+  }
+
+  function applySourceTabUI() {
+    $$('.src-tab').forEach(b => b.classList.toggle('active', b.dataset.src === activeSource));
+    applyVisibility();
+  }
+
+  function setSource(src) {
+    activeSource = src;
+    localStorage.setItem('activeTab', src);
+    applySourceTabUI();
+    if (src === 'einfach') {
+      if (!egState.inLektion) loadEgMeta();
+    } else if (src === 'verb') {
+      renderRecentVerbs();
+    }
+  }
+
+  // ================================================================ EINFACH GUT
+  async function loadEgMeta() {
+    if (!egState.meta) {
+      try {
+        egState.meta = await api('/api/eg/meta');
+      } catch {
+        showToast('Bağlantı hatası, tekrar deneyin');
+        return;
+      }
+    }
+    if (egState.known.size === 0) {
+      try {
+        const { known } = await api(`/api/eg/progress?sublevel=${egState.sublevel}`);
+        egState.known = new Set(known || []);
+      } catch {}
+    }
+    renderEgSublevelBar();
+    renderEgLektionList();
+  }
+
+  function renderEgSublevelBar() {
+    $$('.eg-sl').forEach(b => b.classList.toggle('active', b.dataset.sl === egState.sublevel));
+  }
+
+  $$('.eg-sl').forEach(b => b.addEventListener('click', () => selectEgSublevel(b.dataset.sl)));
+
+  async function selectEgSublevel(sl) {
+    if (sl === egState.sublevel && egState.meta) { renderEgSublevelBar(); renderEgLektionList(); return; }
+    egState.sublevel = sl;
+    egState.known = new Set();
+    egState.inLektion = false;
+    localStorage.setItem('egSublevel', sl);
+    applyVisibility();
+    try {
+      const { known } = await api(`/api/eg/progress?sublevel=${sl}`);
+      egState.known = new Set(known || []);
+    } catch {}
+    renderEgSublevelBar();
+    renderEgLektionList();
+  }
+
+  function egKnownCount(sl, groupName) {
+    const prefix = `${sl}|${groupName}|`;
+    let n = 0;
+    for (const k of egState.known) { if (k.startsWith(prefix)) n++; }
+    return n;
+  }
+
+  function renderEgLektionList() {
+    const sl = egState.sublevel;
+    const info = egState.meta && egState.meta[sl];
+    const wrap = $('#eg-lektions');
+    if (!info) { wrap.innerHTML = ''; return; }
+
+    let totalCount = 0;
+    let totalKnown = 0;
+    info.lektions.forEach(lkt => {
+      totalCount += lkt.count;
+      totalKnown += egKnownCount(sl, lkt.name);
+    });
+
+    const mkCard = (name, count, known, idx) => {
+      const pct = count ? Math.round((known / count) * 100) : 0;
+      const card = document.createElement('button');
+      card.className = 'eg-lektion-card';
+      card.type = 'button';
+      card.innerHTML = `
+        <div class="eg-lk-top">
+          <span class="eg-lk-name">${escapeHtml(name)}</span>
+          <span class="eg-lk-count">${known}/${count} ✓</span>
+        </div>
+        <div class="eg-lk-bar"><div class="eg-lk-fill" style="width:${pct}%"></div></div>`;
+      card.addEventListener('click', () => selectEgLektion(idx));
+      return card;
+    };
+
+    wrap.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    info.lektions.forEach((lkt, i) => {
+      const known = egKnownCount(sl, lkt.name);
+      frag.appendChild(mkCard(lkt.name, lkt.count, known, i + 1));
+    });
+    // "Tümü" kartı
+    frag.appendChild(mkCard(`Tümü — ${info.label}`, totalCount, totalKnown, 'all'));
+    wrap.appendChild(frag);
+  }
+
+  async function selectEgLektion(idx) {
+    const sl = egState.sublevel;
+    try {
+      const url = idx === 'all'
+        ? `/api/eg/words?sublevel=${sl}&lektion=all`
+        : `/api/eg/words?sublevel=${sl}&lektion=${idx}`;
+      const words = await api(url);
+      app.vocabCache['eg'] = words;
+      app.activeLevel = 'eg';
+      egState.inLektion = true;
+      app.state.lastIdx = 0;
+      app.cardFlipped = false;
+      rebuildActiveVocab(true);
+      applyVisibility();
+      setMode('cards', false);
+      render();
+    } catch {
+      showToast('Kelimeler yüklenemedi, tekrar deneyin');
+    }
+  }
+
+  $('#eg-back-btn').addEventListener('click', () => {
+    egState.inLektion = false;
+    app.vocabCache['eg'] = [];
+    applyVisibility();
+    renderEgLektionList();
+  });
+
+  // ================================================================ FİİL ÇEKİMİ
+  $('#verb-search-btn').addEventListener('click', doVerbSearch);
+  $('#verb-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') doVerbSearch(); });
+
+  function doVerbSearch() {
+    const q = $('#verb-input').value.trim().toLowerCase();
+    if (!q) return;
+    searchVerb(q);
+  }
+
+  async function searchVerb(q) {
+    lastVerbQuery = q;
+    $('#verb-input').value = q;
+    try {
+      const data = await api(`/api/verb?q=${encodeURIComponent(q)}`);
+      renderVerbResult(data);
+      if (data.found) {
+        addRecentVerb(q);
+        renderRecentVerbs();
+      }
+    } catch {
+      showToast('Bağlantı hatası, tekrar deneyin');
+    }
+  }
+
+  function addRecentVerb(q) {
+    vbState.recent = [q, ...vbState.recent.filter(v => v !== q)].slice(0, 5);
+    try { localStorage.setItem('recentVerbs', JSON.stringify(vbState.recent)); } catch {}
+  }
+
+  function renderRecentVerbs() {
+    const wrap = $('#recent-verbs-wrap');
+    if (!wrap) return;
+    wrap.innerHTML = '';
+    if (!vbState.recent.length) return;
+    const frag = document.createDocumentFragment();
+    vbState.recent.forEach(v => {
+      const chip = document.createElement('button');
+      chip.className = 'verb-recent-chip';
+      chip.type = 'button';
+      chip.innerHTML = `${escapeHtml(v)} <span class="verb-chip-x" data-v="${escapeHtml(v)}">×</span>`;
+      chip.addEventListener('click', (e) => {
+        if (e.target.classList.contains('verb-chip-x')) {
+          vbState.recent = vbState.recent.filter(x => x !== e.target.dataset.v);
+          try { localStorage.setItem('recentVerbs', JSON.stringify(vbState.recent)); } catch {}
+          renderRecentVerbs();
+          return;
+        }
+        searchVerb(v);
+      });
+      frag.appendChild(chip);
+    });
+    wrap.appendChild(frag);
+  }
+
+  function renderVerbResult(data) {
+    const wrap = $('#verb-result');
+    if (!data || !data.found) {
+      wrap.innerHTML = `<div class="verb-not-found">„${escapeHtml(lastVerbQuery)}" bulunamadı. Infinitiv formunu deneyin.</div>`;
+      return;
+    }
+    const PERSONS = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'Sie'];
+    const speakBtn = (text) =>
+      `<button class="verb-speak-btn" type="button" data-speak="${escapeHtml(text)}" aria-label="${escapeHtml(text)} telaffuzu dinle">🔊</button>`;
+
+    const mainRows = PERSONS.map((p, i) =>
+      `<tr><td class="vt-person">${escapeHtml(p)}</td>` +
+      `<td class="vt-form">${escapeHtml(data.prasens[i])} ${speakBtn(data.prasens[i])}</td>` +
+      `<td class="vt-form">${escapeHtml(data.prateritum[i])} ${speakBtn(data.prateritum[i])}</td></tr>`
+    ).join('');
+
+    const konjRows = PERSONS.map((p, i) =>
+      `<tr><td class="vt-person">${escapeHtml(p)}</td>` +
+      `<td class="vt-form">${escapeHtml(data.konjunktiv2[i])} ${speakBtn(data.konjunktiv2[i])}</td></tr>`
+    ).join('');
+
+    wrap.innerHTML = `
+      <div class="verb-card">
+        <div class="verb-header">
+          <h2 class="verb-title">
+            ${escapeHtml(data.infinitiv)}
+            <button class="verb-speak-btn verb-title-speak" type="button"
+              data-speak="${escapeHtml(data.infinitiv)}" aria-label="Infinitiv dinle">🔊</button>
+          </h2>
+          <div class="verb-meta">
+            Yardımcı fiil: <strong>${escapeHtml(data.hilfsverb)}</strong>
+            &nbsp;·&nbsp;
+            Partizip II: <strong>${escapeHtml(data.partizip2)}</strong>
+            ${speakBtn(data.partizip2)}
+          </div>
+        </div>
+
+        <div class="vt-wrap">
+          <table class="vt">
+            <thead><tr><th>Kişi</th><th>Präsens</th><th>Präteritum</th></tr></thead>
+            <tbody>${mainRows}</tbody>
+          </table>
+        </div>
+
+        <div class="vt-sub-wrap">
+          <div class="vt-sub-block">
+            <h4 class="vt-sub-title">Konjunktiv II</h4>
+            <table class="vt vt-small"><tbody>${konjRows}</tbody></table>
+          </div>
+          <div class="vt-sub-block">
+            <h4 class="vt-sub-title">Imperativ</h4>
+            <table class="vt vt-small">
+              <tbody>
+                <tr><td class="vt-person">Tekil</td>
+                    <td class="vt-form">${escapeHtml(data.imperativ.singular)}! ${speakBtn(data.imperativ.singular)}</td></tr>
+                <tr><td class="vt-person">Çoğul</td>
+                    <td class="vt-form">${escapeHtml(data.imperativ.plural)}! ${speakBtn(data.imperativ.plural)}</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>`;
+
+    wrap.querySelectorAll('.verb-speak-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => { e.stopPropagation(); speak(btn.dataset.speak, btn); });
+    });
+  }
 
   (async function init() {
     showAuth();

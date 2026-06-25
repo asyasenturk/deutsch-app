@@ -1,0 +1,4076 @@
+[
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Abfall",
+    "plural": "Abfälle",
+    "tr": "atık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Abflug",
+    "plural": null,
+    "tr": "kalkış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Absage",
+    "plural": null,
+    "tr": "İptal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "aktiv",
+    "plural": null,
+    "tr": "faal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Alkohol",
+    "plural": null,
+    "tr": "alkol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "angenehm",
+    "plural": null,
+    "tr": "rahat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "annulliert",
+    "plural": null,
+    "tr": "iptal edilmiş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Anzeigetafel",
+    "plural": "Anzeigetafeln",
+    "tr": "İlan panosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Aufruf",
+    "plural": null,
+    "tr": "çağrı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Ausgang",
+    "plural": "Ausgänge",
+    "tr": "çıkış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Ausstattung",
+    "plural": null,
+    "tr": "ekipman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Behälter",
+    "plural": "Behälter",
+    "tr": "kap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "betreten",
+    "plural": null,
+    "tr": "girmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der/die Bewohner/in",
+    "plural": "Bewohner/innen",
+    "tr": "sakin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Bordkarte",
+    "plural": null,
+    "tr": "biniş kartı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der/die Camper/in",
+    "plural": "Camper/innen",
+    "tr": "kampçı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Campingplatz",
+    "plural": "Campingplätze",
+    "tr": "kamp alanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Check-in-Schalter",
+    "plural": null,
+    "tr": "check-in kontuarı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Container",
+    "plural": "Container",
+    "tr": "konteyner",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Dienstreise",
+    "plural": null,
+    "tr": "İş seyahati",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Doppelbett",
+    "plural": "Doppelbetten",
+    "tr": "İki kişilik yatak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Doppelzimmer (DZ)",
+    "plural": "Doppelzimmer",
+    "tr": "İki kişilik oda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "einchecken",
+    "plural": null,
+    "tr": "giriş yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Einsteigezeit",
+    "plural": null,
+    "tr": "biniş saati",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Einzelzimmer (EZ)",
+    "plural": null,
+    "tr": "tek kişilik oda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "erleben",
+    "plural": null,
+    "tr": "deneyimlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Flug",
+    "plural": "Flüge",
+    "tr": "uçuş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der/die Flugbegleiter/in",
+    "plural": "Flugbegleiter/innen",
+    "tr": "uçuş görevlisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Fluggast",
+    "plural": "Fluggäste",
+    "tr": "uçak yolcusu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Fluggesellschaft",
+    "plural": "Fluggesellschaften",
+    "tr": "uçak şirketi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "führen",
+    "plural": null,
+    "tr": "yönetmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "füttern",
+    "plural": null,
+    "tr": "beslemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Gate",
+    "plural": null,
+    "tr": "kapı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Gepäck",
+    "plural": null,
+    "tr": "bagaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Gepäckausgabe",
+    "plural": null,
+    "tr": "bagaj teslimi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Gepäckband",
+    "plural": null,
+    "tr": "bagaj teslim bandı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "gestattet sein",
+    "plural": null,
+    "tr": "izin almış olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Halbpension (HP)",
+    "plural": null,
+    "tr": "yarım pansiyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Handgepäck",
+    "plural": null,
+    "tr": "el bagajı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "historisch",
+    "plural": null,
+    "tr": "tarihi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Hostel",
+    "plural": null,
+    "tr": "yurt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "hygienisch",
+    "plural": null,
+    "tr": "hijyenik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Inlineskaten",
+    "plural": null,
+    "tr": "tek sıra tekerlekli paten",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Jugendherberge",
+    "plural": "Jugendherbergen",
+    "tr": "öğrenci yurdu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Katalog",
+    "plural": "Kataloge",
+    "tr": "katalog",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "klettern",
+    "plural": null,
+    "tr": "tırmanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "komfortabel",
+    "plural": null,
+    "tr": "konforlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Lage",
+    "plural": null,
+    "tr": "konum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Lagerfeuer",
+    "plural": null,
+    "tr": "kamp ateşi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "landen",
+    "plural": null,
+    "tr": "konmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Lärm",
+    "plural": null,
+    "tr": "gürültü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Lautsprecherdurchsage",
+    "plural": "Lautsprecherdurchsagen",
+    "tr": "hoparlör anonsu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "lebhaft",
+    "plural": null,
+    "tr": "canlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Leine",
+    "plural": null,
+    "tr": "tasma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Leuchtturm",
+    "plural": "Leuchttürme",
+    "tr": "fener kulesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Meerblick",
+    "plural": null,
+    "tr": "deniz manzarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "mitten",
+    "plural": null,
+    "tr": "içinde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Nebel",
+    "plural": null,
+    "tr": "sis",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "neblig",
+    "plural": null,
+    "tr": "puslu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Paradies",
+    "plural": null,
+    "tr": "cennet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der/die Passagier/in",
+    "plural": "Passagiere",
+    "tr": "yolcu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Passkontrolle",
+    "plural": null,
+    "tr": "pasaport kontrolü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Pilotenstreik",
+    "plural": null,
+    "tr": "pilot grevi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Pool",
+    "plural": null,
+    "tr": "havuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "rechtzeitig",
+    "plural": null,
+    "tr": "zamanında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Reisebüro",
+    "plural": null,
+    "tr": "seyahat acentesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Reiseplan",
+    "plural": "Reisepläne",
+    "tr": "yolculuk planı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Reiseplanung",
+    "plural": null,
+    "tr": "yolculuk planlama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "reiten",
+    "plural": null,
+    "tr": "at binmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Ruhezeit",
+    "plural": "Ruhezeiten",
+    "tr": "dinlenme zamanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "sauber",
+    "plural": null,
+    "tr": "temiz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Sauberkeit",
+    "plural": null,
+    "tr": "temizlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Schalter",
+    "plural": "Schalter",
+    "tr": "şalter",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Schlange",
+    "plural": null,
+    "tr": "kuyruk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Sonnenschirm",
+    "plural": "Sonnenschirme",
+    "tr": "şemsiye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Sonnenterrasse",
+    "plural": "Sonnenterrassen",
+    "tr": "güneşlenme verandası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Sonnenuntergang",
+    "plural": "Sonnenuntergänge",
+    "tr": "güneş batışı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Stern",
+    "plural": "Sterne",
+    "tr": "yıldız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "stören",
+    "plural": null,
+    "tr": "rahatsız etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Streichholz",
+    "plural": "Streichhölzer",
+    "tr": "kibrit",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "streiken",
+    "plural": null,
+    "tr": "grev yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Taschenlampe",
+    "plural": null,
+    "tr": "el feneri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Taschenmesser",
+    "plural": null,
+    "tr": "çakı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "traumhaft",
+    "plural": null,
+    "tr": "rüya gibi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "übernachten",
+    "plural": null,
+    "tr": "gecelemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Übernachtung",
+    "plural": null,
+    "tr": "geceleme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Übernachtung mit Frühstück (ÜF)",
+    "plural": null,
+    "tr": "kahvaltı dahil geceleme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Umgebung",
+    "plural": null,
+    "tr": "çevre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "umgehend",
+    "plural": null,
+    "tr": "anında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "verärgert",
+    "plural": null,
+    "tr": "öfkeli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "verreisen",
+    "plural": null,
+    "tr": "uzaklaşmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "verschieben",
+    "plural": null,
+    "tr": "ertelemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Wanderer",
+    "plural": null,
+    "tr": "yürüyüşçü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "die Wandertour",
+    "plural": "Wandertouren",
+    "tr": "yürüyüş turu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Waschraum",
+    "plural": "Waschräume",
+    "tr": "çamaşırhane",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Wohnwagen",
+    "plural": null,
+    "tr": "caravan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "das Zelt",
+    "plural": null,
+    "tr": "çadır",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Zoll",
+    "plural": null,
+    "tr": "gümrük",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Gute Reise!",
+    "de": "der Zuschlag",
+    "plural": "Zuschläge",
+    "tr": "ekstra",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "absprechen",
+    "plural": null,
+    "tr": "kararlaştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Abstellplatz",
+    "plural": "Abstellplätze",
+    "tr": "park alanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "akzeptieren",
+    "plural": null,
+    "tr": "kabul etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "anstreichen",
+    "plural": null,
+    "tr": "boyamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Ärger",
+    "plural": null,
+    "tr": "öfke",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "ärgerlich",
+    "plural": null,
+    "tr": "can sıkıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Aufregung",
+    "plural": null,
+    "tr": "telaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Ausnahme",
+    "plural": null,
+    "tr": "İstisna",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "das Balkongeländer",
+    "plural": null,
+    "tr": "balkon korkuluğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "befestigen",
+    "plural": null,
+    "tr": "tespit etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "behalten",
+    "plural": null,
+    "tr": "içermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "beleidigen",
+    "plural": null,
+    "tr": "hakaret etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Beleidigung",
+    "plural": "Beleidigungen",
+    "tr": "hakaret",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "berechtigt",
+    "plural": null,
+    "tr": "yetkili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "beschimpfen",
+    "plural": null,
+    "tr": "sövmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Beschimpfung",
+    "plural": "Beschimpfungen",
+    "tr": "sövgü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "beschweren",
+    "plural": null,
+    "tr": "yakınmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Blumentopf",
+    "plural": "Blumentöpfe",
+    "tr": "saksı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "bohren",
+    "plural": null,
+    "tr": "delmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "deswegen",
+    "plural": null,
+    "tr": "o nedenle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "dumm",
+    "plural": null,
+    "tr": "aptal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "eilig",
+    "plural": null,
+    "tr": "acele",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "einhalten",
+    "plural": null,
+    "tr": "içermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "einlegen",
+    "plural": null,
+    "tr": "yerleştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "einstellen",
+    "plural": null,
+    "tr": "ayarlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "enden",
+    "plural": null,
+    "tr": "sonlandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Entscheidung",
+    "plural": "Entscheidungen",
+    "tr": "karar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "entspannend",
+    "plural": null,
+    "tr": "rahatlatıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "entsprechen",
+    "plural": null,
+    "tr": "ilgili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "erhöhen",
+    "plural": null,
+    "tr": "yükseltmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "erleichtern",
+    "plural": null,
+    "tr": "hafifletmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "erwähnen",
+    "plural": null,
+    "tr": "değinmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "eskalieren",
+    "plural": null,
+    "tr": "tırmanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "exotisch",
+    "plural": null,
+    "tr": "egzotik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "fair",
+    "plural": null,
+    "tr": "dürüst",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "festkleben",
+    "plural": null,
+    "tr": "yapıştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Freude",
+    "plural": null,
+    "tr": "neşe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Frist",
+    "plural": "Fristen",
+    "tr": "vade",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "fristgerecht",
+    "plural": null,
+    "tr": "vadesinde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "fristlos",
+    "plural": null,
+    "tr": "derhal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Gemeinschaftsraum",
+    "plural": "Gemeinschaftsräume",
+    "tr": "öğretmenler odası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "gesetzlich",
+    "plural": null,
+    "tr": "yasal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "hämmern",
+    "plural": null,
+    "tr": "çekiçlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "heizen",
+    "plural": null,
+    "tr": "ısıtmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Instandhaltung",
+    "plural": null,
+    "tr": "bakım ve koruma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "klug",
+    "plural": null,
+    "tr": "zeki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Konflikt",
+    "plural": "Konflikte",
+    "tr": "anlaşmazlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Kündigung",
+    "plural": null,
+    "tr": "İhbar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "lüften",
+    "plural": null,
+    "tr": "havalandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "massiv",
+    "plural": null,
+    "tr": "masif",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "meckern",
+    "plural": null,
+    "tr": "mızmızlanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "das Meerschweinchen",
+    "plural": null,
+    "tr": "kobay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Mieterhöhung",
+    "plural": null,
+    "tr": "kira zammı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Mietspiegel",
+    "plural": null,
+    "tr": "kira endeksi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Mietvertrag",
+    "plural": "Mietverträge",
+    "tr": "kira sözleşmesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Modernisierung",
+    "plural": null,
+    "tr": "modernizasyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "nachsehen",
+    "plural": null,
+    "tr": "denetlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "neugierig",
+    "plural": null,
+    "tr": "meraklı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "obwohl",
+    "plural": null,
+    "tr": "karşın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "offenbar",
+    "plural": null,
+    "tr": "açıkça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "protestieren",
+    "plural": null,
+    "tr": "itiraz etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der/die Richter/in",
+    "plural": "Richter/innen",
+    "tr": "yargıç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Rücksicht",
+    "plural": null,
+    "tr": "düşüncelilik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "sammeln",
+    "plural": null,
+    "tr": "toplamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "sauer",
+    "plural": null,
+    "tr": "ekşi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Schaden",
+    "plural": "Schäden",
+    "tr": "hasar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "schmutzig",
+    "plural": null,
+    "tr": "kirli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "selbstverständlich",
+    "plural": null,
+    "tr": "tabii",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "sinnlos",
+    "plural": null,
+    "tr": "anlamsız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "sinnvoll",
+    "plural": null,
+    "tr": "makul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "sortieren",
+    "plural": null,
+    "tr": "sınıflandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "stinken",
+    "plural": null,
+    "tr": "kokmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "streiten",
+    "plural": null,
+    "tr": "kavga etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "total",
+    "plural": null,
+    "tr": "toplam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "treu",
+    "plural": null,
+    "tr": "sadık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "überlegen",
+    "plural": null,
+    "tr": "düşünmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "üblich",
+    "plural": null,
+    "tr": "alışılagelmiş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "unglaublich",
+    "plural": null,
+    "tr": "inanılmaz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "das Unrecht",
+    "plural": null,
+    "tr": "haksızlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "das Urteil",
+    "plural": null,
+    "tr": "hüküm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "vergleichbar",
+    "plural": null,
+    "tr": "karşılaştırılabilir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "verpflichten",
+    "plural": null,
+    "tr": "zorlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "das Verständnis",
+    "plural": null,
+    "tr": "anlayış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Verstoß",
+    "plural": "Verstöße",
+    "tr": "İhlal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "verstoßen",
+    "plural": null,
+    "tr": "ihlal etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "völlig",
+    "plural": null,
+    "tr": "tamamen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "vorher",
+    "plural": null,
+    "tr": "daha önce",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "wegräumen",
+    "plural": null,
+    "tr": "toplayıp kaldırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Widerspruch",
+    "plural": "Widersprüche",
+    "tr": "tutarsızlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "wütend",
+    "plural": null,
+    "tr": "kızgın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Zeitraum",
+    "plural": "Zeiträume",
+    "tr": "süre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "ziemlich",
+    "plural": null,
+    "tr": "oldukça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "die Zimmerlautstärke",
+    "plural": null,
+    "tr": "oda gürültü seviyesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "zugeben",
+    "plural": null,
+    "tr": "itiraf etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "zurücklassen",
+    "plural": null,
+    "tr": "(geriye) bırakmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "das Zusammenleben",
+    "plural": null,
+    "tr": "birlikte yaşamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "zustimmen",
+    "plural": null,
+    "tr": "onaylamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Liebe Nachbarn …",
+    "de": "der Zutritt",
+    "plural": null,
+    "tr": "giriş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Abgas",
+    "plural": "Abgase",
+    "tr": "egzoz gazı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Abwasser",
+    "plural": null,
+    "tr": "atık su",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Altöl",
+    "plural": null,
+    "tr": "atık yağ",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Altpapier",
+    "plural": null,
+    "tr": "atık kağıt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Aluminium",
+    "plural": null,
+    "tr": "alüminyum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "andauernd",
+    "plural": null,
+    "tr": "sürekli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "ankündigen",
+    "plural": null,
+    "tr": "bildirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "anstatt",
+    "plural": null,
+    "tr": "yerine",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Begleitperson",
+    "plural": "Begleitpersonen",
+    "tr": "refakatçi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "belasten",
+    "plural": null,
+    "tr": "yüklemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Belastung",
+    "plural": "Belastungen",
+    "tr": "yük",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "beobachten",
+    "plural": null,
+    "tr": "gözlemlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Beutel",
+    "plural": "Beutel",
+    "tr": "kese",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "biologisch",
+    "plural": null,
+    "tr": "biyolojik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Chemikalie",
+    "plural": "Chemikalien",
+    "tr": "kimyasal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Deckel",
+    "plural": null,
+    "tr": "kapak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "doof",
+    "plural": null,
+    "tr": "bön",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Eierkarton",
+    "plural": "Eierkartons",
+    "tr": "yumurta viyolü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Eierschale",
+    "plural": "Eierschalen",
+    "tr": "yumurta kabuğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "einfallen",
+    "plural": null,
+    "tr": "aklına gelmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Elektroauto",
+    "plural": null,
+    "tr": "elektrikli otomobil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Energiesparhaus",
+    "plural": null,
+    "tr": "enerji tasarruflu ev",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Energiesparlampe",
+    "plural": null,
+    "tr": "enerji tasarruflu lamba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Erdbeben",
+    "plural": null,
+    "tr": "deprem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Erde",
+    "plural": null,
+    "tr": "toprak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Erderwärmung",
+    "plural": null,
+    "tr": "küresel ısınma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Erlaubnis",
+    "plural": null,
+    "tr": "İzin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der/die Förster/in",
+    "plural": "Förster/innen",
+    "tr": "ormancı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Gegenstand",
+    "plural": "Gegenstände",
+    "tr": "cisim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Gegenvorschlag",
+    "plural": "Gegenvorschläge",
+    "tr": "karşı öneri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "giftig",
+    "plural": null,
+    "tr": "zehirli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Haushalt",
+    "plural": null,
+    "tr": "hane halkı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Hochwasser",
+    "plural": null,
+    "tr": "su baskını",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der/die Hörer/in",
+    "plural": "Hörer/innen",
+    "tr": "dinleyici",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Kaffeefilter",
+    "plural": null,
+    "tr": "kahve filtresi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Klima",
+    "plural": null,
+    "tr": "İklim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Klimawandel",
+    "plural": null,
+    "tr": "İklim değişikliği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Konservendose",
+    "plural": null,
+    "tr": "konserve kutusu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Kunststoff",
+    "plural": "Kunststoffe",
+    "tr": "yapay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Luft",
+    "plural": null,
+    "tr": "hava",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Matratze",
+    "plural": null,
+    "tr": "şilte",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Metall",
+    "plural": null,
+    "tr": "metal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Milchkarton",
+    "plural": null,
+    "tr": "süt kartonu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Mülltonne",
+    "plural": null,
+    "tr": "çöp bidonu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Mülltrennung",
+    "plural": null,
+    "tr": "çöp ayrıştırma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Naturkatastrophe",
+    "plural": null,
+    "tr": "doğal afet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Naturprodukt",
+    "plural": "Naturprodukte",
+    "tr": "doğal ürün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Obstschale",
+    "plural": "Obstschalen",
+    "tr": "meyva kabuğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Papiermüll",
+    "plural": null,
+    "tr": "atık kağıt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Pappe",
+    "plural": null,
+    "tr": "karton",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Picknick",
+    "plural": null,
+    "tr": "piknik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Planet",
+    "plural": "Planeten",
+    "tr": "gezegen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Plastik",
+    "plural": null,
+    "tr": "plastik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "recyceln",
+    "plural": null,
+    "tr": "geri dönüştürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Sack",
+    "plural": "Säcke",
+    "tr": "torba",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Sammelstelle",
+    "plural": null,
+    "tr": "toplama noktası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "schädigen",
+    "plural": null,
+    "tr": "zarar vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "schädlich",
+    "plural": null,
+    "tr": "zararlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Schadstoff",
+    "plural": "Schadstoffe",
+    "tr": "zararlı madde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "schützen",
+    "plural": null,
+    "tr": "korumak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Solarenergie",
+    "plural": null,
+    "tr": "güneş enerjisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Sondermüll",
+    "plural": null,
+    "tr": "tehlikeli atık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Sonnenschein",
+    "plural": null,
+    "tr": "güneş ışığı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Sorge",
+    "plural": null,
+    "tr": "kaygı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "sparsam",
+    "plural": null,
+    "tr": "tutumlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Sperrmüll",
+    "plural": null,
+    "tr": "havaleli atık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "stattfinden",
+    "plural": null,
+    "tr": "gerçekleşmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Tierschutz",
+    "plural": null,
+    "tr": "hayvan koruma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Trinkwasser",
+    "plural": null,
+    "tr": "İçme suyu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "trüb",
+    "plural": null,
+    "tr": "bulanık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Tsunami",
+    "plural": null,
+    "tr": "tsunami",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Turm",
+    "plural": null,
+    "tr": "kule",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "umdrehen",
+    "plural": null,
+    "tr": "çevirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "umgehen",
+    "plural": null,
+    "tr": "dolaşmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "umweltfreundlich",
+    "plural": null,
+    "tr": "çevre dostu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Umweltschutz",
+    "plural": null,
+    "tr": "çevre koruma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Umweltverschmutzung",
+    "plural": null,
+    "tr": "çevre kirliliği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "das Unwetter",
+    "plural": "Unwetter",
+    "tr": "fırtına",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "verändern",
+    "plural": null,
+    "tr": "değiştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "verlaufen",
+    "plural": null,
+    "tr": "sürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "verschmutzen",
+    "plural": null,
+    "tr": "kirletmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "verschwenden",
+    "plural": null,
+    "tr": "israf etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Verschwendung",
+    "plural": null,
+    "tr": "İsraf",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "versprechen",
+    "plural": null,
+    "tr": "söz vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "verwerten",
+    "plural": null,
+    "tr": "değerlendirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "voraussichtlich",
+    "plural": null,
+    "tr": "tahmini",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "vorhersagen",
+    "plural": null,
+    "tr": "tahmin etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "wahrscheinlich",
+    "plural": null,
+    "tr": "muhtemelen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "wegschmeißen (ugs.)",
+    "plural": null,
+    "tr": "ıskartaya çıkarmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "wegwerfen",
+    "plural": null,
+    "tr": "atmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Wertstoff",
+    "plural": "Wertstoffe",
+    "tr": "değerli malzeme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Wind",
+    "plural": null,
+    "tr": "rüzgar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Windel",
+    "plural": "Windeln",
+    "tr": "kundak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "der Wirbelsturm",
+    "plural": "Wirbelstürme",
+    "tr": "tayfun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Wolke",
+    "plural": "Wolken",
+    "tr": "bulut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "zerstören",
+    "plural": null,
+    "tr": "bozmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Zerstörung",
+    "plural": null,
+    "tr": "yıkım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "die Zigarettenkippe",
+    "plural": "Zigarettenkippen",
+    "tr": "sigara izmariti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Ein Schulprojekt zum Umweltschutz",
+    "de": "zurückfahren",
+    "plural": null,
+    "tr": "geri dönmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "AGB (= Allgemeine Geschäfts-",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "",
+    "plural": null,
+    "tr": "genel Ticaret Kuralları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "bedingungen)",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "anfassen",
+    "plural": null,
+    "tr": "dokunmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Anprobe",
+    "plural": null,
+    "tr": "prova",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "anprobieren",
+    "plural": null,
+    "tr": "denemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Art",
+    "plural": "Arten",
+    "tr": "tür",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Artikelnummer",
+    "plural": "Artikelnummern",
+    "tr": "parça numarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Atmung",
+    "plural": null,
+    "tr": "solunum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "atmungsaktiv",
+    "plural": null,
+    "tr": "nefes alır",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "aufmerksam",
+    "plural": null,
+    "tr": "dikkatli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Auftrag",
+    "plural": null,
+    "tr": "sipariş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Auftragsnummer",
+    "plural": null,
+    "tr": "sipariş numarası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "ausliefern",
+    "plural": null,
+    "tr": "teslim etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Auswahl",
+    "plural": null,
+    "tr": "seçki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Bankeinzug",
+    "plural": null,
+    "tr": "banka tahsilatı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "bereits",
+    "plural": null,
+    "tr": "henüz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "beschädigt",
+    "plural": null,
+    "tr": "hasarlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Bestellhotline",
+    "plural": null,
+    "tr": "sipariş hattı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Betrag",
+    "plural": "Beträge",
+    "tr": "tutar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Bezahlvorgang",
+    "plural": "Bezahlvorgänge",
+    "tr": "ödeme süreci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Callcenter",
+    "plural": null,
+    "tr": "çağrı merkezi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Datenschutz",
+    "plural": null,
+    "tr": "veri koruma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "dicht",
+    "plural": null,
+    "tr": "kalın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "durchlässig",
+    "plural": null,
+    "tr": "geçirgen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "ebenso",
+    "plural": null,
+    "tr": "aynen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "eher",
+    "plural": null,
+    "tr": "tercihen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Eigentum",
+    "plural": null,
+    "tr": "mülk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Ergänzung",
+    "plural": "Ergänzungen",
+    "tr": "tamamlama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "erhältlich",
+    "plural": null,
+    "tr": "mevcut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "eventuell",
+    "plural": null,
+    "tr": "gerekirse",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "falls",
+    "plural": null,
+    "tr": "eğer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Gutschein",
+    "plural": null,
+    "tr": "kupon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "herstellen",
+    "plural": null,
+    "tr": "üretmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Herstellung",
+    "plural": null,
+    "tr": "üretim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Impressum",
+    "plural": null,
+    "tr": "künye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "innerhalb",
+    "plural": null,
+    "tr": "zarfında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "irgendwie",
+    "plural": null,
+    "tr": "herhangi bir şekilde",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Kauf",
+    "plural": null,
+    "tr": "alım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Kaufbestätigung",
+    "plural": null,
+    "tr": "alım teyidi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der/die Käufer/in",
+    "plural": "Käufer/innen",
+    "tr": "satıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Kaufvertrag",
+    "plural": null,
+    "tr": "alım sözleşmesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Kosmetik",
+    "plural": null,
+    "tr": "kozmetik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Kundenbefragung",
+    "plural": null,
+    "tr": "müşteri anketi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "kundenfreundlich",
+    "plural": null,
+    "tr": "müşteri dostu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Lager",
+    "plural": null,
+    "tr": "depo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "lieferbar",
+    "plural": null,
+    "tr": "teslim edilebilir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Lieferbedingung",
+    "plural": "Lieferbedingungen",
+    "tr": "teslimat koşulu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Lieferung",
+    "plural": null,
+    "tr": "teslimat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "luftdurchlässig",
+    "plural": null,
+    "tr": "hava geçirgen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Mehrkosten (Pl.)",
+    "plural": null,
+    "tr": "İlave giderler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Nachnahme",
+    "plural": null,
+    "tr": "ödemeli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Nachteil",
+    "plural": null,
+    "tr": "dezavantaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Onlineeinkauf",
+    "plural": null,
+    "tr": "çevrimiçi satınalma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Onlineshop",
+    "plural": null,
+    "tr": "çevrimiçi mağaza",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Onlineshopping",
+    "plural": null,
+    "tr": "çevrimiçi alışveriş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Paket",
+    "plural": null,
+    "tr": "paket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Paketbote",
+    "plural": null,
+    "tr": "paket kuryesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Paketdienst",
+    "plural": null,
+    "tr": "paket servisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Porto",
+    "plural": null,
+    "tr": "posta ücreti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "portofrei",
+    "plural": null,
+    "tr": "ücretsiz gönderi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Portokosten (Pl.)",
+    "plural": null,
+    "tr": "gönderi giderleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "produzieren",
+    "plural": null,
+    "tr": "üretmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Qualität",
+    "plural": null,
+    "tr": "kalite",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Reklamation",
+    "plural": "Reklamationen",
+    "tr": "şikayet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Retoure",
+    "plural": "Retouren",
+    "tr": "İadeler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Retourenschein",
+    "plural": null,
+    "tr": "İade makbuzu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Rücksendung",
+    "plural": null,
+    "tr": "İade",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Shopping",
+    "plural": null,
+    "tr": "alışveriş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "unverbindlich",
+    "plural": null,
+    "tr": "bağlayıcı değil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der/die Verbraucher/in",
+    "plural": "Verbraucher/innen",
+    "tr": "kullanıcı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "verpacken",
+    "plural": null,
+    "tr": "ambalajlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Versand",
+    "plural": null,
+    "tr": "sevkiyat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Versandkosten (Pl.)",
+    "plural": null,
+    "tr": "sevkiyat giderleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "versandkostenfrei",
+    "plural": null,
+    "tr": "ücretsiz sevkiyat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Versandkostenpauschale",
+    "plural": null,
+    "tr": "toplam sevkiyat giderleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "versenden",
+    "plural": null,
+    "tr": "sevk etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Ware",
+    "plural": "Waren",
+    "tr": "mal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Warenkorb",
+    "plural": null,
+    "tr": "alışveriş sepeti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "wasserdicht",
+    "plural": null,
+    "tr": "su geçirmez",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "der Werktag",
+    "plural": "Werktage",
+    "tr": "İş günü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "wetterfest",
+    "plural": null,
+    "tr": "havaya mukavim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "widerrufen",
+    "plural": null,
+    "tr": "geri almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "das Widerrufsrecht",
+    "plural": null,
+    "tr": "cayma hakkı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "die Zahlung",
+    "plural": null,
+    "tr": "ödeme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "zurückschicken",
+    "plural": null,
+    "tr": "geri göndermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "zurücksenden",
+    "plural": null,
+    "tr": "geri göndermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "zurücktreten",
+    "plural": null,
+    "tr": "çekilmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Online einkaufen",
+    "de": "zustellen",
+    "plural": null,
+    "tr": "teslim etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Alter",
+    "plural": null,
+    "tr": "yaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "anschauen",
+    "plural": null,
+    "tr": "bakmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Anstoß",
+    "plural": null,
+    "tr": "başlama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "anstrengend",
+    "plural": null,
+    "tr": "yorucu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Autorennen",
+    "plural": null,
+    "tr": "otomobil yarışı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "befragen",
+    "plural": null,
+    "tr": "yoklamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "begeistern",
+    "plural": null,
+    "tr": "coşturmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "beliebt",
+    "plural": null,
+    "tr": "sevilen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Biergarten",
+    "plural": null,
+    "tr": "bira bahçesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Boxen",
+    "plural": null,
+    "tr": "boks",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Chips (Pl.)",
+    "plural": null,
+    "tr": "cips",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "demnächst",
+    "plural": null,
+    "tr": "yakında",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Detektivgeschichte",
+    "plural": null,
+    "tr": "detektif öyküsü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Diagramm",
+    "plural": null,
+    "tr": "diyagram",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Diskussion",
+    "plural": null,
+    "tr": "tartışma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Dokumentation (Doku)",
+    "plural": "Dokumentationen (Dokus)",
+    "tr": "dokümantasyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "doppelt",
+    "plural": null,
+    "tr": "çifte",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "dramatisch",
+    "plural": null,
+    "tr": "dramatik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Durchschnitt",
+    "plural": null,
+    "tr": "ortalama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die DVD",
+    "plural": null,
+    "tr": "DVD",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "ehrlich",
+    "plural": null,
+    "tr": "dürüst",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "einschlafen",
+    "plural": null,
+    "tr": "uyuya kalmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "einsetzen",
+    "plural": null,
+    "tr": "geçirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Eishockey",
+    "plural": null,
+    "tr": "buz hokeyi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Eiskunstlauf",
+    "plural": null,
+    "tr": "artistik patinaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Ereignis",
+    "plural": "Ereignisse",
+    "tr": "olay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "erfolgreich",
+    "plural": null,
+    "tr": "başarılı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Ergebnis",
+    "plural": "Ergebnisse",
+    "tr": "sonuç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Experte/Expertin",
+    "plural": "Experten/Expertinnen",
+    "tr": "uzman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Fan",
+    "plural": "Fans",
+    "tr": "taraftar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Fußballclub",
+    "plural": null,
+    "tr": "futbol kulübü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Gewohnheit",
+    "plural": "Gewohnheiten",
+    "tr": "alışkanlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Golf",
+    "plural": null,
+    "tr": "golf",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Handball",
+    "plural": null,
+    "tr": "hentbol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Herz",
+    "plural": null,
+    "tr": "yürek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Horrorfilm",
+    "plural": null,
+    "tr": "korku filmi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Kandidat/in",
+    "plural": "Kandidaten/Kandidatinnen",
+    "tr": "aday",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Kommissar/in",
+    "plural": "Kommissare/Kommissarinnen",
+    "tr": "komiser",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Kommentator/in",
+    "plural": "Kommentatoren/Kommentatorinnen",
+    "tr": "yorumcu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Komödie",
+    "plural": "Komödien",
+    "tr": "komedi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Krimi",
+    "plural": "Krimis",
+    "tr": "polisiye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "kuscheln",
+    "plural": null,
+    "tr": "sokulmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Langeweile",
+    "plural": null,
+    "tr": "sıkıntı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Leichtathletik",
+    "plural": null,
+    "tr": "atletizm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Lieblingsbeschäftigung",
+    "plural": null,
+    "tr": "gözde meşgale",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Magazin",
+    "plural": null,
+    "tr": "dergi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Mannschaft",
+    "plural": null,
+    "tr": "takım",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Mehrheit",
+    "plural": null,
+    "tr": "çoğunluk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Minderheit",
+    "plural": null,
+    "tr": "azınlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "mitreden",
+    "plural": null,
+    "tr": "söze katılmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Mittelfeld",
+    "plural": null,
+    "tr": "orta saha",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Moderation",
+    "plural": null,
+    "tr": "ölçülülük",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Mord",
+    "plural": null,
+    "tr": "ölüm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "motiviert",
+    "plural": null,
+    "tr": "motive",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "naschen",
+    "plural": null,
+    "tr": "atıştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Niederlage",
+    "plural": null,
+    "tr": "yenilgi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "objektiv",
+    "plural": null,
+    "tr": "tarafsız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Quizshow",
+    "plural": null,
+    "tr": "soru yarışması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Radrennen",
+    "plural": null,
+    "tr": "bisiklet yarışı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Rangliste",
+    "plural": null,
+    "tr": "klasman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Rätsel",
+    "plural": "Rätsel",
+    "tr": "bilmece",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Reportage",
+    "plural": null,
+    "tr": "röportaj",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Reporter/in",
+    "plural": "Reporter/innen",
+    "tr": "muhabir",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "retten",
+    "plural": null,
+    "tr": "kurtarmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "romantisch",
+    "plural": null,
+    "tr": "romantik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Runde",
+    "plural": null,
+    "tr": "raunt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "schalten",
+    "plural": null,
+    "tr": "açmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Schiedsrichter",
+    "plural": null,
+    "tr": "hakem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "schießen",
+    "plural": null,
+    "tr": "(şut) atmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Seifenoper",
+    "plural": "Seifenopern",
+    "tr": "pembe dizi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Sendung",
+    "plural": "Sendungen",
+    "tr": "yayın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Serie",
+    "plural": "Serien",
+    "tr": "dizi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "siegen",
+    "plural": null,
+    "tr": "kazanmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Sieger/in",
+    "plural": "Sieger/innen",
+    "tr": "galip",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Skisport",
+    "plural": null,
+    "tr": "kayak sporu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Soap",
+    "plural": null,
+    "tr": "melodram",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "spannend",
+    "plural": null,
+    "tr": "heyecan verici",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Spieler/in",
+    "plural": "Spieler/innen",
+    "tr": "oyuncu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Spielfilm",
+    "plural": null,
+    "tr": "sinema filmi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Stadion",
+    "plural": null,
+    "tr": "stadyum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Statistik",
+    "plural": null,
+    "tr": "İstatistik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Tagesablauf",
+    "plural": null,
+    "tr": "rutin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Talkshow",
+    "plural": null,
+    "tr": "talkshow",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "das Tor",
+    "plural": "Tore",
+    "tr": "gol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Torwart/in",
+    "plural": null,
+    "tr": "kaleci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Tote",
+    "plural": "Toten",
+    "tr": "ölü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Übertragung",
+    "plural": null,
+    "tr": "yayın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "unentschieden",
+    "plural": null,
+    "tr": "berabere",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "ungesund",
+    "plural": null,
+    "tr": "sağlıksız",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Unterhaltung",
+    "plural": null,
+    "tr": "eğlence",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Verlierer/in",
+    "plural": "Verlierer/innen",
+    "tr": "mağlup",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Weltmeisterschaft (WM)",
+    "plural": null,
+    "tr": "dünya şampiyonası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "weshalb",
+    "plural": null,
+    "tr": "ne yüzden",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "zappen",
+    "plural": null,
+    "tr": "zaplamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der Zeichentrickfilm",
+    "plural": null,
+    "tr": "çizgi filim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "die Zeitverschwendung",
+    "plural": null,
+    "tr": "zaman kaybı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Fernsehen und Unterhaltung",
+    "de": "der/die Zuschauer/in",
+    "plural": "Zuschauer/innen",
+    "tr": "seyirci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Alliierte",
+    "plural": "Alliierten",
+    "tr": "müttefik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Amtssprache",
+    "plural": "Amtssprachen",
+    "tr": "resmi dil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "anfangs",
+    "plural": null,
+    "tr": "başlangıçta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "anheben",
+    "plural": null,
+    "tr": "vurgulamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Arbeitskraft",
+    "plural": "Arbeitskräfte",
+    "tr": "İş gücü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Arbeitslosigkeit",
+    "plural": null,
+    "tr": "İşsizlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Astronaut/in",
+    "plural": "Astronauten/Astronautinnen",
+    "tr": "astronot",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Asyl",
+    "plural": null,
+    "tr": "sığınma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "aufschreiben",
+    "plural": null,
+    "tr": "not etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "aufteilen",
+    "plural": null,
+    "tr": "paylaştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Auswanderer",
+    "plural": "Auswanderer",
+    "tr": "göçmen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Auswanderung",
+    "plural": null,
+    "tr": "göç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Besatzungszone",
+    "plural": "Besatzungszonen",
+    "tr": "İşgal bölgesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "besiegen",
+    "plural": null,
+    "tr": "alt etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Bundeskanzler/in",
+    "plural": null,
+    "tr": "federal Şansölye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Bundesrepublik (BRD)",
+    "plural": null,
+    "tr": "federal Almanya Cumhuriyet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Bürger/in",
+    "plural": "Bürger/innen",
+    "tr": "vatandaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Bürgerkrieg",
+    "plural": null,
+    "tr": "İç savaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Demokratie",
+    "plural": null,
+    "tr": "demokrasi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "demokratisch",
+    "plural": null,
+    "tr": "demokratik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Demonstration",
+    "plural": "Demonstrationen",
+    "tr": "gösteri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "Deutsche Demokratische Republik",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die",
+    "plural": null,
+    "tr": "Demokratik Alman Cumhuriyeti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "(DDR)",
+    "plural": null,
+    "tr": "",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "ehemalig",
+    "plural": null,
+    "tr": "evvelki",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "einführen",
+    "plural": null,
+    "tr": "başlatmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "einsperren",
+    "plural": null,
+    "tr": "hapsetmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Einwanderung",
+    "plural": null,
+    "tr": "göç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "emotional",
+    "plural": null,
+    "tr": "duygusal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "entwickeln",
+    "plural": null,
+    "tr": "geliştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "erinnern",
+    "plural": null,
+    "tr": "hatırlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Erinnerung",
+    "plural": "Erinnerungen",
+    "tr": "hatıra",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "ernähren",
+    "plural": null,
+    "tr": "beslemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Europäische Union (EU)",
+    "plural": null,
+    "tr": "avrupa Birliği (AB)",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Euroeinführung",
+    "plural": null,
+    "tr": "avronun yürürlüğe girmesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Flüchtling",
+    "plural": "Flüchtlinge",
+    "tr": "kaçak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "fördern",
+    "plural": null,
+    "tr": "teşvik etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Fremdsprache",
+    "plural": "Fremdsprachen",
+    "tr": "yabancı dil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "friedlich",
+    "plural": null,
+    "tr": "barışçı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Gastarbeiter/in",
+    "plural": "Gastarbeiter/innen",
+    "tr": "konuk işçi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Gefühl",
+    "plural": "Gefühle",
+    "tr": "duygu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Gegner/in",
+    "plural": "Gegner/innen",
+    "tr": "rakip",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Gehalt",
+    "plural": "Gehälter",
+    "tr": "maaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Gewürz",
+    "plural": "Gewürze",
+    "tr": "baharat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Grenze",
+    "plural": "Grenzen",
+    "tr": "sınır",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "gründen",
+    "plural": null,
+    "tr": "dayandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "hart",
+    "plural": null,
+    "tr": "sert",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Hauptstadt",
+    "plural": "Hauptstädte",
+    "tr": "başkent",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Heimat",
+    "plural": null,
+    "tr": "vatan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Industrie",
+    "plural": null,
+    "tr": "endüstri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "irgendwann",
+    "plural": null,
+    "tr": "bir zaman",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "jahrelang",
+    "plural": null,
+    "tr": "yıllarca",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Jahrhundert",
+    "plural": "Jahrhunderte",
+    "tr": "yüzyıl",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Jahrzehnt",
+    "plural": "Jahrzehnte",
+    "tr": "onyıl",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Jude/Jüdin",
+    "plural": "Juden/Jüdinnen",
+    "tr": "yahudi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "kaum",
+    "plural": null,
+    "tr": "pek az",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Kindheit",
+    "plural": null,
+    "tr": "çocukluk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Krieg",
+    "plural": "Kriege",
+    "tr": "savaş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Kriegsende",
+    "plural": null,
+    "tr": "savaş sonu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Krippe",
+    "plural": "Krippen",
+    "tr": "kreş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Kritiker/in",
+    "plural": "Kritiker/innen",
+    "tr": "eleştirmen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Mauer",
+    "plural": "Mauern",
+    "tr": "duvar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Mauerbau",
+    "plural": null,
+    "tr": "duvar inşaatı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Mauerfall",
+    "plural": null,
+    "tr": "duvar yıkılması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Medizin",
+    "plural": null,
+    "tr": "tıp",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "merken",
+    "plural": null,
+    "tr": "fark etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Migration",
+    "plural": null,
+    "tr": "göç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "miteinander",
+    "plural": null,
+    "tr": "birlikte",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "miterleben",
+    "plural": null,
+    "tr": "tanık olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "musikalisch",
+    "plural": null,
+    "tr": "müzikli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Muttersprache",
+    "plural": "Muttersprachen",
+    "tr": "anadil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Nachkriegszeit",
+    "plural": null,
+    "tr": "savaş sonrası dönem",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Nationalsozialismus",
+    "plural": null,
+    "tr": "nasyonal Sosyalizm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die NATO",
+    "plural": null,
+    "tr": "NATO",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Notunterkunft",
+    "plural": "Notunterkünfte",
+    "tr": "acil barınak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Öffnung",
+    "plural": null,
+    "tr": "açılış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Phase",
+    "plural": "Phasen",
+    "tr": "aşama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "politisch",
+    "plural": null,
+    "tr": "politik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Protest",
+    "plural": "Proteste",
+    "tr": "protesto",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Regierung",
+    "plural": "Regierungen",
+    "tr": "hükümet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Republik",
+    "plural": "Republiken",
+    "tr": "cumhuriyet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der/die Russlanddeutsche",
+    "plural": "Russlanddeutschen",
+    "tr": "rusya Almanları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "der Staat",
+    "plural": "Staaten",
+    "tr": "devlet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Staatsgründung",
+    "plural": null,
+    "tr": "devlet kurulması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Stipendium",
+    "plural": "Stipendien",
+    "tr": "burs",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "tatsächlich",
+    "plural": null,
+    "tr": "gerçekten",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Teilung",
+    "plural": "Teilungen",
+    "tr": "bölünme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "verdrängen",
+    "plural": null,
+    "tr": "def etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "vereinigen",
+    "plural": null,
+    "tr": "birleştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "verfolgen",
+    "plural": null,
+    "tr": "takip etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "verhaften",
+    "plural": null,
+    "tr": "tutuklamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "verlängern",
+    "plural": null,
+    "tr": "uzatmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "verlassen",
+    "plural": null,
+    "tr": "terk etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "vermischen",
+    "plural": null,
+    "tr": "karıştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Visum",
+    "plural": "Visa",
+    "tr": "vize",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "das Weltall",
+    "plural": null,
+    "tr": "uzay",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "wiedervereinigen",
+    "plural": null,
+    "tr": "yeniden birleştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "die Wiedervereinigung",
+    "plural": null,
+    "tr": "yeniden birleştirme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "zerschlagen",
+    "plural": null,
+    "tr": "parçalamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: So war das damals …",
+    "de": "zurückkehren",
+    "plural": null,
+    "tr": "geri dönmek",
+    "ex": ""
+  }
+]

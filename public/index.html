@@ -62,6 +62,12 @@
         </div>
       </header>
 
+      <nav class="source-tabs" role="tablist" aria-label="Kaynak seç">
+        <button class="src-tab active" data-src="goethe" role="tab">📚 Goethe</button>
+        <button class="src-tab" data-src="einfach" role="tab">📖 Einfach gut</button>
+        <button class="src-tab" data-src="verb" role="tab">🔤 Fiil Çekimi</button>
+      </nav>
+
       <nav class="mode-switch" aria-label="Mod">
         <button class="mode-btn active" data-mode="cards">Kelime Kartları</button>
         <button class="mode-btn" data-mode="quiz">Quiz</button>
@@ -101,6 +107,20 @@
         <span id="progress-text" class="progress-text">0 / 0</span>
       </div>
 
+      <!-- Einfach gut paneli -->
+      <section id="eg-panel" hidden>
+        <div class="eg-sublevel-bar" role="tablist" aria-label="Seviye seç">
+          <button class="eg-sl" data-sl="a1_1" role="tab">A1.1</button>
+          <button class="eg-sl" data-sl="a1_2" role="tab">A1.2</button>
+          <button class="eg-sl" data-sl="a2_1" role="tab">A2.1</button>
+          <button class="eg-sl" data-sl="a2_2" role="tab">A2.2</button>
+          <button class="eg-sl" data-sl="b1_1" role="tab">B1.1</button>
+          <button class="eg-sl" data-sl="b1_2" role="tab">B1.2</button>
+        </div>
+        <div id="eg-lektions" class="eg-lektions"></div>
+      </section>
+      <button id="eg-back-btn" class="ghost small eg-back" hidden>← Lektion listesi</button>
+
       <!-- Kelime kartları modu -->
       <section id="cards-mode" class="mode-panel">
         <div id="card-area" class="card-area">
@@ -116,6 +136,7 @@
                   <path fill="currentColor" d="M3 10v4a1 1 0 0 0 1 1h3l4 3.5a1 1 0 0 0 1.65-.78V6.28A1 1 0 0 0 11 5.5L7 9H4a1 1 0 0 0-1 1Zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-8v2.07a6.5 6.5 0 0 1 0 11.86V20a8.5 8.5 0 0 0 0-16Z"/>
                 </svg>
               </button>
+              <div class="card-plural" id="card-plural"></div>
               <div class="card-tr" id="card-tr"></div>
               <div class="card-ex" id="card-ex"></div>
             </div>
@@ -245,6 +266,19 @@
             <input type="number" id="goal-input" min="1" max="200" value="10" style="width:80px" />
           </label>
         </div>
+      </section>
+
+      <!-- Fiil Çekimi -->
+      <section id="verb-panel" hidden>
+        <div class="verb-search-row">
+          <input id="verb-input" class="verb-input" type="search"
+                 placeholder="Fiil ara… (haben, gehen, sein…)"
+                 autocapitalize="off" autocorrect="off" spellcheck="false"
+                 inputmode="text" />
+          <button id="verb-search-btn" class="primary" type="button">🔍</button>
+        </div>
+        <div id="recent-verbs-wrap" class="recent-chips-wrap"></div>
+        <div id="verb-result"></div>
       </section>
     </section>
 

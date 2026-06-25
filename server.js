@@ -14,6 +14,8 @@ const {
   findUserById,
   getState,
   saveState,
+  getEgProgress,
+  setEgProgress,
 } = require('./db');
 
 const PORT = parseInt(process.env.PORT, 10) || 3000;
@@ -165,6 +167,81 @@ app.put('/api/state', requireAuth, (req, res) => {
   }
 });
 
+// ─── EINFACH GUT ─────────────────────────────────────────────────────────────
+
+const EG_SUBLEVELS = ['a1_1', 'a1_2', 'a2_1', 'a2_2', 'b1_1', 'b1_2'];
+const EG_LABELS = { a1_1: 'A1.1', a1_2: 'A1.2', a2_1: 'A2.1', a2_2: 'A2.2', b1_1: 'B1.1', b1_2: 'B1.2' };
+
+const EG_DATA = {};
+for (const sl of EG_SUBLEVELS) {
+  try {
+    EG_DATA[sl] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, `eg_${sl}.json`), 'utf8'));
+  } catch {
+    EG_DATA[sl] = [];
+    console.warn(`EG data missing: eg_${sl}.json`);
+  }
+}
+
+const EG_META = {};
+for (const sl of EG_SUBLEVELS) {
+  const seen = new Map();
+  for (const entry of EG_DATA[sl]) {
+    if (!entry.group) continue;
+    seen.set(entry.group, (seen.get(entry.group) || 0) + 1);
+  }
+  EG_META[sl] = {
+    label: EG_LABELS[sl],
+    lektions: [...seen.entries()].map(([name, count]) => ({ name, count })),
+  };
+}
+
+// ─── VERB DATA ────────────────────────────────────────────────────────────────
+
+function parseCSVLine(line) {
+  const result = [];
+  let inQuote = false, cur = '';
+  for (const c of line) {
+    if (c === '"') { inQuote = !inQuote; continue; }
+    if (c === ',' && !inQuote) { result.push(cur); cur = ''; continue; }
+    cur += c;
+  }
+  result.push(cur);
+  return result;
+}
+
+function deriveForms(ich) {
+  const wir = ich.endsWith('e') ? ich + 'n' : ich + 'en';
+  const du  = ich + 'st';
+  const ihr = ich.endsWith('e') ? ich + 't' : ich + 't';
+  return [ich, du, ich, wir, ihr, wir];
+}
+
+const VERBS = {};
+try {
+  const lines = fs.readFileSync(path.join(DATA_DIR, 'verbs.csv'), 'utf8').split('\n');
+  lines.shift();
+  for (const line of lines) {
+    const cols = parseCSVLine(line.trim());
+    if (cols.length < 10 || !cols[0]) continue;
+    const [inf, prä_ich, prä_du, prä_er, prät_ich, part2, konj_ich, imp_sg, imp_pl, hilf] = cols;
+    const prä_ihr = prä_du.endsWith('st') ? prä_du.slice(0, -2) + 't' : prä_du + 't';
+    VERBS[inf.toLowerCase()] = {
+      infinitiv: inf,
+      hilfsverb: hilf.trim(),
+      partizip2: part2,
+      prasens:    [prä_ich, prä_du, prä_er, inf, prä_ihr, inf],
+      prateritum: deriveForms(prät_ich),
+      konjunktiv2: deriveForms(konj_ich),
+      imperativ:  { singular: imp_sg, plural: imp_pl },
+    };
+  }
+  console.log(`Verbs loaded: ${Object.keys(VERBS).length}`);
+} catch (err) {
+  console.error('verbs.csv load error:', err.message);
+}
+
+// ─── VOCAB (existing) ─────────────────────────────────────────────────────────
+
 const vocabCache = new Map();
 function loadVocab(level) {
   if (vocabCache.has(level)) return vocabCache.get(level);
@@ -195,6 +272,75 @@ app.get('/api/vocab/:level', (req, res) => {
   }
   res.json(list);
 });
+
+// ─── EINFACH GUT ENDPOINTS ───────────────────────────────────────────────────
+
+app.get('/api/eg/meta', (_req, res) => {
+  res.json(EG_META);
+});
+
+app.get('/api/eg/words', (req, res) => {
+  const sl = req.query.sublevel;
+  if (!EG_SUBLEVELS.includes(sl)) {
+    return res.status(400).json({ error: 'Geçersiz sublevel.' });
+  }
+  const data = EG_DATA[sl];
+  const lektionParam = req.query.lektion;
+
+  if (lektionParam === 'all') {
+    return res.json(data);
+  }
+
+  const idx = parseInt(lektionParam, 10);
+  if (!Number.isInteger(idx) || idx < 1) {
+    return res.status(400).json({ error: 'Geçersiz lektion parametresi.' });
+  }
+  const groups = [...new Map(data.filter(e => e.group).map(e => [e.group, true])).keys()];
+  const target = groups[idx - 1];
+  if (!target) {
+    return res.status(400).json({ error: 'Bu lektion bulunamadı.' });
+  }
+  res.json(data.filter(e => e.group === target));
+});
+
+app.get('/api/eg/progress', requireAuth, (req, res) => {
+  const sl = req.query.sublevel;
+  if (!EG_SUBLEVELS.includes(sl)) {
+    return res.status(400).json({ error: 'Geçersiz sublevel.' });
+  }
+  const known = getEgProgress(req.session.userId, sl);
+  res.json({ known });
+});
+
+app.post('/api/eg/progress', requireAuth, (req, res) => {
+  const { sublevel, word_key, known } = req.body || {};
+  if (!EG_SUBLEVELS.includes(sublevel) || typeof word_key !== 'string' || !word_key) {
+    return res.status(400).json({ error: 'Geçersiz istek gövdesi.' });
+  }
+  try {
+    setEgProgress(req.session.userId, word_key, known ? 1 : 0);
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('eg progress save error:', err);
+    res.status(500).json({ error: 'Progress kaydedilemedi.' });
+  }
+});
+
+// ─── VERB ENDPOINT ───────────────────────────────────────────────────────────
+
+function normalizeUmlauts(s) {
+  return s.replace(/oe/g, 'ö').replace(/ue/g, 'ü').replace(/ae/g, 'ä').replace(/ss/g, 'ß');
+}
+
+app.get('/api/verb', (req, res) => {
+  const q = String(req.query.q || '').toLowerCase().trim();
+  if (!q) return res.status(400).json({ error: 'q parametresi gerekli.' });
+  const verb = VERBS[q] || VERBS[normalizeUmlauts(q)];
+  if (!verb) return res.json({ found: false });
+  res.json({ found: true, ...verb });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 app.use(express.static(PUBLIC_DIR, { extensions: ['html'] }));
 

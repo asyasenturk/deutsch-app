@@ -24,6 +24,14 @@ db.exec(`
     data       TEXT    NOT NULL DEFAULT '{}',
     updated_at TEXT    NOT NULL DEFAULT CURRENT_TIMESTAMP
   );
+
+  CREATE TABLE IF NOT EXISTS eg_progress (
+    user_id   INTEGER NOT NULL,
+    word_key  TEXT    NOT NULL,
+    known     INTEGER NOT NULL DEFAULT 0,
+    last_seen INTEGER,
+    PRIMARY KEY (user_id, word_key)
+  );
 `);
 
 const stmts = {
@@ -48,6 +56,16 @@ const stmts = {
     ON CONFLICT(user_id) DO UPDATE SET
       data = excluded.data,
       updated_at = excluded.updated_at
+  `),
+  getEgProgress: db.prepare(
+    "SELECT word_key FROM eg_progress WHERE user_id = ? AND word_key LIKE ? AND known = 1"
+  ),
+  setEgProgress: db.prepare(`
+    INSERT INTO eg_progress (user_id, word_key, known, last_seen)
+    VALUES (?, ?, ?, strftime('%s', 'now'))
+    ON CONFLICT(user_id, word_key) DO UPDATE SET
+      known = excluded.known,
+      last_seen = excluded.last_seen
   `),
 };
 
@@ -81,6 +99,15 @@ function saveState(userId, stateObj) {
   stmts.upsertState.run(userId, json);
 }
 
+function getEgProgress(userId, sublevel) {
+  const rows = stmts.getEgProgress.all(userId, `${sublevel}|%`);
+  return rows.map((r) => r.word_key);
+}
+
+function setEgProgress(userId, wordKey, known) {
+  stmts.setEgProgress.run(userId, wordKey, known ? 1 : 0);
+}
+
 module.exports = {
   db,
   DB_PATH,
@@ -89,4 +116,6 @@ module.exports = {
   findUserById,
   getState,
   saveState,
+  getEgProgress,
+  setEgProgress,
 };

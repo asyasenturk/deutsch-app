@@ -1,0 +1,3327 @@
+[
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Abendkasse",
+    "plural": null,
+    "tr": "gişe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "abholen",
+    "plural": null,
+    "tr": "almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "aktuell",
+    "plural": null,
+    "tr": "güncel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "alle",
+    "plural": null,
+    "tr": "tümü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "anklicken",
+    "plural": null,
+    "tr": "tıklamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die App",
+    "plural": null,
+    "tr": "uygulama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "aussuchen",
+    "plural": null,
+    "tr": "aramak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Benutzername",
+    "plural": null,
+    "tr": "kullanıcı adı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "bestellen",
+    "plural": null,
+    "tr": "ısmarlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "chatten",
+    "plural": null,
+    "tr": "sohbet etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Datei",
+    "plural": "Dateien",
+    "tr": "dosya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "dich",
+    "plural": null,
+    "tr": "seni, sana",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "diskutieren",
+    "plural": null,
+    "tr": "tartışmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "drucken",
+    "plural": null,
+    "tr": "yazdırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Eintritt",
+    "plural": null,
+    "tr": "giriş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "empfehlen",
+    "plural": null,
+    "tr": "tavsiye etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Empfehlung",
+    "plural": "Empfehlungen",
+    "tr": "tavsiye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "flirten",
+    "plural": null,
+    "tr": "flört etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Flohmarkt",
+    "plural": "Flohmärkte",
+    "tr": "bit pazarı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Forum",
+    "plural": null,
+    "tr": "forum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "funktionieren",
+    "plural": null,
+    "tr": "işlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "gebraucht",
+    "plural": null,
+    "tr": "kullanılmış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "googeln",
+    "plural": null,
+    "tr": "google'da aramak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "herausfinden",
+    "plural": null,
+    "tr": "bulmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "herunterladen",
+    "plural": null,
+    "tr": "indirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "hochladen",
+    "plural": null,
+    "tr": "yüklemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "informieren",
+    "plural": null,
+    "tr": "bildirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "international",
+    "plural": null,
+    "tr": "uluslararası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Internet",
+    "plural": null,
+    "tr": "İnternet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Kennwort",
+    "plural": "Kennwörter",
+    "tr": "parola",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Kinokarte",
+    "plural": null,
+    "tr": "Sinema bileti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "klicken",
+    "plural": null,
+    "tr": "tıklamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Kommentar",
+    "plural": "Kommentare",
+    "tr": "yorum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "kostenlos",
+    "plural": null,
+    "tr": "ücretsiz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Kulturcafé",
+    "plural": null,
+    "tr": "kültür kafe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der/die Leser/in",
+    "plural": null,
+    "tr": "okuyucu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "löschen",
+    "plural": null,
+    "tr": "silmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "mailen",
+    "plural": null,
+    "tr": "postalamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "mich",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "mitkommen",
+    "plural": null,
+    "tr": "birlikte gelmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "mitmachen",
+    "plural": null,
+    "tr": "birlikte yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "nachschauen",
+    "plural": null,
+    "tr": "aramak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Neffe",
+    "plural": null,
+    "tr": "yeğen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "nervös",
+    "plural": null,
+    "tr": "sinirli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "Newsletter",
+    "plural": null,
+    "tr": "bülten",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "oben",
+    "plural": null,
+    "tr": "yukarı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Politik",
+    "plural": null,
+    "tr": "politika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "prima",
+    "plural": null,
+    "tr": "harika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Programm",
+    "plural": "Programme",
+    "tr": "program",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Radtour",
+    "plural": "Radtouren",
+    "tr": "bisiklet turu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Regen",
+    "plural": null,
+    "tr": "yağmur",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Regenschirm",
+    "plural": null,
+    "tr": "şemsiye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Reihenfolge",
+    "plural": null,
+    "tr": "şıralama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "reservieren",
+    "plural": null,
+    "tr": "ayırtmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Reservierung",
+    "plural": null,
+    "tr": "rezervasyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Rolle",
+    "plural": "Rollen",
+    "tr": "rol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "sinken",
+    "plural": null,
+    "tr": "indirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Smartphone",
+    "plural": null,
+    "tr": "akıllı telefon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "speichern",
+    "plural": null,
+    "tr": "kaydetmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Spielzeug",
+    "plural": null,
+    "tr": "oyuncak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "starten",
+    "plural": null,
+    "tr": "başlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Startseite",
+    "plural": null,
+    "tr": "ana sayfa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "steigen",
+    "plural": null,
+    "tr": "binmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Straßenfest",
+    "plural": null,
+    "tr": "sokak festivali",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Symbol",
+    "plural": "Symbole",
+    "tr": "simge",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "tauschen",
+    "plural": null,
+    "tr": "değiş tokuş etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Temperatur",
+    "plural": "Temperaturen",
+    "tr": "isı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Theater",
+    "plural": null,
+    "tr": "tiyatro",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Treffpunkt",
+    "plural": null,
+    "tr": "buluşma noktası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "unternehmen",
+    "plural": null,
+    "tr": "üstlenmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Verabredung",
+    "plural": "Verabredungen",
+    "tr": "randevu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Veranstaltung",
+    "plural": "Veranstaltungen",
+    "tr": "etkinlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Veranstaltungstipp",
+    "plural": "Veranstaltungstipps",
+    "tr": "etkinlik tavsiyesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "der Vorschlag",
+    "plural": "Vorschläge",
+    "tr": "öneri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Welt",
+    "plural": null,
+    "tr": "dünya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Wettervorhersage",
+    "plural": null,
+    "tr": "hava tahmini",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "die Wirtschaft",
+    "plural": null,
+    "tr": "ekonomi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "das Würstchen",
+    "plural": null,
+    "tr": "sosis",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "zeitweise",
+    "plural": null,
+    "tr": "geçici",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "zuhören",
+    "plural": null,
+    "tr": "dinlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 1: Chatten, mailen, sich informieren",
+    "de": "zuschauen",
+    "plural": null,
+    "tr": "izlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "abfahren",
+    "plural": null,
+    "tr": "hareket etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Abfahrt",
+    "plural": "Abfahrten",
+    "tr": "hareket",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "ankommen",
+    "plural": null,
+    "tr": "varmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Ankunft",
+    "plural": "Ankünfte",
+    "tr": "varış",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Anschluss",
+    "plural": null,
+    "tr": "bağlantı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Anschlusszug",
+    "plural": "Anschlusszüge",
+    "tr": "bağlantı treni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "ausblenden",
+    "plural": null,
+    "tr": "kararmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "ausfallen",
+    "plural": null,
+    "tr": "eksilmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "aussteigen",
+    "plural": null,
+    "tr": "inmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "das Autofahren",
+    "plural": null,
+    "tr": "otomobil sürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Automat",
+    "plural": null,
+    "tr": "otomat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "das Bahnfahren",
+    "plural": null,
+    "tr": "tren sürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Bahnsteig",
+    "plural": null,
+    "tr": "peron",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "bitten (um)",
+    "plural": null,
+    "tr": "rica etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "buchen",
+    "plural": null,
+    "tr": "ayırtmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Dauer",
+    "plural": null,
+    "tr": "süre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "defekt",
+    "plural": null,
+    "tr": "arızalı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "deshalb",
+    "plural": null,
+    "tr": "o yüzden",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "drüben",
+    "plural": null,
+    "tr": "orada",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Einfahrt",
+    "plural": "Einfahrten",
+    "tr": "giriş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "einsteigen",
+    "plural": null,
+    "tr": "binmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "erhalten",
+    "plural": null,
+    "tr": "ele geçirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "erreichen",
+    "plural": null,
+    "tr": "ulaşmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Fahrkartenschalter",
+    "plural": null,
+    "tr": "bilet bankosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Fahrplan",
+    "plural": "Fahrpläne",
+    "tr": "tarife",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Fernbus",
+    "plural": null,
+    "tr": "şehirlerarası otobüs",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "fliegen",
+    "plural": null,
+    "tr": "uçmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "das Flugzeug",
+    "plural": "Flugzeuge",
+    "tr": "uçak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Grund",
+    "plural": null,
+    "tr": "zemin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Halt",
+    "plural": null,
+    "tr": "Dur",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "hin",
+    "plural": null,
+    "tr": "oraya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Hinfahrt",
+    "plural": "Hinfahrten",
+    "tr": "gidiş yolculuğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der/die Mitarbeiter/in",
+    "plural": null,
+    "tr": "İş arkadaşı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "mitnehmen",
+    "plural": null,
+    "tr": "yanına almak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "nah",
+    "plural": null,
+    "tr": "yakın",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "nämlich",
+    "plural": null,
+    "tr": "yani",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Nummer",
+    "plural": null,
+    "tr": "numara",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Option",
+    "plural": null,
+    "tr": "seçenek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "passieren",
+    "plural": null,
+    "tr": "geçmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "das Pech",
+    "plural": null,
+    "tr": "talihsizlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "planmäßig",
+    "plural": null,
+    "tr": "program uyarınca",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "preiswert",
+    "plural": null,
+    "tr": "düşük fiyatlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Reisemöglichkeit",
+    "plural": "Reisemöglichkeiten",
+    "tr": "seyahat imkanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "das Reiseziel",
+    "plural": null,
+    "tr": "seyahat hedefi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Richtung",
+    "plural": "Richtungen",
+    "tr": "yön",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Rückfahrt",
+    "plural": "Rückfahrten",
+    "tr": "dönüş yolculuğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der/die Schaffner/in",
+    "plural": null,
+    "tr": "kondüktör",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "das Schild",
+    "plural": "Schilder",
+    "tr": "levha",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "schwarzfahren",
+    "plural": null,
+    "tr": "biletsiz seyahat etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "schwierig",
+    "plural": null,
+    "tr": "güç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der/die Senior/in",
+    "plural": null,
+    "tr": "yaşlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Serviceschalter",
+    "plural": null,
+    "tr": "servis bankosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "sondern",
+    "plural": null,
+    "tr": "oldukça",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "sparen",
+    "plural": null,
+    "tr": "tasarruf etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Station",
+    "plural": null,
+    "tr": "İstasyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Störung",
+    "plural": "Störungen",
+    "tr": "arıza",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Strafe",
+    "plural": "Strafen",
+    "tr": "ceza",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Strecke",
+    "plural": "Strecken",
+    "tr": "yol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "umdrehen",
+    "plural": null,
+    "tr": "çevirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "umsteigen",
+    "plural": null,
+    "tr": "aktarma yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Umwelt",
+    "plural": null,
+    "tr": "çevre",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "unterwegs",
+    "plural": null,
+    "tr": "yolda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Verbindung",
+    "plural": "Verbindungen",
+    "tr": "bağlantı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "verehrt, verehrte",
+    "plural": null,
+    "tr": "saygıdeğer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "verpassen",
+    "plural": null,
+    "tr": "özlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "verschlafen",
+    "plural": null,
+    "tr": "uyuya kalmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "verspätet",
+    "plural": null,
+    "tr": "gecikmeli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Verspätung",
+    "plural": "Verspätungen",
+    "tr": "Gecikme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Vorsicht",
+    "plural": null,
+    "tr": "dikkat",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "wenig",
+    "plural": null,
+    "tr": "az",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "wohl",
+    "plural": null,
+    "tr": "iyi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "die Zeitschrift",
+    "plural": "Zeitschriften",
+    "tr": "gazete",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 2: Mit Bus und Bahn",
+    "de": "der Zoo",
+    "plural": null,
+    "tr": "sirk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "ablesen",
+    "plural": null,
+    "tr": "okumak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Ablesung",
+    "plural": null,
+    "tr": "okuma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "abstellen",
+    "plural": null,
+    "tr": "söndürmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "afrikanisch",
+    "plural": null,
+    "tr": "afrikalı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "das Altglas",
+    "plural": null,
+    "tr": "hurda cam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "aufschließen",
+    "plural": null,
+    "tr": "geliştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "ausführen",
+    "plural": null,
+    "tr": "yürütmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "ausgeben",
+    "plural": null,
+    "tr": "harcamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "ausziehen",
+    "plural": null,
+    "tr": "çıkarmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "beachten",
+    "plural": null,
+    "tr": "dikkat etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "bedeuten",
+    "plural": null,
+    "tr": "anlamına gelmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Beinbruch",
+    "plural": null,
+    "tr": "bacak kırığı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "berufstätig",
+    "plural": null,
+    "tr": "çalışan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Beschwerde",
+    "plural": "Beschwerden",
+    "tr": "şikayet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "besichtigen",
+    "plural": null,
+    "tr": "ziyaret etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Bezirk",
+    "plural": null,
+    "tr": "bölge",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Biomüll",
+    "plural": null,
+    "tr": "organik çöp",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Biotonne",
+    "plural": null,
+    "tr": "organik çöp bidonu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "das Brett",
+    "plural": null,
+    "tr": "kalas",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Briefkasten",
+    "plural": "Briefkästen",
+    "tr": "posta kutusu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "dass",
+    "plural": null,
+    "tr": "-",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Ecke",
+    "plural": null,
+    "tr": "köşe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Einbauküche",
+    "plural": null,
+    "tr": "ankastre mutfak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "einrichten",
+    "plural": null,
+    "tr": "döşemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Einweihungsparty",
+    "plural": null,
+    "tr": "açılış daveti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Einwurfzeit",
+    "plural": "Einwurfzeiten",
+    "tr": "İlan saati",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "einziehen",
+    "plural": null,
+    "tr": "taşınmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Einzug",
+    "plural": null,
+    "tr": "taşınma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "entsorgen",
+    "plural": null,
+    "tr": "sağlama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "erfolgen",
+    "plural": null,
+    "tr": "gerçekleşmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Fahrradständer",
+    "plural": null,
+    "tr": "bisiklet parkları",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Fernwärme",
+    "plural": null,
+    "tr": "merkezi ısıtma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "das Gas",
+    "plural": null,
+    "tr": "gaz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "Gassi gehen",
+    "plural": null,
+    "tr": "köpek gezdirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "gehören",
+    "plural": null,
+    "tr": "ait olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "gesondert",
+    "plural": null,
+    "tr": "ayrı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Glascontainer",
+    "plural": null,
+    "tr": "cam kap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Hausbewohner/in",
+    "plural": null,
+    "tr": "ev sakini",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Hausmeister/in",
+    "plural": null,
+    "tr": "bina sorumlusu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Hausordnung",
+    "plural": null,
+    "tr": "bina düzeni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Hausregel",
+    "plural": "Hausregeln",
+    "tr": "bina kuralı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Hausreinigung",
+    "plural": null,
+    "tr": "bina temizliği",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Hausverwaltung",
+    "plural": null,
+    "tr": "bina yönetimi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "herzlich",
+    "plural": null,
+    "tr": "yürekten",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "hoch",
+    "plural": null,
+    "tr": "yüksek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "Hof",
+    "plural": null,
+    "tr": "avlu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "hoffen",
+    "plural": null,
+    "tr": "ummak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "jemand",
+    "plural": null,
+    "tr": "birisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Kellerzugang",
+    "plural": null,
+    "tr": "mahzen girişi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Kinderwagen",
+    "plural": null,
+    "tr": "çocuk arabası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Kleinmöbel (Pl.)",
+    "plural": null,
+    "tr": "küçük eşya",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Kommode",
+    "plural": null,
+    "tr": "komodin",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "kündigen",
+    "plural": null,
+    "tr": "tebliğ etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "legen",
+    "plural": null,
+    "tr": "yerleştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "leidtun",
+    "plural": null,
+    "tr": "üzmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Lieferant/in",
+    "plural": null,
+    "tr": "tedarikçi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "liefern",
+    "plural": null,
+    "tr": "tedarik etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Makler/in",
+    "plural": null,
+    "tr": "emlakçı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Mieter/in",
+    "plural": null,
+    "tr": "kiracı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Mitbewohner/in",
+    "plural": null,
+    "tr": "ev arkadaşı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Mitteilung",
+    "plural": null,
+    "tr": "bildiri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Müllabfuhr",
+    "plural": null,
+    "tr": "çöp toplama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Nachbarschaft",
+    "plural": null,
+    "tr": "komşuluk",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Nachricht",
+    "plural": null,
+    "tr": "haber",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Nachtisch",
+    "plural": null,
+    "tr": "tatlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Nähe",
+    "plural": null,
+    "tr": "civar",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "ordnungsgerecht",
+    "plural": null,
+    "tr": "düzgün",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "privat",
+    "plural": null,
+    "tr": "özel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "reichlich",
+    "plural": null,
+    "tr": "bol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Restmüll",
+    "plural": null,
+    "tr": "kalıntı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "schließlich",
+    "plural": null,
+    "tr": "sonunda",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "schonen",
+    "plural": null,
+    "tr": "korumak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "setzen",
+    "plural": null,
+    "tr": "yerleştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "sogar",
+    "plural": null,
+    "tr": "hatta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "sorgen",
+    "plural": null,
+    "tr": "özen göstermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "sorgfältig",
+    "plural": null,
+    "tr": "özenli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "Spaziergang",
+    "plural": null,
+    "tr": "gezinti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Spiegel",
+    "plural": null,
+    "tr": "ayna",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Stellplatz",
+    "plural": "Stellplätze",
+    "tr": "park yeri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Tiefgarage",
+    "plural": null,
+    "tr": "yeraltı garajı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Tonne",
+    "plural": null,
+    "tr": "ton",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "trennen",
+    "plural": null,
+    "tr": "ayırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Treppe",
+    "plural": null,
+    "tr": "merdiven",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "das Treppenhaus",
+    "plural": null,
+    "tr": "merdiven boşluğu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "übernehmen",
+    "plural": null,
+    "tr": "üstlenmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "umziehen",
+    "plural": null,
+    "tr": "taşınmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Umzug",
+    "plural": null,
+    "tr": "taşınma",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Umzugskarton",
+    "plural": "Umzugskartons",
+    "tr": "taşınma kolisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Vase",
+    "plural": "Vasen",
+    "tr": "vazo",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Verbraucherzähler",
+    "plural": null,
+    "tr": "tüketim sayacı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "vereinbaren",
+    "plural": null,
+    "tr": "kararlaştırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der/die Vermieter/in",
+    "plural": null,
+    "tr": "kiralayan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "vermieten",
+    "plural": null,
+    "tr": "kiraya vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "vorhanden",
+    "plural": null,
+    "tr": "mevcut",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "wegen",
+    "plural": null,
+    "tr": "nedeniyle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "weil",
+    "plural": null,
+    "tr": "çünkü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "weiterhin",
+    "plural": null,
+    "tr": "dahası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Wohngemeinschaft",
+    "plural": null,
+    "tr": "ortak ikamet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "die Wohnungsbesichtigung",
+    "plural": null,
+    "tr": "daire gezme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Wunsch",
+    "plural": "Wünsche",
+    "tr": "dilek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Zähler",
+    "plural": null,
+    "tr": "sayaç",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "der Zugang",
+    "plural": "Zugänge",
+    "tr": "giriş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "zuletzt",
+    "plural": null,
+    "tr": "son olarak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 3: Unsere neue Wohnung",
+    "de": "zuzüglich",
+    "plural": null,
+    "tr": "ilave olarak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "abgeben",
+    "plural": null,
+    "tr": "bırakmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "ablehnen",
+    "plural": null,
+    "tr": "reddetmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "abmelden",
+    "plural": null,
+    "tr": "sonlandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Abmeldung",
+    "plural": null,
+    "tr": "İptal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "ähnlich",
+    "plural": null,
+    "tr": "benzer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Amt",
+    "plural": null,
+    "tr": "büro",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Amtsdeutsch",
+    "plural": null,
+    "tr": "resmi dil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "ändern",
+    "plural": null,
+    "tr": "değiştirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der/die Angehörige",
+    "plural": "Angehörigen",
+    "tr": "aile üyeleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "ankreuzen",
+    "plural": null,
+    "tr": "işaretlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Anschrift",
+    "plural": null,
+    "tr": "adres",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Antrag",
+    "plural": "Anträge",
+    "tr": "başvuru",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der/die Antragsteller/in",
+    "plural": null,
+    "tr": "dilekçe sahibi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Arbeitsagentur",
+    "plural": null,
+    "tr": "İş bulma kurumu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Arbeitserlaubnis",
+    "plural": null,
+    "tr": "çalışma izni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Arbeitslosengeld",
+    "plural": null,
+    "tr": "İşsizlik parası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Arbeitsplatz",
+    "plural": "Arbeitsplätze",
+    "tr": "İşyeri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Arbeitsvermittlung",
+    "plural": null,
+    "tr": "İş bulma bürosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Aufenthalt",
+    "plural": null,
+    "tr": "İkamet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Aufenthaltserlaubnis",
+    "plural": null,
+    "tr": "Oturma izni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "aufrufen",
+    "plural": null,
+    "tr": "davet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Ausbildungsplatz",
+    "plural": null,
+    "tr": "eğitim yeri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Ausländeramt",
+    "plural": null,
+    "tr": "yabancılar bürosu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Ausländerbehörde",
+    "plural": null,
+    "tr": "yabancılar kurumu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Ausweis",
+    "plural": null,
+    "tr": "kimlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "beantragen",
+    "plural": null,
+    "tr": "başvurmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "bearbeiten",
+    "plural": null,
+    "tr": "işlemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Behörde",
+    "plural": null,
+    "tr": "kurum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Berufsberatung",
+    "plural": null,
+    "tr": "mesleki danışmanlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Berufsinformationszentrum",
+    "plural": null,
+    "tr": "mesleki bilgilendirme merkezi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der/die Cousin/e",
+    "plural": null,
+    "tr": "kuzen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "dabei",
+    "plural": null,
+    "tr": "bu esnada",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Dokument",
+    "plural": null,
+    "tr": "belge",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der/die Ehepartner/in",
+    "plural": null,
+    "tr": "eş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Eheschließung",
+    "plural": "Eheschließungen",
+    "tr": "evlilik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Einwohnermeldeamt",
+    "plural": null,
+    "tr": "nüfus müdürlüğü",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der/die Enkel/in",
+    "plural": null,
+    "tr": "torun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Enkelkind",
+    "plural": "Enkelkinder",
+    "tr": "torun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "entschuldigen",
+    "plural": null,
+    "tr": "özür",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Familienbuch",
+    "plural": null,
+    "tr": "aile sicili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Familienkasse",
+    "plural": null,
+    "tr": "aile sigortası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Familienmitglied",
+    "plural": "Familienmitglieder",
+    "tr": "aile üyesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "fehlen",
+    "plural": null,
+    "tr": "eksik olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Finanzamt",
+    "plural": null,
+    "tr": "maliye",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Geburt",
+    "plural": "Geburten",
+    "tr": "doğum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Geburtsdatum",
+    "plural": "Geburtsdaten",
+    "tr": "doğum tarihi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Geburtsland",
+    "plural": null,
+    "tr": "doğduğu ülke",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Geburtsname",
+    "plural": null,
+    "tr": "doğumdaki adı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Geburtsort",
+    "plural": null,
+    "tr": "doğum yeri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Geburtsurkunde",
+    "plural": null,
+    "tr": "doğum belgesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "genehmigen",
+    "plural": null,
+    "tr": "izin vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Geschlecht",
+    "plural": "Geschlechter",
+    "tr": "cinsiyet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "herein",
+    "plural": null,
+    "tr": "içeri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "hingehen",
+    "plural": null,
+    "tr": "(oraya) gitmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Integration",
+    "plural": null,
+    "tr": "entegrasyon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Integrationskurs",
+    "plural": null,
+    "tr": "entegrasyon kursu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Kindergeld",
+    "plural": null,
+    "tr": "çocuk yardımı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der/die Lebenspartner/in",
+    "plural": null,
+    "tr": "hayat arkadaşı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Lichtbildausweis",
+    "plural": null,
+    "tr": "resimli kimlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "losfahren",
+    "plural": null,
+    "tr": "hareket etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "männlich",
+    "plural": null,
+    "tr": "erkek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Nichte",
+    "plural": "Nichten",
+    "tr": "yeğen",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "notieren",
+    "plural": null,
+    "tr": "not etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Personalausweis",
+    "plural": null,
+    "tr": "kimlik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Reisepass",
+    "plural": "Reisepässe",
+    "tr": "pasaport",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Schwiegereltern (Pl.)",
+    "plural": null,
+    "tr": "kayınvalide ve kayınpeder",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Staatsangehörigkeit",
+    "plural": null,
+    "tr": "milliyet",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "das Team",
+    "plural": null,
+    "tr": "ekip",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "der Teil",
+    "plural": null,
+    "tr": "bölüm",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Unterlagen (Pl.)",
+    "plural": null,
+    "tr": "belgeler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "unterschreiben",
+    "plural": null,
+    "tr": "imzalamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Urkunde",
+    "plural": "Urkunden",
+    "tr": "sertifika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "vollständig",
+    "plural": null,
+    "tr": "eksiksiz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Webseite",
+    "plural": "Webseiten",
+    "tr": "web sayfası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "weiblich",
+    "plural": null,
+    "tr": "dişi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "wiederholen",
+    "plural": null,
+    "tr": "tekrarlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "die Zulassungsstelle",
+    "plural": null,
+    "tr": "onay makamı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 4: Auf dem Amt",
+    "de": "zuständig",
+    "plural": null,
+    "tr": "ilgili",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Abitur (Abi)",
+    "plural": null,
+    "tr": "lise diploması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "ablegen",
+    "plural": null,
+    "tr": "kaldırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "abschließen",
+    "plural": null,
+    "tr": "tamamlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Abschluss",
+    "plural": "Abschlüsse",
+    "tr": "bitirme",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "anbieten",
+    "plural": null,
+    "tr": "sunmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der/die Anfänger/in",
+    "plural": null,
+    "tr": "yeni başlayan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Architektur",
+    "plural": null,
+    "tr": "mimari",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Ausland",
+    "plural": null,
+    "tr": "yurtdışı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Autounfall",
+    "plural": "Autounfälle",
+    "tr": "otomobil kazası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "beenden",
+    "plural": null,
+    "tr": "sonlandırmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Beratung",
+    "plural": null,
+    "tr": "danışmanlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Bereich",
+    "plural": null,
+    "tr": "alan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Berufsausbildung",
+    "plural": null,
+    "tr": "mesleki eğitim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Berufsschule",
+    "plural": null,
+    "tr": "meslek okulu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "besonders",
+    "plural": null,
+    "tr": "özellikle",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Bildungsweg",
+    "plural": null,
+    "tr": "eğitim yolu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Büroorganisation",
+    "plural": null,
+    "tr": "büro düzeni",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Chaos",
+    "plural": null,
+    "tr": "kargaşa",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Decke",
+    "plural": null,
+    "tr": "tavan",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Ende",
+    "plural": null,
+    "tr": "son",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Energie",
+    "plural": null,
+    "tr": "enerji",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "enthalten",
+    "plural": null,
+    "tr": "içermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "entscheiden",
+    "plural": null,
+    "tr": "karar vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "erforderlich",
+    "plural": null,
+    "tr": "gerekli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Fitness",
+    "plural": null,
+    "tr": "fitness",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "fliehen",
+    "plural": null,
+    "tr": "kaçmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "fortgeschritten",
+    "plural": null,
+    "tr": "gelişmiş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der/die Frisör/in",
+    "plural": null,
+    "tr": "kuaför",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "genial",
+    "plural": null,
+    "tr": "dahice",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "hoffentlich",
+    "plural": null,
+    "tr": "inşallah",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "jobben",
+    "plural": null,
+    "tr": "geçici iş yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Kategorie",
+    "plural": "Kategorien",
+    "tr": "kategori",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "kaufmännisch",
+    "plural": null,
+    "tr": "ticari",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Kenntnisse (Pl.)",
+    "plural": null,
+    "tr": "bilgiler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Kommunikation",
+    "plural": null,
+    "tr": "İletişim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "kompakt",
+    "plural": null,
+    "tr": "kompakt",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "kürzen",
+    "plural": null,
+    "tr": "kısaltmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Kursgebühr",
+    "plural": null,
+    "tr": "kurs ücreti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Kurzprogramm",
+    "plural": null,
+    "tr": "kurs programı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Lebensweg",
+    "plural": "Lebenswege",
+    "tr": "hayat yolu",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Lehre",
+    "plural": null,
+    "tr": "öğreti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Lehrmaterial",
+    "plural": null,
+    "tr": "öğrenim malzemesi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Material",
+    "plural": null,
+    "tr": "materyal",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "miserabel",
+    "plural": null,
+    "tr": "sefil",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "mittlere",
+    "plural": null,
+    "tr": "orta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Prost",
+    "plural": null,
+    "tr": "şerefe",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Prüfung",
+    "plural": null,
+    "tr": "sınav",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Prüfungstraining",
+    "plural": null,
+    "tr": "sınava hazırlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Realschulabschluss",
+    "plural": null,
+    "tr": "teknik lise mezuniyeti",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "reisen",
+    "plural": null,
+    "tr": "seyahat etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "rhythmisch",
+    "plural": null,
+    "tr": "ritmik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "schaffen",
+    "plural": null,
+    "tr": "becermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Schulzeit",
+    "plural": null,
+    "tr": "okul dönemi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "seit",
+    "plural": null,
+    "tr": "... beri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Semester",
+    "plural": "Semester",
+    "tr": "sömestr",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "separat",
+    "plural": null,
+    "tr": "ayrı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Situation",
+    "plural": "Situationen",
+    "tr": "durum",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "städtisch",
+    "plural": null,
+    "tr": "kentsel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Terminplanung",
+    "plural": null,
+    "tr": "zamanlama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Test",
+    "plural": "Tests",
+    "tr": "test",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Thema",
+    "plural": "Themen",
+    "tr": "tema",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Theorie",
+    "plural": null,
+    "tr": "kuram",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "trainieren",
+    "plural": null,
+    "tr": "eğitmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Training",
+    "plural": null,
+    "tr": "eğitim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "der Trick",
+    "plural": "Tricks",
+    "tr": "püf noktası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Überraschung",
+    "plural": "Überraschungen",
+    "tr": "sürpriz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Überschrift",
+    "plural": "Überschriften",
+    "tr": "başlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "umschreiben",
+    "plural": null,
+    "tr": "yeniden yazmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "verlieben",
+    "plural": null,
+    "tr": "aşık olmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "verlieren",
+    "plural": null,
+    "tr": "yitirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "Vorbereitung",
+    "plural": null,
+    "tr": "hazırlık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Vorkenntnisse (Pl.)",
+    "plural": null,
+    "tr": "ön bilgiler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Vorstellungsgespräch",
+    "plural": null,
+    "tr": "tanıtma konuşması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "die Weiterbildung",
+    "plural": "Weiterbildungen",
+    "tr": "İleri eğitim",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Yoga",
+    "plural": null,
+    "tr": "yoga",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Zeitmanagement",
+    "plural": null,
+    "tr": "zaman yönetimi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Zertifikat",
+    "plural": null,
+    "tr": "sertifika",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "das Zeugnis",
+    "plural": null,
+    "tr": "tanık",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 5: Schule, und dann?",
+    "de": "zufrieden",
+    "plural": null,
+    "tr": "memnun",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Ansprechpartner/in",
+    "plural": null,
+    "tr": "muhatap",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der Aushilfsjob",
+    "plural": null,
+    "tr": "geçici iş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "aussehen",
+    "plural": null,
+    "tr": "görünmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Auszubildende (Azubi)",
+    "plural": "Auszubildende",
+    "tr": "Stajyerler",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Bäckereifachverkäufer/in",
+    "plural": null,
+    "tr": "Fırın mamulleri satıcısı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "bedanken",
+    "plural": null,
+    "tr": "teşekkür etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "bedienen",
+    "plural": null,
+    "tr": "hizmet etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "beeilen",
+    "plural": null,
+    "tr": "acele etmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "begründen",
+    "plural": null,
+    "tr": "desteklemek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "das Beratungsgespräch",
+    "plural": null,
+    "tr": "danışma konuşması",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "das Berufsfeld",
+    "plural": "Berufsfelder",
+    "tr": "meslek alanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Bewerber/in",
+    "plural": null,
+    "tr": "başvuru sahibi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "bieten",
+    "plural": null,
+    "tr": "sunmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "eindecken",
+    "plural": null,
+    "tr": "sağlamak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "genug",
+    "plural": null,
+    "tr": "yeterli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "Grundschule",
+    "plural": null,
+    "tr": "İlkokul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "handwerklich",
+    "plural": null,
+    "tr": "zanaatkar işi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "das Holz",
+    "plural": null,
+    "tr": "tahta",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Informatiker/in",
+    "plural": null,
+    "tr": "bilişimci",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Kneipe",
+    "plural": null,
+    "tr": "meyhane",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "kostenfrei",
+    "plural": null,
+    "tr": "ücretsiz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Küchenhilfe",
+    "plural": null,
+    "tr": "aşçı yamağı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Laufbahn",
+    "plural": null,
+    "tr": "kariyer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der Lebenslauf",
+    "plural": "Lebensläufe",
+    "tr": "özgeçmiş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "lückenlos",
+    "plural": null,
+    "tr": "eksiksiz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "melden",
+    "plural": null,
+    "tr": "bildirmek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Mittelschule",
+    "plural": null,
+    "tr": "ortaokul",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Modedesigner/in",
+    "plural": null,
+    "tr": "moda tasarımcısı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "das Muster",
+    "plural": null,
+    "tr": "örnek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "nötig",
+    "plural": null,
+    "tr": "gerekli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "ob",
+    "plural": null,
+    "tr": "eğer",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "persönlich",
+    "plural": null,
+    "tr": "kişisel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "professionell",
+    "plural": null,
+    "tr": "profesyonel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Reinigungsarbeiten (Pl.)",
+    "plural": null,
+    "tr": "temizlik işleri",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Rente",
+    "plural": "Renten",
+    "tr": "emekli maaşı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Restaurantfachmann/-frau",
+    "plural": null,
+    "tr": "restoran uzmanı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "spezial",
+    "plural": null,
+    "tr": "özel",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "statt",
+    "plural": null,
+    "tr": "yerine",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Stelle",
+    "plural": null,
+    "tr": "makam",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "das Stellenangebot",
+    "plural": null,
+    "tr": "İş önerisi",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Stellensuche",
+    "plural": null,
+    "tr": "İş arama",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Struktur",
+    "plural": null,
+    "tr": "yapı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "sympathisch",
+    "plural": null,
+    "tr": "sempatik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Teilzeit",
+    "plural": null,
+    "tr": "yarı zamanlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Teilzeitstelle",
+    "plural": null,
+    "tr": "yarı zamanlı iş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "tippen",
+    "plural": null,
+    "tr": "bahşiş vermek",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der Tippfehler",
+    "plural": null,
+    "tr": "yazım hatası",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "der/die Tischler/in",
+    "plural": null,
+    "tr": "marangoz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "üben",
+    "plural": null,
+    "tr": "alıştırma yapmak",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Übersiedlung",
+    "plural": null,
+    "tr": "hicret",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "unprofessionell",
+    "plural": null,
+    "tr": "profesyonellik dışı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "unsympathisch",
+    "plural": null,
+    "tr": "antipatik",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "unzufrieden",
+    "plural": null,
+    "tr": "hoşnutsuz",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "verrückt",
+    "plural": null,
+    "tr": "deli",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "das Volleyball",
+    "plural": null,
+    "tr": "voleybol",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Vollzeit",
+    "plural": null,
+    "tr": "tam zamanlı",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Vollzeitstelle",
+    "plural": null,
+    "tr": "tam zamanlı iş",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Voraussetzung",
+    "plural": "Voraussetzungen",
+    "tr": "ön şart",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "die Vorlage",
+    "plural": "Vorlagen",
+    "tr": "şablon",
+    "ex": ""
+  },
+  {
+    "group": "Lektion 6: Auf Arbeitssuche",
+    "de": "zuverlässig",
+    "plural": null,
+    "tr": "güvenilir",
+    "ex": ""
+  }
+]
