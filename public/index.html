@@ -71,6 +71,7 @@
         <button class="src-tab" data-src="einfach" role="tab">📖 Telc</button>
         <button class="src-tab" data-src="verb" role="tab">🔤 Fiil Çekimi</button>
         <button class="src-tab" data-src="studystats" role="tab">📊 İstatistik</button>
+        <button class="src-tab" data-src="grammar" role="tab">📝 Grammatik</button>
       </nav>
 
       <nav class="mode-switch" aria-label="Mod">
@@ -301,6 +302,21 @@
             <span style="margin-right:8px">Günlük hedef</span>
             <input type="number" id="goal-input" min="1" max="200" value="10" style="width:80px" />
           </label>
+        </div>
+      </section>
+
+      <!-- Grammatik -->
+      <section id="grammar-panel" hidden>
+        <!-- Konu listesi -->
+        <div id="grammar-topics-view">
+          <h2 class="gr-page-title">📝 Grammatik — B1</h2>
+          <div id="grammar-topic-cards" class="gr-topic-cards"></div>
+        </div>
+        <!-- Konu detay -->
+        <div id="grammar-topic-view" hidden>
+          <button id="grammar-back-btn" class="ghost small gr-back">← Konulara Dön</button>
+          <div id="grammar-explanation" class="gr-explanation"></div>
+          <div id="grammar-exercises" class="gr-exercises"></div>
         </div>
       </section>
 

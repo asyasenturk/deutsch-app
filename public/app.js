@@ -120,8 +120,8 @@
   };
 
   // ─── source / EG / verb state ──────────────────────────────────────────────
-  const SRC_TO_PATH = { goethe: '/', einfach: '/telc', verb: '/fiil', studystats: '/istatistik' };
-  const PATH_TO_SRC = { '/telc': 'einfach', '/fiil': 'verb', '/istatistik': 'studystats' };
+  const SRC_TO_PATH = { goethe: '/', einfach: '/telc', verb: '/fiil', studystats: '/istatistik', grammar: '/grammatik' };
+  const PATH_TO_SRC = { '/telc': 'einfach', '/fiil': 'verb', '/istatistik': 'studystats', '/grammatik': 'grammar' };
 
   function srcFromPath(p) { return PATH_TO_SRC[p] || 'goethe'; }
 
@@ -1548,9 +1548,10 @@
     const isEinfach   = activeSource === 'einfach';
     const isVerb      = activeSource === 'verb';
     const isStudyStat = activeSource === 'studystats';
+    const isGrammar   = activeSource === 'grammar';
     const inLkt       = egState.inLektion;
 
-    const hideAll = isVerb || isStudyStat;
+    const hideAll = isVerb || isStudyStat || isGrammar;
     $('.level-switch').hidden  = !isGoethe;
     $('.mode-switch').hidden   = hideAll;
     $('#daily-bar').hidden     = hideAll || mode === 'stats';
@@ -1565,6 +1566,7 @@
     $('#eg-back-btn').hidden      = !(isEinfach && inLkt);
     $('#verb-panel').hidden        = !isVerb;
     $('#study-stats-panel').hidden = !isStudyStat;
+    $('#grammar-panel').hidden     = !isGrammar;
 
     $('#cards-mode').hidden    = !showContent || mode !== 'cards';
     $('#quiz-mode').hidden     = !showContent || mode !== 'quiz';
@@ -1587,6 +1589,7 @@
     applySourceTabUI();
     if (activeSource === 'einfach') loadEgMeta();
     else if (activeSource === 'verb') renderRecentVerbs();
+    else if (activeSource === 'grammar') loadGrammarTopics();
   }
 
   function applySourceTabUI() {
@@ -1600,6 +1603,7 @@
     if (activeSource === 'einfach' && !egState.inLektion) loadEgMeta();
     else if (activeSource === 'verb') renderRecentVerbs();
     else if (activeSource === 'studystats') renderStudyStatsPanel();
+    else if (activeSource === 'grammar') loadGrammarTopics();
   });
 
   function setSource(src) {
@@ -1613,6 +1617,8 @@
       renderRecentVerbs();
     } else if (src === 'studystats') {
       renderStudyStatsPanel();
+    } else if (src === 'grammar') {
+      loadGrammarTopics();
     }
   }
 
@@ -2039,4 +2045,233 @@
       <h3 class="ss-week-title">Son 7 Gün</h3>
       <div class="ss-bars">${bars}</div>`;
   }
+
+  // ================================================================ GRAMMAR
+  const grammarState = {
+    topics: null,
+    activeTopic: null,
+    exerciseIdx: 0,
+    score: 0,
+    answered: false,
+  };
+
+  async function loadGrammarTopics() {
+    const topicsEl = $('#grammar-topic-cards');
+    if (!topicsEl) return;
+    $('#grammar-topics-view').hidden = false;
+    $('#grammar-topic-view').hidden = true;
+
+    if (grammarState.topics) { renderGrammarTopicCards(); return; }
+    topicsEl.innerHTML = '<div class="gr-loading">Yükleniyor…</div>';
+    try {
+      grammarState.topics = await api('/api/grammar/topics');
+      renderGrammarTopicCards();
+    } catch {
+      topicsEl.innerHTML = '<div class="gr-loading">Yüklenemedi, tekrar deneyin.</div>';
+    }
+  }
+
+  async function renderGrammarTopicCards() {
+    const wrap = $('#grammar-topic-cards');
+    wrap.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    for (const t of grammarState.topics) {
+      let prog = { correct: 0, total: t.exerciseCount };
+      try { prog = await api(`/api/grammar/progress/${t.id}`); } catch {}
+      const pct = prog.total ? Math.round((prog.correct / prog.total) * 100) : 0;
+      const card = document.createElement('div');
+      card.className = 'gr-topic-card';
+      card.innerHTML = `
+        <div class="gr-card-top">
+          <div class="gr-card-title">${escapeHtml(t.title)}</div>
+          <div class="gr-card-sub">${escapeHtml(t.subtitle)}</div>
+        </div>
+        <div class="gr-card-prog">
+          <div class="gr-prog-bar"><div class="gr-prog-fill" style="width:${pct}%"></div></div>
+          <span class="gr-prog-txt">${prog.correct}/${prog.total} doğru</span>
+        </div>
+        <button class="primary gr-start-btn" type="button">Çalış →</button>`;
+      card.querySelector('.gr-start-btn').addEventListener('click', () => openGrammarTopic(t.id));
+      frag.appendChild(card);
+    }
+    wrap.appendChild(frag);
+  }
+
+  async function openGrammarTopic(id) {
+    try {
+      const topic = await api(`/api/grammar/topic/${id}`);
+      grammarState.activeTopic = topic;
+      grammarState.exerciseIdx = 0;
+      grammarState.score = 0;
+      grammarState.answered = false;
+      $('#grammar-topics-view').hidden = true;
+      $('#grammar-topic-view').hidden = false;
+      renderGrammarExplanation(topic);
+      renderGrammarExercise();
+    } catch {
+      showToast('Konu yüklenemedi.');
+    }
+  }
+
+  $('#grammar-back-btn').addEventListener('click', () => {
+    $('#grammar-topics-view').hidden = false;
+    $('#grammar-topic-view').hidden = true;
+    grammarState.topics = null; // progress'i yenile
+    loadGrammarTopics();
+  });
+
+  function renderGrammarExplanation(topic) {
+    const wrap = $('#grammar-explanation');
+    const exp = topic.explanation || {};
+    let html = `<h2 class="gr-topic-title">${escapeHtml(topic.title)}</h2>
+      <p class="gr-topic-sub">${escapeHtml(topic.subtitle)}</p>`;
+    if (exp.tr) html += `<p class="gr-exp-intro">${escapeHtml(exp.tr)}</p>`;
+    for (const sec of (exp.sections || [])) {
+      html += `<h3 class="gr-sec-title">${escapeHtml(sec.title)}</h3>`;
+      if (sec.tr) html += `<p class="gr-sec-tr">${escapeHtml(sec.tr)}</p>`;
+      if (sec.examples) {
+        html += '<div class="gr-examples">';
+        for (const ex of sec.examples) {
+          html += `<div class="gr-example">
+            <div class="gr-ex-de">${escapeHtml(ex.de)}</div>
+            <div class="gr-ex-tr">${escapeHtml(ex.tr)}</div>
+          </div>`;
+        }
+        html += '</div>';
+      }
+      if (sec.table) {
+        const [headers, ...rows] = sec.table;
+        html += '<div class="gr-table-wrap"><table class="gr-table"><thead><tr>';
+        for (const h of headers) html += `<th>${escapeHtml(h)}</th>`;
+        html += '</tr></thead><tbody>';
+        for (const row of rows) {
+          html += '<tr>';
+          for (const cell of row) html += `<td>${escapeHtml(cell)}</td>`;
+          html += '</tr>';
+        }
+        html += '</tbody></table></div>';
+      }
+    }
+    wrap.innerHTML = html;
+  }
+
+  function renderGrammarExercise() {
+    const topic = grammarState.activeTopic;
+    const exs = topic.exercises || [];
+    const wrap = $('#grammar-exercises');
+    if (grammarState.exerciseIdx >= exs.length) {
+      renderGrammarSummary(); return;
+    }
+    const ex = exs[grammarState.exerciseIdx];
+    grammarState.answered = false;
+    const qNum = grammarState.exerciseIdx + 1;
+    let html = `<div class="gr-ex-wrap">
+      <div class="gr-ex-num">Soru ${qNum} / ${exs.length}</div>
+      <div class="gr-ex-q">${escapeHtml(ex.question)}</div>`;
+    if (ex.type === 'multiple') {
+      html += '<div class="gr-opts">';
+      for (const opt of (ex.options || [])) {
+        html += `<button class="gr-opt" type="button" data-val="${escapeHtml(opt)}">${escapeHtml(opt)}</button>`;
+      }
+      html += '</div>';
+    } else {
+      html += `<div class="gr-fill-row">
+        <input id="gr-fill-input" class="gr-fill-input" type="text"
+          autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Cevabınız…" />
+        <button id="gr-fill-check" class="primary gr-check-btn" type="button">Kontrol</button>
+      </div>
+      <div class="qw-umlauts gr-umlauts">
+        <button class="qw-um" data-ch="ä" type="button">ä</button>
+        <button class="qw-um" data-ch="ö" type="button">ö</button>
+        <button class="qw-um" data-ch="ü" type="button">ü</button>
+        <button class="qw-um" data-ch="ß" type="button">ß</button>
+        <button class="qw-um" data-ch="Ä" type="button">Ä</button>
+        <button class="qw-um" data-ch="Ö" type="button">Ö</button>
+        <button class="qw-um" data-ch="Ü" type="button">Ü</button>
+      </div>`;
+    }
+    html += `<div id="gr-feedback" class="gr-feedback"></div>
+      <button id="gr-next-btn" class="primary gr-next-btn" type="button" hidden>Sonraki →</button>
+    </div>`;
+    wrap.innerHTML = html;
+
+    if (ex.type === 'multiple') {
+      wrap.querySelectorAll('.gr-opt').forEach(btn => {
+        btn.addEventListener('click', () => checkGrammarAnswer(btn.dataset.val, ex));
+      });
+    } else {
+      const inp = $('#gr-fill-input');
+      $('#gr-fill-check').addEventListener('click', () => checkGrammarAnswer(inp.value, ex));
+      inp.addEventListener('keydown', e => { if (e.key === 'Enter') checkGrammarAnswer(inp.value, ex); });
+      wrap.querySelectorAll('.qw-um').forEach(b => {
+        b.addEventListener('mousedown', e => { e.preventDefault(); insertAtCursor(inp, b.dataset.ch); });
+      });
+      setTimeout(() => { try { inp.focus(); } catch {} }, 30);
+    }
+    $('#gr-next-btn').addEventListener('click', () => {
+      grammarState.exerciseIdx++;
+      renderGrammarExercise();
+    });
+  }
+
+  function checkGrammarAnswer(userVal, ex) {
+    if (grammarState.answered) return;
+    grammarState.answered = true;
+    const answers = ex.answer.split('/').map(a => a.trim().toLowerCase());
+    const isCorrect = answers.includes(userVal.trim().toLowerCase());
+    if (isCorrect) grammarState.score++;
+
+    // POST progress
+    api('/api/grammar/progress', {
+      method: 'POST',
+      body: JSON.stringify({ topic_id: grammarState.activeTopic.id, exercise_id: ex.id, correct: isCorrect }),
+    }).catch(() => {});
+
+    const fb = $('#gr-feedback');
+    fb.className = 'gr-feedback ' + (isCorrect ? 'gr-ok' : 'gr-bad');
+    fb.innerHTML = (isCorrect ? '✓ Doğru! ' : `✗ Yanlış. Doğrusu: <b>${escapeHtml(ex.answer)}</b><br>`) +
+      `<span class="gr-exp">${escapeHtml(ex.explanation || '')}</span>`;
+
+    if (ex.type === 'multiple') {
+      const wrap = $('#grammar-exercises');
+      wrap.querySelectorAll('.gr-opt').forEach(btn => {
+        btn.disabled = true;
+        if (btn.dataset.val === ex.answer) btn.classList.add('gr-correct');
+        else if (btn.dataset.val === userVal && !isCorrect) btn.classList.add('gr-wrong');
+      });
+    } else {
+      const inp = $('#gr-fill-input');
+      if (inp) {
+        inp.disabled = true;
+        inp.classList.add(isCorrect ? 'correct' : 'wrong');
+        $('#gr-fill-check').disabled = true;
+      }
+    }
+    $('#gr-next-btn').hidden = false;
+  }
+
+  function renderGrammarSummary() {
+    const topic = grammarState.activeTopic;
+    const total = (topic.exercises || []).length;
+    const score = grammarState.score;
+    const pct = total ? Math.round((score / total) * 100) : 0;
+    $('#grammar-exercises').innerHTML = `
+      <div class="gr-summary">
+        <div class="gr-summary-icon">${pct >= 75 ? '🎉' : pct >= 50 ? '👍' : '📚'}</div>
+        <h3 class="gr-summary-title">${escapeHtml(topic.title)} tamamlandı!</h3>
+        <div class="gr-summary-score">${score} / ${total} doğru (${pct}%)</div>
+        <div class="gr-summary-btns">
+          <button class="ghost gr-retry-btn" type="button">Tekrar Dene</button>
+          <button class="primary gr-done-btn" type="button">Konulara Dön</button>
+        </div>
+      </div>`;
+    document.querySelector('.gr-retry-btn').addEventListener('click', () => openGrammarTopic(topic.id));
+    document.querySelector('.gr-done-btn').addEventListener('click', () => {
+      $('#grammar-topics-view').hidden = false;
+      $('#grammar-topic-view').hidden = true;
+      grammarState.topics = null;
+      loadGrammarTopics();
+    });
+  }
+
 })();

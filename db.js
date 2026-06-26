@@ -41,6 +41,15 @@ db.exec(`
     words_learned    INTEGER DEFAULT 0,
     UNIQUE(user_id, date)
   );
+
+  CREATE TABLE IF NOT EXISTS grammar_progress (
+    user_id     INTEGER NOT NULL,
+    topic_id    TEXT    NOT NULL,
+    exercise_id TEXT    NOT NULL,
+    correct     INTEGER DEFAULT 0,
+    attempts    INTEGER DEFAULT 0,
+    PRIMARY KEY (user_id, topic_id, exercise_id)
+  );
 `);
 
 const stmts = {
@@ -92,6 +101,17 @@ const stmts = {
   getStudyWeekly: db.prepare(
     'SELECT date, duration_seconds, words_learned FROM study_sessions WHERE user_id = ? AND date >= ? ORDER BY date ASC'
   ),
+  upsertGrammarProgress: db.prepare(`
+    INSERT INTO grammar_progress (user_id, topic_id, exercise_id, correct, attempts)
+    VALUES (?, ?, ?, ?, 1)
+    ON CONFLICT(user_id, topic_id, exercise_id) DO UPDATE SET
+      correct  = correct + excluded.correct,
+      attempts = attempts + 1
+  `),
+  getGrammarProgress: db.prepare(`
+    SELECT exercise_id, correct, attempts
+    FROM grammar_progress WHERE user_id = ? AND topic_id = ?
+  `),
 };
 
 function createUser(username, passwordHash) {
@@ -149,6 +169,14 @@ function getStudyWeekly(userId, fromDate) {
   return stmts.getStudyWeekly.all(userId, fromDate);
 }
 
+function upsertGrammarProgress(userId, topicId, exerciseId, correct) {
+  stmts.upsertGrammarProgress.run(userId, topicId, exerciseId, correct ? 1 : 0);
+}
+
+function getGrammarProgress(userId, topicId) {
+  return stmts.getGrammarProgress.all(userId, topicId);
+}
+
 module.exports = {
   db,
   DB_PATH,
@@ -163,4 +191,6 @@ module.exports = {
   upsertStudySession,
   getStudyToday,
   getStudyWeekly,
+  upsertGrammarProgress,
+  getGrammarProgress,
 };

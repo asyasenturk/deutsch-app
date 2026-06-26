@@ -20,6 +20,8 @@ const {
   upsertStudySession,
   getStudyToday,
   getStudyWeekly,
+  upsertGrammarProgress,
+  getGrammarProgress,
 } = require('./db');
 
 const PORT = parseInt(process.env.PORT, 10) || 3000;
@@ -199,6 +201,12 @@ for (const sl of EG_SUBLEVELS) {
   };
 }
 
+const GRAMMAR = (() => {
+  try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'grammar_b1.json'), 'utf8')); }
+  catch (e) { console.error('grammar_b1.json yüklenemedi:', e.message); return { topics: [] }; }
+})();
+const GRAMMAR_MAP = new Map(GRAMMAR.topics.map(t => [t.id, t]));
+
 // ─── VERB DATA ────────────────────────────────────────────────────────────────
 
 function parseCSVLine(line) {
@@ -364,6 +372,43 @@ app.get('/api/session/stats', requireAuth, (req, res) => {
     console.error('session stats error:', err);
     res.status(500).json({ error: 'İstatistik alınamadı.' });
   }
+});
+
+// ─── GRAMMAR ENDPOINTS ───────────────────────────────────────────────────────
+
+app.get('/api/grammar/topics', requireAuth, (req, res) => {
+  const rows = GRAMMAR.topics.map(t => ({
+    id: t.id,
+    title: t.title,
+    subtitle: t.subtitle,
+    exerciseCount: (t.exercises || []).length,
+  }));
+  res.json(rows);
+});
+
+app.get('/api/grammar/topic/:id', requireAuth, (req, res) => {
+  const topic = GRAMMAR_MAP.get(req.params.id);
+  if (!topic) return res.status(404).json({ error: 'Konu bulunamadı.' });
+  res.json(topic);
+});
+
+app.post('/api/grammar/progress', requireAuth, (req, res) => {
+  const { topic_id, exercise_id, correct } = req.body || {};
+  if (!topic_id || !exercise_id) return res.status(400).json({ error: 'Eksik alan.' });
+  try {
+    upsertGrammarProgress(req.session.userId, topic_id, exercise_id, correct);
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('grammar progress error:', err);
+    res.status(500).json({ error: 'Kayıt hatası.' });
+  }
+});
+
+app.get('/api/grammar/progress/:topic_id', requireAuth, (req, res) => {
+  const rows = getGrammarProgress(req.session.userId, req.params.topic_id);
+  const correct = rows.filter(r => r.correct > 0).length;
+  const total = (GRAMMAR_MAP.get(req.params.topic_id)?.exercises || []).length;
+  res.json({ correct, wrong: rows.length - correct, total });
 });
 
 // ─── VERB ENDPOINT ───────────────────────────────────────────────────────────
