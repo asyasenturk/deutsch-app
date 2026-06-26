@@ -432,7 +432,8 @@
       const plPart = w.plural ? ` (Çoğul: ${w.plural})` : '';
       if (pluralEl) pluralEl.innerHTML = `<b>${escapeHtml(w.de)}${escapeHtml(plPart)}</b>`;
       cardTr.textContent = '';
-      cardEx.innerHTML = '';
+      const exTr = w.ex_tr ? `<div class="card-ex-tr">${escapeHtml(w.ex_tr)}</div>` : '';
+      cardEx.innerHTML = (w.ex ? escapeHtml(w.ex) : '') + exTr;
       if (frontSpeak) frontSpeak.hidden = false;
     } else {
       if (pluralEl) pluralEl.textContent = '';
