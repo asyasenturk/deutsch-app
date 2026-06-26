@@ -119,10 +119,12 @@
   };
 
   // ─── source / EG / verb state ──────────────────────────────────────────────
-  let activeSource = (() => {
-    const v = localStorage.getItem('activeTab');
-    return (v === 'einfach' || v === 'verb' || v === 'studystats') ? v : 'goethe';
-  })();
+  const SRC_TO_PATH = { goethe: '/', einfach: '/telc', verb: '/fiil', studystats: '/istatistik' };
+  const PATH_TO_SRC = { '/telc': 'einfach', '/fiil': 'verb', '/istatistik': 'studystats' };
+
+  function srcFromPath(p) { return PATH_TO_SRC[p] || 'goethe'; }
+
+  let activeSource = srcFromPath(window.location.pathname);
   const egState = {
     meta: null,
     sublevel: localStorage.getItem('egSublevel') || 'b1_1',
@@ -1423,16 +1425,19 @@
     $('#filters').hidden       = !(isGoethe && mode === 'cards');
     $('#progress-wrap').hidden = hideAll || mode === 'stats' || mode === 'artikel' || mode === 'known';
 
-    $('#eg-panel').hidden         = !(isEinfach && !inLkt);
+    const showKnown   = isGoethe || isEinfach;
+    const showContent = isGoethe || (isEinfach && inLkt);
+
+    // eg-panel: Telc'de lektion seçilmemişse ve Bildiklerim modu değilse göster
+    $('#eg-panel').hidden         = !(isEinfach && !inLkt && mode !== 'known');
     $('#eg-back-btn').hidden      = !(isEinfach && inLkt);
     $('#verb-panel').hidden        = !isVerb;
     $('#study-stats-panel').hidden = !isStudyStat;
 
-    const showContent = isGoethe || (isEinfach && inLkt);
     $('#cards-mode').hidden   = !showContent || mode !== 'cards';
     $('#quiz-mode').hidden    = !showContent || mode !== 'quiz';
     $('#artikel-mode').hidden = !showContent || mode !== 'artikel';
-    $('#known-mode').hidden   = !showContent || mode !== 'known';
+    $('#known-mode').hidden   = !showKnown   || mode !== 'known';
     $('#stats-mode').hidden   = !showContent || mode !== 'stats';
   }
 
@@ -1456,9 +1461,18 @@
     applyVisibility();
   }
 
+  window.addEventListener('popstate', () => {
+    activeSource = srcFromPath(window.location.pathname);
+    applySourceTabUI();
+    if (activeSource === 'einfach' && !egState.inLektion) loadEgMeta();
+    else if (activeSource === 'verb') renderRecentVerbs();
+    else if (activeSource === 'studystats') renderStudyStatsPanel();
+  });
+
   function setSource(src) {
     activeSource = src;
     localStorage.setItem('activeTab', src);
+    history.pushState({ src }, '', SRC_TO_PATH[src] || '/');
     applySourceTabUI();
     if (src === 'einfach') {
       if (!egState.inLektion) loadEgMeta();

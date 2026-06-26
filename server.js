@@ -384,6 +384,11 @@ app.get('/api/verb', (req, res) => {
 
 app.use(express.static(PUBLIC_DIR, { extensions: ['html'] }));
 
+// SPA catch-all — /telc, /fiil, /istatistik gibi rotalar için index.html döndür
+app.get(/^\/(?!api).*/, (_req, res) => {
+  res.sendFile(path.join(PUBLIC_DIR, 'index.html'));
+});
+
 app.use((err, _req, res, _next) => {
   console.error('unhandled error:', err);
   if (err?.type === 'entity.too.large') {
