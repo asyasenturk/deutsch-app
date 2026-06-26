@@ -1,0 +1,1300 @@
+{
+  "topics": [
+    {
+      "id": "personalpronomen",
+      "title": "Personalpronomen & sein/haben",
+      "subtitle": "Kişi zamirleri ve temel yardımcı fiiller",
+      "explanation": {
+        "tr": "Almancada her kişi için ayrı bir zamir vardır. 'sein' (olmak) ve 'haben' (sahip olmak) en temel fiillerdir ve çekimleri düzensizdir — ezberlemek şart!",
+        "sections": [
+          {
+            "title": "Personalpronomen (Kişi Zamirleri)",
+            "tr": "",
+            "table": [
+              [
+                "Kişi",
+                "Almanca",
+                "Türkçe"
+              ],
+              [
+                "1. tekil",
+                "ich",
+                "ben"
+              ],
+              [
+                "2. tekil (samimi)",
+                "du",
+                "sen"
+              ],
+              [
+                "3. tekil erkek",
+                "er",
+                "o (erkek)"
+              ],
+              [
+                "3. tekil dişi",
+                "sie",
+                "o (kadın)"
+              ],
+              [
+                "3. tekil nötr",
+                "es",
+                "o (nesne/bebek)"
+              ],
+              [
+                "1. çoğul",
+                "wir",
+                "biz"
+              ],
+              [
+                "2. çoğul",
+                "ihr",
+                "siz (samimi)"
+              ],
+              [
+                "3. çoğul / resmi",
+                "sie / Sie",
+                "onlar / siz (resmi)"
+              ]
+            ]
+          },
+          {
+            "title": "sein — olmak (Präsens)",
+            "tr": "Türkçedeki 'ben öğrenciyim, sen doktorsun' gibi — kişiyi, mesleği, durumu tanımlar.",
+            "table": [
+              [
+                "Kişi",
+                "sein",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "bin",
+                "Ich bin Student. (Ben öğrenciyim.)"
+              ],
+              [
+                "du",
+                "bist",
+                "Du bist nett. (Sen naziksin.)"
+              ],
+              [
+                "er/sie/es",
+                "ist",
+                "Er ist Arzt. (O doktordur.)"
+              ],
+              [
+                "wir",
+                "sind",
+                "Wir sind müde. (Biz yorgunuz.)"
+              ],
+              [
+                "ihr",
+                "seid",
+                "Ihr seid laut. (Siz gürültülüsünüz.)"
+              ],
+              [
+                "sie/Sie",
+                "sind",
+                "Sie sind freundlich. (Onlar/Siz naziksiniz.)"
+              ]
+            ]
+          },
+          {
+            "title": "haben — sahip olmak (Präsens)",
+            "tr": "Türkçedeki 'benim X'm var' anlamına gelir.",
+            "table": [
+              [
+                "Kişi",
+                "haben",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "habe",
+                "Ich habe ein Buch. (Benim bir kitabım var.)"
+              ],
+              [
+                "du",
+                "hast",
+                "Du hast Zeit. (Senin zamanın var.)"
+              ],
+              [
+                "er/sie/es",
+                "hat",
+                "Er hat Hunger. (Onun acıkması var / Aç.)"
+              ],
+              [
+                "wir",
+                "haben",
+                "Wir haben eine Frage. (Bizim bir sorumuz var.)"
+              ],
+              [
+                "ihr",
+                "habt",
+                "Ihr habt Glück. (Şansınız var.)"
+              ],
+              [
+                "sie/Sie",
+                "haben",
+                "Sie haben Recht. (Haklısınız.)"
+              ]
+            ]
+          },
+          {
+            "title": "Dikkat: er/sie/es ayrımı",
+            "tr": "Almancada zamir seçimi kişinin cinsiyetine değil, ismin grammatik cinsiyetine göre yapılır!",
+            "examples": [
+              {
+                "de": "der Tisch → er ist groß",
+                "tr": "masa (der) → o büyük"
+              },
+              {
+                "de": "die Lampe → sie ist hell",
+                "tr": "lamba (die) → o parlak"
+              },
+              {
+                "de": "das Kind → es ist klein",
+                "tr": "çocuk (das) → o küçük"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "prasens",
+      "title": "Präsens Konjugation",
+      "subtitle": "Şimdiki zaman — düzenli ve önemli düzensiz fiiller",
+      "explanation": {
+        "tr": "Almancada fiiller kişiye göre ek alır. Düzenli fiilin gövdesine kişi ekini eklersin. Bazı fiiller kök sesli değiştirir (güçlü fiiller) — bunlar ayrıca öğrenilmeli.",
+        "sections": [
+          {
+            "title": "Düzenli fiil çekimi: machen (yapmak)",
+            "tr": "Gövde = mach-. Ekler: -e, -st, -t, -en, -t, -en",
+            "table": [
+              [
+                "Kişi",
+                "Ek",
+                "Form",
+                "Türkçe"
+              ],
+              [
+                "ich",
+                "-e",
+                "mache",
+                "yapıyorum"
+              ],
+              [
+                "du",
+                "-st",
+                "machst",
+                "yapıyorsun"
+              ],
+              [
+                "er/sie/es",
+                "-t",
+                "macht",
+                "yapıyor"
+              ],
+              [
+                "wir",
+                "-en",
+                "machen",
+                "yapıyoruz"
+              ],
+              [
+                "ihr",
+                "-t",
+                "macht",
+                "yapıyorsunuz"
+              ],
+              [
+                "sie/Sie",
+                "-en",
+                "machen",
+                "yapıyorlar / yapıyorsunuz"
+              ]
+            ]
+          },
+          {
+            "title": "-t, -d, -n ile biten fiiller: arbeiten (çalışmak)",
+            "tr": "Telaffuzu kolaylaştırmak için du/er/ihr formlarına 'e' eklenir:",
+            "examples": [
+              {
+                "de": "du arbeit-e-st (değil: arbeitst)",
+                "tr": "çalışıyorsun"
+              },
+              {
+                "de": "er arbeit-e-t (değil: arbeitt)",
+                "tr": "çalışıyor"
+              },
+              {
+                "de": "ihr arbeit-e-t (değil: arbeitt)",
+                "tr": "çalışıyorsunuz"
+              }
+            ]
+          },
+          {
+            "title": "Güçlü fiiller — kök sesli değişimi (e → i/ie)",
+            "tr": "du ve er/sie/es formlarında kök seslisi değişir:",
+            "table": [
+              [
+                "Fiil",
+                "Anlam",
+                "du formu",
+                "er formu"
+              ],
+              [
+                "sprechen",
+                "konuşmak",
+                "du sprichst",
+                "er spricht"
+              ],
+              [
+                "lesen",
+                "okumak",
+                "du liest",
+                "er liest"
+              ],
+              [
+                "sehen",
+                "görmek",
+                "du siehst",
+                "er sieht"
+              ],
+              [
+                "essen",
+                "yemek",
+                "du isst",
+                "er isst"
+              ],
+              [
+                "geben",
+                "vermek",
+                "du gibst",
+                "er gibt"
+              ],
+              [
+                "nehmen",
+                "almak",
+                "du nimmst",
+                "er nimmt"
+              ],
+              [
+                "helfen",
+                "yardım etmek",
+                "du hilfst",
+                "er hilft"
+              ],
+              [
+                "fahren",
+                "gitmek/sürmek",
+                "du fährst",
+                "er fährt"
+              ],
+              [
+                "laufen",
+                "koşmak",
+                "du läufst",
+                "er läuft"
+              ],
+              [
+                "schlafen",
+                "uyumak",
+                "du schläfst",
+                "er schläft"
+              ]
+            ]
+          },
+          {
+            "title": "Sık kullanılan düzenli fiiller",
+            "tr": "Bunları ezberle — A1'de çok çıkar:",
+            "examples": [
+              {
+                "de": "wohnen — ich wohne, du wohnst, er wohnt",
+                "tr": "oturmak/yaşamak"
+              },
+              {
+                "de": "lernen — ich lerne, du lernst, er lernt",
+                "tr": "öğrenmek/çalışmak"
+              },
+              {
+                "de": "kommen — ich komme, du kommst, er kommt",
+                "tr": "gelmek"
+              },
+              {
+                "de": "gehen — ich gehe, du gehst, er geht",
+                "tr": "gitmek"
+              },
+              {
+                "de": "heißen — ich heiße, du heißt, er heißt",
+                "tr": "adı olmak"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "negation",
+      "title": "Negation",
+      "subtitle": "Olumsuzluk — nicht ve kein",
+      "explanation": {
+        "tr": "Almancada olumsuzluk için iki yol var: 'nicht' (değil) ve 'kein-' (hiç/yok). Doğru olanı seçmek önemli!",
+        "sections": [
+          {
+            "title": "nicht — genel olumsuzluk",
+            "tr": "'nicht' şunları olumsuzlaştırır: fiiller, sıfatlar, zarflar, belirli artikelle gelen isimler, özel isimler:",
+            "examples": [
+              {
+                "de": "Ich arbeite nicht.",
+                "tr": "Çalışmıyorum. (fiil)"
+              },
+              {
+                "de": "Das ist nicht gut.",
+                "tr": "Bu iyi değil. (sıfat)"
+              },
+              {
+                "de": "Er kommt nicht heute.",
+                "tr": "O bugün gelmiyor. (zarf)"
+              },
+              {
+                "de": "Ich mag den Film nicht.",
+                "tr": "O filmi beğenmiyorum. (belirli artikel)"
+              },
+              {
+                "de": "Das ist nicht Berlin.",
+                "tr": "Burası Berlin değil. (özel isim)"
+              }
+            ]
+          },
+          {
+            "title": "kein- — ismin olumsuzlaştırılması",
+            "tr": "'kein-' belirsiz artikel (ein/eine) veya artikelsiz isimleri olumsuzlaştırır. Artikel gibi çekime girer:",
+            "table": [
+              [
+                "Kişi",
+                "Maskulin",
+                "Feminin",
+                "Neutrum",
+                "Plural"
+              ],
+              [
+                "Nominativ",
+                "kein Mann",
+                "keine Frau",
+                "kein Kind",
+                "keine Kinder"
+              ],
+              [
+                "Akkusativ",
+                "keinen Mann",
+                "keine Frau",
+                "kein Kind",
+                "keine Kinder"
+              ]
+            ]
+          },
+          {
+            "title": "nicht mi, kein mi? — karar tablosu",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Ich habe ein Auto. → Ich habe kein Auto.",
+                "tr": "Arabam yok. (belirsiz artikel → kein)"
+              },
+              {
+                "de": "Ich trinke Kaffee. → Ich trinke keinen Kaffee.",
+                "tr": "Kahve içmiyorum. (artikelsiz → kein)"
+              },
+              {
+                "de": "Ich trinke das Wasser nicht.",
+                "tr": "O suyu içmiyorum. (belirli artikel → nicht)"
+              },
+              {
+                "de": "Das ist nicht schön.",
+                "tr": "Bu güzel değil. (sıfat → nicht)"
+              }
+            ]
+          },
+          {
+            "title": "Doch! — olumlu yanıt",
+            "tr": "Olumsuz soruya olumlu yanıt vermek için 'doch' kullan:",
+            "examples": [
+              {
+                "de": "Kommst du nicht? — Doch, ich komme!",
+                "tr": "Gelmiyor musun? — Hayır, geliyorum!"
+              },
+              {
+                "de": "Hast du kein Auto? — Doch, ich habe eins!",
+                "tr": "Araban yok mu? — Var, bir tane var!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kasus",
+      "title": "Nominativ & Akkusativ",
+      "subtitle": "1. ve 4. hal — özne ve nesne",
+      "explanation": {
+        "tr": "Almancada isimler cümledeki görevlerine göre farklı hal (Kasus) alır. A1'de iki hal önemli: Nominativ (özne) ve Akkusativ (nesne). Fark sadece maskulin isimde görülür!",
+        "sections": [
+          {
+            "title": "Nominativ (1. hal) — özne",
+            "tr": "Cümlede 'kim?' sorusunun cevabı. Fiili yapan kişi/şey.",
+            "table": [
+              [
+                "Cinsiyet",
+                "Belirli artikel",
+                "Belirsiz artikel",
+                "Örnek"
+              ],
+              [
+                "Maskulin",
+                "der",
+                "ein",
+                "Der Mann kommt. / Ein Mann kommt."
+              ],
+              [
+                "Feminin",
+                "die",
+                "eine",
+                "Die Frau lacht. / Eine Frau lacht."
+              ],
+              [
+                "Neutrum",
+                "das",
+                "ein",
+                "Das Kind spielt. / Ein Kind spielt."
+              ],
+              [
+                "Plural",
+                "die",
+                "—",
+                "Die Kinder schlafen."
+              ]
+            ]
+          },
+          {
+            "title": "Akkusativ (4. hal) — nesne",
+            "tr": "'kimi?' veya 'neyi?' sorusunun cevabı. Sadece maskulin değişir: der → den, ein → einen!",
+            "table": [
+              [
+                "Cinsiyet",
+                "Belirli artikel",
+                "Belirsiz artikel",
+                "Örnek"
+              ],
+              [
+                "Maskulin ⚠️",
+                "den",
+                "einen",
+                "Ich sehe den Mann. / Ich habe einen Hund."
+              ],
+              [
+                "Feminin",
+                "die",
+                "eine",
+                "Ich kaufe die Tasche. / Ich brauche eine Tasche."
+              ],
+              [
+                "Neutrum",
+                "das",
+                "ein",
+                "Ich lese das Buch. / Ich habe ein Buch."
+              ],
+              [
+                "Plural",
+                "die",
+                "—",
+                "Ich kaufe die Bücher."
+              ]
+            ]
+          },
+          {
+            "title": "Akkusativ alan fiiller (en sık kullanılanlar)",
+            "tr": "Bu fiillerden sonra Akkusativ gelir:",
+            "examples": [
+              {
+                "de": "haben — Ich habe einen Bruder.",
+                "tr": "sahip olmak"
+              },
+              {
+                "de": "kaufen — Sie kauft einen Mantel.",
+                "tr": "satın almak"
+              },
+              {
+                "de": "sehen — Er sieht den Film.",
+                "tr": "görmek"
+              },
+              {
+                "de": "brauchen — Wir brauchen einen Tisch.",
+                "tr": "ihtiyaç duymak"
+              },
+              {
+                "de": "suchen — Ich suche einen Job.",
+                "tr": "aramak"
+              },
+              {
+                "de": "essen — Du isst einen Apfel.",
+                "tr": "yemek"
+              },
+              {
+                "de": "trinken — Er trinkt einen Kaffee.",
+                "tr": "içmek"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessiv",
+      "title": "Possessivpronomen",
+      "subtitle": "İyelik zamirleri — mein, dein, sein...",
+      "explanation": {
+        "tr": "İyelik zamirleri 'kimin?' sorusunu yanıtlar. 'kein-' gibi çekime girerler. A1'de Nominativ ve Akkusativ formlarını bilmek yeterli.",
+        "sections": [
+          {
+            "title": "Temel iyelik zamirleri",
+            "tr": "",
+            "table": [
+              [
+                "Kişi",
+                "Zamir",
+                "Türkçe",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "mein-",
+                "benim",
+                "mein Buch (benim kitabım)"
+              ],
+              [
+                "du",
+                "dein-",
+                "senin",
+                "dein Freund (senin arkadaşın)"
+              ],
+              [
+                "er/es",
+                "sein-",
+                "onun (erkek/nötr)",
+                "sein Auto (onun arabası)"
+              ],
+              [
+                "sie",
+                "ihr-",
+                "onun (dişi)",
+                "ihr Name (onun adı)"
+              ],
+              [
+                "wir",
+                "unser-",
+                "bizim",
+                "unser Haus (bizim evimiz)"
+              ],
+              [
+                "ihr",
+                "euer-",
+                "sizin (samimi)",
+                "euer Hund (sizin köpeğiniz)"
+              ],
+              [
+                "sie/Sie",
+                "ihr-/Ihr-",
+                "onların/sizin",
+                "Ihr Beruf (sizin mesleğiniz)"
+              ]
+            ]
+          },
+          {
+            "title": "Çekim — Nominativ & Akkusativ",
+            "tr": "mein örneğiyle (diğerleri aynı yapıda):",
+            "table": [
+              [
+                "Hal",
+                "Maskulin",
+                "Feminin",
+                "Neutrum",
+                "Plural"
+              ],
+              [
+                "Nominativ",
+                "mein Vater",
+                "meine Mutter",
+                "mein Kind",
+                "meine Eltern"
+              ],
+              [
+                "Akkusativ",
+                "meinen Vater",
+                "meine Mutter",
+                "mein Kind",
+                "meine Eltern"
+              ]
+            ]
+          },
+          {
+            "title": "Dikkat: euer çekimi",
+            "tr": "euer- çekimde 'e' düşer:",
+            "examples": [
+              {
+                "de": "euer Vater (Nominativ maskulin)",
+                "tr": "sizin babanız"
+              },
+              {
+                "de": "eure Mutter (Nominativ feminin)",
+                "tr": "sizin anneniz"
+              },
+              {
+                "de": "euren Vater (Akkusativ maskulin)",
+                "tr": "sizin babanızı"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fragen",
+      "title": "W-Fragen & Satzfragen",
+      "subtitle": "Soru cümleleri",
+      "explanation": {
+        "tr": "Almancada iki tür soru var: W-Fragen (soru sözcüklü) ve Ja/Nein-Fragen (evet/hayır soruları). Her ikisinde de fiil ikinci pozisyonda gelir — ya da birinci!",
+        "sections": [
+          {
+            "title": "W-Fragen — soru sözcükleri",
+            "tr": "",
+            "table": [
+              [
+                "Soru sözcüğü",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "wer?",
+                "kim?",
+                "Wer ist das? — Das ist Maria."
+              ],
+              [
+                "was?",
+                "ne?",
+                "Was machst du? — Ich lerne Deutsch."
+              ],
+              [
+                "wo?",
+                "nerede?",
+                "Wo wohnst du? — In Berlin."
+              ],
+              [
+                "woher?",
+                "nereden?",
+                "Woher kommst du? — Aus der Türkei."
+              ],
+              [
+                "wohin?",
+                "nereye?",
+                "Wohin gehst du? — In die Schule."
+              ],
+              [
+                "wann?",
+                "ne zaman?",
+                "Wann kommst du? — Um 8 Uhr."
+              ],
+              [
+                "wie?",
+                "nasıl?",
+                "Wie heißt du? — Ich heiße Yanis."
+              ],
+              [
+                "wie viel?",
+                "ne kadar?",
+                "Wie viel kostet das? — 10 Euro."
+              ],
+              [
+                "wie viele?",
+                "kaç tane?",
+                "Wie viele Geschwister hast du?"
+              ],
+              [
+                "warum?",
+                "neden?",
+                "Warum lernst du Deutsch? — Für die Prüfung."
+              ]
+            ]
+          },
+          {
+            "title": "Ja/Nein-Fragen — evet/hayır soruları",
+            "tr": "Fiil cümlenin BAŞINA gelir, özne arkasından:",
+            "examples": [
+              {
+                "de": "Kommst du heute? — Ja, ich komme.",
+                "tr": "Bugün geliyor musun? — Evet, geliyorum."
+              },
+              {
+                "de": "Hast du ein Auto? — Nein, ich habe kein Auto.",
+                "tr": "Araban var mı? — Hayır, arabam yok."
+              },
+              {
+                "de": "Ist das dein Buch? — Ja, das ist meins.",
+                "tr": "Bu senin kitabın mı? — Evet, benimki."
+              }
+            ]
+          },
+          {
+            "title": "Cümle yapısı — fiil konumu",
+            "tr": "Almancada fiil her zaman 2. pozisyonda (W-sorularda) veya 1. pozisyonda (Ja/Nein sorularda) olur:",
+            "examples": [
+              {
+                "de": "Wo [1] wohnst [2] du [3]?",
+                "tr": "Nerede oturuyorsun?"
+              },
+              {
+                "de": "Wohnst [1] du [2] in Berlin [3]?",
+                "tr": "Berlin'de mi oturuyorsun?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "modalverben",
+      "title": "Modalverben",
+      "subtitle": "Yardımcı fiiller — können, müssen, möchten...",
+      "explanation": {
+        "tr": "Modal fiiller (yetenek, zorunluluk, istek ifade edenler) çekimde düzensizdir. Ana fiil cümlenin SONUNA infinitiv olarak gider. Bu yapı A1'de çok sık kullanılır!",
+        "sections": [
+          {
+            "title": "Modal fiil anlamları",
+            "tr": "",
+            "table": [
+              [
+                "Modal fiil",
+                "Temel anlam",
+                "Türkçe karşılık"
+              ],
+              [
+                "können",
+                "yetenek/imkân",
+                "-ebilmek, -abilmek"
+              ],
+              [
+                "müssen",
+                "zorunluluk",
+                "-mek zorunda olmak, -malı"
+              ],
+              [
+                "möchten",
+                "istek (kibarca)",
+                "istemek (-mek isterim)"
+              ],
+              [
+                "wollen",
+                "istek (kesin)",
+                "istemek (-mek istiyorum)"
+              ],
+              [
+                "dürfen",
+                "izin",
+                "-e izni olmak, -ebilmek"
+              ],
+              [
+                "sollen",
+                "başkasının isteği",
+                "-malı (sana söylendi)"
+              ]
+            ]
+          },
+          {
+            "title": "Çekim tablosu",
+            "tr": "Tekil formlar düzensiz, çoğul formlar infinitivle aynı:",
+            "table": [
+              [
+                "Kişi",
+                "können",
+                "müssen",
+                "möchten",
+                "wollen",
+                "dürfen",
+                "sollen"
+              ],
+              [
+                "ich",
+                "kann",
+                "muss",
+                "möchte",
+                "will",
+                "darf",
+                "soll"
+              ],
+              [
+                "du",
+                "kannst",
+                "musst",
+                "möchtest",
+                "willst",
+                "darfst",
+                "sollst"
+              ],
+              [
+                "er/sie/es",
+                "kann",
+                "muss",
+                "möchte",
+                "will",
+                "darf",
+                "soll"
+              ],
+              [
+                "wir",
+                "können",
+                "müssen",
+                "möchten",
+                "wollen",
+                "dürfen",
+                "sollen"
+              ],
+              [
+                "ihr",
+                "könnt",
+                "müsst",
+                "möchtet",
+                "wollt",
+                "dürft",
+                "sollt"
+              ],
+              [
+                "sie/Sie",
+                "können",
+                "müssen",
+                "möchten",
+                "wollen",
+                "dürfen",
+                "sollen"
+              ]
+            ]
+          },
+          {
+            "title": "Cümle yapısı: modal + infinitiv (sonda)",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Ich kann Deutsch sprechen.",
+                "tr": "Ben Almanca konuşabiliyorum."
+              },
+              {
+                "de": "Du musst jetzt lernen.",
+                "tr": "Şimdi çalışmak zorundasın."
+              },
+              {
+                "de": "Er möchte einen Kaffee trinken.",
+                "tr": "O bir kahve içmek istiyor."
+              },
+              {
+                "de": "Wir wollen nach Berlin fahren.",
+                "tr": "Biz Berlin'e gitmek istiyoruz."
+              },
+              {
+                "de": "Hier darf man nicht rauchen.",
+                "tr": "Burada sigara içmek yasak."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "trennbar_imperativ",
+      "title": "Trennbare Verben & Imperativ",
+      "subtitle": "Ayrılabilen fiiller ve emir kipi",
+      "explanation": {
+        "tr": "Trennbare Verben (ayrılabilen fiiller) iki parçadan oluşur: önek + fiil. Cümlede fiil 2. pozisyonda, önek en sona gider. İmperativ ise emir veya rica ifade eder.",
+        "sections": [
+          {
+            "title": "Trennbare Verben — nasıl çalışır?",
+            "tr": "Önek (ab-, an-, auf-, aus-, ein-, mit-, vor-, zu-...) cümlenin sonuna gider:",
+            "examples": [
+              {
+                "de": "aufstehen → Ich stehe um 7 Uhr auf.",
+                "tr": "kalkmak → Saat 7'de kalkıyorum."
+              },
+              {
+                "de": "anrufen → Er ruft seine Mutter an.",
+                "tr": "aramak → Annesini arıyor."
+              },
+              {
+                "de": "mitkommen → Kommst du mit?",
+                "tr": "birlikte gelmek → Birlikte geliyor musun?"
+              },
+              {
+                "de": "einkaufen → Wir kaufen im Supermarkt ein.",
+                "tr": "alışveriş yapmak → Süperde alışveriş yapıyoruz."
+              },
+              {
+                "de": "abfahren → Der Zug fährt um 10 ab.",
+                "tr": "kalkmak (tren) → Tren saat 10'da kalkıyor."
+              }
+            ]
+          },
+          {
+            "title": "Sık kullanılan trennbare Verben",
+            "tr": "",
+            "table": [
+              [
+                "Fiil",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "aufmachen",
+                "açmak",
+                "Mach das Fenster auf!"
+              ],
+              [
+                "zumachen",
+                "kapatmak",
+                "Mach die Tür zu!"
+              ],
+              [
+                "anziehen",
+                "giymek",
+                "Ich ziehe meine Jacke an."
+              ],
+              [
+                "ausziehen",
+                "çıkarmak",
+                "Er zieht seine Schuhe aus."
+              ],
+              [
+                "aufräumen",
+                "toplamak",
+                "Räum dein Zimmer auf!"
+              ],
+              [
+                "fernsehen",
+                "TV izlemek",
+                "Wir sehen abends fern."
+              ],
+              [
+                "vorstellen",
+                "tanıtmak",
+                "Ich stelle mich vor."
+              ]
+            ]
+          },
+          {
+            "title": "Imperativ (Emir kipi)",
+            "tr": "3 farklı hitap şekli için 3 farklı form:",
+            "table": [
+              [
+                "Hitap",
+                "Oluşturma",
+                "machen örneği",
+                "kommen örneği"
+              ],
+              [
+                "du (samimi tekil)",
+                "gövde + (e)",
+                "Mach! / Mache!",
+                "Komm!"
+              ],
+              [
+                "ihr (samimi çoğul)",
+                "ihr formu, 'ihr' olmadan",
+                "Macht!",
+                "Kommt!"
+              ],
+              [
+                "Sie (resmi)",
+                "Sie formu, fiil önde",
+                "Machen Sie!",
+                "Kommen Sie!"
+              ]
+            ]
+          },
+          {
+            "title": "Dikkat: güçlü fiillerde du-Imperativ",
+            "tr": "e→i değişimi olan fiillerde bu değişim İmperativ'e de yansır:",
+            "examples": [
+              {
+                "de": "lesen → Lies das Buch! (Oku!)",
+                "tr": "du liest → Lies!"
+              },
+              {
+                "de": "sprechen → Sprich lauter! (Daha yüksek sesle konuş!)",
+                "tr": "du sprichst → Sprich!"
+              },
+              {
+                "de": "nehmen → Nimm Platz! (Oturun!)",
+                "tr": "du nimmst → Nimm!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "plural",
+      "title": "Nomen Plural",
+      "subtitle": "İsimlerin çoğul ekleri",
+      "explanation": {
+        "tr": "Almancada çoğul eki her isim için farklıdır — tek bir kural yok! İsimleri artikelleriyle birlikte öğrenirken çoğulunu da ezberlemek gerekir. Sözlüklerde genellikle şöyle gösterilir: der Freund, -e",
+        "sections": [
+          {
+            "title": "5 temel çoğul grubu",
+            "tr": "",
+            "table": [
+              [
+                "Ek",
+                "Açıklama",
+                "Örnekler"
+              ],
+              [
+                "– (değişmez)",
+                "Ek yok, bazen umlaut",
+                "der Wagen → die Wagen\nder Vater → die Väter\ndie Mutter → die Mütter"
+              ],
+              [
+                "-e (±umlaut)",
+                "En yaygın grup",
+                "der Freund → die Freunde\nder Sohn → die Söhne\nder Baum → die Bäume"
+              ],
+              [
+                "-er (±umlaut)",
+                "Çoğunlukla Neutrum",
+                "das Kind → die Kinder\nder Mann → die Männer\ndas Haus → die Häuser"
+              ],
+              [
+                "-(e)n",
+                "Feminin isimler çoğunlukla bu grupta",
+                "die Familie → die Familien\ndie Schwester → die Schwestern\ndie Frau → die Frauen"
+              ],
+              [
+                "-s",
+                "Yabancı kökenli kelimeler",
+                "das Baby → die Babys\ndas Handy → die Handys\ndas Foto → die Fotos"
+              ]
+            ]
+          },
+          {
+            "title": "Dikkat: özel durumlar",
+            "tr": "",
+            "examples": [
+              {
+                "de": "der Türke → die Türken (n-Deklination)",
+                "tr": "Türk → Türkler"
+              },
+              {
+                "de": "das Zeugnis → die Zeugnisse (-nis → -nisse)",
+                "tr": "belge → belgeler"
+              },
+              {
+                "de": "die Polin → die Polinnen (-in → -innen)",
+                "tr": "Polonyalı kadın → Polonyalı kadınlar"
+              }
+            ]
+          },
+          {
+            "title": "Pratik ipucu",
+            "tr": "Cinsiyet çoğul tahminine yardımcı olur:",
+            "examples": [
+              {
+                "de": "die (feminin) → genellikle -(e)n alır: die Schule → die Schulen",
+                "tr": ""
+              },
+              {
+                "de": "das (neutrum) → genellikle -e veya -er alır: das Buch → die Bücher",
+                "tr": ""
+              },
+              {
+                "de": "der (maskulin) → en karışık grup, ezberlenmeli",
+                "tr": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "wortbildung",
+      "title": "Wortbildung & Partizipien",
+      "subtitle": "Kelime türetme ve sıfat görevli ortaçlar",
+      "explanation": {
+        "tr": "Almancada ön ve son eklerle yeni kelimeler türetilebilir. Ayrıca fiillerden türetilen ortaçlar (Partizipien) sıfat olarak kullanılabilir.",
+        "sections": [
+          {
+            "title": "Olumsuzluk ekleri: un- / -los / -bar",
+            "tr": "",
+            "examples": [
+              {
+                "de": "praktisch → unpraktisch (= nicht praktisch)",
+                "tr": "pratik → pratik değil"
+              },
+              {
+                "de": "verheiratet → unverheiratet (= nicht verheiratet)",
+                "tr": "evli → evli değil, bekâr"
+              },
+              {
+                "de": "arbeiten → arbeitslos (= hat keine Arbeit)",
+                "tr": "çalışmak → işsiz"
+              },
+              {
+                "de": "essen → essbar (= kann man essen)",
+                "tr": "yemek → yenilebilir"
+              },
+              {
+                "de": "glauben → unglaublich (= nicht zu glauben)",
+                "tr": "inanmak → inanılmaz"
+              }
+            ]
+          },
+          {
+            "title": "Nomen + Nomen birleşimi (Komposita)",
+            "tr": "İki isim birleşince son ismin artikelini alır:",
+            "examples": [
+              {
+                "de": "der Pass + das Foto = das Passfoto",
+                "tr": "pasaport fotoğrafı"
+              },
+              {
+                "de": "die Reise + die Gruppe = die Reisegruppe",
+                "tr": "gezi grubu"
+              },
+              {
+                "de": "die Sonne + die Brille = die Sonnenbrille",
+                "tr": "güneş gözlüğü"
+              },
+              {
+                "de": "die Sonne + der Schirm = der Sonnenschirm",
+                "tr": "güneş şemsiyesi"
+              }
+            ]
+          },
+          {
+            "title": "Partizipien als Adjektive (sıfat görevli ortaçlar)",
+            "tr": "Partizip II sıfat gibi kullanılabilir:",
+            "examples": [
+              {
+                "de": "Heute geöffnet. (= Das Geschäft ist heute geöffnet.)",
+                "tr": "Bugün açık."
+              },
+              {
+                "de": "Bis Mittwoch geschlossen.",
+                "tr": "Çarşambaya kadar kapalı."
+              },
+              {
+                "de": "Die Wohnung ist schon vermietet.",
+                "tr": "Daire zaten kiralandı."
+              },
+              {
+                "de": "Das ist ein bekannter Sänger. (bekannt = Partizip II von 'bekennen')",
+                "tr": "Bu tanınmış bir şarkıcı."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "personalpronomen_kasus",
+      "title": "Personalpronomen (alle Kasus)",
+      "subtitle": "Kişi zamirlerinin tüm halleri",
+      "explanation": {
+        "tr": "Kişi zamirleri Nominativ, Akkusativ ve Dativ'de farklı form alır. Bu formları bilmek cümle kurmak için şarttır.",
+        "sections": [
+          {
+            "title": "Tam tablo: Nominativ, Akkusativ, Dativ",
+            "tr": "",
+            "table": [
+              [
+                "Kişi",
+                "Nominativ",
+                "Akkusativ",
+                "Dativ"
+              ],
+              [
+                "ich",
+                "ich",
+                "mich",
+                "mir"
+              ],
+              [
+                "du",
+                "du",
+                "dich",
+                "dir"
+              ],
+              [
+                "er",
+                "er",
+                "ihn",
+                "ihm"
+              ],
+              [
+                "sie (tekil)",
+                "sie",
+                "sie",
+                "ihr"
+              ],
+              [
+                "es",
+                "es",
+                "es",
+                "ihm"
+              ],
+              [
+                "wir",
+                "wir",
+                "uns",
+                "uns"
+              ],
+              [
+                "ihr",
+                "ihr",
+                "euch",
+                "euch"
+              ],
+              [
+                "sie/Sie",
+                "sie/Sie",
+                "sie/Sie",
+                "ihnen/Ihnen"
+              ]
+            ]
+          },
+          {
+            "title": "Örnekler",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Er liebt sie. Sie liebt ihn. (Akk)",
+                "tr": "O onu seviyor. O onu seviyor."
+              },
+              {
+                "de": "Kannst du mir helfen? (Dativ)",
+                "tr": "Bana yardım edebilir misin?"
+              },
+              {
+                "de": "Ich gebe dir das Buch. (Dativ)",
+                "tr": "Sana kitabı veriyorum."
+              },
+              {
+                "de": "Das gehört ihm, nicht ihr. (Dativ)",
+                "tr": "Bu ona ait, ona değil."
+              },
+              {
+                "de": "Wir sehen euch morgen. (Akk)",
+                "tr": "Sizi yarın görüyoruz."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

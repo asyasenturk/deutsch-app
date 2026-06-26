@@ -2056,22 +2056,36 @@
   // ================================================================ GRAMMAR
   const grammarState = {
     topics: null,
+    level: localStorage.getItem('grammarLevel') || 'b1',
     activeTopic: null,
     exerciseIdx: 0,
     score: 0,
     answered: false,
   };
 
+  // Seviye butonları
+  $$('.gr-lvl-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      grammarState.level = b.dataset.glvl;
+      localStorage.setItem('grammarLevel', grammarState.level);
+      $$('.gr-lvl-btn').forEach(x => x.classList.toggle('active', x === b));
+      grammarState.topics = null;
+      loadGrammarTopics();
+    });
+  });
+
   async function loadGrammarTopics() {
     const topicsEl = $('#grammar-topic-cards');
     if (!topicsEl) return;
     $('#grammar-topics-view').hidden = false;
     $('#grammar-topic-view').hidden = true;
+    // Seviye butonunu senkronize et
+    $$('.gr-lvl-btn').forEach(b => b.classList.toggle('active', b.dataset.glvl === grammarState.level));
 
     if (grammarState.topics) { renderGrammarTopicCards(); return; }
     topicsEl.innerHTML = '<div class="gr-loading">Yükleniyor…</div>';
     try {
-      grammarState.topics = await api('/api/grammar/topics');
+      grammarState.topics = await api(`/api/grammar/topics?level=${grammarState.level}`);
       renderGrammarTopicCards();
     } catch {
       topicsEl.innerHTML = '<div class="gr-loading">Yüklenemedi, tekrar deneyin.</div>';

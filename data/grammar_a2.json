@@ -1,0 +1,1402 @@
+{
+  "topics": [
+    {
+      "id": "perfekt",
+      "title": "Perfekt",
+      "subtitle": "Geçmiş zaman — konuşma dili",
+      "explanation": {
+        "tr": "Perfekt, Almancada günlük konuşmada geçmişi anlatmak için kullanılır. Türkçedeki '-dı/-di' veya '-mış/-miş'e benzer. 'haben/sein + Partizip II' yapısıyla oluşturulur.",
+        "sections": [
+          {
+            "title": "Yapı: haben/sein + Partizip II",
+            "tr": "Partizip II cümlenin EN SONUNA gider:",
+            "examples": [
+              {
+                "de": "Ich habe Kaffee getrunken.",
+                "tr": "Kahve içtim."
+              },
+              {
+                "de": "Er hat einen Film gesehen.",
+                "tr": "O bir film izledi."
+              },
+              {
+                "de": "Wir sind nach Berlin gefahren.",
+                "tr": "Biz Berlin'e gittik."
+              },
+              {
+                "de": "Sie ist um 8 Uhr aufgestanden.",
+                "tr": "O saat 8'de kalktı."
+              }
+            ]
+          },
+          {
+            "title": "Partizip II oluşturma — düzenli fiiller",
+            "tr": "ge- + gövde + -t",
+            "table": [
+              [
+                "Infinitiv",
+                "Partizip II",
+                "Örnek"
+              ],
+              [
+                "machen",
+                "gemacht",
+                "Ich habe Hausaufgaben gemacht."
+              ],
+              [
+                "kaufen",
+                "gekauft",
+                "Sie hat ein Buch gekauft."
+              ],
+              [
+                "lernen",
+                "gelernt",
+                "Er hat Deutsch gelernt."
+              ],
+              [
+                "spielen",
+                "gespielt",
+                "Wir haben Fußball gespielt."
+              ],
+              [
+                "wohnen",
+                "gewohnt",
+                "Ich habe in Ankara gewohnt."
+              ],
+              [
+                "arbeiten",
+                "gearbeitet",
+                "Er hat viel gearbeitet."
+              ]
+            ]
+          },
+          {
+            "title": "Partizip II — düzensiz fiiller (ezberle!)",
+            "tr": "ge- + değişmiş gövde + -en",
+            "table": [
+              [
+                "Infinitiv",
+                "Partizip II",
+                "Anlam"
+              ],
+              [
+                "sein",
+                "gewesen",
+                "olmak"
+              ],
+              [
+                "haben",
+                "gehabt",
+                "sahip olmak"
+              ],
+              [
+                "gehen",
+                "gegangen",
+                "gitmek"
+              ],
+              [
+                "kommen",
+                "gekommen",
+                "gelmek"
+              ],
+              [
+                "fahren",
+                "gefahren",
+                "gitmek/sürmek"
+              ],
+              [
+                "fliegen",
+                "geflogen",
+                "uçmak"
+              ],
+              [
+                "schreiben",
+                "geschrieben",
+                "yazmak"
+              ],
+              [
+                "lesen",
+                "gelesen",
+                "okumak"
+              ],
+              [
+                "sehen",
+                "gesehen",
+                "görmek"
+              ],
+              [
+                "sprechen",
+                "gesprochen",
+                "konuşmak"
+              ],
+              [
+                "essen",
+                "gegessen",
+                "yemek"
+              ],
+              [
+                "trinken",
+                "getrunken",
+                "içmek"
+              ],
+              [
+                "schlafen",
+                "geschlafen",
+                "uyumak"
+              ],
+              [
+                "nehmen",
+                "genommen",
+                "almak"
+              ],
+              [
+                "geben",
+                "gegeben",
+                "vermek"
+              ],
+              [
+                "helfen",
+                "geholfen",
+                "yardım etmek"
+              ],
+              [
+                "treffen",
+                "getroffen",
+                "buluşmak"
+              ],
+              [
+                "finden",
+                "gefunden",
+                "bulmak"
+              ],
+              [
+                "denken",
+                "gedacht",
+                "düşünmek"
+              ]
+            ]
+          },
+          {
+            "title": "haben mi, sein mi?",
+            "tr": "Çoğu fiil haben alır. sein şu durumlarda kullanılır:",
+            "examples": [
+              {
+                "de": "Hareket fiilleri: gehen, fahren, fliegen, laufen, kommen, reisen...",
+                "tr": "Bir yerden bir yere hareket"
+              },
+              {
+                "de": "Hal değişikliği: aufstehen, einschlafen, aufwachen, sterben, werden...",
+                "tr": "Durumun değişmesi"
+              },
+              {
+                "de": "sein ve bleiben: Ich bin zu Hause geblieben.",
+                "tr": "sein ve bleiben her zaman sein alır"
+              }
+            ]
+          },
+          {
+            "title": "Trennbare Verben'de Partizip II",
+            "tr": "ge- önek ile fiil arasına girer:",
+            "examples": [
+              {
+                "de": "aufstehen → aufgestanden",
+                "tr": "Er ist um 7 aufgestanden."
+              },
+              {
+                "de": "einkaufen → eingekauft",
+                "tr": "Ich habe eingekauft."
+              },
+              {
+                "de": "anrufen → angerufen",
+                "tr": "Sie hat mich angerufen."
+              }
+            ]
+          },
+          {
+            "title": "ge- almayan fiiller",
+            "tr": "-ieren ile biten ve ayrılmayan önekli fiiller (be-, er-, ver-, zer-...) ge- almaz:",
+            "examples": [
+              {
+                "de": "studieren → studiert: Ich habe Informatik studiert.",
+                "tr": "Bilgisayar mühendisliği okudum."
+              },
+              {
+                "de": "besuchen → besucht: Er hat seine Eltern besucht.",
+                "tr": "Ailesini ziyaret etti."
+              },
+              {
+                "de": "verstehen → verstanden: Ich habe alles verstanden.",
+                "tr": "Her şeyi anladım."
+              },
+              {
+                "de": "erzählen → erzählt: Sie hat eine Geschichte erzählt.",
+                "tr": "Bir hikaye anlattı."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "prateritum",
+      "title": "Präteritum",
+      "subtitle": "Yazı dili geçmiş zamanı — sein, haben ve modaller",
+      "explanation": {
+        "tr": "Präteritum yazılı metinlerde kullanılan geçmiş zamandır. A2'de sadece sein, haben ve modal fiillerin Präteritum'unu bilmek yeterli — çünkü bunlar günlük konuşmada da sık kullanılır.",
+        "sections": [
+          {
+            "title": "sein — Präteritum",
+            "tr": "",
+            "table": [
+              [
+                "Kişi",
+                "Form",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "war",
+                "Ich war gestern müde."
+              ],
+              [
+                "du",
+                "warst",
+                "Warst du in Berlin?"
+              ],
+              [
+                "er/sie/es",
+                "war",
+                "Das Wetter war schön."
+              ],
+              [
+                "wir",
+                "waren",
+                "Wir waren im Urlaub."
+              ],
+              [
+                "ihr",
+                "wart",
+                "Ihr wart nicht da."
+              ],
+              [
+                "sie/Sie",
+                "waren",
+                "Sie waren sehr nett."
+              ]
+            ]
+          },
+          {
+            "title": "haben — Präteritum",
+            "tr": "",
+            "table": [
+              [
+                "Kişi",
+                "Form",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "hatte",
+                "Ich hatte keine Zeit."
+              ],
+              [
+                "du",
+                "hattest",
+                "Du hattest Recht."
+              ],
+              [
+                "er/sie/es",
+                "hatte",
+                "Er hatte Hunger."
+              ],
+              [
+                "wir",
+                "hatten",
+                "Wir hatten viel Spaß."
+              ],
+              [
+                "ihr",
+                "hattet",
+                "Ihr hattet Glück."
+              ],
+              [
+                "sie/Sie",
+                "hatten",
+                "Sie hatten ein Problem."
+              ]
+            ]
+          },
+          {
+            "title": "Modal fiiller — Präteritum",
+            "tr": "Modal fiillerin Präteritum'u: Umlaut düşer + -te eki:",
+            "table": [
+              [
+                "Modal",
+                "Präteritum (ich)",
+                "Anlam"
+              ],
+              [
+                "können",
+                "konnte",
+                "yapabiliyordum"
+              ],
+              [
+                "müssen",
+                "musste",
+                "zorundaydım"
+              ],
+              [
+                "wollen",
+                "wollte",
+                "istiyordum"
+              ],
+              [
+                "dürfen",
+                "durfte",
+                "iznin vardı"
+              ],
+              [
+                "sollen",
+                "sollte",
+                "yapmalıydım"
+              ],
+              [
+                "möchten",
+                "wollte",
+                "(mögen → mochte)"
+              ]
+            ]
+          },
+          {
+            "title": "Kullanım farkı: Perfekt vs Präteritum",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Gestern war ich krank. (Präteritum — sein)",
+                "tr": "Dün hastaydım."
+              },
+              {
+                "de": "Ich hatte keine Zeit. (Präteritum — haben)",
+                "tr": "Zamanım yoktu."
+              },
+              {
+                "de": "Ich konnte nicht kommen. (Präteritum — Modal)",
+                "tr": "Gelemedim."
+              },
+              {
+                "de": "Ich habe einen Film gesehen. (Perfekt — diğer fiiller)",
+                "tr": "Bir film izledim."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dativ",
+      "title": "Dativ",
+      "subtitle": "3. hal — dolaylı nesne ve bazı edatlar",
+      "explanation": {
+        "tr": "Dativ (3. hal) dolaylı nesneyi (kime?) gösterir ve bazı edatlardan sonra zorunlu olarak kullanılır. Maskulin ve Neutrum'da 'dem', Feminin'de 'der' olur.",
+        "sections": [
+          {
+            "title": "Dativ artikel çekimi",
+            "tr": "",
+            "table": [
+              [
+                "",
+                "Maskulin",
+                "Feminin",
+                "Neutrum",
+                "Plural"
+              ],
+              [
+                "Belirli",
+                "dem",
+                "der",
+                "dem",
+                "den (+n)"
+              ],
+              [
+                "Belirsiz",
+                "einem",
+                "einer",
+                "einem",
+                "—"
+              ]
+            ]
+          },
+          {
+            "title": "Dativ Präpositionen — her zaman Dativ",
+            "tr": "Bu edatların arkasından HER ZAMAN Dativ gelir:",
+            "table": [
+              [
+                "Edat",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "mit",
+                "ile",
+                "Ich fahre mit dem Bus."
+              ],
+              [
+                "bei",
+                "yanında / -de",
+                "Ich wohne bei meinen Eltern."
+              ],
+              [
+                "von",
+                "-den / -in",
+                "Das ist ein Geschenk von meiner Mutter."
+              ],
+              [
+                "zu",
+                "-e / -e doğru",
+                "Ich gehe zur (zu der) Schule."
+              ],
+              [
+                "aus",
+                "-den / dışarı",
+                "Er kommt aus der Türkei."
+              ],
+              [
+                "nach",
+                "-e (şehir/ülke) / sonra",
+                "Ich fahre nach Berlin. / nach dem Essen"
+              ],
+              [
+                "seit",
+                "-den beri",
+                "Ich lerne seit drei Monaten Deutsch."
+              ],
+              [
+                "gegenüber",
+                "karşısında",
+                "Die Bank ist gegenüber dem Bahnhof."
+              ]
+            ]
+          },
+          {
+            "title": "Dativ — dolaylı nesne (kime?)",
+            "tr": "Bazı fiiller hem Akkusativ (neyi?) hem Dativ (kime?) nesne alır:",
+            "examples": [
+              {
+                "de": "geben: Ich gebe dem Kind [Dativ] ein Buch [Akk].",
+                "tr": "Çocuğa bir kitap veriyorum."
+              },
+              {
+                "de": "zeigen: Er zeigt seiner Freundin [Dativ] die Stadt [Akk].",
+                "tr": "Kız arkadaşına şehri gösteriyor."
+              },
+              {
+                "de": "schenken: Wir schenken unserer Mutter [Dativ] Blumen [Akk].",
+                "tr": "Annemize çiçek hediye ediyoruz."
+              },
+              {
+                "de": "helfen: Kannst du mir [Dativ] helfen?",
+                "tr": "Bana yardım edebilir misin?"
+              },
+              {
+                "de": "danken: Ich danke dir [Dativ].",
+                "tr": "Sana teşekkür ediyorum."
+              }
+            ]
+          },
+          {
+            "title": "Sık kullanılan kısaltmalar",
+            "tr": "Preposition + Artikel kısaltması:",
+            "examples": [
+              {
+                "de": "zu + dem = zum (Ich gehe zum Arzt.)",
+                "tr": "doktora gidiyorum"
+              },
+              {
+                "de": "zu + der = zur (Ich gehe zur Schule.)",
+                "tr": "okula gidiyorum"
+              },
+              {
+                "de": "bei + dem = beim (Er ist beim Arzt.)",
+                "tr": "doktordadır"
+              },
+              {
+                "de": "von + dem = vom (Das ist ein Buch vom Lehrer.)",
+                "tr": "öğretmenden bir kitap"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "wechselpraposition",
+      "title": "Wechselpräpositionen",
+      "subtitle": "İki-yönlü edatlar — nerede? (Dativ) ve nereye? (Akkusativ)",
+      "explanation": {
+        "tr": "9 edat hem Dativ hem Akkusativ alabilir. Soru 'wo?' (nerede?) ise Dativ, 'wohin?' (nereye?) ise Akkusativ kullanılır. Bu fark Almancada çok önemlidir!",
+        "sections": [
+          {
+            "title": "9 Wechselpräposition",
+            "tr": "",
+            "table": [
+              [
+                "Edat",
+                "Anlam"
+              ],
+              [
+                "in",
+                "içinde / içine"
+              ],
+              [
+                "an",
+                "yanında / yanına (yüzey)"
+              ],
+              [
+                "auf",
+                "üzerinde / üzerine"
+              ],
+              [
+                "über",
+                "üzerinde/üstünde / üzerine/üstüne"
+              ],
+              [
+                "unter",
+                "altında / altına"
+              ],
+              [
+                "vor",
+                "önünde / önüne"
+              ],
+              [
+                "hinter",
+                "arkasında / arkasına"
+              ],
+              [
+                "neben",
+                "yanında / yanına"
+              ],
+              [
+                "zwischen",
+                "arasında / arasına"
+              ]
+            ]
+          },
+          {
+            "title": "wo? → Dativ (konum, durum)",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Das Buch liegt auf dem Tisch.",
+                "tr": "Kitap masanın üzerinde duruyor."
+              },
+              {
+                "de": "Die Katze sitzt auf dem Sofa.",
+                "tr": "Kedi koltukta oturuyor."
+              },
+              {
+                "de": "Er wohnt in der Stadt.",
+                "tr": "O şehirde oturuyor."
+              },
+              {
+                "de": "Das Bild hängt an der Wand.",
+                "tr": "Resim duvarda asılı."
+              }
+            ]
+          },
+          {
+            "title": "wohin? → Akkusativ (hareket, yön)",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Sie legt das Buch auf den Tisch.",
+                "tr": "Kitabı masanın üzerine koyuyor."
+              },
+              {
+                "de": "Die Katze springt auf das Sofa.",
+                "tr": "Kedi koltukta atlıyor."
+              },
+              {
+                "de": "Er zieht in die Stadt.",
+                "tr": "O şehre taşınıyor."
+              },
+              {
+                "de": "Ich hänge das Bild an die Wand.",
+                "tr": "Resmi duvara asıyorum."
+              }
+            ]
+          },
+          {
+            "title": "Kolay hatırlama: liegen/stehen/hängen vs legen/stellen/hängen",
+            "tr": "",
+            "table": [
+              [
+                "Durum (wo? + Dativ)",
+                "Hareket (wohin? + Akkusativ)"
+              ],
+              [
+                "liegen — yatmak/durmak",
+                "legen — yatırmak/koymak"
+              ],
+              [
+                "stehen — durmak/ayakta olmak",
+                "stellen — dikmek/yerleştirmek"
+              ],
+              [
+                "hängen — asılı olmak",
+                "hängen — asmak"
+              ],
+              [
+                "sitzen — oturmak",
+                "setzen — oturtmak"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "reflexiv",
+      "title": "Reflexivverben",
+      "subtitle": "Dönüşlü fiiller — sich",
+      "explanation": {
+        "tr": "Reflexivverben dönüşlü fiillerdir — eylemin öznesi ve nesnesi aynı kişidir. Türkçedeki '-in-, -ın-, -un-, -ün-' eklerine (yıkanmak, taranmak) benzer. Reflexivpronomen (sich) kişiye göre değişir.",
+        "sections": [
+          {
+            "title": "Reflexivpronomen tablosu",
+            "tr": "",
+            "table": [
+              [
+                "Kişi",
+                "Akkusativ",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "mich",
+                "Ich wasche mich."
+              ],
+              [
+                "du",
+                "dich",
+                "Du kämmst dich."
+              ],
+              [
+                "er/sie/es",
+                "sich",
+                "Er rasiert sich."
+              ],
+              [
+                "wir",
+                "uns",
+                "Wir freuen uns."
+              ],
+              [
+                "ihr",
+                "euch",
+                "Ihr beeilt euch."
+              ],
+              [
+                "sie/Sie",
+                "sich",
+                "Sie erholen sich."
+              ]
+            ]
+          },
+          {
+            "title": "Sık kullanılan Reflexivverben",
+            "tr": "",
+            "table": [
+              [
+                "Fiil",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "sich waschen",
+                "yıkanmak",
+                "Ich wasche mich jeden Morgen."
+              ],
+              [
+                "sich kämmen",
+                "taranmak",
+                "Sie kämmt sich die Haare."
+              ],
+              [
+                "sich anziehen",
+                "giyinmek",
+                "Er zieht sich an."
+              ],
+              [
+                "sich ausziehen",
+                "soyunmak",
+                "Das Kind zieht sich aus."
+              ],
+              [
+                "sich freuen",
+                "sevinmek",
+                "Ich freue mich auf den Urlaub."
+              ],
+              [
+                "sich beeilen",
+                "acele etmek",
+                "Beeil dich! Wir sind spät."
+              ],
+              [
+                "sich erholen",
+                "dinlenmek",
+                "Im Urlaub erholen wir uns."
+              ],
+              [
+                "sich vorstellen",
+                "kendini tanıtmak",
+                "Ich stelle mich vor."
+              ],
+              [
+                "sich interessieren für",
+                "ilgilenmek",
+                "Er interessiert sich für Sport."
+              ],
+              [
+                "sich treffen",
+                "buluşmak",
+                "Wir treffen uns um 8 Uhr."
+              ]
+            ]
+          },
+          {
+            "title": "Dikkat: sich freuen auf vs über",
+            "tr": "",
+            "examples": [
+              {
+                "de": "sich freuen AUF + Akkusativ (gelecek)",
+                "tr": "Ich freue mich auf die Party. (Partiye seviniyorum — henüz olmadı)"
+              },
+              {
+                "de": "sich freuen ÜBER + Akkusativ (geçmiş/şimdiki)",
+                "tr": "Ich freue mich über das Geschenk. (Hediyeye sevindim — aldım)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "komparation",
+      "title": "Komparation",
+      "subtitle": "Karşılaştırma — Positiv, Komparativ, Superlativ",
+      "explanation": {
+        "tr": "Almancada sıfatlar üç derecede kullanılır: temel (gut), karşılaştırma (besser) ve üstünlük (am besten). Bazı sıfatlar umlaut alır.",
+        "sections": [
+          {
+            "title": "Oluşturma kuralı",
+            "tr": "",
+            "table": [
+              [
+                "Derece",
+                "Oluşturma",
+                "Örnek"
+              ],
+              [
+                "Positiv",
+                "temel form",
+                "schnell (hızlı)"
+              ],
+              [
+                "Komparativ",
+                "Positiv + -er",
+                "schneller (daha hızlı)"
+              ],
+              [
+                "Superlativ (yüklem)",
+                "am + Positiv + -sten",
+                "am schnellsten (en hızlı)"
+              ],
+              [
+                "Superlativ (isim önü)",
+                "Positiv + -st- + artikel eki",
+                "der schnellste Zug"
+              ]
+            ]
+          },
+          {
+            "title": "Düzensiz karşılaştırma — ezberle!",
+            "tr": "",
+            "table": [
+              [
+                "Positiv",
+                "Komparativ",
+                "Superlativ",
+                "Anlam"
+              ],
+              [
+                "gut",
+                "besser",
+                "am besten / best-",
+                "iyi"
+              ],
+              [
+                "viel",
+                "mehr",
+                "am meisten / meist-",
+                "çok"
+              ],
+              [
+                "gern",
+                "lieber",
+                "am liebsten",
+                "isteyerek/seve seve"
+              ],
+              [
+                "hoch",
+                "höher",
+                "am höchsten / höchst-",
+                "yüksek"
+              ],
+              [
+                "groß",
+                "größer",
+                "am größten / größt-",
+                "büyük"
+              ],
+              [
+                "nah",
+                "näher",
+                "am nächsten / nächst-",
+                "yakın"
+              ]
+            ]
+          },
+          {
+            "title": "Umlaut alan sıfatlar",
+            "tr": "Tek heceli bazı sıfatlar Komparativ ve Superlativ'de umlaut alır:",
+            "examples": [
+              {
+                "de": "alt → älter → am ältesten",
+                "tr": "yaşlı/eski → daha yaşlı → en yaşlı"
+              },
+              {
+                "de": "jung → jünger → am jüngsten",
+                "tr": "genç → daha genç → en genç"
+              },
+              {
+                "de": "warm → wärmer → am wärmsten",
+                "tr": "sıcak → daha sıcak → en sıcak"
+              },
+              {
+                "de": "kalt → kälter → am kältesten",
+                "tr": "soğuk → daha soğuk → en soğuk"
+              },
+              {
+                "de": "lang → länger → am längsten",
+                "tr": "uzun → daha uzun → en uzun"
+              },
+              {
+                "de": "kurz → kürzer → am kürzesten",
+                "tr": "kısa → daha kısa → en kısa"
+              }
+            ]
+          },
+          {
+            "title": "Karşılaştırma cümleleri",
+            "tr": "",
+            "examples": [
+              {
+                "de": "so ... wie (aynı derecede): Berlin ist so groß wie Istanbul.",
+                "tr": "Berlin İstanbul kadar büyüktür."
+              },
+              {
+                "de": "Komparativ + als (daha): München ist kleiner als Berlin.",
+                "tr": "Münih Berlin'den küçüktür."
+              },
+              {
+                "de": "Superlativ: Der Rhein ist der längste Fluss Deutschlands.",
+                "tr": "Ren, Almanya'nın en uzun nehridir."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nebensaetze_a2",
+      "title": "Nebensätze: weil, dass, wenn",
+      "subtitle": "Temel yan cümleler",
+      "explanation": {
+        "tr": "Yan cümlelerde (Nebensatz) fiil EN SONA gider! Bu Almancada çok önemli bir kuraldır. A2'de 3 temel yan cümle bağlacını bilmek gerekir: weil, dass, wenn.",
+        "sections": [
+          {
+            "title": "Temel kural: Nebensatz'da fiil sona gider",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Ich lerne Deutsch. + Ich möchte in Deutschland arbeiten.",
+                "tr": "İki ayrı cümle"
+              },
+              {
+                "de": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+                "tr": "Birleşik cümle — 'möchte' sona gitti!"
+              }
+            ]
+          },
+          {
+            "title": "weil — çünkü (neden?)",
+            "tr": "Türkçedeki 'çünkü' gibi — sebep bildirir. Fiil sona gider.",
+            "examples": [
+              {
+                "de": "Ich bleibe zu Hause, weil ich krank bin.",
+                "tr": "Hasta olduğum için evde kalıyorum."
+              },
+              {
+                "de": "Er lernt Deutsch, weil er Deutschland liebt.",
+                "tr": "Almanya'yı sevdiği için Almanca öğreniyor."
+              },
+              {
+                "de": "Weil es regnet, bleibe ich zu Hause.",
+                "tr": "Yağmur yağdığı için evde kalıyorum. (Yan cümle başta — ana fiil 1. pozisyona gelir!)"
+              }
+            ]
+          },
+          {
+            "title": "dass — -diği (onu... söylüyor)",
+            "tr": "Türkçedeki '-diğini söylüyor, -eceğini düşünüyor' gibi — dolaylı anlatım ve bazı kalıplarda:",
+            "examples": [
+              {
+                "de": "Ich denke, dass du Recht hast.",
+                "tr": "Haklı olduğunu düşünüyorum."
+              },
+              {
+                "de": "Er sagt, dass er morgen kommt.",
+                "tr": "Yarın geleceğini söylüyor."
+              },
+              {
+                "de": "Ich weiß, dass das schwer ist.",
+                "tr": "Bunun zor olduğunu biliyorum."
+              },
+              {
+                "de": "Es ist toll, dass du hier bist.",
+                "tr": "Burada olman harika."
+              }
+            ]
+          },
+          {
+            "title": "wenn — eğer / -diğinde",
+            "tr": "İki anlam: koşul (eğer) veya zaman (-diğinde). Fiil sona gider.",
+            "examples": [
+              {
+                "de": "Wenn ich Zeit habe, lese ich. (zaman)",
+                "tr": "Zamanım olduğunda okuyorum."
+              },
+              {
+                "de": "Wenn es regnet, nehme ich einen Schirm. (koşul)",
+                "tr": "Yağmur yağarsa şemsiye alırım."
+              },
+              {
+                "de": "Ruf mich an, wenn du ankommst.",
+                "tr": "Geldiğinde beni ara."
+              }
+            ]
+          },
+          {
+            "title": "weil vs denn — fark",
+            "tr": "'denn' de 'çünkü' demektir ama fiil sona GITMEZ, normal sıra kalır:",
+            "examples": [
+              {
+                "de": "Ich bleibe zu Hause, weil ich krank bin. (fiil sona)",
+                "tr": "weil + fiil sona"
+              },
+              {
+                "de": "Ich bleibe zu Hause, denn ich bin krank. (normal sıra)",
+                "tr": "denn + normal sıra"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "futur_indefinit",
+      "title": "Futur I & Indefinitpronomen",
+      "subtitle": "Gelecek zaman ve belirsiz zamirler",
+      "explanation": {
+        "tr": "Futur I gelecekten bahsetmek için kullanılır — ama Almancada çoğu zaman Präsens + zaman zarfı daha doğaldır. Indefinitpronomen ise belirsiz kişi ve şeyleri ifade eder.",
+        "sections": [
+          {
+            "title": "Futur I: werden + Infinitiv",
+            "tr": "werden çekimi:",
+            "table": [
+              [
+                "Kişi",
+                "werden",
+                "Örnek"
+              ],
+              [
+                "ich",
+                "werde",
+                "Ich werde morgen kommen."
+              ],
+              [
+                "du",
+                "wirst",
+                "Du wirst es schaffen."
+              ],
+              [
+                "er/sie/es",
+                "wird",
+                "Es wird regnen."
+              ],
+              [
+                "wir",
+                "werden",
+                "Wir werden sehen."
+              ],
+              [
+                "ihr",
+                "werdet",
+                "Ihr werdet es verstehen."
+              ],
+              [
+                "sie/Sie",
+                "werden",
+                "Sie werden bald ankommen."
+              ]
+            ]
+          },
+          {
+            "title": "Futur I kullanım alanları",
+            "tr": "",
+            "examples": [
+              {
+                "de": "Tahmin: Es wird morgen regnen.",
+                "tr": "Yarın yağmur yağacak."
+              },
+              {
+                "de": "Niyet: Ich werde mehr Sport machen.",
+                "tr": "Daha fazla spor yapacağım."
+              },
+              {
+                "de": "Günlük için Präsens daha yaygın: Ich komme morgen. (= Ich werde morgen kommen.)",
+                "tr": "Yarın geliyorum."
+              }
+            ]
+          },
+          {
+            "title": "Indefinitpronomen — belirsiz zamirler",
+            "tr": "",
+            "table": [
+              [
+                "Zamir",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "man",
+                "insan/biri (genel)",
+                "Man spricht hier Deutsch."
+              ],
+              [
+                "jemand",
+                "biri (belirsiz kişi)",
+                "Jemand hat angerufen."
+              ],
+              [
+                "niemand",
+                "hiç kimse",
+                "Niemand weiß die Antwort."
+              ],
+              [
+                "etwas",
+                "bir şey",
+                "Ich habe etwas für dich."
+              ],
+              [
+                "nichts",
+                "hiçbir şey",
+                "Ich habe nichts gesagt."
+              ],
+              [
+                "alle",
+                "herkes/hepsi",
+                "Alle sind gekommen."
+              ],
+              [
+                "jeder",
+                "her biri",
+                "Jeder macht Fehler."
+              ]
+            ]
+          },
+          {
+            "title": "man — özellikle önemli",
+            "tr": "'man' belirsiz genel bir kişiyi ifade eder, Türkçede genellikle edilgen veya genel bir ifadeyle çevrilir:",
+            "examples": [
+              {
+                "de": "In Deutschland spricht man Deutsch.",
+                "tr": "Almanya'da Almanca konuşulur."
+              },
+              {
+                "de": "Man sagt, dass Berlin toll ist.",
+                "tr": "Berlin'in harika olduğu söyleniyor."
+              },
+              {
+                "de": "Wie sagt man das auf Deutsch?",
+                "tr": "Bunu Almancada nasıl söylerler?"
+              },
+              {
+                "de": "Hier darf man nicht parken.",
+                "tr": "Burada park etmek yasak."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "adjektivdeklination_a2",
+      "title": "Adjektivdeklination",
+      "subtitle": "Sıfat çekimi — 3 hal ile tam tablo",
+      "explanation": {
+        "tr": "A2'de sıfat çekimini Nominativ, Akkusativ ve Dativ için öğrenmek gerekir. Belirli artikel (der/die/das), belirsiz artikel (ein/eine) ve artikelsiz kullanım için ekler farklıdır.",
+        "sections": [
+          {
+            "title": "Bestimmter Artikel ile (der/die/das) — Nominativ/Akkusativ/Dativ",
+            "tr": "",
+            "table": [
+              [
+                "",
+                "Maskulin",
+                "Feminin",
+                "Neutrum",
+                "Plural"
+              ],
+              [
+                "Nominativ",
+                "der große Bruder",
+                "die kleine Schwester",
+                "das neue Haus",
+                "die älteren Geschwister"
+              ],
+              [
+                "Akkusativ",
+                "den großen Bruder",
+                "die kleine Schwester",
+                "das neue Haus",
+                "die älteren Geschwister"
+              ],
+              [
+                "Dativ",
+                "dem großen Bruder",
+                "der kleinen Schwester",
+                "dem neuen Haus",
+                "den älteren Geschwistern"
+              ]
+            ]
+          },
+          {
+            "title": "Unbestimmter Artikel ile (ein/eine/ein) — Nominativ/Akkusativ/Dativ",
+            "tr": "",
+            "table": [
+              [
+                "",
+                "Maskulin",
+                "Feminin",
+                "Neutrum"
+              ],
+              [
+                "Nominativ",
+                "ein kleiner Bruder",
+                "eine große Schwester",
+                "ein schönes Haus"
+              ],
+              [
+                "Akkusativ",
+                "einen kleinen Bruder",
+                "eine große Schwester",
+                "ein schönes Haus"
+              ],
+              [
+                "Dativ",
+                "einem kleinen Bruder",
+                "einer großen Schwester",
+                "einem schönen Haus"
+              ]
+            ]
+          },
+          {
+            "title": "Kural özeti",
+            "tr": "Kolay hatırlama:",
+            "examples": [
+              {
+                "de": "Artikel güçlüyse (der/die/das/den) → sıfat -e veya -en alır",
+                "tr": "der alte Mann, die alte Frau, das alte Haus"
+              },
+              {
+                "de": "Artikel zayıfsa (ein/eine) → sıfat güçlü ek alır (-er/-e/-es)",
+                "tr": "ein alter Mann, eine alte Frau, ein altes Haus"
+              },
+              {
+                "de": "Dativ'de HER ZAMAN -en",
+                "tr": "dem alten Mann, der alten Frau, dem alten Haus"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "indirekte_fragen",
+      "title": "Indirekte Fragen & Vergleichssätze",
+      "subtitle": "Dolaylı sorular ve karşılaştırma cümleleri",
+      "explanation": {
+        "tr": "Dolaylı sorularda fiil sona gider. 'ob' evet/hayır soruları için, W-sözcükleri diğer sorular için kullanılır. Karşılaştırma cümlelerinde 'so...wie' ve 'als' çok önemlidir.",
+        "sections": [
+          {
+            "title": "Indirekte Fragen — dolaylı sorular",
+            "tr": "Doğrudan soru → dolaylı soru (fiil sona gider):",
+            "examples": [
+              {
+                "de": "Was gibt es im Kino? → Weißt du, was es im Kino gibt?",
+                "tr": "Sinemada ne var? → Sinemada ne olduğunu biliyor musun?"
+              },
+              {
+                "de": "Wo ist der Bahnhof? → Kannst du mir sagen, wo der Bahnhof ist?",
+                "tr": "İstasyon nerede? → İstasyonun nerede olduğunu söyler misin?"
+              },
+              {
+                "de": "Wann fährt der Zug? → Ich weiß nicht, wann der Zug fährt.",
+                "tr": "Tren ne zaman kalkıyor? → Trenin ne zaman kalktığını bilmiyorum."
+              }
+            ]
+          },
+          {
+            "title": "ob — evet/hayır dolaylı soruları",
+            "tr": "'Geht ihr ins Kino?' gibi evet/hayır soruları dolaylı anlatımda 'ob' ile:",
+            "examples": [
+              {
+                "de": "Geht ihr ins Kino? → Ich weiß nicht, ob wir ins Kino gehen.",
+                "tr": "Sinemaya gidiyor musunuz? → Sinemaya gidip gitmeyeceğimizi bilmiyorum."
+              },
+              {
+                "de": "Kommt er? → Ich frage mich, ob er kommt.",
+                "tr": "O geliyor mu? → O'nun gelip gelmeyeceğini merak ediyorum."
+              }
+            ]
+          },
+          {
+            "title": "Vergleichssätze — karşılaştırma",
+            "tr": "",
+            "table": [
+              [
+                "Yapı",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "so + Adj + wie",
+                "...kadar (eşit)",
+                "Karsten ist so clever wie Armin."
+              ],
+              [
+                "Komparativ + als",
+                "...dan/-den daha",
+                "Charlotte rennt schneller als Jonatan."
+              ],
+              [
+                "nicht so + Adj + wie",
+                "...kadar değil",
+                "Uwe ist nicht so helle wie Armin."
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "praposition_genitiv",
+      "title": "Genitiv Präpositionen & Erweiterte Konnektoren",
+      "subtitle": "Genitiv edatları ve gelişmiş bağlaçlar",
+      "explanation": {
+        "tr": "A2'de bazı edatlar Genitiv (2. hal) alır. Bunlar özellikle yazılı dilde çok kullanılır. Ayrıca 'zuerst-dann' ve 'ob' gibi bağlaçlar da bu seviyede öğrenilir.",
+        "sections": [
+          {
+            "title": "Genitiv Präpositionen",
+            "tr": "Bu edatlar ismin Genitiv formunu alır (des/der):",
+            "table": [
+              [
+                "Edat",
+                "Anlam",
+                "Örnek"
+              ],
+              [
+                "während",
+                "sırasında",
+                "während des Essens (yemek sırasında)"
+              ],
+              [
+                "wegen",
+                "yüzünden/nedeniyle",
+                "wegen der Arbeit (iş nedeniyle)"
+              ],
+              [
+                "trotz",
+                "rağmen",
+                "trotz des Wetters (havaya rağmen)"
+              ],
+              [
+                "innerhalb",
+                "içinde",
+                "innerhalb einer Woche (bir hafta içinde)"
+              ],
+              [
+                "außerhalb",
+                "dışında",
+                "außerhalb der Stadt (şehrin dışında)"
+              ],
+              [
+                "anstatt/statt",
+                "yerine",
+                "anstatt des Autos (araba yerine)"
+              ],
+              [
+                "aufgrund",
+                "dolayısıyla",
+                "aufgrund des Problems (sorun dolayısıyla)"
+              ]
+            ]
+          },
+          {
+            "title": "Genitiv artikel çekimi",
+            "tr": "Genitiv'de maskulin ve neutrum 'des', feminin ve plural 'der' alır. İsme -(e)s eklenir:",
+            "examples": [
+              {
+                "de": "der Mann → wegen des Mannes",
+                "tr": "adam yüzünden (maskulin: des)"
+              },
+              {
+                "de": "die Frau → trotz der Frau",
+                "tr": "kadına rağmen (feminin: der)"
+              },
+              {
+                "de": "das Kind → während des Kindes",
+                "tr": "çocuk sırasında (neutrum: des)"
+              }
+            ]
+          },
+          {
+            "title": "Zuerst - dann / Erst - dann",
+            "tr": "Sıralama ifade eden bağlaçlar:",
+            "examples": [
+              {
+                "de": "Zuerst trainiere ich, dann werde ich Rennfahrer.",
+                "tr": "Önce antrenman yapıyorum, sonra yarışçı olacağım."
+              },
+              {
+                "de": "Erst dusche ich, dann gehe ich zum Frühstück.",
+                "tr": "Önce duş alıyorum, sonra kahvaltıya gidiyorum."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -958,3 +958,15 @@ button#verb-search-btn.primary { width: auto; flex: 0 0 auto; }
   .gr-fill-row { flex-direction:column; }
   .gr-check-btn { width:100%; }
 }
+
+/* ──────────── GRAMMAR LEVEL SELECTOR ──────────── */
+.gr-level-bar {
+  display: flex; gap: 6px; margin-bottom: 16px;
+}
+.gr-lvl-btn {
+  padding: 8px 18px; border-radius: 999px;
+  background: rgba(255,255,255,0.5); border: 1px solid rgba(139,94,52,0.22);
+  color: var(--ink-soft); font: inherit; font-weight: 600; cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.gr-lvl-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }

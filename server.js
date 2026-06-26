@@ -201,11 +201,20 @@ for (const sl of EG_SUBLEVELS) {
   };
 }
 
-const GRAMMAR = (() => {
-  try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'grammar_b1.json'), 'utf8')); }
-  catch (e) { console.error('grammar_b1.json yüklenemedi:', e.message); return { topics: [] }; }
-})();
-const GRAMMAR_MAP = new Map(GRAMMAR.topics.map(t => [t.id, t]));
+function loadGrammarFile(name) {
+  try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, name), 'utf8')); }
+  catch (e) { console.error(`${name} yüklenemedi:`, e.message); return { topics: [] }; }
+}
+
+const GRAMMAR_LEVELS = {
+  a1: loadGrammarFile('grammar_a1.json'),
+  a2: loadGrammarFile('grammar_a2.json'),
+  b1: loadGrammarFile('grammar_b1.json'),
+};
+
+const GRAMMAR_MAP = new Map(
+  Object.values(GRAMMAR_LEVELS).flatMap(g => g.topics.map(t => [t.id, t]))
+);
 
 // ─── VERB DATA ────────────────────────────────────────────────────────────────
 
@@ -377,13 +386,16 @@ app.get('/api/session/stats', requireAuth, (req, res) => {
 // ─── GRAMMAR ENDPOINTS ───────────────────────────────────────────────────────
 
 app.get('/api/grammar/topics', requireAuth, (req, res) => {
-  const rows = GRAMMAR.topics.map(t => ({
+  const lvl = String(req.query.level || '').toLowerCase();
+  const source = (lvl && lvl !== 'all' && GRAMMAR_LEVELS[lvl])
+    ? GRAMMAR_LEVELS[lvl].topics
+    : Object.values(GRAMMAR_LEVELS).flatMap(g => g.topics);
+  res.json(source.map(t => ({
     id: t.id,
     title: t.title,
     subtitle: t.subtitle,
     exerciseCount: (t.exercises || []).length,
-  }));
-  res.json(rows);
+  })));
 });
 
 app.get('/api/grammar/topic/:id', requireAuth, (req, res) => {
