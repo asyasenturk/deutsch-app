@@ -1,0 +1,656 @@
+{
+  "topics": [
+    {
+      "id": "konjunktiv2",
+      "title": "Konjunktiv II",
+      "subtitle": "Dilek, öneri ve nazik istekler",
+      "explanation": {
+        "tr": "Konjunktiv II, gerçekleşmesi zor ya da imkânsız durumları, nazik istekleri ve önerileri ifade etmek için kullanılır. Türkçedeki '-se/-sa' veya 'olurdu/olabilirdi' yapısına benzer.",
+        "sections": [
+          {
+            "title": "würde + Infinitiv (en yaygın kullanım)",
+            "tr": "Çoğu fiil için 'würde + infinitiv' kullanılır:",
+            "examples": [
+              { "de": "Ich würde gern Kaffee trinken.", "tr": "Kahve içmek isterdim." },
+              { "de": "Er würde dir helfen, wenn er Zeit hätte.", "tr": "Zamanı olsaydı sana yardım ederdi." },
+              { "de": "Wir würden gern ins Kino gehen.", "tr": "Sinemaya gitmek isterdik." }
+            ]
+          },
+          {
+            "title": "Önemli düzensiz fiiller (kendi Konjunktiv II formları)",
+            "tr": "Bu fiiller 'würde' almaz, kendi formlarını kullanır:",
+            "table": [
+              ["Infinitiv", "Konjunktiv II", "Örnek"],
+              ["sein", "wäre", "Ich wäre froh. (Mutlu olurdum.)"],
+              ["haben", "hätte", "Er hätte Zeit. (Zamanı olurdu.)"],
+              ["können", "könnte", "Könnten Sie mir helfen? (Yardım edebilir misiniz?)"],
+              ["müssen", "müsste", "Du müsstest mehr lernen. (Daha çok çalışmalısın.)"],
+              ["dürfen", "dürfte", "Hier dürfte man nicht rauchen. (Burada sigara içilmemeli.)"],
+              ["sollen", "sollte", "Du solltest früh schlafen. (Erken yatmalısın.)"],
+              ["wollen", "wollte", "Ich wollte fragen... (Sormak istiyordum...)"],
+              ["werden", "würde", "Er würde kommen. (Gelirdi.)"]
+            ]
+          },
+          {
+            "title": "Nazik istek kalıpları",
+            "tr": "Sınavda sık çıkan kalıplar:",
+            "examples": [
+              { "de": "Könnten Sie mir bitte helfen?", "tr": "Bana yardım edebilir misiniz?" },
+              { "de": "Ich hätte gern einen Tee.", "tr": "Bir çay alabilir miyim?" },
+              { "de": "Wären Sie so freundlich...?", "tr": "Bu kadar nazik olur musunuz...?" },
+              { "de": "An deiner Stelle würde ich...", "tr": "Senin yerinde olsam..." }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "k2_1",
+          "type": "fill",
+          "question": "Ich ________ gern mehr Zeit haben. (haben → Konjunktiv II)",
+          "answer": "hätte",
+          "explanation": "'haben' fiilinin Konjunktiv II formu 'hätte'dir. 'würde haben' değil!"
+        },
+        {
+          "id": "k2_2",
+          "type": "fill",
+          "question": "An deiner Stelle ________ ich sofort zum Arzt gehen. (gehen → würde)",
+          "answer": "würde",
+          "explanation": "Normal fiillerde 'würde + Infinitiv' kullanılır."
+        },
+        {
+          "id": "k2_3",
+          "type": "multiple",
+          "question": "Könnten Sie mir bitte das Salz _______?",
+          "options": ["geben", "gibt", "gegeben", "gab"],
+          "answer": "geben",
+          "explanation": "Modal fiil + Infinitiv: 'könnten Sie ... geben?'"
+        },
+        {
+          "id": "k2_4",
+          "type": "fill",
+          "question": "Wenn ich reich ________, würde ich eine Weltreise machen. (sein → Konjunktiv II)",
+          "answer": "wäre",
+          "explanation": "'sein' fiilinin Konjunktiv II formu 'wäre'dir."
+        },
+        {
+          "id": "k2_5",
+          "type": "multiple",
+          "question": "Du siehst müde aus. Du ________ früher schlafen gehen.",
+          "options": ["solltest", "sollst", "wirst", "würdest"],
+          "answer": "solltest",
+          "explanation": "'sollen' → Konjunktiv II: 'sollte'. Tavsiye verirken kullanılır."
+        },
+        {
+          "id": "k2_6",
+          "type": "fill",
+          "question": "Ich ________ gern einen Fensterplatz. (hätte gern = nazik istek)",
+          "answer": "hätte",
+          "explanation": "'hätte gern' = 'istiyorum / alabilir miyim' anlamında nazik istek."
+        },
+        {
+          "id": "k2_7",
+          "type": "multiple",
+          "question": "Wenn es nicht regnen ________, würden wir spazieren gehen.",
+          "options": ["würde", "wäre", "hätte", "könnte"],
+          "answer": "würde",
+          "explanation": "'regnen' normal bir fiil, Konjunktiv II = 'würde regnen'."
+        },
+        {
+          "id": "k2_8",
+          "type": "fill",
+          "question": "________ Sie mir bitte sagen, wo der Bahnhof ist? (können → Konjunktiv II, Sie)",
+          "answer": "Könnten",
+          "explanation": "'können' → Konjunktiv II → 'könnte', Sie ile: 'Könnten'."
+        }
+      ]
+    },
+    {
+      "id": "passiv",
+      "title": "Passiv",
+      "subtitle": "Edilgen yapı — kim yaptığından değil, ne yapıldığından bahsetmek",
+      "explanation": {
+        "tr": "Passiv (edilgen çatı), eylemin kim tarafından yapıldığından değil, ne yapıldığından bahsetmek istediğimizde kullanılır. Türkçedeki '-ılır/-ilir, -ıldı/-ildi' eklerine benzer.",
+        "sections": [
+          {
+            "title": "Passiv Präsens: werden + Partizip II",
+            "tr": "Şimdiki zamanda edilgen:",
+            "examples": [
+              { "de": "Das Auto wird repariert.", "tr": "Araba tamir ediliyor." },
+              { "de": "Die Briefe werden geschrieben.", "tr": "Mektuplar yazılıyor." },
+              { "de": "Hier wird Deutsch gesprochen.", "tr": "Burada Almanca konuşuluyor." }
+            ]
+          },
+          {
+            "title": "Passiv Präteritum: wurde + Partizip II",
+            "tr": "Geçmiş zamanda edilgen:",
+            "examples": [
+              { "de": "Das Auto wurde repariert.", "tr": "Araba tamir edildi." },
+              { "de": "Das Haus wurde 1990 gebaut.", "tr": "Ev 1990'da inşa edildi." },
+              { "de": "Die Tür wurde geschlossen.", "tr": "Kapı kapatıldı." }
+            ]
+          },
+          {
+            "title": "werden çekimi (Passiv için)",
+            "tr": "",
+            "table": [
+              ["Kişi", "Präsens", "Präteritum"],
+              ["ich", "werde", "wurde"],
+              ["du", "wirst", "wurdest"],
+              ["er/sie/es", "wird", "wurde"],
+              ["wir", "werden", "wurden"],
+              ["ihr", "werdet", "wurdet"],
+              ["Sie/sie", "werden", "wurden"]
+            ]
+          },
+          {
+            "title": "von + Dativ (kim tarafından)",
+            "tr": "Eylemi yapanı belirtmek istersen 'von + Dativ' ekle:",
+            "examples": [
+              { "de": "Das Buch wurde von Goethe geschrieben.", "tr": "Kitap Goethe tarafından yazıldı." },
+              { "de": "Der Brief wird von mir geschrieben.", "tr": "Mektup benim tarafımdan yazılıyor." }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "p_1",
+          "type": "fill",
+          "question": "Das Fenster ________ geöffnet. (werden → Präsens, es)",
+          "answer": "wird",
+          "explanation": "er/sie/es → 'wird'. Passiv Präsens: wird + Partizip II."
+        },
+        {
+          "id": "p_2",
+          "type": "fill",
+          "question": "Die Hausaufgaben ________ gestern gemacht. (werden → Präteritum, sie/pl)",
+          "answer": "wurden",
+          "explanation": "Plural → 'wurden'. Passiv Präteritum: wurde + Partizip II."
+        },
+        {
+          "id": "p_3",
+          "type": "multiple",
+          "question": "Das Abendessen ________ um 19 Uhr serviert.",
+          "options": ["wird", "ist", "hat", "war"],
+          "answer": "wird",
+          "explanation": "Passiv Präsens: werden + Partizip II. 'wird serviert'."
+        },
+        {
+          "id": "p_4",
+          "type": "fill",
+          "question": "Das Museum ________ 1902 gegründet. (werden → Präteritum, es)",
+          "answer": "wurde",
+          "explanation": "Geçmiş zamanda edilgen: 'wurde gegründet'."
+        },
+        {
+          "id": "p_5",
+          "type": "multiple",
+          "question": "Hier ________ nicht geraucht. (Passiv Präsens)",
+          "options": ["wird", "wurde", "werden", "ist"],
+          "answer": "wird",
+          "explanation": "'hier' ile cümle başlarken özne yok ama fiil tekil: 'wird'."
+        },
+        {
+          "id": "p_6",
+          "type": "fill",
+          "question": "Die Pakete ________ morgen geliefert. (werden → Präsens, sie/pl)",
+          "answer": "werden",
+          "explanation": "Plural özne → 'werden'. 'Die Pakete werden geliefert.'"
+        },
+        {
+          "id": "p_7",
+          "type": "multiple",
+          "question": "Das Lied ________ von einem bekannten Sänger gesungen.",
+          "options": ["wurde", "hat", "ist", "war"],
+          "answer": "wurde",
+          "explanation": "'von einem Sänger' → Passiv Präteritum: 'wurde gesungen'."
+        },
+        {
+          "id": "p_8",
+          "type": "fill",
+          "question": "Die Kinder ________ von der Lehrerin unterrichtet. (werden → Präsens)",
+          "answer": "werden",
+          "explanation": "Plural → 'werden'. 'Die Kinder werden unterrichtet.'"
+        }
+      ]
+    },
+    {
+      "id": "relativsaetze",
+      "title": "Relativsätze",
+      "subtitle": "Bir ismi açıklayan yan cümleler",
+      "explanation": {
+        "tr": "Relativsatz (ilgi cümlesi), bir ismi veya zamiri açıklamak için kullanılan yan cümledir. Türkçedeki '-an/-en, -dığı/-diği' gibi sıfat-fiil eklerine benzer. Fiil en sona gider!",
+        "sections": [
+          {
+            "title": "Relativpronomen tablosu",
+            "tr": "İsmin cinsiyetine ve cümledeki durumuna (Kasus) göre değişir:",
+            "table": [
+              ["Kasus", "Maskulin (der)", "Feminin (die)", "Neutrum (das)", "Plural (die)"],
+              ["Nominativ", "der", "die", "das", "die"],
+              ["Akkusativ", "den", "die", "das", "die"],
+              ["Dativ", "dem", "der", "dem", "denen"]
+            ]
+          },
+          {
+            "title": "Nominativ — özne olarak",
+            "tr": "Relativpronomen yan cümlede özne görevi yapıyor:",
+            "examples": [
+              { "de": "Der Mann, der dort steht, ist mein Lehrer.", "tr": "Orada duran adam benim öğretmenim." },
+              { "de": "Die Frau, die singt, heißt Maria.", "tr": "Şarkı söyleyen kadının adı Maria." },
+              { "de": "Das Kind, das spielt, ist mein Sohn.", "tr": "Oynayan çocuk benim oğlum." }
+            ]
+          },
+          {
+            "title": "Akkusativ — nesne olarak",
+            "tr": "Relativpronomen yan cümlede nesne görevi yapıyor:",
+            "examples": [
+              { "de": "Der Film, den ich gesehen habe, war toll.", "tr": "İzlediğim film harikaydı." },
+              { "de": "Die Tasche, die ich gekauft habe, ist teuer.", "tr": "Aldığım çanta pahalıydı." },
+              { "de": "Das Buch, das er liest, ist interessant.", "tr": "Okuduğu kitap ilginç." }
+            ]
+          },
+          {
+            "title": "Dativ — dolaylı nesne olarak",
+            "tr": "Relativpronomen yan cümlede dolaylı nesne görevi yapıyor:",
+            "examples": [
+              { "de": "Der Freund, dem ich helfe, wohnt in Berlin.", "tr": "Yardım ettiğim arkadaş Berlin'de oturuyor." },
+              { "de": "Die Frau, der ich danke, ist sehr nett.", "tr": "Teşekkür ettiğim kadın çok nazik." }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "r_1",
+          "type": "multiple",
+          "question": "Der Mann, ________ dort steht, ist mein Chef. (Nominativ, maskulin)",
+          "options": ["der", "den", "dem", "die"],
+          "answer": "der",
+          "explanation": "Maskulin + Nominativ (yan cümlede özne) → 'der'."
+        },
+        {
+          "id": "r_2",
+          "type": "multiple",
+          "question": "Das Buch, ________ ich lese, ist sehr interessant. (Akkusativ, neutrum)",
+          "options": ["das", "dem", "der", "den"],
+          "answer": "das",
+          "explanation": "Neutrum + Akkusativ (nesne) → 'das'."
+        },
+        {
+          "id": "r_3",
+          "type": "multiple",
+          "question": "Die Frau, ________ ich geholfen habe, ist Ärztin. (Dativ, feminin)",
+          "options": ["der", "die", "das", "dem"],
+          "answer": "der",
+          "explanation": "Feminin + Dativ → 'der'. 'helfen' Dativ alır."
+        },
+        {
+          "id": "r_4",
+          "type": "fill",
+          "question": "Der Film, ________ wir gesehen haben, war langweilig. (Akkusativ, maskulin)",
+          "answer": "den",
+          "explanation": "Maskulin + Akkusativ → 'den'. 'sehen' Akkusativ alır."
+        },
+        {
+          "id": "r_5",
+          "type": "multiple",
+          "question": "Die Kinder, ________ im Garten spielen, sind meine Nachbarn. (Nominativ, Plural)",
+          "options": ["die", "der", "den", "denen"],
+          "answer": "die",
+          "explanation": "Plural + Nominativ → 'die'."
+        },
+        {
+          "id": "r_6",
+          "type": "fill",
+          "question": "Das Restaurant, ________ wir gegessen haben, war sehr gut. (Dativ, neutrum — 'in dem')",
+          "answer": "dem",
+          "explanation": "Neutrum + Dativ → 'dem'. 'in dem Restaurant' → Relativsatz'da 'dem'."
+        },
+        {
+          "id": "r_7",
+          "type": "multiple",
+          "question": "Der Freund, ________ ich das Buch gegeben habe, heißt Tom. (Dativ, maskulin)",
+          "options": ["dem", "der", "den", "die"],
+          "answer": "dem",
+          "explanation": "Maskulin + Dativ → 'dem'. 'geben' → jemandem geben (Dativ)."
+        },
+        {
+          "id": "r_8",
+          "type": "fill",
+          "question": "Die Jacke, ________ ich im Sale gekauft habe, ist warm. (Akkusativ, feminin)",
+          "answer": "die",
+          "explanation": "Feminin + Akkusativ → 'die'."
+        }
+      ]
+    },
+    {
+      "id": "infinitivsaetze",
+      "title": "Infinitivsätze",
+      "subtitle": "um...zu, ohne...zu, anstatt...zu",
+      "explanation": {
+        "tr": "Infinitivsatz, iki cümleyi birleştirmenin kısa ve şık bir yoludur. Ana cümle ve yan cümlenin öznesi aynı olduğunda kullanılır. Fiil infinitiv halinde cümlenin sonuna gider.",
+        "sections": [
+          {
+            "title": "um...zu — amaç (neden? ne için?)",
+            "tr": "Türkçedeki '-mek için' anlamına gelir:",
+            "examples": [
+              { "de": "Ich lerne Deutsch, um in Deutschland zu studieren.", "tr": "Almanya'da okumak için Almanca öğreniyorum." },
+              { "de": "Er spart Geld, um ein Auto zu kaufen.", "tr": "Araba almak için para biriktiriyor." },
+              { "de": "Sie geht früh ins Bett, um ausgeschlafen zu sein.", "tr": "Dinlenmiş olmak için erken yatıyor." }
+            ]
+          },
+          {
+            "title": "ohne...zu — -meksizin, -meden",
+            "tr": "Türkçedeki '-meden, -meksizin' anlamına gelir:",
+            "examples": [
+              { "de": "Er ging weg, ohne Tschüss zu sagen.", "tr": "Hoşça kal demeden gitti." },
+              { "de": "Sie hat gegessen, ohne zu bezahlen.", "tr": "Ödemeden yedi." },
+              { "de": "Er schläft, ohne die Tür zu schließen.", "tr": "Kapıyı kapatmadan uyuyor." }
+            ]
+          },
+          {
+            "title": "anstatt...zu (statt...zu) — -mek yerine",
+            "tr": "Türkçedeki '-mek yerine' anlamına gelir:",
+            "examples": [
+              { "de": "Er spielt, anstatt zu lernen.", "tr": "Çalışmak yerine oynuyor." },
+              { "de": "Sie kauft online, anstatt in den Laden zu gehen.", "tr": "Mağazaya gitmek yerine online alışveriş yapıyor." }
+            ]
+          },
+          {
+            "title": "Dikkat: trennbare Verben (ayrılabilen fiiller)",
+            "tr": "Ayrılabilen fiillerde 'zu' önek ve gövde arasına girer:",
+            "examples": [
+              { "de": "Ich versuche, früh aufzustehen.", "tr": "Erken kalkmaya çalışıyorum." },
+              { "de": "Er hat keine Zeit, das Formular auszufüllen.", "tr": "Formu doldurmaya vakti yok." }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "i_1",
+          "type": "multiple",
+          "question": "Er lernt Spanisch, ________ in Mexiko zu arbeiten.",
+          "options": ["um", "ohne", "anstatt", "damit"],
+          "answer": "um",
+          "explanation": "Amaç bildiriyor: 'Meksika'da çalışmak için' → 'um...zu'."
+        },
+        {
+          "id": "i_2",
+          "type": "multiple",
+          "question": "Sie ist gegangen, ________ auf Wiedersehen zu sagen.",
+          "options": ["ohne", "um", "anstatt", "statt"],
+          "answer": "ohne",
+          "explanation": "'-meden' anlamı → 'ohne...zu'. 'Veda etmeden gitti.'"
+        },
+        {
+          "id": "i_3",
+          "type": "fill",
+          "question": "Er spielt Videospiele, ________ seine Hausaufgaben zu machen.",
+          "answer": "anstatt",
+          "explanation": "'-mek yerine' → 'anstatt...zu' veya 'statt...zu'."
+        },
+        {
+          "id": "i_4",
+          "type": "fill",
+          "question": "Ich spare Geld, ________ eine Reise ________ machen. (um...zu)",
+          "answer": "um / zu",
+          "explanation": "'um ... zu machen' — amaç cümlesi. 'Seyahat etmek için para biriktiriyorum.'"
+        },
+        {
+          "id": "i_5",
+          "type": "multiple",
+          "question": "Sie hat das Zimmer verlassen, ________ das Licht auszumachen.",
+          "options": ["ohne", "um", "anstatt", "damit"],
+          "answer": "ohne",
+          "explanation": "'Işığı söndürmeden odadan çıktı.' → 'ohne'. 'ausmachen' trennbar: 'aus-zu-machen'."
+        },
+        {
+          "id": "i_6",
+          "type": "fill",
+          "question": "Er schaut TV, anstatt ________ lernen.",
+          "answer": "zu",
+          "explanation": "'anstatt zu lernen' — 'öğrenmek yerine TV izliyor'."
+        },
+        {
+          "id": "i_7",
+          "type": "multiple",
+          "question": "Ich stehe früh auf, ________ den ersten Zug zu nehmen.",
+          "options": ["um", "ohne", "statt", "obwohl"],
+          "answer": "um",
+          "explanation": "Amaç: 'İlk trene binmek için erken kalkıyorum.' → 'um...zu'."
+        },
+        {
+          "id": "i_8",
+          "type": "fill",
+          "question": "Sie versucht, jeden Tag Sport ________ treiben. (trennbar: antreiben değil, Sport treiben)",
+          "answer": "zu",
+          "explanation": "'versuchen + zu + Infinitiv': 'Sport zu treiben'. Her gün spor yapmaya çalışıyor."
+        }
+      ]
+    },
+    {
+      "id": "konnektoren",
+      "title": "Konnektoren",
+      "subtitle": "Cümleleri birbirine bağlayan bağlaçlar",
+      "explanation": {
+        "tr": "Konnektoren (bağlaçlar), iki cümleyi veya fikri mantıksal olarak birbirine bağlar. B1 sınavında hem Lesen hem Schreiben bölümünde sık karşına çıkar.",
+        "sections": [
+          {
+            "title": "Nedensellik (sebep-sonuç)",
+            "tr": "",
+            "table": [
+              ["Bağlaç", "Anlam", "Örnek"],
+              ["weil", "çünkü (fiil sona gider)", "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte."],
+              ["da", "çünkü/madem (resmi)", "Da es regnet, bleiben wir zu Hause."],
+              ["denn", "çünkü (fiil normal sıra)", "Ich lerne Deutsch, denn ich möchte in Deutschland arbeiten."],
+              ["deshalb / deswegen", "bu yüzden", "Es regnet, deshalb bleiben wir zu Hause."],
+              ["darum / daher", "bu nedenle", "Er war krank, daher kam er nicht."]
+            ]
+          },
+          {
+            "title": "Karşıtlık ve sınırlama",
+            "tr": "",
+            "table": [
+              ["Bağlaç", "Anlam", "Örnek"],
+              ["aber", "ama (fiil normal sıra)", "Ich mag Kaffee, aber ich trinke keinen Alkohol."],
+              ["jedoch", "ancak (resmi)", "Er ist klug, jedoch faul."],
+              ["trotzdem", "buna rağmen", "Es regnet, trotzdem gehe ich spazieren."],
+              ["obwohl", "her ne kadar... olsa da (fiil sona gider)", "Obwohl es regnet, gehe ich spazieren."],
+              ["obwohl", "rağmen", "Er geht spazieren, obwohl es regnet."]
+            ]
+          },
+          {
+            "title": "Koşul ve amaç",
+            "tr": "",
+            "table": [
+              ["Bağlaç", "Anlam", "Örnek"],
+              ["wenn", "eğer / -diğinde", "Wenn du Zeit hast, ruf mich an."],
+              ["falls", "eğer (belirsiz durum)", "Falls es regnet, nehmen wir einen Schirm."],
+              ["damit", "... diye / ... için (farklı özne)", "Ich erkläre es langsam, damit du es verstehst."],
+              ["um...zu", "... için (aynı özne)", "Ich lerne, um die Prüfung zu bestehen."]
+            ]
+          },
+          {
+            "title": "Zaman",
+            "tr": "",
+            "table": [
+              ["Bağlaç", "Anlam", "Örnek"],
+              ["wenn", "-diğinde (tekrar eden)", "Wenn ich Zeit habe, lese ich."],
+              ["als", "-diğinde (tek seferlik geçmiş)", "Als ich Kind war, spielte ich viel."],
+              ["bevor", "-den önce", "Bevor ich schlafe, lese ich."],
+              ["nachdem", "-den sonra", "Nachdem ich gegessen habe, trinke ich Kaffee."],
+              ["während", "-iken / sırasında", "Während er kocht, höre ich Musik."]
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "ko_1",
+          "type": "multiple",
+          "question": "Ich bleibe zu Hause, ________ ich krank bin.",
+          "options": ["weil", "deshalb", "trotzdem", "obwohl"],
+          "answer": "weil",
+          "explanation": "'çünkü' + fiil sona gider → 'weil'. 'Hasta olduğum için evde kalıyorum.'"
+        },
+        {
+          "id": "ko_2",
+          "type": "multiple",
+          "question": "Es ist kalt, ________ gehe ich ohne Jacke raus.",
+          "options": ["trotzdem", "deshalb", "weil", "obwohl"],
+          "answer": "trotzdem",
+          "explanation": "'buna rağmen' → 'trotzdem'. 'Soğuk, buna rağmen ceketsiz çıkıyorum.'"
+        },
+        {
+          "id": "ko_3",
+          "type": "fill",
+          "question": "________ er müde war, hat er bis Mitternacht gearbeitet. (rağmen, fiil sona gider)",
+          "answer": "Obwohl",
+          "explanation": "'rağmen' + fiil sona gider → 'obwohl'. 'Yorgun olmasına rağmen geceye kadar çalıştı.'"
+        },
+        {
+          "id": "ko_4",
+          "type": "multiple",
+          "question": "Er hat viel gelernt, ________ hat er die Prüfung nicht bestanden.",
+          "options": ["trotzdem", "deshalb", "weil", "damit"],
+          "answer": "trotzdem",
+          "explanation": "'Çok çalıştı, buna rağmen sınavı geçemedi.' → 'trotzdem'."
+        },
+        {
+          "id": "ko_5",
+          "type": "fill",
+          "question": "Ich spreche langsam, ________ du mich verstehst. (farklı özne, amaç)",
+          "answer": "damit",
+          "explanation": "Farklı özne + amaç → 'damit'. 'Anlamana için yavaş konuşuyorum.'"
+        },
+        {
+          "id": "ko_6",
+          "type": "multiple",
+          "question": "________ ich ein Kind war, wohnte ich in Ankara.",
+          "options": ["Als", "Wenn", "Während", "Bevor"],
+          "answer": "Als",
+          "explanation": "Tek seferlik geçmiş olay → 'als'. 'Çocukken Ankara'da yaşıyordum.'"
+        },
+        {
+          "id": "ko_7",
+          "type": "fill",
+          "question": "Es regnet, ________ wir fahren trotzdem ans Meer. (zıtlık, fiil normal sıra)",
+          "answer": "aber",
+          "explanation": "'ama' + normal cümle sırası → 'aber'."
+        },
+        {
+          "id": "ko_8",
+          "type": "multiple",
+          "question": "________ du Hunger hast, gibt es Essen im Kühlschrank.",
+          "options": ["Falls", "Obwohl", "Trotzdem", "Deshalb"],
+          "answer": "Falls",
+          "explanation": "'eğer' (belirsiz durum) → 'falls'. 'Acıkırsan buzdolabında yemek var.'"
+        }
+      ]
+    },
+    {
+      "id": "adjektivdeklination",
+      "title": "Adjektivdeklination",
+      "subtitle": "Sıfat çekimi — isimden önce gelen sıfatlar",
+      "explanation": {
+        "tr": "Almancada bir ismin önünde sıfat kullanıldığında, sıfat belirli ekler alır. Bu ekler ismin cinsiyetine, durumuna (Kasus) ve önündeki belirtece göre değişir. 3 tablo var: bestimmter Artikel (der/die/das), unbestimmter Artikel (ein/eine) ve artikelsiz.",
+        "sections": [
+          {
+            "title": "Bestimmter Artikel ile (der/die/das)",
+            "tr": "der/die/das/die ile kullanımda:",
+            "table": [
+              ["Kasus", "Maskulin", "Feminin", "Neutrum", "Plural"],
+              ["Nominativ", "der alt-e Mann", "die alt-e Frau", "das alt-e Kind", "die alt-en Kinder"],
+              ["Akkusativ", "den alt-en Mann", "die alt-e Frau", "das alt-e Kind", "die alt-en Kinder"],
+              ["Dativ", "dem alt-en Mann", "der alt-en Frau", "dem alt-en Kind", "den alt-en Kindern"]
+            ]
+          },
+          {
+            "title": "Unbestimmter Artikel ile (ein/eine/ein)",
+            "tr": "ein/eine/ein ile kullanımda:",
+            "table": [
+              ["Kasus", "Maskulin", "Feminin", "Neutrum"],
+              ["Nominativ", "ein alt-er Mann", "eine alt-e Frau", "ein alt-es Kind"],
+              ["Akkusativ", "einen alt-en Mann", "eine alt-e Frau", "ein alt-es Kind"],
+              ["Dativ", "einem alt-en Mann", "einer alt-en Frau", "einem alt-en Kind"]
+            ]
+          },
+          {
+            "title": "Kural özeti",
+            "tr": "Kolay hatırlama yöntemi: Eğer önündeki artikel zaten cinsiyet bilgisi veriyorsa (der/die/das/den), sıfat '-e' veya '-en' alır. Artikel bu bilgiyi vermiyorsa (ein/eine) sıfat bu görevi üstlenir ve güçlü ek alır (-er/-e/-es).",
+            "examples": [
+              { "de": "der alte Mann → einen alten Mann (Akkusativ)", "tr": "yaşlı adam" },
+              { "de": "ein neues Auto (Nominativ)", "tr": "yeni bir araba" },
+              { "de": "mit dem kalten Wasser (Dativ)", "tr": "soğuk suyla" }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "a_1",
+          "type": "multiple",
+          "question": "Der ________ Mann wohnt nebenan. (alt, Nominativ, maskulin, bestimmt)",
+          "options": ["alte", "alten", "alter", "altes"],
+          "answer": "alte",
+          "explanation": "Bestimmter Artikel + Nominativ maskulin → '-e'. 'Der alte Mann'."
+        },
+        {
+          "id": "a_2",
+          "type": "multiple",
+          "question": "Ich habe einen ________ Film gesehen. (interessant, Akkusativ, maskulin, unbestimmt)",
+          "options": ["interessanten", "interessante", "interessanter", "interessantes"],
+          "answer": "interessanten",
+          "explanation": "Unbestimmter Artikel + Akkusativ maskulin → '-en'. 'einen interessanten Film'."
+        },
+        {
+          "id": "a_3",
+          "type": "fill",
+          "question": "Das ist ein ________ Buch. (gut, Nominativ, neutrum, unbestimmt)",
+          "answer": "gutes",
+          "explanation": "Unbestimmter Artikel + Nominativ neutrum → '-es'. 'ein gutes Buch'."
+        },
+        {
+          "id": "a_4",
+          "type": "multiple",
+          "question": "Ich wohne in einer ________ Stadt. (klein, Dativ, feminin, unbestimmt)",
+          "options": ["kleinen", "kleine", "kleiner", "kleines"],
+          "answer": "kleinen",
+          "explanation": "Unbestimmter Artikel + Dativ feminin → '-en'. 'in einer kleinen Stadt'."
+        },
+        {
+          "id": "a_5",
+          "type": "fill",
+          "question": "Die ________ Kinder spielen im Garten. (klein, Nominativ, Plural, bestimmt)",
+          "answer": "kleinen",
+          "explanation": "Bestimmter Artikel + Plural → her zaman '-en'. 'Die kleinen Kinder'."
+        },
+        {
+          "id": "a_6",
+          "type": "multiple",
+          "question": "Er trinkt den ________ Kaffee. (heiß, Akkusativ, maskulin, bestimmt)",
+          "options": ["heißen", "heiße", "heißer", "heißes"],
+          "answer": "heißen",
+          "explanation": "Bestimmter Artikel + Akkusativ maskulin → '-en'. 'den heißen Kaffee'."
+        },
+        {
+          "id": "a_7",
+          "type": "fill",
+          "question": "Mit dem ________ Zug fahre ich nach Berlin. (schnell, Dativ, maskulin, bestimmt)",
+          "answer": "schnellen",
+          "explanation": "Bestimmter Artikel + Dativ → '-en'. 'mit dem schnellen Zug'."
+        },
+        {
+          "id": "a_8",
+          "type": "multiple",
+          "question": "Eine ________ Frau hat mir geholfen. (nett, Nominativ, feminin, unbestimmt)",
+          "options": ["nette", "netten", "netter", "nettes"],
+          "answer": "nette",
+          "explanation": "Unbestimmter Artikel + Nominativ feminin → '-e'. 'Eine nette Frau'."
+        }
+      ]
+    }
+  ]
+}

@@ -865,3 +865,14 @@ button#verb-search-btn.primary { width: auto; flex: 0 0 auto; }
   text-transform: uppercase; letter-spacing: 0.07em;
   margin: 12px 0 6px; padding-left: 2px;
 }
+
+/* ──────────── ZORLANDI × BUTONU ──────────── */
+.struggled-remove {
+  flex-shrink: 0;
+  width: 28px; height: 28px; border-radius: 50%;
+  background: rgba(166,65,52,0.1); border: 1px solid rgba(166,65,52,0.25);
+  color: var(--danger); font-size: 18px; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer; margin-left: 6px;
+}
+.struggled-remove:hover { background: var(--danger-soft); }

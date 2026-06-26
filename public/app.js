@@ -51,6 +51,7 @@
   // ------------------------------------------------------------------- state
   const defaultState = () => ({
     known: {},                // "level|de"  -> true
+    struggled: {},            // aynı format — zorlanılan kelimeler
     lastLevel: 'a1',
     lastGroup: null,          // null = tüm gruplar
     lastIdx: 0,
@@ -129,6 +130,7 @@
     meta: null,
     sublevel: localStorage.getItem('egSublevel') || 'b1_1',
     known: new Set(),
+    struggled: new Set(),
     inLektion: false,
   };
   const vbState = {
@@ -250,7 +252,7 @@
     $('#hello').textContent = `Merhaba, ${app.username}`;
     initSourceTabs();
     initStudyTimer();
-    const allowedModes = new Set(['cards', 'quiz', 'artikel', 'known', 'stats']);
+    const allowedModes = new Set(['cards', 'quiz', 'artikel', 'known', 'struggled', 'stats']);
     app.mode = allowedModes.has(app.state.lastMode) ? app.state.lastMode : 'cards';
     setMode(app.mode, /*persist*/ false);
     $('#hide-known').checked = !!app.state.hideKnown;
@@ -308,6 +310,7 @@
     if (mode === 'artikel') startArtikelQuiz();
     if (mode === 'stats') renderStats();
     if (mode === 'known') startKnownView();
+    if (mode === 'struggled') startStruggled();
   }
 
   // -------------------------------------------------------- group filtering
@@ -488,11 +491,13 @@
       const wk = `${egState.sublevel}|${w.group}|${w.de}`;
       if (isKnown) {
         egState.known.add(wk);
+        egState.struggled.delete(wk);
         registerStudyAction();
         studyTimer.sessionWords++;
         animateSwipe('right');
       } else {
         egState.known.delete(wk);
+        egState.struggled.add(wk);
         animateSwipe('left');
       }
       api('/api/eg/progress', {
@@ -517,10 +522,12 @@
     const wasKnown = !!app.state.known[k];
     if (isKnown) {
       app.state.known[k] = true;
+      delete app.state.struggled[k];
       if (!wasKnown) { registerStudyAction(); studyTimer.sessionWords++; }
       animateSwipe('right');
     } else {
       delete app.state.known[k];
+      app.state.struggled[k] = true;
       animateSwipe('left');
     }
     setTimeout(() => {
@@ -1252,6 +1259,109 @@
     await Promise.all(levels.map(l => ensureVocab(l)));
   }
 
+  // ── Zorlandıklarım ───────────────────────────────────────────────────────────
+  let struggledSearchTerm = '';
+
+  function startStruggled() {
+    ensureAllVocab().then(() => {
+      $('#struggled-search').value = struggledSearchTerm;
+      renderStruggled();
+    });
+  }
+
+  function collectStruggled() {
+    const out = [];
+    for (const lvl of ['a1', 'a2', 'b1']) {
+      const list = app.vocabCache[lvl] || [];
+      for (const w of list) {
+        if ((app.state.struggled || {})[keyOf(lvl, w.de)]) {
+          out.push({ word: w, level: lvl });
+        }
+      }
+    }
+    // Telc struggled
+    for (const wk of egState.struggled) {
+      const parts = wk.split('|');
+      const sl = parts[0], de = parts.slice(2).join('|');
+      const EG_LABELS = { a1_1:'A1.1', a1_2:'A1.2', a2_1:'A2.1', a2_2:'A2.2', b1_1:'B1.1', b1_2:'B1.2' };
+      const cacheKey = `eg_all_${sl}`;
+      const vocab = app.vocabCache[cacheKey] || app.vocabCache['eg'] || [];
+      const word = vocab.find(w => w.de === de);
+      if (word) out.push({ word, level: null, sublevelLabel: EG_LABELS[sl] || sl });
+    }
+    return out;
+  }
+
+  function renderStruggled() {
+    const all = collectStruggled();
+    const q = struggledSearchTerm.toLowerCase();
+    const filtered = all.filter(it =>
+      !q || it.word.de.toLowerCase().includes(q) || (it.word.tr || '').toLowerCase().includes(q)
+    );
+    const listEl = $('#struggled-list');
+    const emptyEl = $('#struggled-empty');
+    listEl.innerHTML = '';
+    $('#struggled-count').textContent = q
+      ? `${filtered.length} / ${all.length} kelime`
+      : `${all.length} kelime`;
+
+    if (!all.length) {
+      emptyEl.hidden = false; return;
+    }
+    if (!filtered.length) {
+      emptyEl.hidden = false;
+      emptyEl.textContent = `"${struggledSearchTerm}" için sonuç yok.`;
+      return;
+    }
+    emptyEl.hidden = true;
+    const frag = document.createDocumentFragment();
+    filtered.forEach(({ word, level, sublevelLabel }) => {
+      const row = makeKnownItem(word, level);
+      if (sublevelLabel) {
+        const lbl = row.querySelector('.known-item-text');
+        if (lbl) {
+          const g = document.createElement('div');
+          g.className = 'known-item-group';
+          g.textContent = `${sublevelLabel} · ${word.group || ''}`;
+          lbl.appendChild(g);
+        }
+      }
+      // Zorlandıklarımdan çıkar butonu
+      const removeBtn = document.createElement('button');
+      removeBtn.className = 'struggled-remove';
+      removeBtn.type = 'button';
+      removeBtn.title = 'Listeden çıkar';
+      removeBtn.textContent = '×';
+      removeBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (level) {
+          delete (app.state.struggled || {})[keyOf(level, word.de)];
+          persistState();
+        } else {
+          const wk = [...egState.struggled].find(k => k.endsWith(`|${word.de}`));
+          if (wk) egState.struggled.delete(wk);
+        }
+        renderStruggled();
+      });
+      row.appendChild(removeBtn);
+      frag.appendChild(row);
+    });
+    listEl.appendChild(frag);
+  }
+
+  $('#struggled-search').addEventListener('input', (e) => {
+    struggledSearchTerm = e.target.value.trim();
+    $('#struggled-clear').hidden = !struggledSearchTerm;
+    renderStruggled();
+  });
+  $('#struggled-clear').addEventListener('click', () => {
+    struggledSearchTerm = '';
+    $('#struggled-search').value = '';
+    $('#struggled-clear').hidden = true;
+    renderStruggled();
+    $('#struggled-search').focus();
+  });
+
   async function loadAllEgKnown() {
     egKnownItems = [];
     try {
@@ -1450,17 +1560,18 @@
     const showKnown   = isGoethe || isEinfach;
     const showContent = isGoethe || (isEinfach && inLkt);
 
-    // eg-panel: Telc'de lektion seçilmemişse ve Bildiklerim modu değilse göster
-    $('#eg-panel').hidden         = !(isEinfach && !inLkt && mode !== 'known');
+    const noPanel = mode === 'known' || mode === 'struggled';
+    $('#eg-panel').hidden         = !(isEinfach && !inLkt && !noPanel);
     $('#eg-back-btn').hidden      = !(isEinfach && inLkt);
     $('#verb-panel').hidden        = !isVerb;
     $('#study-stats-panel').hidden = !isStudyStat;
 
-    $('#cards-mode').hidden   = !showContent || mode !== 'cards';
-    $('#quiz-mode').hidden    = !showContent || mode !== 'quiz';
-    $('#artikel-mode').hidden = !showContent || mode !== 'artikel';
-    $('#known-mode').hidden   = !showKnown   || mode !== 'known';
-    $('#stats-mode').hidden   = !showContent || mode !== 'stats';
+    $('#cards-mode').hidden    = !showContent || mode !== 'cards';
+    $('#quiz-mode').hidden     = !showContent || mode !== 'quiz';
+    $('#artikel-mode').hidden  = !showContent || mode !== 'artikel';
+    $('#known-mode').hidden    = !showKnown   || mode !== 'known';
+    $('#struggled-mode').hidden= !showKnown   || mode !== 'struggled';
+    $('#stats-mode').hidden    = !showContent || mode !== 'stats';
   }
 
   function isWordKnown(w) {

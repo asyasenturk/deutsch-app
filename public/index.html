@@ -78,6 +78,7 @@
         <button class="mode-btn" data-mode="quiz">Quiz</button>
         <button class="mode-btn" data-mode="artikel">Artikel Quiz</button>
         <button class="mode-btn" data-mode="known">⭐ Bildiklerim</button>
+        <button class="mode-btn" data-mode="struggled">😓 Zorlandıklarım</button>
         <button class="mode-btn" data-mode="stats">İstatistik</button>
       </nav>
 
@@ -246,6 +247,26 @@
         <div id="known-empty" class="known-empty" hidden>
           Henüz "Biliyorum" işaretlediğin kelime yok.<br/>
           Kartlarda <b>sağa kaydır</b> veya <b>Biliyorum</b> butonuyla ekleyebilirsin.
+        </div>
+      </section>
+
+      <!-- Zorlandıklarım modu -->
+      <section id="struggled-mode" class="mode-panel" hidden>
+        <div class="known-head">
+          <div class="known-search-wrap">
+            <input id="struggled-search" class="known-search" type="search"
+                   placeholder="Almanca veya Türkçe ara…"
+                   autocapitalize="off" autocorrect="off" spellcheck="false" />
+            <button id="struggled-clear" class="known-clear" type="button" hidden aria-label="Temizle">×</button>
+          </div>
+          <div class="known-meta">
+            <span id="struggled-count" class="known-count">0 kelime</span>
+          </div>
+        </div>
+        <div id="struggled-list" class="known-list" aria-live="polite"></div>
+        <div id="struggled-empty" class="known-empty" hidden>
+          Henüz zorlandığın kelime yok — harika! 🎉<br/>
+          Kartlarda <b>Tekrar et</b> butonuna bastığında buraya eklenir.
         </div>
       </section>
 
