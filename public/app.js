@@ -1206,13 +1206,20 @@
 
   // ============================================================ BİLDİKLERİM
   let knownSearchTerm = '';
+  let knownSource = 'all';  // 'all' | 'goethe' | 'telc'
+  let egKnownItems = [];    // { word, sublevel, sublevelLabel }
+
+  $$('.ksf-btn').forEach(b => b.addEventListener('click', () => {
+    knownSource = b.dataset.ksf;
+    $$('.ksf-btn').forEach(x => x.classList.toggle('active', x === b));
+    renderKnownList();
+  }));
 
   function startKnownView() {
-    // Tüm seviyelerin vocab'ını ön yükle (aramada hepsi görünsün diye)
-    ensureAllVocab().then(() => {
+    ensureAllVocab().then(async () => {
+      await loadAllEgKnown();
       $('#known-search').value = knownSearchTerm;
       renderKnownList();
-      // mobil klavye otomatik açılmasın — focus ETMİYORUZ
     });
   }
 
@@ -1221,13 +1228,49 @@
     await Promise.all(levels.map(l => ensureVocab(l)));
   }
 
+  async function loadAllEgKnown() {
+    egKnownItems = [];
+    try {
+      const { known } = await api('/api/eg/progress?sublevel=all');
+      if (!known || !known.length) return;
+      const EG_LABELS = { a1_1:'A1.1', a1_2:'A1.2', a2_1:'A2.1', a2_2:'A2.2', b1_1:'B1.1', b1_2:'B1.2' };
+      // group by sublevel
+      const bySl = {};
+      for (const wk of known) {
+        const idx = wk.indexOf('|');
+        const idx2 = wk.indexOf('|', idx + 1);
+        if (idx < 0 || idx2 < 0) continue;
+        const sl = wk.slice(0, idx);
+        if (!bySl[sl]) bySl[sl] = [];
+        bySl[sl].push(wk);
+      }
+      // load vocab per sublevel
+      await Promise.all(Object.keys(bySl).map(async (sl) => {
+        const cacheKey = `eg_all_${sl}`;
+        if (!app.vocabCache[cacheKey]) {
+          try {
+            app.vocabCache[cacheKey] = await api(`/api/eg/words?sublevel=${sl}&lektion=all`);
+          } catch { app.vocabCache[cacheKey] = []; }
+        }
+        const vocabMap = {};
+        (app.vocabCache[cacheKey] || []).forEach(w => { vocabMap[w.de] = w; });
+        for (const wk of bySl[sl]) {
+          const parts = wk.split('|');
+          const de = parts.slice(2).join('|');
+          const word = vocabMap[de] || { de, group: parts[1] || '', tr: '', plural: null, ex: '' };
+          egKnownItems.push({ word, sublevel: sl, sublevelLabel: EG_LABELS[sl] || sl });
+        }
+      }));
+    } catch {}
+  }
+
   function collectKnownWords() {
     const out = [];
     for (const lvl of ['a1', 'a2', 'b1']) {
       const list = app.vocabCache[lvl] || [];
       for (const w of list) {
         if (app.state.known[keyOf(lvl, w.de)]) {
-          out.push({ word: w, level: lvl });
+          out.push({ word: w, level: lvl, source: 'goethe' });
         }
       }
     }
@@ -1243,24 +1286,30 @@
   }
 
   function renderKnownList() {
-    const all = collectKnownWords();
-    const filtered = all.filter(it => knownMatches(it, knownSearchTerm));
     const listEl = $('#known-list');
     const emptyEl = $('#known-empty');
     listEl.innerHTML = '';
-    $('#known-count').textContent =
-      knownSearchTerm
-        ? `${filtered.length} / ${all.length} kelime`
-        : `${all.length} kelime`;
 
-    if (!all.length) {
+    const goetheAll = collectKnownWords();
+    const telcAll   = egKnownItems;
+    const showGoethe = knownSource === 'all' || knownSource === 'goethe';
+    const showTelc   = knownSource === 'all' || knownSource === 'telc';
+
+    const goetheFiltered = showGoethe ? goetheAll.filter(it => knownMatches(it, knownSearchTerm)) : [];
+    const telcFiltered   = showTelc   ? telcAll.filter(it => knownMatches(it, knownSearchTerm))   : [];
+    const totalAll = (showGoethe ? goetheAll.length : 0) + (showTelc ? telcAll.length : 0);
+    const totalFiltered = goetheFiltered.length + telcFiltered.length;
+
+    $('#known-count').textContent = knownSearchTerm
+      ? `${totalFiltered} / ${totalAll} kelime`
+      : `${totalAll} kelime`;
+
+    if (totalAll === 0) {
       emptyEl.hidden = false;
-      emptyEl.innerHTML =
-        'Henüz <b>Biliyorum</b> işaretlediğin kelime yok.<br/>' +
-        'Kartlarda sağa kaydır veya <b>Biliyorum</b> butonuyla ekleyebilirsin.';
+      emptyEl.innerHTML = 'Henüz <b>Biliyorum</b> işaretlediğin kelime yok.<br/>Kartlarda sağa kaydır veya <b>Biliyorum</b> butonuyla ekleyebilirsin.';
       return;
     }
-    if (!filtered.length) {
+    if (totalFiltered === 0) {
       emptyEl.hidden = false;
       emptyEl.textContent = `"${knownSearchTerm}" araması için sonuç yok.`;
       return;
@@ -1268,33 +1317,81 @@
     emptyEl.hidden = true;
 
     const frag = document.createDocumentFragment();
-    filtered.forEach(({ word, level }) => {
-      const row = document.createElement('div');
-      row.className = 'known-item';
-      row.innerHTML = `
-        <div class="known-item-text">
-          <div class="known-item-de">${renderWord(word.de)}</div>
-          <div class="known-item-tr">${escapeHtml(word.tr || '')}</div>
-          <div class="known-item-group">${escapeHtml(level.toUpperCase())} · ${escapeHtml(word.group || '')}</div>
-        </div>
-        <button class="known-item-speak" type="button" aria-label="Telaffuzu dinle">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-            <path fill="currentColor" d="M3 10v4a1 1 0 0 0 1 1h3l4 3.5a1 1 0 0 0 1.65-.78V6.28A1 1 0 0 0 11 5.5L7 9H4a1 1 0 0 0-1 1Zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-8v2.07a6.5 6.5 0 0 1 0 11.86V20a8.5 8.5 0 0 0 0-16Z"/>
-          </svg>
-        </button>
-      `;
-      row.addEventListener('click', (e) => {
-        // Speak butonu tıklandıysa modal açma
-        if (e.target.closest('.known-item-speak')) return;
-        openWordModal(word, level);
+
+    // ── Goethe bölümü ────────────────────────────────────────────────────────
+    if (goetheFiltered.length) {
+      if (knownSource === 'all') {
+        const hdr = document.createElement('div');
+        hdr.className = 'known-section-hdr';
+        hdr.textContent = '📚 Goethe';
+        frag.appendChild(hdr);
+      }
+      // Seviyeye ve gruba göre grupla
+      const byGroup = {};
+      goetheFiltered.forEach(it => {
+        const key = `${it.level.toUpperCase()} · ${it.word.group || '—'}`;
+        if (!byGroup[key]) byGroup[key] = [];
+        byGroup[key].push(it);
       });
-      row.querySelector('.known-item-speak').addEventListener('click', (e) => {
-        e.stopPropagation();
-        speak(word.de, e.currentTarget);
+      Object.entries(byGroup).forEach(([groupKey, items]) => {
+        const ghdr = document.createElement('div');
+        ghdr.className = 'known-group-hdr';
+        ghdr.textContent = groupKey;
+        frag.appendChild(ghdr);
+        items.forEach(it => frag.appendChild(makeKnownItem(it.word, it.level)));
       });
-      frag.appendChild(row);
-    });
+    }
+
+    // ── Telc bölümü ──────────────────────────────────────────────────────────
+    if (telcFiltered.length) {
+      if (knownSource === 'all') {
+        const hdr = document.createElement('div');
+        hdr.className = 'known-section-hdr';
+        hdr.textContent = '📖 Telc';
+        frag.appendChild(hdr);
+      }
+      // Sublevel → lektion gruplama
+      const byGroup = {};
+      telcFiltered.forEach(it => {
+        const key = `${it.sublevelLabel}|${it.word.group || '—'}`;
+        if (!byGroup[key]) byGroup[key] = { label: `${it.sublevelLabel} · ${it.word.group || '—'}`, items: [] };
+        byGroup[key].items.push(it);
+      });
+      Object.values(byGroup).forEach(({ label, items }) => {
+        const ghdr = document.createElement('div');
+        ghdr.className = 'known-group-hdr';
+        ghdr.textContent = label;
+        frag.appendChild(ghdr);
+        items.forEach(it => frag.appendChild(makeKnownItem(it.word, null)));
+      });
+    }
+
     listEl.appendChild(frag);
+  }
+
+  function makeKnownItem(word, level) {
+    const row = document.createElement('div');
+    row.className = 'known-item';
+    row.innerHTML = `
+      <div class="known-item-text">
+        <div class="known-item-de">${renderWord(word.de)}</div>
+        <div class="known-item-tr">${escapeHtml(word.tr || '')}</div>
+      </div>
+      <button class="known-item-speak" type="button" aria-label="Telaffuzu dinle">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path fill="currentColor" d="M3 10v4a1 1 0 0 0 1 1h3l4 3.5a1 1 0 0 0 1.65-.78V6.28A1 1 0 0 0 11 5.5L7 9H4a1 1 0 0 0-1 1Zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-8v2.07a6.5 6.5 0 0 1 0 11.86V20a8.5 8.5 0 0 0 0-16Z"/>
+        </svg>
+      </button>
+    `;
+    row.addEventListener('click', (e) => {
+      if (e.target.closest('.known-item-speak')) return;
+      openWordModal(word, level);
+    });
+    row.querySelector('.known-item-speak').addEventListener('click', (e) => {
+      e.stopPropagation();
+      speak(word.de, e.currentTarget);
+    });
+    return row;
   }
 
   $('#known-search').addEventListener('input', (e) => {

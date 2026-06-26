@@ -69,6 +69,9 @@ const stmts = {
   getEgProgress: db.prepare(
     "SELECT word_key FROM eg_progress WHERE user_id = ? AND word_key LIKE ? AND known = 1"
   ),
+  getAllEgProgress: db.prepare(
+    "SELECT word_key FROM eg_progress WHERE user_id = ? AND known = 1"
+  ),
   setEgProgress: db.prepare(`
     INSERT INTO eg_progress (user_id, word_key, known, last_seen)
     VALUES (?, ?, ?, strftime('%s', 'now'))
@@ -126,6 +129,10 @@ function getEgProgress(userId, sublevel) {
   return rows.map((r) => r.word_key);
 }
 
+function getAllEgProgress(userId) {
+  return stmts.getAllEgProgress.all(userId).map(r => r.word_key);
+}
+
 function setEgProgress(userId, wordKey, known) {
   stmts.setEgProgress.run(userId, wordKey, known ? 1 : 0);
 }
@@ -151,6 +158,7 @@ module.exports = {
   getState,
   saveState,
   getEgProgress,
+  getAllEgProgress,
   setEgProgress,
   upsertStudySession,
   getStudyToday,

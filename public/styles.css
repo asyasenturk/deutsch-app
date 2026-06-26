@@ -841,3 +841,27 @@ button#verb-search-btn.primary { width: auto; flex: 0 0 auto; }
   color: #8a6000;
 }
 .timer-pause-icon { font-size: 11px; opacity: 0.7; }
+
+/* ──────────── BİLDİKLERİM KAYNAK FİLTRE ──────────── */
+.known-source-filter {
+  display: flex; gap: 6px; margin-bottom: 12px;
+}
+.ksf-btn {
+  padding: 7px 14px; border-radius: 999px;
+  background: rgba(255,255,255,0.5); border: 1px solid rgba(139,94,52,0.22);
+  color: var(--ink-soft); font: inherit; font-weight: 600; font-size: 14px; cursor: pointer;
+}
+.ksf-btn.active { background: var(--ink); color: var(--parchment); border-color: var(--ink); }
+
+.known-section-hdr {
+  font-family: 'Fraunces', Georgia, serif; font-size: 16px; font-weight: 700;
+  color: var(--ink); margin: 18px 0 8px;
+  padding-bottom: 6px; border-bottom: 2px solid rgba(139,94,52,0.18);
+}
+.known-section-hdr:first-child { margin-top: 4px; }
+
+.known-group-hdr {
+  font-size: 12px; font-weight: 600; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.07em;
+  margin: 12px 0 6px; padding-left: 2px;
+}

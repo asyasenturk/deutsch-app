@@ -15,6 +15,7 @@ const {
   getState,
   saveState,
   getEgProgress,
+  getAllEgProgress,
   setEgProgress,
   upsertStudySession,
   getStudyToday,
@@ -308,6 +309,9 @@ app.get('/api/eg/words', (req, res) => {
 
 app.get('/api/eg/progress', requireAuth, (req, res) => {
   const sl = req.query.sublevel;
+  if (sl === 'all') {
+    return res.json({ known: getAllEgProgress(req.session.userId) });
+  }
   if (!EG_SUBLEVELS.includes(sl)) {
     return res.status(400).json({ error: 'Geçersiz sublevel.' });
   }
