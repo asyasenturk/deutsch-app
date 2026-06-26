@@ -120,12 +120,20 @@
   };
 
   // ─── source / EG / verb state ──────────────────────────────────────────────
-  const SRC_TO_PATH = { goethe: '/', einfach: '/telc', verb: '/fiil', studystats: '/istatistik', grammar: '/grammatik' };
-  const PATH_TO_SRC = { '/telc': 'einfach', '/fiil': 'verb', '/istatistik': 'studystats', '/grammatik': 'grammar' };
+  function parseRoute(pathname) {
+    const parts = pathname.split('/').filter(Boolean);
+    const seg = parts[0];
+    if (!seg || seg === 'goethe') return { src: 'goethe',     level: parts[1] || null };
+    if (seg === 'telc')           return { src: 'einfach',    sublevel: parts[1] || null, lektion: parts[2] || null };
+    if (seg === 'fiil')           return { src: 'verb',       query: parts[1] ? decodeURIComponent(parts[1]) : null };
+    if (seg === 'istatistik')     return { src: 'studystats' };
+    if (seg === 'grammatik')      return { src: 'grammar',    level: parts[1] || null, topic: parts[2] || null };
+    return { src: 'goethe' };
+  }
 
-  function srcFromPath(p) { return PATH_TO_SRC[p] || 'goethe'; }
+  function pushURL(path) { history.pushState({}, '', path); }
 
-  let activeSource = srcFromPath(window.location.pathname);
+  let activeSource = parseRoute(window.location.pathname).src;
   const egState = {
     meta: null,
     sublevel: localStorage.getItem('egSublevel') || 'b1_1',
@@ -288,9 +296,9 @@
     btn.addEventListener('click', async () => {
       const lvl = btn.dataset.level;
       if (lvl === app.activeLevel) return;
+      pushURL(`/goethe/${lvl}`);
       setLevel(lvl);
       await ensureVocab(lvl);
-      // Başka bir seviyeye geçildiyse bu sonucu iptal et
       if (app.activeLevel !== lvl) return;
       rebuildActiveVocab(true);
       render();
@@ -1588,10 +1596,7 @@
   // ================================================================ SOURCE TABS
   function initSourceTabs() {
     $$('.src-tab').forEach(b => b.addEventListener('click', () => setSource(b.dataset.src)));
-    applySourceTabUI();
-    if (activeSource === 'einfach') loadEgMeta();
-    else if (activeSource === 'verb') renderRecentVerbs();
-    else if (activeSource === 'grammar') loadGrammarTopics();
+    restoreRoute(parseRoute(window.location.pathname));
   }
 
   function applySourceTabUI() {
@@ -1599,23 +1604,21 @@
     applyVisibility();
   }
 
-  window.addEventListener('popstate', () => {
-    activeSource = srcFromPath(window.location.pathname);
-    applySourceTabUI();
-    if (activeSource === 'einfach' && !egState.inLektion) loadEgMeta();
-    else if (activeSource === 'verb') renderRecentVerbs();
-    else if (activeSource === 'studystats') renderStudyStatsPanel();
-    else if (activeSource === 'grammar') loadGrammarTopics();
-  });
+  window.addEventListener('popstate', () => restoreRoute(parseRoute(window.location.pathname)));
 
   function setSource(src) {
     activeSource = src;
     localStorage.setItem('activeTab', src);
-    history.pushState({ src }, '', SRC_TO_PATH[src] || '/');
     applySourceTabUI();
+    // URL'yi base path'e set et; alt-gezinimler kendi pushURL'lerini yapacak
+    const basePaths = { goethe: '/', einfach: '/telc', verb: '/fiil', studystats: '/istatistik', grammar: '/grammatik' };
+    const lvl = ['a1', 'a2', 'b1'].includes(app.state.lastLevel) ? app.state.lastLevel : 'a1';
+    const grLvl = grammarState.level || 'b1';
+    if (src === 'goethe') pushURL(`/goethe/${lvl}`);
+    else if (src === 'grammar') pushURL(`/grammatik/${grLvl}`);
+    else pushURL(basePaths[src] || '/');
+
     if (src === 'goethe') {
-      // Goethe'ye dönünce level'i ve vocab'ı yenile
-      const lvl = ['a1', 'a2', 'b1'].includes(app.state.lastLevel) ? app.state.lastLevel : 'a1';
       setLevel(lvl, false);
       ensureVocab(lvl).then(() => { rebuildActiveVocab(true); render(); });
     } else if (src === 'einfach') {
@@ -1626,6 +1629,42 @@
       renderStudyStatsPanel();
     } else if (src === 'grammar') {
       loadGrammarTopics();
+    }
+  }
+
+  async function restoreRoute(route) {
+    activeSource = route.src;
+    applySourceTabUI();
+    if (route.src === 'goethe') {
+      const lvl = (['a1','a2','b1'].includes(route.level) ? route.level : null)
+                  || app.state.lastLevel || 'a1';
+      setLevel(lvl, false);
+      await ensureVocab(lvl);
+      if (app.activeLevel !== lvl) return;
+      rebuildActiveVocab(true); render();
+    } else if (route.src === 'einfach') {
+      if (route.sublevel) {
+        egState.sublevel = route.sublevel;
+        localStorage.setItem('egSublevel', route.sublevel);
+      }
+      await loadEgMeta();
+      if (route.lektion) {
+        const idx = route.lektion === 'all' ? 'all' : parseInt(route.lektion, 10);
+        await selectEgLektion(idx);
+      }
+    } else if (route.src === 'verb') {
+      renderRecentVerbs();
+      if (route.query) { $('#verb-input').value = route.query; searchVerb(route.query); }
+    } else if (route.src === 'studystats') {
+      renderStudyStatsPanel();
+    } else if (route.src === 'grammar') {
+      if (route.level) {
+        grammarState.level = route.level;
+        localStorage.setItem('grammarLevel', route.level);
+      }
+      grammarState.topics = null;
+      await loadGrammarTopics();
+      if (route.topic) openGrammarTopic(route.topic);
     }
   }
 
@@ -1661,6 +1700,7 @@
     egState.known = new Set();
     egState.inLektion = false;
     localStorage.setItem('egSublevel', sl);
+    pushURL(`/telc/${sl}`);
     applyVisibility();
     try {
       const { known } = await api(`/api/eg/progress?sublevel=${sl}`);
@@ -1718,6 +1758,7 @@
 
   async function selectEgLektion(idx) {
     const sl = egState.sublevel;
+    pushURL(`/telc/${sl}/${idx}`);
     try {
       const url = idx === 'all'
         ? `/api/eg/words?sublevel=${sl}&lektion=all`
@@ -1757,6 +1798,7 @@
   async function searchVerb(q) {
     lastVerbQuery = q;
     $('#verb-input').value = q;
+    pushURL(`/fiil/${encodeURIComponent(q)}`);
     try {
       const data = await api(`/api/verb?q=${encodeURIComponent(q)}`);
       renderVerbResult(data);
@@ -2068,6 +2110,7 @@
     b.addEventListener('click', () => {
       grammarState.level = b.dataset.glvl;
       localStorage.setItem('grammarLevel', grammarState.level);
+      pushURL(`/grammatik/${grammarState.level}`);
       $$('.gr-lvl-btn').forEach(x => x.classList.toggle('active', x === b));
       grammarState.topics = null;
       loadGrammarTopics();
@@ -2119,6 +2162,7 @@
   }
 
   async function openGrammarTopic(id) {
+    pushURL(`/grammatik/${grammarState.level}/${id}`);
     try {
       const topic = await api(`/api/grammar/topic/${id}`);
       grammarState.activeTopic = topic;
