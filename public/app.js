@@ -426,18 +426,21 @@
       return;
     }
     cardGroup.textContent = w.group || '';
+    const frontSpeak = $('#card-speak-front');
     if (activeSource === 'einfach') {
       cardWord.textContent = w.tr;
       const plPart = w.plural ? ` (Çoğul: ${w.plural})` : '';
       if (pluralEl) pluralEl.innerHTML = `<b>${escapeHtml(w.de)}${escapeHtml(plPart)}</b>`;
       cardTr.textContent = '';
       cardEx.innerHTML = '';
+      if (frontSpeak) frontSpeak.hidden = false;
     } else {
       if (pluralEl) pluralEl.textContent = '';
       cardWord.innerHTML = renderWord(w.de);
       cardTr.textContent = w.tr;
       const exTr = w.ex_tr ? `<div class="card-ex-tr">${escapeHtml(w.ex_tr)}</div>` : '';
       cardEx.innerHTML = (w.ex ? escapeHtml(w.ex) : '') + exTr;
+      if (frontSpeak) frontSpeak.hidden = true;
     }
     card.classList.toggle('flipped', app.cardFlipped);
     $('#card-counter').textContent = `${app.state.lastIdx + 1} / ${app.activeVocab.length}`;
@@ -1105,24 +1108,42 @@
     if (!tts.supported) { showToast('Bu tarayıcı sesi desteklemiyor.'); return; }
     const phrase = ttsPrepare(text);
     if (!phrase) return;
-    try { window.speechSynthesis.cancel(); } catch {}
+
+    // Chrome/Safari bug: cancel() + immediate speak() sessiz kalabiliyor.
+    // resume() + 50ms gecikme ile düzeltilir.
+    try {
+      if (window.speechSynthesis.speaking) window.speechSynthesis.cancel();
+      if (window.speechSynthesis.paused)   window.speechSynthesis.resume();
+    } catch {}
+
     const u = new SpeechSynthesisUtterance(phrase);
     u.lang = 'de-DE';
     u.rate = 0.85;
     u.pitch = 1;
     if (tts.voice) u.voice = tts.voice;
+
     const setSpeakingClass = (on) => {
-      document.querySelectorAll('.card-speak, .wm-speak, .known-item-speak, .verb-speak-btn').forEach(b => b.classList.remove('speaking'));
+      document.querySelectorAll('.card-speak, .card-speak-front, .wm-speak, .known-item-speak, .verb-speak-btn')
+        .forEach(b => b.classList.remove('speaking'));
       if (on && btn) btn.classList.add('speaking');
     };
     u.onstart = () => setSpeakingClass(true);
     u.onend   = () => setSpeakingClass(false);
     u.onerror = () => setSpeakingClass(false);
-    try { window.speechSynthesis.speak(u); } catch {}
+
+    setTimeout(() => {
+      try { window.speechSynthesis.speak(u); } catch {}
+    }, 50);
   }
 
   // Flashcard speak butonu — kart döndürmesin diye stopPropagation
   $('#card-speak').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const w = currentWord();
+    if (w) speak(w.de, e.currentTarget);
+  });
+
+  $('#card-speak-front').addEventListener('click', (e) => {
     e.stopPropagation();
     const w = currentWord();
     if (w) speak(w.de, e.currentTarget);
