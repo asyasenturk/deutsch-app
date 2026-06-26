@@ -1,2907 +1,3737 @@
 [
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "abschicken",
-    "plural": null,
-    "tr": "göndermek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Abwicklung",
-    "plural": null,
-    "tr": "tamamlama",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "amtlich",
-    "plural": null,
-    "tr": "resmi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "anerkennen",
-    "plural": null,
-    "tr": "takdir etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Anerkennung",
-    "plural": null,
-    "tr": "takdir",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der Anfang",
-    "plural": "Anfänge",
-    "tr": "başlangıç",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "ansteckend",
-    "plural": null,
-    "tr": "bulaşıcı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "ausstellen",
-    "plural": null,
-    "tr": "sergilemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Bearbeitung",
-    "plural": null,
-    "tr": "İşlem",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "beglaubigen",
-    "plural": null,
-    "tr": "tasdik etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Beglaubigung",
-    "plural": null,
-    "tr": "tasdik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der/die Bekannte",
-    "plural": "Bekannten",
-    "tr": "tanıdık",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "benötigen",
-    "plural": null,
-    "tr": "gerek duymak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "berufen",
-    "plural": null,
-    "tr": "atamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "bescheinigen",
-    "plural": null,
-    "tr": "belgelemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "dran sein",
-    "plural": null,
-    "tr": "üzerinde olmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "einreichen",
-    "plural": null,
-    "tr": "sunmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "enttäuschen",
-    "plural": null,
-    "tr": "şaşırtmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Enttäuschung",
-    "plural": "Enttäuschungen",
-    "tr": "düş kırıklığı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der Erhalt",
-    "plural": null,
-    "tr": "alıntı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Erklärung",
-    "plural": "Erklärungen",
-    "tr": "açıklama",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "erkundigen",
-    "plural": null,
-    "tr": "bilgi almak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Fähigkeit",
-    "plural": "Fähigkeiten",
-    "tr": "beceri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Fantasie",
-    "plural": null,
-    "tr": "fantezi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Formalität",
-    "plural": "Formalitäten",
-    "tr": "formalite",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "förmlich",
-    "plural": null,
-    "tr": "resmi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Fotokopie",
-    "plural": "Fotokopien",
-    "tr": "fotokopi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der Frieden",
-    "plural": null,
-    "tr": "barış",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "das Führungszeugnis",
-    "plural": null,
-    "tr": "adli sicil kaydı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "garantieren",
-    "plural": null,
-    "tr": "garanti etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der Gedanke",
-    "plural": "Gedanken",
-    "tr": "düşünce",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Geduld",
-    "plural": null,
-    "tr": "sabır",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "geduldig",
-    "plural": null,
-    "tr": "sabırlı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Gemeinsamkeit",
-    "plural": "Gemeinsamkeiten",
-    "tr": "birliktelik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der Geruch",
-    "plural": "Gerüche",
-    "tr": "koku",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "das Gesundheitszeugnis",
-    "plural": null,
-    "tr": "sağlık raporu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "gewährleisten",
-    "plural": null,
-    "tr": "garanti etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "häufig",
-    "plural": null,
-    "tr": "sık",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "das Heimweh",
-    "plural": null,
-    "tr": "sıla hasreti",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "herkommen",
-    "plural": null,
-    "tr": "gelmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "das Herkunftsland",
-    "plural": "Herkunftsländer",
-    "tr": "menşe ülke",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "hierher",
-    "plural": null,
-    "tr": "burada",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "hilfsbereit",
-    "plural": null,
-    "tr": "yardıma hazır",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "inzwischen",
-    "plural": null,
-    "tr": "arada",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Kopie",
-    "plural": "Kopien",
-    "tr": "kopya",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Mentalität",
-    "plural": "Mentalitäten",
-    "tr": "zihniyet",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "nachdenklich",
-    "plural": null,
-    "tr": "düşünceli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der/die Pflegehelfer/in",
-    "plural": "Pflegehelfer/innen",
-    "tr": "hastabakıcı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Pflegekraft",
-    "plural": "Pflegekräfte",
-    "tr": "bakım personeli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Reihe",
-    "plural": null,
-    "tr": "dizi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der/die Sachbearbeiter/in",
-    "plural": "Sachbearbeiter/innen",
-    "tr": "uzman",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "der Sprachnachweis",
-    "plural": null,
-    "tr": "dil bilgi sertifikası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "übereinstimmen",
-    "plural": null,
-    "tr": "aynı fikirde olmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "überglücklich",
-    "plural": null,
-    "tr": "son derecede mutlu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "übersetzen",
-    "plural": null,
-    "tr": "tercüme etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "die Übersetzung",
-    "plural": "Übersetzungen",
-    "tr": "tercüme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "das Übersetzungsbüro",
-    "plural": null,
-    "tr": "tercüme bürosu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "ungeduldig",
-    "plural": null,
-    "tr": "sabırsız",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "vermissen",
-    "plural": null,
-    "tr": "özlemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "verurteilen",
-    "plural": null,
-    "tr": "hüküm vermek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "wahr",
-    "plural": null,
-    "tr": "doğru",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "weitergehen",
-    "plural": null,
-    "tr": "ilerlemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "wohlfühlen",
-    "plural": null,
-    "tr": "iyi hissetmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "das Ziel",
-    "plural": "Ziele",
-    "tr": "hedef",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "zügig",
-    "plural": null,
-    "tr": "seri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 7: Deutschland – zweite Heimat?",
-    "de": "zusammenstellen",
-    "plural": null,
-    "tr": "derlemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "abhängig",
-    "plural": null,
-    "tr": "bağımlı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "absolvieren",
-    "plural": null,
-    "tr": "tamamlamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Abteilungsleiter/in",
-    "plural": "Abteilungsleiter/innen",
-    "tr": "bölüm müdürü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "abwechslungsreich",
-    "plural": null,
-    "tr": "çeşitli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Altenpfleger/in",
-    "plural": "Altenpfleger/innen",
-    "tr": "yaşlı bakıcısı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Anlage",
-    "plural": null,
-    "tr": "tesis",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Annahme",
-    "plural": null,
-    "tr": "kabul",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "anrechnen",
-    "plural": null,
-    "tr": "hesaba geçirmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Anstellung",
-    "plural": null,
-    "tr": "atama",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Arbeitsstelle",
-    "plural": null,
-    "tr": "çalışma yeri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Arbeitsweise",
-    "plural": null,
-    "tr": "çalışma biçimi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Arbeitszeit",
-    "plural": "Arbeitszeiten",
-    "tr": "İş saati",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Assistenz",
-    "plural": null,
-    "tr": "yardım",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Aufteilung",
-    "plural": null,
-    "tr": "ayırma",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Auszug",
-    "plural": "Auszüge",
-    "tr": "taşınma",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Bachelor",
-    "plural": null,
-    "tr": "bekar",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "beherrschen",
-    "plural": null,
-    "tr": "hakim olmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "beilegen",
-    "plural": null,
-    "tr": "eklemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Berufsbezeichnung",
-    "plural": null,
-    "tr": "meslek adı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Berufserfahrung",
-    "plural": null,
-    "tr": "mesleki tecrübe",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Berufsleben",
-    "plural": null,
-    "tr": "meslek hayatı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Betriebswirtschaft",
-    "plural": null,
-    "tr": "İşletme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "beurteilen",
-    "plural": null,
-    "tr": "karar vermek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Bewerbungsschreiben",
-    "plural": null,
-    "tr": "İş başvuru yazısı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Bilanzbuchhalter/in",
-    "plural": "Bilanzbuchhalter/innen",
-    "tr": "muhasebeci",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "bisher",
-    "plural": null,
-    "tr": "şimdiye dek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Briefpapier",
-    "plural": null,
-    "tr": "mektup kağıdı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Büromaterial",
-    "plural": null,
-    "tr": "büro malzemesi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Bürozeit",
-    "plural": "Bürozeiten",
-    "tr": "büro saati",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Catering",
-    "plural": null,
-    "tr": "İkram",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "daneben",
-    "plural": null,
-    "tr": "yanında",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "eigenverantwortlich",
-    "plural": null,
-    "tr": "bağımsız",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "eingehen",
-    "plural": null,
-    "tr": "girmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "einschreiben",
-    "plural": null,
-    "tr": "kaydolmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Eintrittsdatum",
-    "plural": null,
-    "tr": "kiriş tarihi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Empfang",
-    "plural": null,
-    "tr": "karşılama",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "empfangen",
-    "plural": null,
-    "tr": "karşılamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "englischsprachig",
-    "plural": null,
-    "tr": "İngilizce",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "entnehmen",
-    "plural": null,
-    "tr": "çıkarmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Erstellung",
-    "plural": null,
-    "tr": "oluşturma",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "färben",
-    "plural": null,
-    "tr": "renklendirmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Fax",
-    "plural": null,
-    "tr": "faks",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Festanstellung",
-    "plural": null,
-    "tr": "daimi istihdam",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "festlegen",
-    "plural": null,
-    "tr": "saptamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "finanziell",
-    "plural": null,
-    "tr": "mali",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Finanzwesen",
-    "plural": null,
-    "tr": "maliye",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Firmensitz",
-    "plural": null,
-    "tr": "şirket merkezi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "fließend",
-    "plural": null,
-    "tr": "akıcı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Föhn",
-    "plural": null,
-    "tr": "fön",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "fordern",
-    "plural": null,
-    "tr": "talep etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Formulierung",
-    "plural": null,
-    "tr": "üslup",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Fortbildung",
-    "plural": null,
-    "tr": "İleri eğitim",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Frisur",
-    "plural": null,
-    "tr": "saç biçimi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Gehaltsvorstellung",
-    "plural": null,
-    "tr": "maaş talebi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Geschäftsführer/in",
-    "plural": "Geschäftsführer/innen",
-    "tr": "genel müdür",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Geschäftsführung",
-    "plural": null,
-    "tr": "yönetim",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "gleichzeitig",
-    "plural": null,
-    "tr": "eşzamanlı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Handlung",
-    "plural": null,
-    "tr": "eylem",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Herausforderung",
-    "plural": null,
-    "tr": "meydan okuma",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "individuell",
-    "plural": null,
-    "tr": "bireysel",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "insofern",
-    "plural": null,
-    "tr": "bu açıdan",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "intern",
-    "plural": null,
-    "tr": "dahili",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Jobbezeichnung",
-    "plural": null,
-    "tr": "İş tarifi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Kamm",
-    "plural": null,
-    "tr": "tarak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Kommunikationsstärke",
-    "plural": null,
-    "tr": "İletişim gücü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "kommunikativ",
-    "plural": null,
-    "tr": "konuşkan",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Konferenzraum",
-    "plural": null,
-    "tr": "konferans salonu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Kontaktdaten (Pl.)",
-    "plural": null,
-    "tr": "İletişim bilgileri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "kümmern",
-    "plural": null,
-    "tr": "ilgilenmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "leistungsgerecht",
-    "plural": null,
-    "tr": "performansa göre",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "leiten",
-    "plural": null,
-    "tr": "yönetmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Manager/in",
-    "plural": "Manager/innen",
-    "tr": "yönetici",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Maschinenbau",
-    "plural": null,
-    "tr": "makine mühendisliği",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "meistern",
-    "plural": null,
-    "tr": "hakim olmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Millionär/in",
-    "plural": null,
-    "tr": "milyoner",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "mittelständisch",
-    "plural": null,
-    "tr": "orta ölçekli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "nachdem",
-    "plural": null,
-    "tr": "sonrası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Niveau",
-    "plural": null,
-    "tr": "düzey",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Original",
-    "plural": null,
-    "tr": "orijinal",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der PC",
-    "plural": "PCs",
-    "tr": "PC",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Posteingang",
-    "plural": null,
-    "tr": "gelen posta",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Probezeit",
-    "plural": null,
-    "tr": "deneme süresi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Qualifikation",
-    "plural": "Qualifikationen",
-    "tr": "nitelik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "regeln",
-    "plural": null,
-    "tr": "düzenlemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Sales Manager/in",
-    "plural": "Sales Manager/innen",
-    "tr": "satış müdürü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "schneiden",
-    "plural": null,
-    "tr": "kesmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Schreiben",
-    "plural": null,
-    "tr": "yazı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "seitdem",
-    "plural": null,
-    "tr": "(den) beri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der/die Selbstständige",
-    "plural": "Selbstständigen",
-    "tr": "bağımsızlar",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "senden",
-    "plural": null,
-    "tr": "yollamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Seniorenheim",
-    "plural": null,
-    "tr": "huzurevi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "soweit",
-    "plural": null,
-    "tr": "şimdilik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Speise",
-    "plural": "Speisen",
-    "tr": "yemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "spezialisieren",
-    "plural": null,
-    "tr": "uzmanlaşmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Stellenanzeige",
-    "plural": "Stellenanzeigen",
-    "tr": "İş ilanı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Steuerberater",
-    "plural": null,
-    "tr": "vergi danışmanı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Steuerberatungsbüro",
-    "plural": null,
-    "tr": "vergi danışmanlık bürosu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Teamfähigkeit",
-    "plural": null,
-    "tr": "ekip becerisi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Telekommunikation",
-    "plural": null,
-    "tr": "telekomünikasyon",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Terminkalender",
-    "plural": null,
-    "tr": "ajanda",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "traditionsreich",
-    "plural": null,
-    "tr": "geleneksel",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Überstunde",
-    "plural": "Überstunden",
-    "tr": "fazla mesai",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Umgang",
-    "plural": null,
-    "tr": "İlişki",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Umschulung",
-    "plural": null,
-    "tr": "eğitim değişikliği",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "unbefristet",
-    "plural": null,
-    "tr": "süresiz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Unternehmen",
-    "plural": "Unternehmen",
-    "tr": "şirket",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Urlaubstag",
-    "plural": "Urlaubstage",
-    "tr": "tatil günü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "verabreden",
-    "plural": null,
-    "tr": "kararlaştırmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Vergütung",
-    "plural": null,
-    "tr": "ödeme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Verstärkung",
-    "plural": null,
-    "tr": "güçlendirme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "weiterhelfen",
-    "plural": null,
-    "tr": "yardım etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Weiterleitung",
-    "plural": null,
-    "tr": "İletim",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "das Werkzeug",
-    "plural": null,
-    "tr": "alet",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "zaubern",
-    "plural": null,
-    "tr": "büyülemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "zeitlich",
-    "plural": null,
-    "tr": "geçici",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "der Zeitpunkt",
-    "plural": null,
-    "tr": "an",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "zusätzlich",
-    "plural": null,
-    "tr": "ilave",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Zusatzqualifikation",
-    "plural": null,
-    "tr": "İlave nitelik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 8: Ein neuer Arbeitsplatz",
-    "de": "die Zuverlässigkeit",
-    "plural": null,
-    "tr": "güvenilirlik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "abdrehen",
-    "plural": null,
-    "tr": "söndürmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "abheften",
-    "plural": null,
-    "tr": "dosyalamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "allerdings",
-    "plural": null,
-    "tr": "doğrusu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "anmachen",
-    "plural": null,
-    "tr": "bağlamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "ansehen",
-    "plural": null,
-    "tr": "incelemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "aufdrehen",
-    "plural": null,
-    "tr": "çevirerek açmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "aufmachen",
-    "plural": null,
-    "tr": "kapağını açmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "ausschalten",
-    "plural": null,
-    "tr": "devreden çıkarmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "ausschlafen",
-    "plural": null,
-    "tr": "uykusunu almak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "das Besprechungszimmer",
-    "plural": null,
-    "tr": "toplantı odası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Büroalltag",
-    "plural": null,
-    "tr": "büro rutini",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der/die Büroassistent/in",
-    "plural": "Büroassistenten/Büroassistentinnen",
-    "tr": "büro yardımcısı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Büroraum",
-    "plural": "Büroräume",
-    "tr": "büro odası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Dienstleistung",
-    "plural": "Dienstleistungen",
-    "tr": "hizmet",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "drinnen",
-    "plural": null,
-    "tr": "içinde",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "einschalten",
-    "plural": null,
-    "tr": "devreye almak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Energiekosten (Pl.)",
-    "plural": null,
-    "tr": "enerji giderleri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Energieverschwendung",
-    "plural": null,
-    "tr": "enerji israfı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der/die Handwerker/in",
-    "plural": "Handwerker/innen",
-    "tr": "zanaatkar",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Heizkosten (Pl.)",
-    "plural": null,
-    "tr": "isıtma giderleri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "indem",
-    "plural": null,
-    "tr": "bunu söyleyerek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "kippen",
-    "plural": null,
-    "tr": "devirmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der/die König/in",
-    "plural": "Könige/Königinnen",
-    "tr": "kral/Kraliçe",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Kopierer",
-    "plural": "Kopierer",
-    "tr": "fotokopi cihazı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "langfristig",
-    "plural": null,
-    "tr": "uzun vadeli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "mehrmals",
-    "plural": null,
-    "tr": "çok kere",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Million",
-    "plural": "Millionen",
-    "tr": "milyon",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "mitdenken",
-    "plural": null,
-    "tr": "düşünce paylaşmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "offen",
-    "plural": null,
-    "tr": "açık",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Privatnummer",
-    "plural": null,
-    "tr": "kişisel numara",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "rasieren",
-    "plural": null,
-    "tr": "tıraş olmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Reinigungsfirma",
-    "plural": null,
-    "tr": "temizlik şirketi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Reinigungsvertrag",
-    "plural": null,
-    "tr": "temizlik sözleşmesi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "senken",
-    "plural": null,
-    "tr": "eğmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "stinksauer (ugs.)",
-    "plural": null,
-    "tr": "çok kızgın",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Strom",
-    "plural": null,
-    "tr": "akım",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Stromanbieter",
-    "plural": null,
-    "tr": "elektrik sağlayıcı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Stromkosten (Pl.)",
-    "plural": null,
-    "tr": "elektrik giderleri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "tropfen",
-    "plural": null,
-    "tr": "damlamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "übergeben",
-    "plural": null,
-    "tr": "teslim etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "unnötig",
-    "plural": null,
-    "tr": "gereksiz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Verbrauch",
-    "plural": null,
-    "tr": "Tüketim",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "verschwenden",
-    "plural": null,
-    "tr": "israf etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "das Vertragsende",
-    "plural": null,
-    "tr": "sözleşme sonu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Vertragsnummer",
-    "plural": null,
-    "tr": "sözleşme numarası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Wärme",
-    "plural": null,
-    "tr": "isı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "der Wasserhahn",
-    "plural": null,
-    "tr": "su musluğu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Weise",
-    "plural": null,
-    "tr": "usul",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "zudrehen",
-    "plural": null,
-    "tr": "çevirerek kapatmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "zumachen",
-    "plural": null,
-    "tr": "kapatmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "die Zusammenarbeit",
-    "plural": null,
-    "tr": "İşbirliği",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 9: Büroalltag",
-    "de": "zusammenarbeiten",
-    "plural": null,
-    "tr": "işbirliği yapmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "abnehmen",
-    "plural": null,
-    "tr": "kaldırmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "achten",
-    "plural": null,
-    "tr": "saygı göstermek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Allergie",
-    "plural": null,
-    "tr": "alerji",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "allergisch",
-    "plural": null,
-    "tr": "alerjik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Anbau",
-    "plural": null,
-    "tr": "ziraat",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "angewöhnen",
-    "plural": null,
-    "tr": "alışmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "auseinandersetzen",
-    "plural": null,
-    "tr": "yüzleşmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "ausgewogen",
-    "plural": null,
-    "tr": "ahenkli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "ausprobieren",
-    "plural": null,
-    "tr": "denemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "bedenklich",
-    "plural": null,
-    "tr": "sakıncalı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Bedingung",
-    "plural": "Bedingungen",
-    "tr": "koşul",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "behaupten",
-    "plural": null,
-    "tr": "ileri sürmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Berufstätigkeit",
-    "plural": null,
-    "tr": "mesleki faaliyet",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Bevölkerung",
-    "plural": null,
-    "tr": "nüfus",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "bewusst",
-    "plural": null,
-    "tr": "bilinçli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "bio (=biologisch)",
-    "plural": null,
-    "tr": "biyolojik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Bioprodukt",
-    "plural": "Bioprodukte",
-    "tr": "biyolojik ürün",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "bloß",
-    "plural": null,
-    "tr": "yalın",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der/die Diabetiker/in",
-    "plural": "Diabetiker/innen",
-    "tr": "şeker hastası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Döner",
-    "plural": null,
-    "tr": "döner",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "durchschnittlich",
-    "plural": null,
-    "tr": "ortalama",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Einkommen",
-    "plural": "Einkommen",
-    "tr": "gelir",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "einseitig",
-    "plural": null,
-    "tr": "tek taraflı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Eiweiß",
-    "plural": null,
-    "tr": "protein",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "erkennen",
-    "plural": null,
-    "tr": "tanımak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Ernährung",
-    "plural": null,
-    "tr": "beslenme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der/die Esser/in",
-    "plural": "Esser/innen",
-    "tr": "Yiyen",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Fertiggericht",
-    "plural": null,
-    "tr": "hazır yemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "fett",
-    "plural": null,
-    "tr": "şişman",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "fix",
-    "plural": null,
-    "tr": "sabit",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "fleischfrei",
-    "plural": null,
-    "tr": "etten arınmış",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "fleischlos",
-    "plural": null,
-    "tr": "etsiz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Freundeskreis",
-    "plural": null,
-    "tr": "arkadaş çevresi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Frust",
-    "plural": null,
-    "tr": "düş kırıklığı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "furchtbar",
-    "plural": null,
-    "tr": "korkunç",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Gang",
-    "plural": "Gänge",
-    "tr": "koridor",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der/die Gemüsehändler/in",
-    "plural": "Gemüsehändler/innen",
-    "tr": "manav",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Geschmack",
-    "plural": null,
-    "tr": "zevk",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Getreide",
-    "plural": null,
-    "tr": "tahıl",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "glutenfrei",
-    "plural": null,
-    "tr": "glütensiz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "grundsätzlich",
-    "plural": null,
-    "tr": "temel olarak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Hartweizen",
-    "plural": null,
-    "tr": "durum buğdayı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Haselnuss",
-    "plural": "Haselnüsse",
-    "tr": "fındık",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Hauptgrund",
-    "plural": "Hauptgründe",
-    "tr": "ana neden",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Hülsenfrucht",
-    "plural": "Hülsenfrüchte",
-    "tr": "baklagil",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "industriell",
-    "plural": null,
-    "tr": "endüstriyel",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Institution",
-    "plural": "Institutionen",
-    "tr": "kurum",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "irgendwelche",
-    "plural": null,
-    "tr": "herhangi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "irgendwer",
-    "plural": null,
-    "tr": "herhangi biri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Kochbuch",
-    "plural": "Kochbücher",
-    "tr": "yemek kitabı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "kulinarisch",
-    "plural": null,
-    "tr": "mutfakla ilgili",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "laktosefrei",
-    "plural": null,
-    "tr": "laktozsuz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Laune",
-    "plural": null,
-    "tr": "keyif",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "leiden",
-    "plural": null,
-    "tr": "acı çekmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Massentierhaltung",
-    "plural": null,
-    "tr": "endüstriyel hayvan besiciliği",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Milchzucker",
-    "plural": null,
-    "tr": "süt şekeri",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "moralisch",
-    "plural": null,
-    "tr": "ahlaki",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Nährstoff",
-    "plural": "Nährstoffe",
-    "tr": "gıda maddesi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "das Nahrungsmittel",
-    "plural": "Nahrungsmittel",
-    "tr": "besin",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "nebenbei",
-    "plural": null,
-    "tr": "yanı sıra",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Nuss",
-    "plural": "Nüsse",
-    "tr": "ceviz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "präsentieren",
-    "plural": null,
-    "tr": "sunmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "problemlos",
-    "plural": null,
-    "tr": "sorunsuz",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Quark",
-    "plural": null,
-    "tr": "sürülmelik peynir",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "reduzieren",
-    "plural": null,
-    "tr": "indirgemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Studie",
-    "plural": null,
-    "tr": "öğrenim",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Tiefkühlpizza",
-    "plural": "Tiefkühlpizzen",
-    "tr": "derin dondurulmuş pizza",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "tierisch",
-    "plural": null,
-    "tr": "hayvani",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Trend",
-    "plural": null,
-    "tr": "eğilim",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "überzeugen",
-    "plural": null,
-    "tr": "ikna etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "vegan",
-    "plural": null,
-    "tr": "vegan",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der/die Veganer/in",
-    "plural": "Veganer/innen",
-    "tr": "Vegan",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "vereinbar",
-    "plural": null,
-    "tr": "birleştirilebilir",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "versorgen",
-    "plural": null,
-    "tr": "sağlamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "vertragen",
-    "plural": null,
-    "tr": "katlanmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Verzehr",
-    "plural": null,
-    "tr": "Yeme içme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "verzichten",
-    "plural": null,
-    "tr": "caymak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "vorbeigehen",
-    "plural": null,
-    "tr": "(önünden) geçmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Wert",
-    "plural": "Werte",
-    "tr": "değer",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "die Wurst",
-    "plural": "Würste",
-    "tr": "sosis",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Zeitmangel",
-    "plural": null,
-    "tr": "zaman kıtlığı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Zeitungsbericht",
-    "plural": null,
-    "tr": "gazete haberi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "zufällig",
-    "plural": null,
-    "tr": "tesadüfen",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "zunehmen",
-    "plural": null,
-    "tr": "artmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 10: Gesunde Ernährung",
-    "de": "der Zusatzstoff",
-    "plural": "Zusatzstoffe",
-    "tr": "katkı maddesi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "abdecken",
-    "plural": null,
-    "tr": "kaplamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "absichtlich",
-    "plural": null,
-    "tr": "kasten",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "anfahren",
-    "plural": null,
-    "tr": "çarpmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "ärztlich",
-    "plural": null,
-    "tr": "tıbbi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "aufkommen",
-    "plural": null,
-    "tr": "ortaya çıkmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "ausparken",
-    "plural": null,
-    "tr": "dışarı park etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Außenspiegel",
-    "plural": "Außenspiegel",
-    "tr": "dikiz aynası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der/die Autofahrer/in",
-    "plural": "Autofahrer/innen",
-    "tr": "otomobil sürücüsü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Automarke",
-    "plural": null,
-    "tr": "otomobil markası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das Autoteil",
-    "plural": "Autoteile",
-    "tr": "otomobil parçası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Autoversicherung",
-    "plural": null,
-    "tr": "otomobil sigortası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das Benzin",
-    "plural": null,
-    "tr": "benzin",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "beschädigen",
-    "plural": null,
-    "tr": "hasar vermek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "betrunken",
-    "plural": null,
-    "tr": "sarhoş",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Blinker",
-    "plural": "Blinker",
-    "tr": "sinyal",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "bremsen",
-    "plural": null,
-    "tr": "fren yapmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das Dach",
-    "plural": null,
-    "tr": "tavan",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Diebstahl",
-    "plural": null,
-    "tr": "hırsızlık",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das Dorf",
-    "plural": null,
-    "tr": "köy",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "einbrechen",
-    "plural": null,
-    "tr": "zorla girmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der/die Einbrecher/in",
-    "plural": "Einbrecher/innen",
-    "tr": "hırsız",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Einbruch",
-    "plural": null,
-    "tr": "hırsızlık",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "einparken",
-    "plural": null,
-    "tr": "içeri park etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Fahrerseite",
-    "plural": null,
-    "tr": "sürücü tarafı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der/die Freiwillige",
-    "plural": "Freiwilligen",
-    "tr": "gönüllüler",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "frustriert",
-    "plural": null,
-    "tr": "düş kırıklığına uğramış",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Gebrauchtwagen",
-    "plural": "Gebrauchtwagen",
-    "tr": "İkinci el otomobil",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Haftpflicht",
-    "plural": null,
-    "tr": "mali sorumluluk",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Haftpflichtversicherung",
-    "plural": null,
-    "tr": "mali sorumluluk sigortası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Hagel",
-    "plural": null,
-    "tr": "dolu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Hügel",
-    "plural": null,
-    "tr": "tepe",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Kaskoversicherung",
-    "plural": null,
-    "tr": "kasko sigortası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Kilometer",
-    "plural": null,
-    "tr": "kilometre",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Kofferraum",
-    "plural": null,
-    "tr": "bagaj",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "korrekt",
-    "plural": null,
-    "tr": "doğru",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "krachen",
-    "plural": null,
-    "tr": "çarpmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Kratzer",
-    "plural": "Kratzer",
-    "tr": "çizik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "lenken",
-    "plural": null,
-    "tr": "(direksiyon) kullanmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "lohnen",
-    "plural": null,
-    "tr": "(zahmete) değmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Motor",
-    "plural": "Motoren",
-    "tr": "motor",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Motorhaube",
-    "plural": null,
-    "tr": "motor kapağı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der/die Motorradfahrer/in",
-    "plural": "Motorradfahrer/innen",
-    "tr": "motosiklet sürücüsü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "nachdenken",
-    "plural": null,
-    "tr": "düşünmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Neuwagen",
-    "plural": "Neuwagen",
-    "tr": "yeni otomobil",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das Nummernschild",
-    "plural": "Nummernschilder",
-    "tr": "plaka",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Oldtimer",
-    "plural": null,
-    "tr": "klasik otomobil",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "optimistisch",
-    "plural": null,
-    "tr": "iyimser",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "parken",
-    "plural": null,
-    "tr": "park etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Parklücke",
-    "plural": null,
-    "tr": "park boşluğu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Personenschaden",
-    "plural": "Personenschäden",
-    "tr": "bedensel zarar",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "PS (=Pferdestärke)",
-    "plural": null,
-    "tr": "beygir gücü",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "quietschen",
-    "plural": null,
-    "tr": "ciyaklamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "regulieren",
-    "plural": null,
-    "tr": "düzenlemek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Regulierung",
-    "plural": null,
-    "tr": "düzenleme",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Reifen",
-    "plural": "Reifen",
-    "tr": "lastik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das Rücklicht",
-    "plural": "Rücklichter",
-    "tr": "stop lambası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Rückscheibe",
-    "plural": null,
-    "tr": "arka cam",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "rückwärts",
-    "plural": null,
-    "tr": "geri gidiş",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "rutschen",
-    "plural": null,
-    "tr": "kaymak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Sachschaden",
-    "plural": "Sachschäden",
-    "tr": "maddi hasar",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Schadensfall",
-    "plural": null,
-    "tr": "hasar olayı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Scheibe",
-    "plural": "Scheiben",
-    "tr": "cam",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Scheinwerfer",
-    "plural": "Scheinwerfer",
-    "tr": "far",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Schläger",
-    "plural": null,
-    "tr": "raket",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "schwingen",
-    "plural": null,
-    "tr": "sallamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Sinn",
-    "plural": null,
-    "tr": "duyu",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Sportwagen",
-    "plural": null,
-    "tr": "spor otomobil",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Stoßstange",
-    "plural": null,
-    "tr": "tampon",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Straßenrand",
-    "plural": null,
-    "tr": "yol kenarı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Straßenverkehr",
-    "plural": null,
-    "tr": "trafik",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Sturm",
-    "plural": null,
-    "tr": "fırtına",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "das/der Sport Utiliy Vehicle (SUV)",
-    "plural": null,
-    "tr": "SUV",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Teilkaskoversicherung (Teilkasko)",
-    "plural": null,
-    "tr": "kısmi kasko sigortası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "überraschen",
-    "plural": null,
-    "tr": "şaşırtmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Überschwemmung",
-    "plural": null,
-    "tr": "su baskını",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "umfallen",
-    "plural": null,
-    "tr": "düşmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "umso",
-    "plural": null,
-    "tr": "daha",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Unfall",
-    "plural": "Unfälle",
-    "tr": "kaza",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Unfallgefahr",
-    "plural": null,
-    "tr": "kaza tehlikesi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "verletzen",
-    "plural": null,
-    "tr": "yaralamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "versehentlich",
-    "plural": null,
-    "tr": "istemeyerek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "versichern",
-    "plural": null,
-    "tr": "sigortalamak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der/die Versicherungsberater/in",
-    "plural": "Versicherungsberater/innen",
-    "tr": "sigorta danışmanı",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "der Versicherungsschutz",
-    "plural": null,
-    "tr": "sigorta güvencesi",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "verursachen",
-    "plural": null,
-    "tr": "neden olmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Vollkaskoversicherung (Vollkasko)",
-    "plural": null,
-    "tr": "tam kasko sigortası",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "vorschreiben",
-    "plural": null,
-    "tr": "mecbur etmek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "vorsichtig",
-    "plural": null,
-    "tr": "dikkatli",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "wegfahren",
-    "plural": null,
-    "tr": "araçla uzaklaşmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Windschutzscheibe",
-    "plural": null,
-    "tr": "ön cam",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "zulassen",
-    "plural": null,
-    "tr": "izin vermek",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "zusammenstoßen",
-    "plural": null,
-    "tr": "çarpışmak",
-    "ex": ""
-  },
-  {
-    "group": "Lektion 11: Gut versichert!",
-    "de": "die Zusatzversicherung",
-    "plural": null,
-    "tr": "tamamlayıcı sigorta",
-    "ex": ""
-  }
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "abschicken",
+        "plural":  null,
+        "tr":  "göndermek",
+        "ex":  "Hast du den Brief schon abgeschickt?",
+        "ex_tr":  "Mektubu çoktan gönderdin mi?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Abwicklung",
+        "plural":  null,
+        "tr":  "tamamlama",
+        "ex":  "Die Abwicklung dauert zwei Wochen.",
+        "ex_tr":  "İşlem iki hafta sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "amtlich",
+        "plural":  null,
+        "tr":  "resmi",
+        "ex":  "Das ist ein amtliches Dokument.",
+        "ex_tr":  "Bu resmi bir belgedir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "anerkennen",
+        "plural":  null,
+        "tr":  "takdir etmek",
+        "ex":  "Mein Abschluss wird hier anerkannt.",
+        "ex_tr":  "Diplomam burada tanınır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Anerkennung",
+        "plural":  null,
+        "tr":  "takdir",
+        "ex":  "Die Anerkennung dauert lange.",
+        "ex_tr":  "Tanıma süreci uzun sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der Anfang",
+        "plural":  "Anfänge",
+        "tr":  "başlangıç",
+        "ex":  "Am Anfang war es schwer.",
+        "ex_tr":  "Başlangıçta zordu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "ansteckend",
+        "plural":  null,
+        "tr":  "bulaşıcı",
+        "ex":  "Die Grippe ist sehr ansteckend.",
+        "ex_tr":  "Grip çok bulaşıcıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "ausstellen",
+        "plural":  null,
+        "tr":  "sergilemek",
+        "ex":  "Können Sie mir ein Zeugnis ausstellen?",
+        "ex_tr":  "Bana bir belge düzenleyebilir misiniz?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Bearbeitung",
+        "plural":  null,
+        "tr":  "İşlem",
+        "ex":  "Die Bearbeitung dauert vier Wochen.",
+        "ex_tr":  "İşlem dört hafta sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "beglaubigen",
+        "plural":  null,
+        "tr":  "tasdik etmek",
+        "ex":  "Ich muss die Kopie beglaubigen lassen.",
+        "ex_tr":  "Kopyayı onaylatmam lazım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Beglaubigung",
+        "plural":  null,
+        "tr":  "tasdik",
+        "ex":  "Die Beglaubigung kostet zehn Euro.",
+        "ex_tr":  "Onay on Euro tutar.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der/die Bekannte",
+        "plural":  "Bekannten",
+        "tr":  "tanıdık",
+        "ex":  "Mein Bekannter wohnt in Hamburg.",
+        "ex_tr":  "Tanıdığım Hamburg'ta oturuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "benötigen",
+        "plural":  null,
+        "tr":  "gerek duymak",
+        "ex":  "Wir benötigen Ihren Pass.",
+        "ex_tr":  "Pasaportunuza ihtiyacımız var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "berufen",
+        "plural":  null,
+        "tr":  "atamak",
+        "ex":  "Er beruft sich auf das Gesetz.",
+        "ex_tr":  "Yasayı gerekçe gösteriyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "bescheinigen",
+        "plural":  null,
+        "tr":  "belgelemek",
+        "ex":  "Der Arzt bescheinigt die Krankheit.",
+        "ex_tr":  "Doktor hastalığı belgeler.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "dran sein",
+        "plural":  null,
+        "tr":  "üzerinde olmak",
+        "ex":  "Ich bin gleich dran.",
+        "ex_tr":  "Sıram birazdan geliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "einreichen",
+        "plural":  null,
+        "tr":  "sunmak",
+        "ex":  "Bitte reichen Sie den Antrag ein.",
+        "ex_tr":  "Lütfen başvuruyu teslim edin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "enttäuschen",
+        "plural":  null,
+        "tr":  "şaşırtmak",
+        "ex":  "Die Note hat mich enttäuscht.",
+        "ex_tr":  "Not beni hayal kırıklığına uğrattı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Enttäuschung",
+        "plural":  "Enttäuschungen",
+        "tr":  "düş kırıklığı",
+        "ex":  "Die Enttäuschung war groß.",
+        "ex_tr":  "Hayal kırıklığı büyüktü.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der Erhalt",
+        "plural":  null,
+        "tr":  "alıntı",
+        "ex":  "Nach Erhalt der Mail antworten wir.",
+        "ex_tr":  "Maili aldıktan sonra cevap veriyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Erklärung",
+        "plural":  "Erklärungen",
+        "tr":  "açıklama",
+        "ex":  "Die Erklärung war sehr klar.",
+        "ex_tr":  "Açıklama çok netti.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "erkundigen",
+        "plural":  null,
+        "tr":  "bilgi almak",
+        "ex":  "Ich erkundige mich nach den Preisen.",
+        "ex_tr":  "Fiyatları soruyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Fähigkeit",
+        "plural":  "Fähigkeiten",
+        "tr":  "beceri",
+        "ex":  "Sie hat tolle Fähigkeiten.",
+        "ex_tr":  "Onun harika yetenekleri var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Fantasie",
+        "plural":  null,
+        "tr":  "fantezi",
+        "ex":  "Kinder haben viel Fantasie.",
+        "ex_tr":  "Çocukların hayal gücü çoktur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Formalität",
+        "plural":  "Formalitäten",
+        "tr":  "formalite",
+        "ex":  "Das ist nur eine Formalität.",
+        "ex_tr":  "Bu sadece bir formalite.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "förmlich",
+        "plural":  null,
+        "tr":  "resmi",
+        "ex":  "Bitte schreiben Sie förmlich.",
+        "ex_tr":  "Lütfen resmi yazın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Fotokopie",
+        "plural":  "Fotokopien",
+        "tr":  "fotokopi",
+        "ex":  "Können Sie eine Fotokopie machen?",
+        "ex_tr":  "Bir fotokopi çekebilir misiniz?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der Frieden",
+        "plural":  null,
+        "tr":  "barış",
+        "ex":  "Wir wünschen uns Frieden.",
+        "ex_tr":  "Barış diliyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "das Führungszeugnis",
+        "plural":  null,
+        "tr":  "adli sicil kaydı",
+        "ex":  "Für die Stelle brauche ich ein Führungszeugnis.",
+        "ex_tr":  "İş için sabıka kaydı belgesi gerekiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "garantieren",
+        "plural":  null,
+        "tr":  "garanti etmek",
+        "ex":  "Wir garantieren Ihnen schnelle Hilfe.",
+        "ex_tr":  "Size hızlı yardım garanti ediyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der Gedanke",
+        "plural":  "Gedanken",
+        "tr":  "düşünce",
+        "ex":  "Das ist ein guter Gedanke.",
+        "ex_tr":  "Bu iyi bir düşüncedir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Geduld",
+        "plural":  null,
+        "tr":  "sabır",
+        "ex":  "Mit Geduld schaffst du alles.",
+        "ex_tr":  "Sabırla her şeyi başarırsın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "geduldig",
+        "plural":  null,
+        "tr":  "sabırlı",
+        "ex":  "Er wartet geduldig auf den Bus.",
+        "ex_tr":  "Sabırla otobüs bekliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Gemeinsamkeit",
+        "plural":  "Gemeinsamkeiten",
+        "tr":  "birliktelik",
+        "ex":  "Wir haben viele Gemeinsamkeiten.",
+        "ex_tr":  "Birçok ortak yönümüz var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der Geruch",
+        "plural":  "Gerüche",
+        "tr":  "koku",
+        "ex":  "Der Geruch ist sehr stark.",
+        "ex_tr":  "Koku çok kuvvetli.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "das Gesundheitszeugnis",
+        "plural":  null,
+        "tr":  "sağlık raporu",
+        "ex":  "Für den Job braucht man ein Gesundheitszeugnis.",
+        "ex_tr":  "İş için sağlık raporu gerekiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "gewährleisten",
+        "plural":  null,
+        "tr":  "garanti etmek",
+        "ex":  "Wir gewährleisten guten Service.",
+        "ex_tr":  "İyi hizmet garanti ederiz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "häufig",
+        "plural":  null,
+        "tr":  "sık",
+        "ex":  "Ich gehe häufig spazieren.",
+        "ex_tr":  "Sık sık yürüyüşe çıkıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "das Heimweh",
+        "plural":  null,
+        "tr":  "sıla hasreti",
+        "ex":  "Ich habe großes Heimweh.",
+        "ex_tr":  "Çok memleket özlemi çekiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "herkommen",
+        "plural":  null,
+        "tr":  "gelmek",
+        "ex":  "Wo kommen Sie eigentlich her?",
+        "ex_tr":  "Aslında nereden geliyorsunuz?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "das Herkunftsland",
+        "plural":  "Herkunftsländer",
+        "tr":  "menşe ülke",
+        "ex":  "Mein Herkunftsland ist die Türkei.",
+        "ex_tr":  "Memleketim Türkiye.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "hierher",
+        "plural":  null,
+        "tr":  "burada",
+        "ex":  "Komm bitte hierher.",
+        "ex_tr":  "Lütfen buraya gel.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "hilfsbereit",
+        "plural":  null,
+        "tr":  "yardıma hazır",
+        "ex":  "Meine Nachbarin ist sehr hilfsbereit.",
+        "ex_tr":  "Komşum çok yardımseverdir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "inzwischen",
+        "plural":  null,
+        "tr":  "arada",
+        "ex":  "Inzwischen wohnen wir hier gerne.",
+        "ex_tr":  "Bu arada burada keyifle yaşıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Kopie",
+        "plural":  "Kopien",
+        "tr":  "kopya",
+        "ex":  "Ich mache eine Kopie für Sie.",
+        "ex_tr":  "Sizin için bir kopya çıkarıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Mentalität",
+        "plural":  "Mentalitäten",
+        "tr":  "zihniyet",
+        "ex":  "Die Mentalität ist hier anders.",
+        "ex_tr":  "Burada zihniyet farklı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "nachdenklich",
+        "plural":  null,
+        "tr":  "düşünceli",
+        "ex":  "Die Geschichte hat mich nachdenklich gemacht.",
+        "ex_tr":  "Hikaye beni düşündürdü.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der/die Pflegehelfer/in",
+        "plural":  "Pflegehelfer/innen",
+        "tr":  "hastabakıcı",
+        "ex":  "Der Pflegehelfer arbeitet im Heim.",
+        "ex_tr":  "Bakıcı yardımcısı huzurevinde çalışıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Pflegekraft",
+        "plural":  "Pflegekräfte",
+        "tr":  "bakım personeli",
+        "ex":  "Die Pflegekraft ist sehr nett.",
+        "ex_tr":  "Bakım personeli çok kibardır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Reihe",
+        "plural":  null,
+        "tr":  "dizi",
+        "ex":  "Jetzt bist du an der Reihe.",
+        "ex_tr":  "Şimdi sıra sende.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der/die Sachbearbeiter/in",
+        "plural":  "Sachbearbeiter/innen",
+        "tr":  "uzman",
+        "ex":  "Der Sachbearbeiter ruft mich zurück.",
+        "ex_tr":  "Memur beni geri arayacak.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "der Sprachnachweis",
+        "plural":  null,
+        "tr":  "dil bilgi sertifikası",
+        "ex":  "Den Sprachnachweis muss ich abgeben.",
+        "ex_tr":  "Dil belgesini vermem lazım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "übereinstimmen",
+        "plural":  null,
+        "tr":  "aynı fikirde olmak",
+        "ex":  "Wir stimmen in vielen Punkten überein.",
+        "ex_tr":  "Birçok noktada hemfikiriz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "überglücklich",
+        "plural":  null,
+        "tr":  "son derecede mutlu",
+        "ex":  "Ich bin überglücklich über die Nachricht.",
+        "ex_tr":  "Habere son derece sevindim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "übersetzen",
+        "plural":  null,
+        "tr":  "tercüme etmek",
+        "ex":  "Können Sie das ins Deutsche übersetzen?",
+        "ex_tr":  "Bunu Almancaya çevirebilir misiniz?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "die Übersetzung",
+        "plural":  "Übersetzungen",
+        "tr":  "tercüme",
+        "ex":  "Die Übersetzung ist sehr gut.",
+        "ex_tr":  "Tercüme çok iyidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "das Übersetzungsbüro",
+        "plural":  null,
+        "tr":  "tercüme bürosu",
+        "ex":  "Im Übersetzungsbüro arbeiten Profis.",
+        "ex_tr":  "Tercüme bürosunda profesyoneller çalışır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "ungeduldig",
+        "plural":  null,
+        "tr":  "sabırsız",
+        "ex":  "Mein Sohn ist sehr ungeduldig.",
+        "ex_tr":  "Oğlum çok sabırsızdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "vermissen",
+        "plural":  null,
+        "tr":  "özlemek",
+        "ex":  "Ich vermisse meine Familie sehr.",
+        "ex_tr":  "Aileme çok özledim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "verurteilen",
+        "plural":  null,
+        "tr":  "hüküm vermek",
+        "ex":  "Das Gericht verurteilt den Täter.",
+        "ex_tr":  "Mahkeme suçluyu mahkum eder.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "wahr",
+        "plural":  null,
+        "tr":  "doğru",
+        "ex":  "Das ist nicht wahr.",
+        "ex_tr":  "Bu doğru değil.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "weitergehen",
+        "plural":  null,
+        "tr":  "ilerlemek",
+        "ex":  "Bitte gehen Sie weiter.",
+        "ex_tr":  "Lütfen geçin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "wohlfühlen",
+        "plural":  null,
+        "tr":  "iyi hissetmek",
+        "ex":  "Ich fühle mich hier sehr wohl.",
+        "ex_tr":  "Burada kendimi çok iyi hissediyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "das Ziel",
+        "plural":  "Ziele",
+        "tr":  "hedef",
+        "ex":  "Mein Ziel ist eine gute Stelle.",
+        "ex_tr":  "Hedefim iyi bir iştir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "zügig",
+        "plural":  null,
+        "tr":  "seri",
+        "ex":  "Bitte arbeiten Sie zügig.",
+        "ex_tr":  "Lütfen hızlı çalışın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 7: Deutschland – zweite Heimat?",
+        "de":  "zusammenstellen",
+        "plural":  null,
+        "tr":  "derlemek",
+        "ex":  "Ich stelle alle Dokumente zusammen.",
+        "ex_tr":  "Tüm belgeleri bir araya getiriyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "abhängig",
+        "plural":  null,
+        "tr":  "bağımlı",
+        "ex":  "Ich bin nicht von ihm abhängig.",
+        "ex_tr":  "Ona bağımlı değilim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "absolvieren",
+        "plural":  null,
+        "tr":  "tamamlamak",
+        "ex":  "Sie hat ihr Studium absolviert.",
+        "ex_tr":  "Eğitimini tamamladı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Abteilungsleiter/in",
+        "plural":  "Abteilungsleiter/innen",
+        "tr":  "bölüm müdürü",
+        "ex":  "Der Abteilungsleiter ist freundlich.",
+        "ex_tr":  "Bölüm yöneticisi dosttur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "abwechslungsreich",
+        "plural":  null,
+        "tr":  "çeşitli",
+        "ex":  "Mein Beruf ist sehr abwechslungsreich.",
+        "ex_tr":  "Mesleğim çok çeşitlidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Altenpfleger/in",
+        "plural":  "Altenpfleger/innen",
+        "tr":  "yaşlı bakıcısı",
+        "ex":  "Der Altenpfleger arbeitet im Heim.",
+        "ex_tr":  "Yaşlı bakıcısı huzurevinde çalışır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Anlage",
+        "plural":  null,
+        "tr":  "tesis",
+        "ex":  "In der Anlage sende ich den Lebenslauf.",
+        "ex_tr":  "Ekte özgeçmişi gönderiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Annahme",
+        "plural":  null,
+        "tr":  "kabul",
+        "ex":  "Die Annahme war richtig.",
+        "ex_tr":  "Varsayım doğruydu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "anrechnen",
+        "plural":  null,
+        "tr":  "hesaba geçirmek",
+        "ex":  "Die Praxis wird mir angerechnet.",
+        "ex_tr":  "Staj sayılır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Anstellung",
+        "plural":  null,
+        "tr":  "atama",
+        "ex":  "Eine feste Anstellung ist mein Ziel.",
+        "ex_tr":  "Daimi bir iş hedefim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Arbeitsstelle",
+        "plural":  null,
+        "tr":  "çalışma yeri",
+        "ex":  "Ich suche eine neue Arbeitsstelle.",
+        "ex_tr":  "Yeni bir iş arıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Arbeitsweise",
+        "plural":  null,
+        "tr":  "çalışma biçimi",
+        "ex":  "Seine Arbeitsweise ist sehr genau.",
+        "ex_tr":  "Çalışma şekli çok titizdir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Arbeitszeit",
+        "plural":  "Arbeitszeiten",
+        "tr":  "İş saati",
+        "ex":  "Meine Arbeitszeit ist von acht bis sechzehn Uhr.",
+        "ex_tr":  "Çalışma saatlerim sekizden on altıya kadardır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Assistenz",
+        "plural":  null,
+        "tr":  "yardım",
+        "ex":  "Ich arbeite als Assistenz im Büro.",
+        "ex_tr":  "Büroda asistan olarak çalışıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Aufteilung",
+        "plural":  null,
+        "tr":  "ayırma",
+        "ex":  "Die Aufteilung der Arbeit ist fair.",
+        "ex_tr":  "İş paylaşımı adildir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Auszug",
+        "plural":  "Auszüge",
+        "tr":  "taşınma",
+        "ex":  "Der Auszug aus der Wohnung kostet Zeit.",
+        "ex_tr":  "Daireden taşınmak zaman alır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Bachelor",
+        "plural":  null,
+        "tr":  "bekar",
+        "ex":  "Ich habe einen Bachelor in Informatik.",
+        "ex_tr":  "Bilgisayar mühendisliğinde lisans diplomam var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "beherrschen",
+        "plural":  null,
+        "tr":  "hakim olmak",
+        "ex":  "Sie beherrscht drei Sprachen perfekt.",
+        "ex_tr":  "Üç dili mükemmel biliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "beilegen",
+        "plural":  null,
+        "tr":  "eklemek",
+        "ex":  "Ich lege ein Foto bei.",
+        "ex_tr":  "Bir fotoğraf ekliyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Berufsbezeichnung",
+        "plural":  null,
+        "tr":  "meslek adı",
+        "ex":  "Wie ist Ihre Berufsbezeichnung?",
+        "ex_tr":  "Meslek tanımınız nedir?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Berufserfahrung",
+        "plural":  null,
+        "tr":  "mesleki tecrübe",
+        "ex":  "Ich habe zehn Jahre Berufserfahrung.",
+        "ex_tr":  "On yıl meslek deneyimim var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Berufsleben",
+        "plural":  null,
+        "tr":  "meslek hayatı",
+        "ex":  "Mein Berufsleben begann mit 20.",
+        "ex_tr":  "Meslek hayatım 20'mde başladı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Betriebswirtschaft",
+        "plural":  null,
+        "tr":  "İşletme",
+        "ex":  "Sie studiert Betriebswirtschaft.",
+        "ex_tr":  "İşletme okuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "beurteilen",
+        "plural":  null,
+        "tr":  "karar vermek",
+        "ex":  "Der Chef beurteilt die Arbeit.",
+        "ex_tr":  "Patron işi değerlendiriyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Bewerbungsschreiben",
+        "plural":  null,
+        "tr":  "İş başvuru yazısı",
+        "ex":  "Das Bewerbungsschreiben muss kurz sein.",
+        "ex_tr":  "Başvuru mektubu kısa olmalı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Bilanzbuchhalter/in",
+        "plural":  "Bilanzbuchhalter/innen",
+        "tr":  "muhasebeci",
+        "ex":  "Der Bilanzbuchhalter prüft die Zahlen.",
+        "ex_tr":  "Muhasebeci rakamları kontrol ediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "bisher",
+        "plural":  null,
+        "tr":  "şimdiye dek",
+        "ex":  "Bisher habe ich keine Antwort.",
+        "ex_tr":  "Şimdiye kadar cevap almadım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Briefpapier",
+        "plural":  null,
+        "tr":  "mektup kağıdı",
+        "ex":  "Wir brauchen neues Briefpapier.",
+        "ex_tr":  "Yeni mektup kağıdı lazım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Büromaterial",
+        "plural":  null,
+        "tr":  "büro malzemesi",
+        "ex":  "Das Büromaterial ist alle.",
+        "ex_tr":  "Büro malzemesi bitti.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Bürozeit",
+        "plural":  "Bürozeiten",
+        "tr":  "büro saati",
+        "ex":  "Während der Bürozeit bin ich erreichbar.",
+        "ex_tr":  "Büro saatlerinde ulaşılabilirim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Catering",
+        "plural":  null,
+        "tr":  "İkram",
+        "ex":  "Das Catering war sehr gut.",
+        "ex_tr":  "İkram çok güzeldi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "daneben",
+        "plural":  null,
+        "tr":  "yanında",
+        "ex":  "Daneben arbeite ich in einem Restaurant.",
+        "ex_tr":  "Yan tarafta bir restoranda çalışıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "eigenverantwortlich",
+        "plural":  null,
+        "tr":  "bağımsız",
+        "ex":  "Sie arbeitet eigenverantwortlich.",
+        "ex_tr":  "Bağımsız çalışır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "eingehen",
+        "plural":  null,
+        "tr":  "girmek",
+        "ex":  "Ich gehe auf deine Frage ein.",
+        "ex_tr":  "Sorunu cevaplıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "einschreiben",
+        "plural":  null,
+        "tr":  "kaydolmak",
+        "ex":  "Ich habe mich an der Uni eingeschrieben.",
+        "ex_tr":  "Üniversiteye kaydoldum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Eintrittsdatum",
+        "plural":  null,
+        "tr":  "kiriş tarihi",
+        "ex":  "Mein Eintrittsdatum ist der erste März.",
+        "ex_tr":  "İşe giriş tarihim 1 Mart.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Empfang",
+        "plural":  null,
+        "tr":  "karşılama",
+        "ex":  "Am Empfang bekommen Sie Hilfe.",
+        "ex_tr":  "Resepsiyonda yardım alabilirsiniz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "empfangen",
+        "plural":  null,
+        "tr":  "karşılamak",
+        "ex":  "Wir empfangen heute Gäste.",
+        "ex_tr":  "Bugün misafir ağırlıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "englischsprachig",
+        "plural":  null,
+        "tr":  "İngilizce",
+        "ex":  "Das Büro ist englischsprachig.",
+        "ex_tr":  "Büro İngilizce konuşan bir ofistir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "entnehmen",
+        "plural":  null,
+        "tr":  "çıkarmak",
+        "ex":  "Bitte entnehmen Sie die Kopie.",
+        "ex_tr":  "Lütfen kopyayı alın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Erstellung",
+        "plural":  null,
+        "tr":  "oluşturma",
+        "ex":  "Die Erstellung der Webseite dauert lange.",
+        "ex_tr":  "Web sitesi oluşturma uzun sürüyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "färben",
+        "plural":  null,
+        "tr":  "renklendirmek",
+        "ex":  "Sie färbt ihre Haare blond.",
+        "ex_tr":  "Saçlarını sarıya boyuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Fax",
+        "plural":  null,
+        "tr":  "faks",
+        "ex":  "Bitte senden Sie ein Fax.",
+        "ex_tr":  "Lütfen bir faks gönderin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Festanstellung",
+        "plural":  null,
+        "tr":  "daimi istihdam",
+        "ex":  "Eine Festanstellung gibt Sicherheit.",
+        "ex_tr":  "Sürekli istihdam güvenlik sağlar.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "festlegen",
+        "plural":  null,
+        "tr":  "saptamak",
+        "ex":  "Wir legen den Termin morgen fest.",
+        "ex_tr":  "Randevuyu yarın belirliyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "finanziell",
+        "plural":  null,
+        "tr":  "mali",
+        "ex":  "Wir haben finanzielle Probleme.",
+        "ex_tr":  "Mali sorunlarımız var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Finanzwesen",
+        "plural":  null,
+        "tr":  "maliye",
+        "ex":  "Sie arbeitet im Finanzwesen.",
+        "ex_tr":  "Mali sektörde çalışıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Firmensitz",
+        "plural":  null,
+        "tr":  "şirket merkezi",
+        "ex":  "Der Firmensitz ist in Berlin.",
+        "ex_tr":  "Şirket merkezi Berlin'dedir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "fließend",
+        "plural":  null,
+        "tr":  "akıcı",
+        "ex":  "Er spricht fließend Deutsch.",
+        "ex_tr":  "Akıcı Almanca konuşuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Föhn",
+        "plural":  null,
+        "tr":  "fön",
+        "ex":  "Mein Föhn ist kaputt.",
+        "ex_tr":  "Saç kurutma makinem bozuldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "fordern",
+        "plural":  null,
+        "tr":  "talep etmek",
+        "ex":  "Die Arbeiter fordern mehr Lohn.",
+        "ex_tr":  "İşçiler daha çok maaş istiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Formulierung",
+        "plural":  null,
+        "tr":  "üslup",
+        "ex":  "Die Formulierung ist sehr klar.",
+        "ex_tr":  "İfade çok nettir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Fortbildung",
+        "plural":  null,
+        "tr":  "İleri eğitim",
+        "ex":  "Die Fortbildung dauert ein Jahr.",
+        "ex_tr":  "İleri eğitim bir yıl sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Frisur",
+        "plural":  null,
+        "tr":  "saç biçimi",
+        "ex":  "Deine neue Frisur ist toll.",
+        "ex_tr":  "Yeni saç stilin harika.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Gehaltsvorstellung",
+        "plural":  null,
+        "tr":  "maaş talebi",
+        "ex":  "Meine Gehaltsvorstellung ist 3000 Euro.",
+        "ex_tr":  "Maaş beklentim 3000 Euro.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Geschäftsführer/in",
+        "plural":  "Geschäftsführer/innen",
+        "tr":  "genel müdür",
+        "ex":  "Der Geschäftsführer ist heute nicht da.",
+        "ex_tr":  "Genel müdür bugün burada değil.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Geschäftsführung",
+        "plural":  null,
+        "tr":  "yönetim",
+        "ex":  "Die Geschäftsführung trifft die Entscheidung.",
+        "ex_tr":  "Yönetim kararı veriyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "gleichzeitig",
+        "plural":  null,
+        "tr":  "eşzamanlı",
+        "ex":  "Ich kann nicht alles gleichzeitig machen.",
+        "ex_tr":  "Her şeyi aynı anda yapamam.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Handlung",
+        "plural":  null,
+        "tr":  "eylem",
+        "ex":  "Die Handlung war sehr schnell.",
+        "ex_tr":  "Aksiyon çok hızlıydı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Herausforderung",
+        "plural":  null,
+        "tr":  "meydan okuma",
+        "ex":  "Der Job ist eine große Herausforderung.",
+        "ex_tr":  "İş büyük bir meydan okumadır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "individuell",
+        "plural":  null,
+        "tr":  "bireysel",
+        "ex":  "Jeder Plan ist individuell.",
+        "ex_tr":  "Her plan bireyseldir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "insofern",
+        "plural":  null,
+        "tr":  "bu açıdan",
+        "ex":  "Insofern bin ich zufrieden.",
+        "ex_tr":  "O bakımdan memnunum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "intern",
+        "plural":  null,
+        "tr":  "dahili",
+        "ex":  "Das ist eine interne Information.",
+        "ex_tr":  "Bu dahili bir bilgidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Jobbezeichnung",
+        "plural":  null,
+        "tr":  "İş tarifi",
+        "ex":  "Wie ist Ihre Jobbezeichnung?",
+        "ex_tr":  "İş ünvanınız nedir?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Kamm",
+        "plural":  null,
+        "tr":  "tarak",
+        "ex":  "Ich brauche einen Kamm.",
+        "ex_tr":  "Bir tarağa ihtiyacım var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Kommunikationsstärke",
+        "plural":  null,
+        "tr":  "İletişim gücü",
+        "ex":  "Sie hat eine gute Kommunikationsstärke.",
+        "ex_tr":  "İyi iletişim becerisi var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "kommunikativ",
+        "plural":  null,
+        "tr":  "konuşkan",
+        "ex":  "Er ist sehr kommunikativ.",
+        "ex_tr":  "Çok iletişimcidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Konferenzraum",
+        "plural":  null,
+        "tr":  "konferans salonu",
+        "ex":  "Der Konferenzraum ist im ersten Stock.",
+        "ex_tr":  "Konferans salonu birinci kattadır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Kontaktdaten (Pl.)",
+        "plural":  null,
+        "tr":  "İletişim bilgileri",
+        "ex":  "Schick mir bitte deine Kontaktdaten.",
+        "ex_tr":  "Lütfen iletişim bilgilerini gönder.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "kümmern",
+        "plural":  null,
+        "tr":  "ilgilenmek",
+        "ex":  "Ich kümmere mich um die Kinder.",
+        "ex_tr":  "Çocuklarla ilgileniyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "leistungsgerecht",
+        "plural":  null,
+        "tr":  "performansa göre",
+        "ex":  "Die Bezahlung ist leistungsgerecht.",
+        "ex_tr":  "Ödeme performansa göre yapılır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "leiten",
+        "plural":  null,
+        "tr":  "yönetmek",
+        "ex":  "Sie leitet das Team.",
+        "ex_tr":  "Takımı yönetiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Manager/in",
+        "plural":  "Manager/innen",
+        "tr":  "yönetici",
+        "ex":  "Der Manager hat viel Verantwortung.",
+        "ex_tr":  "Yönetici çok sorumluluk taşır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Maschinenbau",
+        "plural":  null,
+        "tr":  "makine mühendisliği",
+        "ex":  "Er studiert Maschinenbau.",
+        "ex_tr":  "Makine mühendisliği okuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "meistern",
+        "plural":  null,
+        "tr":  "hakim olmak",
+        "ex":  "Sie meistert ihre Aufgaben gut.",
+        "ex_tr":  "Görevlerini iyi yönetiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Millionär/in",
+        "plural":  null,
+        "tr":  "milyoner",
+        "ex":  "Er ist ein Millionär.",
+        "ex_tr":  "O bir milyoner.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "mittelständisch",
+        "plural":  null,
+        "tr":  "orta ölçekli",
+        "ex":  "Die Firma ist mittelständisch.",
+        "ex_tr":  "Şirket orta ölçeklidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "nachdem",
+        "plural":  null,
+        "tr":  "sonrası",
+        "ex":  "Nachdem ich gegessen habe, gehe ich.",
+        "ex_tr":  "Yemek yedikten sonra gidiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Niveau",
+        "plural":  null,
+        "tr":  "düzey",
+        "ex":  "Das Niveau ist sehr hoch.",
+        "ex_tr":  "Düzey çok yüksek.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Original",
+        "plural":  null,
+        "tr":  "orijinal",
+        "ex":  "Bitte bringen Sie das Original mit.",
+        "ex_tr":  "Lütfen aslını getirin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der PC",
+        "plural":  "PCs",
+        "tr":  "PC",
+        "ex":  "Mein PC ist sehr langsam.",
+        "ex_tr":  "Bilgisayarım çok yavaş.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Posteingang",
+        "plural":  null,
+        "tr":  "gelen posta",
+        "ex":  "Mein Posteingang ist voll.",
+        "ex_tr":  "Gelen kutum dolu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Probezeit",
+        "plural":  null,
+        "tr":  "deneme süresi",
+        "ex":  "Die Probezeit dauert sechs Monate.",
+        "ex_tr":  "Deneme süresi altı ay sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Qualifikation",
+        "plural":  "Qualifikationen",
+        "tr":  "nitelik",
+        "ex":  "Ich habe die nötige Qualifikation.",
+        "ex_tr":  "Gerekli niteliğim var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "regeln",
+        "plural":  null,
+        "tr":  "düzenlemek",
+        "ex":  "Wir regeln das morgen.",
+        "ex_tr":  "Bunu yarın düzenliyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Sales Manager/in",
+        "plural":  "Sales Manager/innen",
+        "tr":  "satış müdürü",
+        "ex":  "Der Sales Manager macht den Vertrag.",
+        "ex_tr":  "Satış müdürü sözleşmeyi yapıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "schneiden",
+        "plural":  null,
+        "tr":  "kesmek",
+        "ex":  "Ich schneide mir die Haare selbst.",
+        "ex_tr":  "Saçlarımı kendim kesiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Schreiben",
+        "plural":  null,
+        "tr":  "yazı",
+        "ex":  "Das Schreiben kommt aus dem Rathaus.",
+        "ex_tr":  "Yazı belediye binasından geliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "seitdem",
+        "plural":  null,
+        "tr":  "(den) beri",
+        "ex":  "Seitdem geht es mir besser.",
+        "ex_tr":  "O zamandan beri daha iyiyim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der/die Selbstständige",
+        "plural":  "Selbstständigen",
+        "tr":  "bağımsızlar",
+        "ex":  "Selbstständige arbeiten viel.",
+        "ex_tr":  "Bağımsız çalışanlar çok çalışır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "senden",
+        "plural":  null,
+        "tr":  "yollamak",
+        "ex":  "Bitte senden Sie mir die Datei.",
+        "ex_tr":  "Lütfen dosyayı bana gönderin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Seniorenheim",
+        "plural":  null,
+        "tr":  "huzurevi",
+        "ex":  "Meine Oma lebt im Seniorenheim.",
+        "ex_tr":  "Büyükannem huzurevinde yaşıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "soweit",
+        "plural":  null,
+        "tr":  "şimdilik",
+        "ex":  "Soweit ich weiß, ist er krank.",
+        "ex_tr":  "Bildiğim kadarıyla hasta.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Speise",
+        "plural":  "Speisen",
+        "tr":  "yemek",
+        "ex":  "Die Speise schmeckt sehr gut.",
+        "ex_tr":  "Yemek çok lezzetli.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "spezialisieren",
+        "plural":  null,
+        "tr":  "uzmanlaşmak",
+        "ex":  "Wir spezialisieren uns auf Möbel.",
+        "ex_tr":  "Mobilya konusunda uzmanlaşıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Stellenanzeige",
+        "plural":  "Stellenanzeigen",
+        "tr":  "İş ilanı",
+        "ex":  "Die Stellenanzeige steht in der Zeitung.",
+        "ex_tr":  "İş ilanı gazetede yer alıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Steuerberater",
+        "plural":  null,
+        "tr":  "vergi danışmanı",
+        "ex":  "Mein Steuerberater hilft mir.",
+        "ex_tr":  "Vergi danışmanım bana yardım ediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Steuerberatungsbüro",
+        "plural":  null,
+        "tr":  "vergi danışmanlık bürosu",
+        "ex":  "Im Steuerberatungsbüro arbeiten zehn Personen.",
+        "ex_tr":  "Vergi danışmanlık bürosunda on kişi çalışır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Teamfähigkeit",
+        "plural":  null,
+        "tr":  "ekip becerisi",
+        "ex":  "Teamfähigkeit ist sehr wichtig.",
+        "ex_tr":  "Takım çalışması çok önemli.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Telekommunikation",
+        "plural":  null,
+        "tr":  "telekomünikasyon",
+        "ex":  "Die Telekommunikation entwickelt sich schnell.",
+        "ex_tr":  "Telekomünikasyon hızla gelişiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Terminkalender",
+        "plural":  null,
+        "tr":  "ajanda",
+        "ex":  "Mein Terminkalender ist voll.",
+        "ex_tr":  "Ajandam dolu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "traditionsreich",
+        "plural":  null,
+        "tr":  "geleneksel",
+        "ex":  "Diese Firma ist traditionsreich.",
+        "ex_tr":  "Bu şirket köklüdür.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Überstunde",
+        "plural":  "Überstunden",
+        "tr":  "fazla mesai",
+        "ex":  "Heute mache ich keine Überstunden.",
+        "ex_tr":  "Bugün fazla mesai yapmıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Umgang",
+        "plural":  null,
+        "tr":  "İlişki",
+        "ex":  "Der Umgang mit Menschen ist mir wichtig.",
+        "ex_tr":  "İnsanlarla iletişim benim için önemlidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Umschulung",
+        "plural":  null,
+        "tr":  "eğitim değişikliği",
+        "ex":  "Sie macht eine Umschulung zur Krankenschwester.",
+        "ex_tr":  "Hemşireliğe yeniden eğitim alıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "unbefristet",
+        "plural":  null,
+        "tr":  "süresiz",
+        "ex":  "Mein Vertrag ist unbefristet.",
+        "ex_tr":  "Sözleşmem süresizdir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Unternehmen",
+        "plural":  "Unternehmen",
+        "tr":  "şirket",
+        "ex":  "Das Unternehmen ist sehr groß.",
+        "ex_tr":  "Şirket çok büyüktür.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Urlaubstag",
+        "plural":  "Urlaubstage",
+        "tr":  "tatil günü",
+        "ex":  "Ich habe noch fünf Urlaubstage.",
+        "ex_tr":  "Hâlâ beş tatil günüm var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "verabreden",
+        "plural":  null,
+        "tr":  "kararlaştırmak",
+        "ex":  "Wir verabreden uns für Samstag.",
+        "ex_tr":  "Cumartesi için sözleşiyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Vergütung",
+        "plural":  null,
+        "tr":  "ödeme",
+        "ex":  "Die Vergütung ist gut.",
+        "ex_tr":  "Ücret iyidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Verstärkung",
+        "plural":  null,
+        "tr":  "güçlendirme",
+        "ex":  "Wir suchen Verstärkung im Team.",
+        "ex_tr":  "Takıma takviye arıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "weiterhelfen",
+        "plural":  null,
+        "tr":  "yardım etmek",
+        "ex":  "Kann ich Ihnen weiterhelfen?",
+        "ex_tr":  "Size yardımcı olabilir miyim?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Weiterleitung",
+        "plural":  null,
+        "tr":  "İletim",
+        "ex":  "Die Weiterleitung dauert kurz.",
+        "ex_tr":  "İletim kısa sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "das Werkzeug",
+        "plural":  null,
+        "tr":  "alet",
+        "ex":  "Das Werkzeug liegt in der Garage.",
+        "ex_tr":  "Alet garajda duruyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "zaubern",
+        "plural":  null,
+        "tr":  "büyülemek",
+        "ex":  "Der Clown zaubert für die Kinder.",
+        "ex_tr":  "Palyaço çocuklar için sihirbazlık yapıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "zeitlich",
+        "plural":  null,
+        "tr":  "geçici",
+        "ex":  "Zeitlich passt es mir nicht.",
+        "ex_tr":  "Zaman bakımından bana uymuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "der Zeitpunkt",
+        "plural":  null,
+        "tr":  "an",
+        "ex":  "Der Zeitpunkt ist perfekt.",
+        "ex_tr":  "Zamanlama mükemmel.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "zusätzlich",
+        "plural":  null,
+        "tr":  "ilave",
+        "ex":  "Wir brauchen zusätzliche Hilfe.",
+        "ex_tr":  "Ek yardıma ihtiyacımız var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Zusatzqualifikation",
+        "plural":  null,
+        "tr":  "İlave nitelik",
+        "ex":  "Mit einer Zusatzqualifikation findest du leichter Arbeit.",
+        "ex_tr":  "Ek nitelikle daha kolay iş bulursun.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 8: Ein neuer Arbeitsplatz",
+        "de":  "die Zuverlässigkeit",
+        "plural":  null,
+        "tr":  "güvenilirlik",
+        "ex":  "Zuverlässigkeit ist im Job wichtig.",
+        "ex_tr":  "Güvenilirlik işte önemlidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "abdrehen",
+        "plural":  null,
+        "tr":  "söndürmek",
+        "ex":  "Bitte dreh den Wasserhahn ab.",
+        "ex_tr":  "Lütfen musluğu kapat.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "abheften",
+        "plural":  null,
+        "tr":  "dosyalamak",
+        "ex":  "Ich hefte die Briefe ab.",
+        "ex_tr":  "Mektupları dosyalıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "allerdings",
+        "plural":  null,
+        "tr":  "doğrusu",
+        "ex":  "Es ist teuer, allerdings sehr gut.",
+        "ex_tr":  "Pahalı, fakat çok iyi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "anmachen",
+        "plural":  null,
+        "tr":  "bağlamak",
+        "ex":  "Mach bitte das Licht an.",
+        "ex_tr":  "Lütfen ışığı aç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "ansehen",
+        "plural":  null,
+        "tr":  "incelemek",
+        "ex":  "Sehen Sie sich die Liste bitte an.",
+        "ex_tr":  "Lütfen listeye bakın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "aufdrehen",
+        "plural":  null,
+        "tr":  "çevirerek açmak",
+        "ex":  "Bitte dreh die Heizung auf.",
+        "ex_tr":  "Lütfen kaloriferi aç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "aufmachen",
+        "plural":  null,
+        "tr":  "kapağını açmak",
+        "ex":  "Mach bitte das Fenster auf.",
+        "ex_tr":  "Lütfen pencereyi aç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "ausschalten",
+        "plural":  null,
+        "tr":  "devreden çıkarmak",
+        "ex":  "Schalt bitte den Computer aus.",
+        "ex_tr":  "Lütfen bilgisayarı kapat.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "ausschlafen",
+        "plural":  null,
+        "tr":  "uykusunu almak",
+        "ex":  "Am Sonntag schlafe ich aus.",
+        "ex_tr":  "Pazar günü uykumu alıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "das Besprechungszimmer",
+        "plural":  null,
+        "tr":  "toplantı odası",
+        "ex":  "Das Besprechungszimmer ist frei.",
+        "ex_tr":  "Toplantı odası boştur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Büroalltag",
+        "plural":  null,
+        "tr":  "büro rutini",
+        "ex":  "Mein Büroalltag ist stressig.",
+        "ex_tr":  "Büro rutinim streslidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der/die Büroassistent/in",
+        "plural":  "Büroassistenten/Büroassistentinnen",
+        "tr":  "büro yardımcısı",
+        "ex":  "Der Büroassistent macht die Termine.",
+        "ex_tr":  "Büro asistanı randevuları ayarlıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Büroraum",
+        "plural":  "Büroräume",
+        "tr":  "büro odası",
+        "ex":  "Der Büroraum ist klein.",
+        "ex_tr":  "Büro küçük.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Dienstleistung",
+        "plural":  "Dienstleistungen",
+        "tr":  "hizmet",
+        "ex":  "Die Dienstleistung ist sehr gut.",
+        "ex_tr":  "Hizmet çok iyidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "drinnen",
+        "plural":  null,
+        "tr":  "içinde",
+        "ex":  "Drinnen ist es warm.",
+        "ex_tr":  "İçeride sıcak.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "einschalten",
+        "plural":  null,
+        "tr":  "devreye almak",
+        "ex":  "Schalte das Radio bitte ein.",
+        "ex_tr":  "Lütfen radyoyu aç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Energiekosten (Pl.)",
+        "plural":  null,
+        "tr":  "enerji giderleri",
+        "ex":  "Die Energiekosten steigen.",
+        "ex_tr":  "Enerji giderleri artıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Energieverschwendung",
+        "plural":  null,
+        "tr":  "enerji israfı",
+        "ex":  "Das ist reine Energieverschwendung.",
+        "ex_tr":  "Bu sırf enerji israfı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der/die Handwerker/in",
+        "plural":  "Handwerker/innen",
+        "tr":  "zanaatkar",
+        "ex":  "Der Handwerker kommt morgen.",
+        "ex_tr":  "Tamirci yarın geliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Heizkosten (Pl.)",
+        "plural":  null,
+        "tr":  "isıtma giderleri",
+        "ex":  "Die Heizkosten sind im Winter hoch.",
+        "ex_tr":  "Isınma giderleri kışın yüksek.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "indem",
+        "plural":  null,
+        "tr":  "bunu söyleyerek",
+        "ex":  "Ich spare Geld, indem ich weniger esse.",
+        "ex_tr":  "Daha az yiyerek para biriktiriyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "kippen",
+        "plural":  null,
+        "tr":  "devirmek",
+        "ex":  "Du kannst das Fenster kippen.",
+        "ex_tr":  "Pencereyi yarı açabilirsin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der/die König/in",
+        "plural":  "Könige/Königinnen",
+        "tr":  "kral/Kraliçe",
+        "ex":  "Der König wohnt im Schloss.",
+        "ex_tr":  "Kral sarayda yaşıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Kopierer",
+        "plural":  "Kopierer",
+        "tr":  "fotokopi cihazı",
+        "ex":  "Der Kopierer ist kaputt.",
+        "ex_tr":  "Fotokopi makinesi bozuldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "langfristig",
+        "plural":  null,
+        "tr":  "uzun vadeli",
+        "ex":  "Langfristig sparen wir Geld.",
+        "ex_tr":  "Uzun vadede para biriktiriyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "mehrmals",
+        "plural":  null,
+        "tr":  "çok kere",
+        "ex":  "Ich rufe dich mehrmals an.",
+        "ex_tr":  "Seni birçok kez arıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Million",
+        "plural":  "Millionen",
+        "tr":  "milyon",
+        "ex":  "Eine Million Euro ist viel Geld.",
+        "ex_tr":  "Bir milyon Euro çok paradır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "mitdenken",
+        "plural":  null,
+        "tr":  "düşünce paylaşmak",
+        "ex":  "Bitte denken Sie mit.",
+        "ex_tr":  "Lütfen birlikte düşünün.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "offen",
+        "plural":  null,
+        "tr":  "açık",
+        "ex":  "Die Tür ist offen.",
+        "ex_tr":  "Kapı açık.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Privatnummer",
+        "plural":  null,
+        "tr":  "kişisel numara",
+        "ex":  "Geben Sie mir bitte Ihre Privatnummer.",
+        "ex_tr":  "Lütfen özel numaranızı verin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "rasieren",
+        "plural":  null,
+        "tr":  "tıraş olmak",
+        "ex":  "Ich rasiere mich jeden Morgen.",
+        "ex_tr":  "Her sabah tıraş oluyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Reinigungsfirma",
+        "plural":  null,
+        "tr":  "temizlik şirketi",
+        "ex":  "Die Reinigungsfirma kommt täglich.",
+        "ex_tr":  "Temizlik firması her gün geliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Reinigungsvertrag",
+        "plural":  null,
+        "tr":  "temizlik sözleşmesi",
+        "ex":  "Der Reinigungsvertrag läuft ein Jahr.",
+        "ex_tr":  "Temizlik sözleşmesi bir yıl sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "senken",
+        "plural":  null,
+        "tr":  "eğmek",
+        "ex":  "Wir senken die Heizung am Abend.",
+        "ex_tr":  "Akşam kaloriferi kısıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "stinksauer (ugs.)",
+        "plural":  null,
+        "tr":  "çok kızgın",
+        "ex":  "Ich bin stinksauer auf ihn.",
+        "ex_tr":  "Ona çok kızgınım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Strom",
+        "plural":  null,
+        "tr":  "akım",
+        "ex":  "Der Strom ist heute ausgefallen.",
+        "ex_tr":  "Bugün elektrik kesildi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Stromanbieter",
+        "plural":  null,
+        "tr":  "elektrik sağlayıcı",
+        "ex":  "Mein Stromanbieter ist günstig.",
+        "ex_tr":  "Elektrik tedarikçim ucuz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Stromkosten (Pl.)",
+        "plural":  null,
+        "tr":  "elektrik giderleri",
+        "ex":  "Die Stromkosten sind hoch.",
+        "ex_tr":  "Elektrik giderleri yüksektir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "tropfen",
+        "plural":  null,
+        "tr":  "damlamak",
+        "ex":  "Der Wasserhahn tropft seit Tagen.",
+        "ex_tr":  "Musluk günlerdir damlatıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "übergeben",
+        "plural":  null,
+        "tr":  "teslim etmek",
+        "ex":  "Bitte übergeben Sie mir die Akte.",
+        "ex_tr":  "Lütfen dosyayı bana verin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "unnötig",
+        "plural":  null,
+        "tr":  "gereksiz",
+        "ex":  "Das war unnötig.",
+        "ex_tr":  "Bu gereksizdi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Verbrauch",
+        "plural":  null,
+        "tr":  "Tüketim",
+        "ex":  "Der Verbrauch ist sehr hoch.",
+        "ex_tr":  "Tüketim çok yüksektir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "verschwenden",
+        "plural":  null,
+        "tr":  "israf etmek",
+        "ex":  "Lass uns kein Wasser verschwenden.",
+        "ex_tr":  "Suyu israf etmeyelim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "das Vertragsende",
+        "plural":  null,
+        "tr":  "sözleşme sonu",
+        "ex":  "Das Vertragsende ist im März.",
+        "ex_tr":  "Sözleşme sonu Mart'tadır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Vertragsnummer",
+        "plural":  null,
+        "tr":  "sözleşme numarası",
+        "ex":  "Geben Sie bitte Ihre Vertragsnummer an.",
+        "ex_tr":  "Lütfen sözleşme numaranızı belirtin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Wärme",
+        "plural":  null,
+        "tr":  "isı",
+        "ex":  "Die Wärme der Sonne ist angenehm.",
+        "ex_tr":  "Güneşin sıcaklığı hoştur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "der Wasserhahn",
+        "plural":  null,
+        "tr":  "su musluğu",
+        "ex":  "Der Wasserhahn tropft.",
+        "ex_tr":  "Musluk damlatıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Weise",
+        "plural":  null,
+        "tr":  "usul",
+        "ex":  "Auf diese Weise sparen wir Geld.",
+        "ex_tr":  "Bu şekilde para biriktiriyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "zudrehen",
+        "plural":  null,
+        "tr":  "çevirerek kapatmak",
+        "ex":  "Bitte dreh das Wasser zu.",
+        "ex_tr":  "Lütfen suyu kapat.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "zumachen",
+        "plural":  null,
+        "tr":  "kapatmak",
+        "ex":  "Mach bitte die Tür zu.",
+        "ex_tr":  "Lütfen kapıyı kapat.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "die Zusammenarbeit",
+        "plural":  null,
+        "tr":  "İşbirliği",
+        "ex":  "Die Zusammenarbeit war erfolgreich.",
+        "ex_tr":  "İşbirliği başarılıydı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 9: Büroalltag",
+        "de":  "zusammenarbeiten",
+        "plural":  null,
+        "tr":  "işbirliği yapmak",
+        "ex":  "Wir arbeiten gut zusammen.",
+        "ex_tr":  "İyi birlikte çalışıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "abnehmen",
+        "plural":  null,
+        "tr":  "kaldırmak",
+        "ex":  "Ich möchte fünf Kilo abnehmen.",
+        "ex_tr":  "Beş kilo vermek istiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "achten",
+        "plural":  null,
+        "tr":  "saygı göstermek",
+        "ex":  "Ich achte auf gesunde Ernährung.",
+        "ex_tr":  "Sağlıklı beslenmeye dikkat ediyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Allergie",
+        "plural":  null,
+        "tr":  "alerji",
+        "ex":  "Ich habe eine Allergie gegen Nüsse.",
+        "ex_tr":  "Fındığa karşı alerjim var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "allergisch",
+        "plural":  null,
+        "tr":  "alerjik",
+        "ex":  "Sie ist allergisch gegen Pollen.",
+        "ex_tr":  "Polen alerjisi var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Anbau",
+        "plural":  null,
+        "tr":  "ziraat",
+        "ex":  "Der Anbau von Tomaten ist einfach.",
+        "ex_tr":  "Domates yetiştirmek kolaydır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "angewöhnen",
+        "plural":  null,
+        "tr":  "alışmak",
+        "ex":  "Ich gewöhne mir Sport an.",
+        "ex_tr":  "Spor yapmayı alışkanlık ediniyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "auseinandersetzen",
+        "plural":  null,
+        "tr":  "yüzleşmek",
+        "ex":  "Wir setzen uns mit dem Thema auseinander.",
+        "ex_tr":  "Konuyu ele alıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "ausgewogen",
+        "plural":  null,
+        "tr":  "ahenkli",
+        "ex":  "Meine Ernährung ist ausgewogen.",
+        "ex_tr":  "Beslenmem dengelidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "ausprobieren",
+        "plural":  null,
+        "tr":  "denemek",
+        "ex":  "Ich probiere ein neues Rezept aus.",
+        "ex_tr":  "Yeni bir tarif deniyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "bedenklich",
+        "plural":  null,
+        "tr":  "sakıncalı",
+        "ex":  "Das ist bedenklich für die Gesundheit.",
+        "ex_tr":  "Bu sağlık için sakıncalıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Bedingung",
+        "plural":  "Bedingungen",
+        "tr":  "koşul",
+        "ex":  "Unter dieser Bedingung sage ich ja.",
+        "ex_tr":  "Bu koşulla evet diyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "behaupten",
+        "plural":  null,
+        "tr":  "ileri sürmek",
+        "ex":  "Er behauptet, das nicht gewusst zu haben.",
+        "ex_tr":  "Bunu bilmediğini iddia ediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Berufstätigkeit",
+        "plural":  null,
+        "tr":  "mesleki faaliyet",
+        "ex":  "Die Berufstätigkeit ist anstrengend.",
+        "ex_tr":  "Mesleki faaliyet yorucudur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Bevölkerung",
+        "plural":  null,
+        "tr":  "nüfus",
+        "ex":  "Die Bevölkerung wächst schnell.",
+        "ex_tr":  "Nüfus hızla artıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "bewusst",
+        "plural":  null,
+        "tr":  "bilinçli",
+        "ex":  "Ich esse bewusst weniger Zucker.",
+        "ex_tr":  "Bilinçli olarak daha az şeker yiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "bio (=biologisch)",
+        "plural":  null,
+        "tr":  "biyolojik",
+        "ex":  "Ich kaufe gern Bio-Produkte.",
+        "ex_tr":  "Organik ürün almayı seviyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Bioprodukt",
+        "plural":  "Bioprodukte",
+        "tr":  "biyolojik ürün",
+        "ex":  "Bioprodukte sind oft teurer.",
+        "ex_tr":  "Organik ürünler genelde pahalıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "bloß",
+        "plural":  null,
+        "tr":  "yalın",
+        "ex":  "Ich habe bloß zehn Euro.",
+        "ex_tr":  "Yalnızca on Eurom var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der/die Diabetiker/in",
+        "plural":  "Diabetiker/innen",
+        "tr":  "şeker hastası",
+        "ex":  "Diabetiker müssen aufpassen.",
+        "ex_tr":  "Şeker hastaları dikkatli olmalı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Döner",
+        "plural":  null,
+        "tr":  "döner",
+        "ex":  "Ich esse gern einen Döner.",
+        "ex_tr":  "Döner yemeyi severim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "durchschnittlich",
+        "plural":  null,
+        "tr":  "ortalama",
+        "ex":  "Ich schlafe durchschnittlich sieben Stunden.",
+        "ex_tr":  "Ortalama yedi saat uyuyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Einkommen",
+        "plural":  "Einkommen",
+        "tr":  "gelir",
+        "ex":  "Mein Einkommen ist klein.",
+        "ex_tr":  "Gelirim küçük.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "einseitig",
+        "plural":  null,
+        "tr":  "tek taraflı",
+        "ex":  "Eine einseitige Ernährung ist ungesund.",
+        "ex_tr":  "Tek tip beslenme sağlıksızdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Eiweiß",
+        "plural":  null,
+        "tr":  "protein",
+        "ex":  "Eier haben viel Eiweiß.",
+        "ex_tr":  "Yumurtada bol protein vardır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "erkennen",
+        "plural":  null,
+        "tr":  "tanımak",
+        "ex":  "Ich erkenne dich kaum.",
+        "ex_tr":  "Seni neredeyse tanıyamadım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Ernährung",
+        "plural":  null,
+        "tr":  "beslenme",
+        "ex":  "Die richtige Ernährung ist wichtig.",
+        "ex_tr":  "Doğru beslenme önemlidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der/die Esser/in",
+        "plural":  "Esser/innen",
+        "tr":  "Yiyen",
+        "ex":  "Mein Sohn ist ein schlechter Esser.",
+        "ex_tr":  "Oğlum kötü bir yiyicidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Fertiggericht",
+        "plural":  null,
+        "tr":  "hazır yemek",
+        "ex":  "Fertiggerichte sind ungesund.",
+        "ex_tr":  "Hazır yemekler sağlıksızdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "fett",
+        "plural":  null,
+        "tr":  "şişman",
+        "ex":  "Das Essen war zu fett.",
+        "ex_tr":  "Yemek çok yağlıydı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "fix",
+        "plural":  null,
+        "tr":  "sabit",
+        "ex":  "Der Termin ist fix.",
+        "ex_tr":  "Randevu kesindir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "fleischfrei",
+        "plural":  null,
+        "tr":  "etten arınmış",
+        "ex":  "Ich esse heute fleischfrei.",
+        "ex_tr":  "Bugün etsiz yemek yiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "fleischlos",
+        "plural":  null,
+        "tr":  "etsiz",
+        "ex":  "Wir essen oft fleischlos.",
+        "ex_tr":  "Sık sık etsiz yiyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Freundeskreis",
+        "plural":  null,
+        "tr":  "arkadaş çevresi",
+        "ex":  "Mein Freundeskreis ist klein.",
+        "ex_tr":  "Arkadaş çevrem küçüktür.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Frust",
+        "plural":  null,
+        "tr":  "düş kırıklığı",
+        "ex":  "Der Frust ist groß.",
+        "ex_tr":  "Hayal kırıklığı büyüktür.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "furchtbar",
+        "plural":  null,
+        "tr":  "korkunç",
+        "ex":  "Das Wetter ist heute furchtbar.",
+        "ex_tr":  "Bugün hava korkunç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Gang",
+        "plural":  "Gänge",
+        "tr":  "koridor",
+        "ex":  "Im Supermarkt geht es durch viele Gänge.",
+        "ex_tr":  "Süpermarkette birçok koridordan geçilir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der/die Gemüsehändler/in",
+        "plural":  "Gemüsehändler/innen",
+        "tr":  "manav",
+        "ex":  "Der Gemüsehändler ist nett.",
+        "ex_tr":  "Manav dosttur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Geschmack",
+        "plural":  null,
+        "tr":  "zevk",
+        "ex":  "Der Geschmack ist sehr gut.",
+        "ex_tr":  "Tat çok iyidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Getreide",
+        "plural":  null,
+        "tr":  "tahıl",
+        "ex":  "Getreide ist gesund.",
+        "ex_tr":  "Tahıl sağlıklıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "glutenfrei",
+        "plural":  null,
+        "tr":  "glütensiz",
+        "ex":  "Ich esse nur glutenfreies Brot.",
+        "ex_tr":  "Sadece glütensiz ekmek yiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "grundsätzlich",
+        "plural":  null,
+        "tr":  "temel olarak",
+        "ex":  "Grundsätzlich bin ich einverstanden.",
+        "ex_tr":  "Genel olarak hemfikirim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Hartweizen",
+        "plural":  null,
+        "tr":  "durum buğdayı",
+        "ex":  "Hartweizen ist gut für Pasta.",
+        "ex_tr":  "Sert buğday makarna için iyidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Haselnuss",
+        "plural":  "Haselnüsse",
+        "tr":  "fındık",
+        "ex":  "Ich mag Schokolade mit Haselnüssen.",
+        "ex_tr":  "Fındıklı çikolatayı severim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Hauptgrund",
+        "plural":  "Hauptgründe",
+        "tr":  "ana neden",
+        "ex":  "Der Hauptgrund ist Zeitmangel.",
+        "ex_tr":  "Ana neden zaman eksikliğidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Hülsenfrucht",
+        "plural":  "Hülsenfrüchte",
+        "tr":  "baklagil",
+        "ex":  "Hülsenfrüchte sind gesund.",
+        "ex_tr":  "Baklagiller sağlıklıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "industriell",
+        "plural":  null,
+        "tr":  "endüstriyel",
+        "ex":  "Industrielle Lebensmittel sind oft ungesund.",
+        "ex_tr":  "Endüstriyel gıdalar genelde sağlıksızdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Institution",
+        "plural":  "Institutionen",
+        "tr":  "kurum",
+        "ex":  "Die Institution hilft den Familien.",
+        "ex_tr":  "Kurum ailelere yardım eder.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "irgendwelche",
+        "plural":  null,
+        "tr":  "herhangi",
+        "ex":  "Hast du irgendwelche Fragen?",
+        "ex_tr":  "Herhangi bir sorun var mı?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "irgendwer",
+        "plural":  null,
+        "tr":  "herhangi biri",
+        "ex":  "Irgendwer hat angerufen.",
+        "ex_tr":  "Birisi aradı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Kochbuch",
+        "plural":  "Kochbücher",
+        "tr":  "yemek kitabı",
+        "ex":  "Ich habe ein neues Kochbuch gekauft.",
+        "ex_tr":  "Yeni bir yemek kitabı aldım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "kulinarisch",
+        "plural":  null,
+        "tr":  "mutfakla ilgili",
+        "ex":  "Italien ist kulinarisch toll.",
+        "ex_tr":  "İtalya mutfak açısından harikadır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "laktosefrei",
+        "plural":  null,
+        "tr":  "laktozsuz",
+        "ex":  "Laktosefreie Milch schmeckt auch gut.",
+        "ex_tr":  "Laktozsuz süt de güzeldir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Laune",
+        "plural":  null,
+        "tr":  "keyif",
+        "ex":  "Heute habe ich gute Laune.",
+        "ex_tr":  "Bugün keyfim yerinde.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "leiden",
+        "plural":  null,
+        "tr":  "acı çekmek",
+        "ex":  "Sie leidet an Migräne.",
+        "ex_tr":  "Migrenden mustarip.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Massentierhaltung",
+        "plural":  null,
+        "tr":  "endüstriyel hayvan besiciliği",
+        "ex":  "Massentierhaltung ist nicht gut.",
+        "ex_tr":  "Endüstriyel hayvancılık iyi değildir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Milchzucker",
+        "plural":  null,
+        "tr":  "süt şekeri",
+        "ex":  "Milchzucker macht mir Probleme.",
+        "ex_tr":  "Süt şekeri bana sorun çıkarıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "moralisch",
+        "plural":  null,
+        "tr":  "ahlaki",
+        "ex":  "Das ist moralisch falsch.",
+        "ex_tr":  "Bu ahlaki olarak yanlış.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Nährstoff",
+        "plural":  "Nährstoffe",
+        "tr":  "gıda maddesi",
+        "ex":  "Obst hat viele Nährstoffe.",
+        "ex_tr":  "Meyvelerde bol besin maddesi vardır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "das Nahrungsmittel",
+        "plural":  "Nahrungsmittel",
+        "tr":  "besin",
+        "ex":  "Frische Nahrungsmittel sind gesund.",
+        "ex_tr":  "Taze gıdalar sağlıklıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "nebenbei",
+        "plural":  null,
+        "tr":  "yanı sıra",
+        "ex":  "Nebenbei lerne ich Klavier.",
+        "ex_tr":  "Bu arada piyano öğreniyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Nuss",
+        "plural":  "Nüsse",
+        "tr":  "ceviz",
+        "ex":  "Ich esse jeden Tag eine Nuss.",
+        "ex_tr":  "Her gün bir fındık yiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "präsentieren",
+        "plural":  null,
+        "tr":  "sunmak",
+        "ex":  "Sie präsentiert die Ergebnisse.",
+        "ex_tr":  "Sonuçları sunuyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "problemlos",
+        "plural":  null,
+        "tr":  "sorunsuz",
+        "ex":  "Das geht problemlos.",
+        "ex_tr":  "Bu sorunsuz olur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Quark",
+        "plural":  null,
+        "tr":  "sürülmelik peynir",
+        "ex":  "Quark ist ein gesundes Frühstück.",
+        "ex_tr":  "Sürülmelik peynir sağlıklı bir kahvaltıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "reduzieren",
+        "plural":  null,
+        "tr":  "indirgemek",
+        "ex":  "Wir reduzieren den Zucker.",
+        "ex_tr":  "Şekeri azaltıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Studie",
+        "plural":  null,
+        "tr":  "öğrenim",
+        "ex":  "Eine Studie zeigt das Ergebnis.",
+        "ex_tr":  "Bir çalışma sonucu gösteriyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Tiefkühlpizza",
+        "plural":  "Tiefkühlpizzen",
+        "tr":  "derin dondurulmuş pizza",
+        "ex":  "Tiefkühlpizza ist schnell zubereitet.",
+        "ex_tr":  "Donmuş pizza hızlı hazırlanır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "tierisch",
+        "plural":  null,
+        "tr":  "hayvani",
+        "ex":  "Vegetarier essen keine tierischen Produkte.",
+        "ex_tr":  "Vejetaryenler hayvansal ürün yemez.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Trend",
+        "plural":  null,
+        "tr":  "eğilim",
+        "ex":  "Bio ist ein Trend.",
+        "ex_tr":  "Organik bir trenddir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "überzeugen",
+        "plural":  null,
+        "tr":  "ikna etmek",
+        "ex":  "Die Idee überzeugt mich.",
+        "ex_tr":  "Fikir beni ikna ediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "vegan",
+        "plural":  null,
+        "tr":  "vegan",
+        "ex":  "Vegan zu leben ist möglich.",
+        "ex_tr":  "Vegan yaşamak mümkündür.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der/die Veganer/in",
+        "plural":  "Veganer/innen",
+        "tr":  "Vegan",
+        "ex":  "Veganer essen keine tierischen Produkte.",
+        "ex_tr":  "Veganlar hayvansal ürün yemez.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "vereinbar",
+        "plural":  null,
+        "tr":  "birleştirilebilir",
+        "ex":  "Familie und Beruf sind vereinbar.",
+        "ex_tr":  "Aile ve iş hayatı uzlaştırılabilir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "versorgen",
+        "plural":  null,
+        "tr":  "sağlamak",
+        "ex":  "Wir versorgen die Tiere mit Wasser.",
+        "ex_tr":  "Hayvanlara su sağlıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "vertragen",
+        "plural":  null,
+        "tr":  "katlanmak",
+        "ex":  "Ich vertrage keine Milch.",
+        "ex_tr":  "Sütü kaldıramıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Verzehr",
+        "plural":  null,
+        "tr":  "Yeme içme",
+        "ex":  "Der Verzehr von Obst ist gesund.",
+        "ex_tr":  "Meyve tüketimi sağlıklıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "verzichten",
+        "plural":  null,
+        "tr":  "caymak",
+        "ex":  "Ich verzichte auf Zucker.",
+        "ex_tr":  "Şekerden vazgeçiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "vorbeigehen",
+        "plural":  null,
+        "tr":  "(önünden) geçmek",
+        "ex":  "Geh bitte am Bäcker vorbei.",
+        "ex_tr":  "Lütfen fırının yanından geç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Wert",
+        "plural":  "Werte",
+        "tr":  "değer",
+        "ex":  "Das Bild hat einen großen Wert.",
+        "ex_tr":  "Tablonun büyük değeri var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "die Wurst",
+        "plural":  "Würste",
+        "tr":  "sosis",
+        "ex":  "Ich esse gern Wurst zum Frühstück.",
+        "ex_tr":  "Kahvaltıda sosis yemeyi severim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Zeitmangel",
+        "plural":  null,
+        "tr":  "zaman kıtlığı",
+        "ex":  "Wegen Zeitmangel koche ich nicht.",
+        "ex_tr":  "Zaman yetersizliğinden yemek pişirmiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Zeitungsbericht",
+        "plural":  null,
+        "tr":  "gazete haberi",
+        "ex":  "Der Zeitungsbericht ist interessant.",
+        "ex_tr":  "Gazete haberi ilginçtir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "zufällig",
+        "plural":  null,
+        "tr":  "tesadüfen",
+        "ex":  "Ich habe ihn zufällig getroffen.",
+        "ex_tr":  "Onunla tesadüfen karşılaştım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "zunehmen",
+        "plural":  null,
+        "tr":  "artmak",
+        "ex":  "Im Winter nehme ich oft zu.",
+        "ex_tr":  "Kışın sıkça kilo alırım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 10: Gesunde Ernährung",
+        "de":  "der Zusatzstoff",
+        "plural":  "Zusatzstoffe",
+        "tr":  "katkı maddesi",
+        "ex":  "Diese Marmelade hat keine Zusatzstoffe.",
+        "ex_tr":  "Bu reçelde katkı maddesi yoktur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "abdecken",
+        "plural":  null,
+        "tr":  "kaplamak",
+        "ex":  "Die Versicherung deckt den Schaden ab.",
+        "ex_tr":  "Sigorta hasarı karşılıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "absichtlich",
+        "plural":  null,
+        "tr":  "kasten",
+        "ex":  "Das habe ich nicht absichtlich gemacht.",
+        "ex_tr":  "Bunu kasten yapmadım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "anfahren",
+        "plural":  null,
+        "tr":  "çarpmak",
+        "ex":  "Ein Auto hat ihn angefahren.",
+        "ex_tr":  "Bir araba ona çarptı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "ärztlich",
+        "plural":  null,
+        "tr":  "tıbbi",
+        "ex":  "Ich brauche ein ärztliches Attest.",
+        "ex_tr":  "Doktor raporuna ihtiyacım var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "aufkommen",
+        "plural":  null,
+        "tr":  "ortaya çıkmak",
+        "ex":  "Wer kommt für den Schaden auf?",
+        "ex_tr":  "Hasarı kim karşılayacak?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "ausparken",
+        "plural":  null,
+        "tr":  "dışarı park etmek",
+        "ex":  "Beim Ausparken bin ich gegen das Auto gestoßen.",
+        "ex_tr":  "Park yerinden çıkarken arabaya çarptım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Außenspiegel",
+        "plural":  "Außenspiegel",
+        "tr":  "dikiz aynası",
+        "ex":  "Der Außenspiegel ist kaputt.",
+        "ex_tr":  "Yan ayna bozuldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der/die Autofahrer/in",
+        "plural":  "Autofahrer/innen",
+        "tr":  "otomobil sürücüsü",
+        "ex":  "Der Autofahrer war müde.",
+        "ex_tr":  "Sürücü yorgundu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Automarke",
+        "plural":  null,
+        "tr":  "otomobil markası",
+        "ex":  "Welche Automarke fährst du?",
+        "ex_tr":  "Hangi araba markasını sürüyorsun?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das Autoteil",
+        "plural":  "Autoteile",
+        "tr":  "otomobil parçası",
+        "ex":  "Das Autoteil ist sehr teuer.",
+        "ex_tr":  "Otomobil parçası çok pahalıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Autoversicherung",
+        "plural":  null,
+        "tr":  "otomobil sigortası",
+        "ex":  "Die Autoversicherung zahlt den Schaden.",
+        "ex_tr":  "Otomobil sigortası hasarı öder.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das Benzin",
+        "plural":  null,
+        "tr":  "benzin",
+        "ex":  "Das Benzin ist wieder teurer.",
+        "ex_tr":  "Benzin tekrar zamlandı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "beschädigen",
+        "plural":  null,
+        "tr":  "hasar vermek",
+        "ex":  "Der Sturm hat das Auto beschädigt.",
+        "ex_tr":  "Fırtına arabaya zarar verdi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "betrunken",
+        "plural":  null,
+        "tr":  "sarhoş",
+        "ex":  "Der Fahrer war betrunken.",
+        "ex_tr":  "Sürücü sarhoştu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Blinker",
+        "plural":  "Blinker",
+        "tr":  "sinyal",
+        "ex":  "Der Blinker funktioniert nicht.",
+        "ex_tr":  "Sinyal çalışmıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "bremsen",
+        "plural":  null,
+        "tr":  "fren yapmak",
+        "ex":  "Ich musste stark bremsen.",
+        "ex_tr":  "Sert fren yapmak zorunda kaldım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das Dach",
+        "plural":  null,
+        "tr":  "tavan",
+        "ex":  "Auf dem Dach liegt Schnee.",
+        "ex_tr":  "Çatıda kar var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Diebstahl",
+        "plural":  null,
+        "tr":  "hırsızlık",
+        "ex":  "Der Diebstahl wurde gemeldet.",
+        "ex_tr":  "Hırsızlık bildirildi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das Dorf",
+        "plural":  null,
+        "tr":  "köy",
+        "ex":  "Mein Dorf liegt in den Bergen.",
+        "ex_tr":  "Köyüm dağlarda.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "einbrechen",
+        "plural":  null,
+        "tr":  "zorla girmek",
+        "ex":  "Jemand ist in das Haus eingebrochen.",
+        "ex_tr":  "Birisi eve girdi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der/die Einbrecher/in",
+        "plural":  "Einbrecher/innen",
+        "tr":  "hırsız",
+        "ex":  "Den Einbrecher hat die Polizei festgenommen.",
+        "ex_tr":  "Hırsızı polis tutukladı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Einbruch",
+        "plural":  null,
+        "tr":  "hırsızlık",
+        "ex":  "Der Einbruch war in der Nacht.",
+        "ex_tr":  "Hırsızlık geceleyin oldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "einparken",
+        "plural":  null,
+        "tr":  "içeri park etmek",
+        "ex":  "Das Einparken fällt mir schwer.",
+        "ex_tr":  "Park etmek bana zor geliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Fahrerseite",
+        "plural":  null,
+        "tr":  "sürücü tarafı",
+        "ex":  "Die Fahrerseite ist beschädigt.",
+        "ex_tr":  "Sürücü tarafı hasarlı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der/die Freiwillige",
+        "plural":  "Freiwilligen",
+        "tr":  "gönüllüler",
+        "ex":  "Die Freiwilligen helfen den Flüchtlingen.",
+        "ex_tr":  "Gönüllüler mültecilere yardım ediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "frustriert",
+        "plural":  null,
+        "tr":  "düş kırıklığına uğramış",
+        "ex":  "Ich bin total frustriert.",
+        "ex_tr":  "Tamamen hayal kırıklığındayım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Gebrauchtwagen",
+        "plural":  "Gebrauchtwagen",
+        "tr":  "İkinci el otomobil",
+        "ex":  "Ich habe einen Gebrauchtwagen gekauft.",
+        "ex_tr":  "İkinci el araba aldım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Haftpflicht",
+        "plural":  null,
+        "tr":  "mali sorumluluk",
+        "ex":  "Jeder Autofahrer braucht eine Haftpflicht.",
+        "ex_tr":  "Her sürücüye sorumluluk sigortası lazım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Haftpflichtversicherung",
+        "plural":  null,
+        "tr":  "mali sorumluluk sigortası",
+        "ex":  "Die Haftpflichtversicherung ist Pflicht.",
+        "ex_tr":  "Sorumluluk sigortası zorunludur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Hagel",
+        "plural":  null,
+        "tr":  "dolu",
+        "ex":  "Der Hagel hat das Auto beschädigt.",
+        "ex_tr":  "Dolu arabaya hasar verdi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Hügel",
+        "plural":  null,
+        "tr":  "tepe",
+        "ex":  "Auf dem Hügel steht ein Haus.",
+        "ex_tr":  "Tepenin üstünde bir ev var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Kaskoversicherung",
+        "plural":  null,
+        "tr":  "kasko sigortası",
+        "ex":  "Die Kaskoversicherung ist teuer.",
+        "ex_tr":  "Kasko sigortası pahalıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Kilometer",
+        "plural":  null,
+        "tr":  "kilometre",
+        "ex":  "Wir fahren zehn Kilometer.",
+        "ex_tr":  "On kilometre gidiyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Kofferraum",
+        "plural":  null,
+        "tr":  "bagaj",
+        "ex":  "Der Kofferraum ist voll.",
+        "ex_tr":  "Bagaj dolu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "korrekt",
+        "plural":  null,
+        "tr":  "doğru",
+        "ex":  "Die Antwort ist korrekt.",
+        "ex_tr":  "Cevap doğrudur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "krachen",
+        "plural":  null,
+        "tr":  "çarpmak",
+        "ex":  "Es hat laut gekracht.",
+        "ex_tr":  "Yüksek sesle çarpıştı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Kratzer",
+        "plural":  "Kratzer",
+        "tr":  "çizik",
+        "ex":  "Auf der Tür ist ein Kratzer.",
+        "ex_tr":  "Kapıda bir çizik var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "lenken",
+        "plural":  null,
+        "tr":  "(direksiyon) kullanmak",
+        "ex":  "Bitte lenken Sie das Auto vorsichtig.",
+        "ex_tr":  "Lütfen arabayı dikkatli kullanın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "lohnen",
+        "plural":  null,
+        "tr":  "(zahmete) değmek",
+        "ex":  "Das Buch lohnt sich zu lesen.",
+        "ex_tr":  "Kitabı okumaya değer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Motor",
+        "plural":  "Motoren",
+        "tr":  "motor",
+        "ex":  "Der Motor ist sehr leise.",
+        "ex_tr":  "Motor çok sessiz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Motorhaube",
+        "plural":  null,
+        "tr":  "motor kapağı",
+        "ex":  "Die Motorhaube ist warm.",
+        "ex_tr":  "Motor kaputu sıcaktır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der/die Motorradfahrer/in",
+        "plural":  "Motorradfahrer/innen",
+        "tr":  "motosiklet sürücüsü",
+        "ex":  "Der Motorradfahrer war verletzt.",
+        "ex_tr":  "Motosikletli yaralıydı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "nachdenken",
+        "plural":  null,
+        "tr":  "düşünmek",
+        "ex":  "Ich muss noch nachdenken.",
+        "ex_tr":  "Hâlâ düşünmem gerekiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Neuwagen",
+        "plural":  "Neuwagen",
+        "tr":  "yeni otomobil",
+        "ex":  "Mein Neuwagen ist schwarz.",
+        "ex_tr":  "Yeni arabam siyah.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das Nummernschild",
+        "plural":  "Nummernschilder",
+        "tr":  "plaka",
+        "ex":  "Das Nummernschild ist abgefallen.",
+        "ex_tr":  "Plaka düştü.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Oldtimer",
+        "plural":  null,
+        "tr":  "klasik otomobil",
+        "ex":  "Der Oldtimer ist sehr wertvoll.",
+        "ex_tr":  "Klasik araba çok değerlidir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "optimistisch",
+        "plural":  null,
+        "tr":  "iyimser",
+        "ex":  "Ich bin optimistisch für morgen.",
+        "ex_tr":  "Yarın için iyimserim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "parken",
+        "plural":  null,
+        "tr":  "park etmek",
+        "ex":  "Hier darf man nicht parken.",
+        "ex_tr":  "Burada park etmek yasaktır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Parklücke",
+        "plural":  null,
+        "tr":  "park boşluğu",
+        "ex":  "Ich finde keine Parklücke.",
+        "ex_tr":  "Park yeri bulamıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Personenschaden",
+        "plural":  "Personenschäden",
+        "tr":  "bedensel zarar",
+        "ex":  "Es gibt zum Glück keinen Personenschaden.",
+        "ex_tr":  "Şükür ki bedensel zarar yok.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "PS (=Pferdestärke)",
+        "plural":  null,
+        "tr":  "beygir gücü",
+        "ex":  "Mein Auto hat 100 PS.",
+        "ex_tr":  "Arabamın 100 beygir gücü var.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "quietschen",
+        "plural":  null,
+        "tr":  "ciyaklamak",
+        "ex":  "Die Bremsen quietschen sehr laut.",
+        "ex_tr":  "Frenler çok gürültülü ses çıkarıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "regulieren",
+        "plural":  null,
+        "tr":  "düzenlemek",
+        "ex":  "Die Versicherung reguliert den Schaden.",
+        "ex_tr":  "Sigorta hasarı düzenliyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Regulierung",
+        "plural":  null,
+        "tr":  "düzenleme",
+        "ex":  "Die Regulierung dauert lange.",
+        "ex_tr":  "Düzenleme uzun sürer.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Reifen",
+        "plural":  "Reifen",
+        "tr":  "lastik",
+        "ex":  "Mein Reifen hat einen Platten.",
+        "ex_tr":  "Lastiğim patlak.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das Rücklicht",
+        "plural":  "Rücklichter",
+        "tr":  "stop lambası",
+        "ex":  "Das Rücklicht ist kaputt.",
+        "ex_tr":  "Stop lambası bozuldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Rückscheibe",
+        "plural":  null,
+        "tr":  "arka cam",
+        "ex":  "Die Rückscheibe ist gesprungen.",
+        "ex_tr":  "Arka cam çatladı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "rückwärts",
+        "plural":  null,
+        "tr":  "geri gidiş",
+        "ex":  "Bitte fahren Sie rückwärts.",
+        "ex_tr":  "Lütfen geri gidin.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "rutschen",
+        "plural":  null,
+        "tr":  "kaymak",
+        "ex":  "Auf dem Eis rutsche ich oft.",
+        "ex_tr":  "Buzda sıkça kayarım.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Sachschaden",
+        "plural":  "Sachschäden",
+        "tr":  "maddi hasar",
+        "ex":  "Es gab nur einen Sachschaden.",
+        "ex_tr":  "Sadece maddi hasar oldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Schadensfall",
+        "plural":  null,
+        "tr":  "hasar olayı",
+        "ex":  "Im Schadensfall rufen Sie uns an.",
+        "ex_tr":  "Hasar durumunda bizi arayın.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Scheibe",
+        "plural":  "Scheiben",
+        "tr":  "cam",
+        "ex":  "Die Scheibe ist schmutzig.",
+        "ex_tr":  "Cam kirli.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Scheinwerfer",
+        "plural":  "Scheinwerfer",
+        "tr":  "far",
+        "ex":  "Mach bitte die Scheinwerfer an.",
+        "ex_tr":  "Lütfen farları aç.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Schläger",
+        "plural":  null,
+        "tr":  "raket",
+        "ex":  "Mein Tennisschläger ist neu.",
+        "ex_tr":  "Tenis raketim yeni.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "schwingen",
+        "plural":  null,
+        "tr":  "sallamak",
+        "ex":  "Die Kinder schwingen auf der Schaukel.",
+        "ex_tr":  "Çocuklar salıncakta sallanıyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Sinn",
+        "plural":  null,
+        "tr":  "duyu",
+        "ex":  "Das macht keinen Sinn.",
+        "ex_tr":  "Bu bir anlam ifade etmiyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Sportwagen",
+        "plural":  null,
+        "tr":  "spor otomobil",
+        "ex":  "Der Sportwagen ist sehr schnell.",
+        "ex_tr":  "Spor araba çok hızlıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Stoßstange",
+        "plural":  null,
+        "tr":  "tampon",
+        "ex":  "Die Stoßstange ist beschädigt.",
+        "ex_tr":  "Tampon hasarlıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Straßenrand",
+        "plural":  null,
+        "tr":  "yol kenarı",
+        "ex":  "Das Auto steht am Straßenrand.",
+        "ex_tr":  "Araba yol kenarında duruyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Straßenverkehr",
+        "plural":  null,
+        "tr":  "trafik",
+        "ex":  "Der Straßenverkehr ist heute dicht.",
+        "ex_tr":  "Bugün trafik yoğundur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Sturm",
+        "plural":  null,
+        "tr":  "fırtına",
+        "ex":  "Der Sturm war gestern stark.",
+        "ex_tr":  "Fırtına dün şiddetliydi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "das/der Sport Utiliy Vehicle (SUV)",
+        "plural":  null,
+        "tr":  "SUV",
+        "ex":  "Ein SUV ist groß und komfortabel.",
+        "ex_tr":  "SUV büyük ve konforludur.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Teilkaskoversicherung (Teilkasko)",
+        "plural":  null,
+        "tr":  "kısmi kasko sigortası",
+        "ex":  "Die Teilkasko zahlt nicht alles.",
+        "ex_tr":  "Kısmi kasko her şeyi ödemez.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "überraschen",
+        "plural":  null,
+        "tr":  "şaşırtmak",
+        "ex":  "Das Ergebnis hat mich überrascht.",
+        "ex_tr":  "Sonuç beni şaşırttı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Überschwemmung",
+        "plural":  null,
+        "tr":  "su baskını",
+        "ex":  "Die Überschwemmung war stark.",
+        "ex_tr":  "Sel şiddetliydi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "umfallen",
+        "plural":  null,
+        "tr":  "düşmek",
+        "ex":  "Der Baum ist umgefallen.",
+        "ex_tr":  "Ağaç devrildi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "umso",
+        "plural":  null,
+        "tr":  "daha",
+        "ex":  "Je mehr, desto besser.",
+        "ex_tr":  "Ne kadar çok olursa o kadar iyi.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Unfall",
+        "plural":  "Unfälle",
+        "tr":  "kaza",
+        "ex":  "Auf der Autobahn gab es einen Unfall.",
+        "ex_tr":  "Otoyolda bir kaza oldu.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Unfallgefahr",
+        "plural":  null,
+        "tr":  "kaza tehlikesi",
+        "ex":  "Im Winter ist die Unfallgefahr hoch.",
+        "ex_tr":  "Kışın kaza riski yüksektir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "verletzen",
+        "plural":  null,
+        "tr":  "yaralamak",
+        "ex":  "Sie hat sich am Bein verletzt.",
+        "ex_tr":  "Bacağını yaraladı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "versehentlich",
+        "plural":  null,
+        "tr":  "istemeyerek",
+        "ex":  "Versehentlich habe ich die Datei gelöscht.",
+        "ex_tr":  "Yanlışlıkla dosyayı sildim.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "versichern",
+        "plural":  null,
+        "tr":  "sigortalamak",
+        "ex":  "Ich versichere mein Auto bei der ADAC.",
+        "ex_tr":  "Arabamı ADAC'ta sigortalıyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der/die Versicherungsberater/in",
+        "plural":  "Versicherungsberater/innen",
+        "tr":  "sigorta danışmanı",
+        "ex":  "Der Versicherungsberater hilft mir.",
+        "ex_tr":  "Sigorta danışmanı bana yardım ediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "der Versicherungsschutz",
+        "plural":  null,
+        "tr":  "sigorta güvencesi",
+        "ex":  "Der Versicherungsschutz ist umfassend.",
+        "ex_tr":  "Sigorta koruması kapsamlıdır.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "verursachen",
+        "plural":  null,
+        "tr":  "neden olmak",
+        "ex":  "Wer hat den Unfall verursacht?",
+        "ex_tr":  "Kazaya kim neden oldu?",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Vollkaskoversicherung (Vollkasko)",
+        "plural":  null,
+        "tr":  "tam kasko sigortası",
+        "ex":  "Die Vollkasko zahlt fast alles.",
+        "ex_tr":  "Tam kasko neredeyse her şeyi öder.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "vorschreiben",
+        "plural":  null,
+        "tr":  "mecbur etmek",
+        "ex":  "Das Gesetz schreibt das vor.",
+        "ex_tr":  "Yasa bunu emrediyor.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "vorsichtig",
+        "plural":  null,
+        "tr":  "dikkatli",
+        "ex":  "Sei bitte vorsichtig!",
+        "ex_tr":  "Lütfen dikkatli ol!",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "wegfahren",
+        "plural":  null,
+        "tr":  "araçla uzaklaşmak",
+        "ex":  "Wir fahren morgen weg.",
+        "ex_tr":  "Yarın uzaklaşıyoruz.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Windschutzscheibe",
+        "plural":  null,
+        "tr":  "ön cam",
+        "ex":  "Die Windschutzscheibe ist sauber.",
+        "ex_tr":  "Ön cam temizdir.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "zulassen",
+        "plural":  null,
+        "tr":  "izin vermek",
+        "ex":  "Das lasse ich nicht zu.",
+        "ex_tr":  "Buna izin vermiyorum.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "zusammenstoßen",
+        "plural":  null,
+        "tr":  "çarpışmak",
+        "ex":  "Zwei Autos sind zusammengestoßen.",
+        "ex_tr":  "İki araba çarpıştı.",
+        "ex_src":  "generated"
+    },
+    {
+        "group":  "Lektion 11: Gut versichert!",
+        "de":  "die Zusatzversicherung",
+        "plural":  null,
+        "tr":  "tamamlayıcı sigorta",
+        "ex":  "Die Zusatzversicherung kostet extra.",
+        "ex_tr":  "Ek sigorta ekstra ücretlendiriliyor.",
+        "ex_src":  "generated"
+    }
 ]
