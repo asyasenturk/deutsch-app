@@ -290,6 +290,8 @@
       if (lvl === app.activeLevel) return;
       setLevel(lvl);
       await ensureVocab(lvl);
+      // Başka bir seviyeye geçildiyse bu sonucu iptal et
+      if (app.activeLevel !== lvl) return;
       rebuildActiveVocab(true);
       render();
     });
@@ -1611,7 +1613,12 @@
     localStorage.setItem('activeTab', src);
     history.pushState({ src }, '', SRC_TO_PATH[src] || '/');
     applySourceTabUI();
-    if (src === 'einfach') {
+    if (src === 'goethe') {
+      // Goethe'ye dönünce level'i ve vocab'ı yenile
+      const lvl = ['a1', 'a2', 'b1'].includes(app.state.lastLevel) ? app.state.lastLevel : 'a1';
+      setLevel(lvl, false);
+      ensureVocab(lvl).then(() => { rebuildActiveVocab(true); render(); });
+    } else if (src === 'einfach') {
       if (!egState.inLektion) loadEgMeta();
     } else if (src === 'verb') {
       renderRecentVerbs();
